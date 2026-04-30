@@ -5,8 +5,20 @@ anaconda_projects/
 # Raw GTFS Realtime snapshots
 data/raw/gtfs_realtime/
 *.json
+data/raw/gtfs_realtime/*.pb
 
 # Large GTFS Static files
 data/raw/gtfs_static/gtfs.zip
 data/raw/gtfs_static/stop_times.txt
 data/raw/gtfs_static/shapes.txt
+
+# Ignore zip files
+data/raw/gtfs_static/*.zip
+
+# Ignore environments
+anaconda_projects/
+__pycache__/
+.ipynb_checkpoints/
+
+# Optional
+.env
