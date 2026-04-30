@@ -4,7 +4,7 @@ anaconda_projects/
 
 # Raw GTFS Realtime snapshots
 data/raw/gtfs_realtime/
-*.pb
+*.json
 
 # Large GTFS Static files
 data/raw/gtfs_static/gtfs.zip
