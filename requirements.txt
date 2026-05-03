@@ -1,0 +1,8 @@
+pandas==2.2.2
+meteostat==1.6.7
+matplotlib==3.8.4
+requests==2.31.0
+python-dotenv==1.0.1
+gtfs-realtime-bindings==1.0.0
+jupyter
+ipykernel
