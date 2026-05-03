@@ -57,3 +57,39 @@ This capstone project develops a prototype decision-support system using Aucklan
 ## Status
 
 Project initialization completed.
+
+## Current Progress
+
+### Layer 1 – Data Sources
+
+- GTFS Static (routes, trips, stops)
+- GTFS Realtime API (Trip Updates)
+
+### Layer 2 – Data Integration & Preprocessing
+
+- JSON parsing and feature extraction
+- Delay computation (seconds → minutes)
+- Integration with GTFS static routes
+- Data validation (99.92% match rate)
+
+### Status
+
+Data pipeline validated and ready for extension (NIWA weather integration).
+
+## Environment Setup
+
+To reproduce this project:
+
+```bash
+conda create -n capstone-gtfs python=3.11 -y
+conda activate capstone-gtfs
+pip install -r requirements.txt
+
+Create a .env file in the project root:
+
+AT_API_KEY=your_api_key_here
+
+
+Note: The `.env` file is not included in the repository for security reasons.
+
+```
