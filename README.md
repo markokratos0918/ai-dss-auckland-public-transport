@@ -2,7 +2,7 @@
 
 ## Overview
 
-This capstone project develops a prototype decision-support system using Auckland Transport GTFS Realtime data, GTFS Static reference data, and NIWA weather data to predict delays and generate actionable recommendations for transport operators.
+This capstone project develops a prototype decision-support system using Auckland Transport GTFS Realtime data, GTFS Static reference data, and Open-Meteo weather data to predict delays and generate actionable recommendations for transport operators.
 
 ## Current Milestone
 
@@ -22,7 +22,7 @@ This capstone project develops a prototype decision-support system using Aucklan
    - Trips
    - Schedules
 
-3. NIWA Weather Data
+3. Open-Meteo Weather Data
    - Rainfall
    - Temperature
    - Wind speed
@@ -31,13 +31,13 @@ This capstone project develops a prototype decision-support system using Aucklan
 
 - Test GTFS Realtime access
 - Download GTFS Static files
-- Prepare NIWA weather sample
+- Prepare Open-Meteo weather sample
 - Perform sample EDA
 - Build integrated transport-weather dataset
 
 ## Planned Core Modules
 
-1. GTFS + GTFS Static + NIWA Dataset
+1. GTFS + GTFS Static + Open-Meteo Dataset
 2. Prediction Model
 3. Decision Engine
 4. SUMO Validation Scenario
@@ -74,7 +74,7 @@ Project initialization completed.
 
 ### Status
 
-Data pipeline validated and ready for extension (NIWA weather integration).
+Data pipeline validated and ready for extension (Open_Meteo weather integration).
 
 ## Environment Setup
 
