@@ -1,19 +1,73 @@
-# Local Anaconda/Jupyter files
-anaconda_projects/
-__pycache__/
-.ipynb_checkpoints/
-
+# ============================================
 # Environment variables
+# ============================================
+
 .env
 
-# Raw GTFS Realtime snapshots
+
+# ============================================
+# Python cache
+# ============================================
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+
+# ============================================
+# Jupyter checkpoints
+# ============================================
+
+.ipynb_checkpoints/
+
+
+# ============================================
+# VS Code
+# ============================================
+
+.vscode/
+
+
+# ============================================
+# Realtime GTFS raw collection files
+# ============================================
+
 data/raw/gtfs_realtime/*.json
 data/raw/gtfs_realtime/*.pb
+data/raw/gtfs_realtime/*.csv
 
-# Large GTFS Static files
-data/raw/gtfs_static/gtfs.zip
+
+# ============================================
+# Large generated outputs
+# ============================================
+
+outputs/
+
+
+# ============================================
+# Keep processed reproducible outputs
+# ============================================
+
+!data/processed/
+!data/processed/decision_engine_output.csv
+
+
+# ============================================
+# Keep sample integration datasets
+# ============================================
+
+!data/interim/
+!data/interim/realtime_with_routes_sample.csv
+!data/interim/gtfs_weather_integrated_sample.csv
+
+# Local Anaconda project files
+anaconda_projects/
+
+# Large GTFS static raw files
+data/raw/gtfs_static/*.txt
+data/raw/gtfs_static/*.zip
 data/raw/gtfs_static/stop_times.txt
 data/raw/gtfs_static/shapes.txt
-
-# Ignore zip files
+data/raw/gtfs_static/gtfs.zip
 data/raw/gtfs_static/*.zip
