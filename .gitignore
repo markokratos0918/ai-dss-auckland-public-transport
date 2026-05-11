@@ -71,3 +71,6 @@ data/raw/gtfs_static/stop_times.txt
 data/raw/gtfs_static/shapes.txt
 data/raw/gtfs_static/gtfs.zip
 data/raw/gtfs_static/*.zip
+
+# Anaconda local projects
+notebooks/data/
