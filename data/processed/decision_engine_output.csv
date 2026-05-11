@@ -1,0 +1,2001 @@
+route_id,trip_id,actual_arrival_delay_min,delay_risk,recommended_action,weather_condition,traffic_congestion_index
+Route_15,T00000,3,Low,No operational action required,Storm,81
+Route_12,T00001,9,Medium,Monitor route conditions,Rain,53
+Route_16,T00002,0,Low,No operational action required,Clear,67
+Route_19,T00003,10,Medium,Monitor route conditions,Clear,84
+Route_8,T00004,14,Medium,Monitor route conditions,Snow,46
+Route_17,T00005,4,Low,No operational action required,Rain,41
+Route_5,T00006,28,Severe,Deploy standby bus,Storm,22
+Route_16,T00007,23,High,Adjust service headway,Clear,85
+Route_6,T00008,19,High,Adjust service headway,Clear,64
+Route_8,T00009,3,Low,No operational action required,Fog,88
+Route_18,T00010,8,Medium,Monitor route conditions,Snow,53
+Route_12,T00011,21,High,Adjust service headway,Cloudy,91
+Route_15,T00012,-1,Low,No operational action required,Clear,10
+Route_9,T00013,22,High,Adjust service headway,Storm,62
+Route_13,T00014,0,Low,No operational action required,Storm,21
+Route_15,T00015,11,Medium,Monitor route conditions,Fog,53
+Route_10,T00016,28,Severe,Deploy standby bus,Storm,88
+Route_16,T00017,25,High,Adjust service headway,Fog,84
+Route_7,T00018,6,Medium,Monitor route conditions,Clear,35
+Route_17,T00019,17,High,Adjust service headway,Clear,57
+Route_7,T00020,12,Medium,Monitor route conditions,Clear,19
+Route_14,T00021,15,Medium,Monitor route conditions,Clear,15
+Route_15,T00022,25,High,Adjust service headway,Cloudy,91
+Route_7,T00023,14,Medium,Monitor route conditions,Snow,55
+Route_9,T00024,12,Medium,Monitor route conditions,Snow,92
+Route_19,T00025,-3,Low,No operational action required,Cloudy,49
+Route_16,T00026,-2,Low,No operational action required,Clear,89
+Route_8,T00027,11,Medium,Monitor route conditions,Storm,65
+Route_18,T00028,24,High,Adjust service headway,Fog,73
+Route_18,T00029,-3,Low,No operational action required,Snow,12
+Route_20,T00030,1,Low,No operational action required,Rain,14
+Route_7,T00031,18,High,Adjust service headway,Fog,72
+Route_3,T00032,9,Medium,Monitor route conditions,Rain,26
+Route_18,T00033,-3,Low,No operational action required,Rain,7
+Route_10,T00034,12,Medium,Monitor route conditions,Clear,69
+Route_7,T00035,18,High,Adjust service headway,Rain,99
+Route_17,T00036,28,Severe,Deploy standby bus,Clear,49
+Route_14,T00037,12,Medium,Monitor route conditions,Cloudy,87
+Route_3,T00038,11,Medium,Monitor route conditions,Storm,66
+Route_12,T00039,8,Medium,Monitor route conditions,Rain,25
+Route_13,T00040,-3,Low,No operational action required,Storm,35
+Route_2,T00041,13,Medium,Monitor route conditions,Clear,20
+Route_3,T00042,24,High,Adjust service headway,Rain,76
+Route_5,T00043,3,Low,No operational action required,Fog,51
+Route_11,T00044,5,Low,No operational action required,Cloudy,10
+Route_8,T00045,18,High,Adjust service headway,Snow,7
+Route_12,T00046,22,High,Adjust service headway,Cloudy,56
+Route_7,T00047,8,Medium,Monitor route conditions,Rain,45
+Route_15,T00048,3,Low,No operational action required,Cloudy,77
+Route_17,T00049,11,Medium,Monitor route conditions,Snow,96
+Route_4,T00050,17,High,Adjust service headway,Fog,1
+Route_13,T00051,10,Medium,Monitor route conditions,Storm,63
+Route_18,T00052,-2,Low,No operational action required,Fog,51
+Route_1,T00053,4,Low,No operational action required,Cloudy,64
+Route_16,T00054,2,Low,No operational action required,Snow,10
+Route_13,T00055,29,Severe,Deploy standby bus,Storm,5
+Route_10,T00056,2,Low,No operational action required,Snow,95
+Route_12,T00057,22,High,Adjust service headway,Fog,78
+Route_2,T00058,10,Medium,Monitor route conditions,Clear,75
+Route_3,T00059,4,Low,No operational action required,Clear,63
+Route_10,T00060,9,Medium,Monitor route conditions,Storm,92
+Route_2,T00061,9,Medium,Monitor route conditions,Storm,54
+Route_13,T00062,24,High,Adjust service headway,Storm,43
+Route_13,T00063,14,Medium,Monitor route conditions,Clear,85
+Route_18,T00064,15,Medium,Monitor route conditions,Fog,13
+Route_3,T00065,28,Severe,Deploy standby bus,Storm,82
+Route_7,T00066,18,High,Adjust service headway,Clear,4
+Route_14,T00067,-2,Low,No operational action required,Storm,98
+Route_20,T00068,9,Medium,Monitor route conditions,Storm,24
+Route_17,T00069,19,High,Adjust service headway,Snow,49
+Route_12,T00070,21,High,Adjust service headway,Storm,72
+Route_16,T00071,24,High,Adjust service headway,Clear,70
+Route_12,T00072,7,Medium,Monitor route conditions,Fog,81
+Route_15,T00073,29,Severe,Deploy standby bus,Clear,1
+Route_10,T00074,20,High,Adjust service headway,Clear,9
+Route_7,T00075,-2,Low,No operational action required,Storm,1
+Route_20,T00076,26,Severe,Deploy standby bus,Snow,59
+Route_5,T00077,13,Medium,Monitor route conditions,Rain,44
+Route_1,T00078,18,High,Adjust service headway,Rain,7
+Route_17,T00079,1,Low,No operational action required,Rain,57
+Route_3,T00080,12,Medium,Monitor route conditions,Clear,6
+Route_13,T00081,9,Medium,Monitor route conditions,Storm,98
+Route_14,T00082,22,High,Adjust service headway,Rain,86
+Route_18,T00083,27,Severe,Deploy standby bus,Cloudy,71
+Route_4,T00084,19,High,Adjust service headway,Cloudy,20
+Route_18,T00085,8,Medium,Monitor route conditions,Cloudy,96
+Route_5,T00086,10,Medium,Monitor route conditions,Fog,46
+Route_16,T00087,14,Medium,Monitor route conditions,Storm,0
+Route_1,T00088,23,High,Adjust service headway,Clear,11
+Route_14,T00089,24,High,Adjust service headway,Clear,74
+Route_15,T00090,14,Medium,Monitor route conditions,Storm,47
+Route_9,T00091,12,Medium,Monitor route conditions,Snow,93
+Route_15,T00092,12,Medium,Monitor route conditions,Snow,3
+Route_17,T00093,9,Medium,Monitor route conditions,Fog,33
+Route_4,T00094,25,High,Adjust service headway,Storm,86
+Route_12,T00095,5,Low,No operational action required,Snow,31
+Route_5,T00096,22,High,Adjust service headway,Fog,2
+Route_5,T00097,24,High,Adjust service headway,Rain,91
+Route_11,T00098,9,Medium,Monitor route conditions,Rain,67
+Route_6,T00099,5,Low,No operational action required,Fog,56
+Route_7,T00100,10,Medium,Monitor route conditions,Storm,75
+Route_14,T00101,8,Medium,Monitor route conditions,Rain,23
+Route_11,T00102,28,Severe,Deploy standby bus,Storm,32
+Route_13,T00103,-1,Low,No operational action required,Snow,2
+Route_2,T00104,12,Medium,Monitor route conditions,Rain,3
+Route_7,T00105,16,High,Adjust service headway,Snow,29
+Route_20,T00106,28,Severe,Deploy standby bus,Storm,69
+Route_4,T00107,19,High,Adjust service headway,Storm,48
+Route_8,T00108,13,Medium,Monitor route conditions,Cloudy,29
+Route_20,T00109,12,Medium,Monitor route conditions,Fog,71
+Route_19,T00110,4,Low,No operational action required,Clear,81
+Route_13,T00111,15,Medium,Monitor route conditions,Fog,15
+Route_14,T00112,26,Severe,Deploy standby bus,Storm,52
+Route_10,T00113,10,Medium,Monitor route conditions,Storm,5
+Route_11,T00114,18,High,Adjust service headway,Fog,23
+Route_2,T00115,13,Medium,Monitor route conditions,Storm,91
+Route_9,T00116,11,Medium,Monitor route conditions,Snow,95
+Route_17,T00117,28,Severe,Deploy standby bus,Rain,88
+Route_3,T00118,9,Medium,Monitor route conditions,Storm,27
+Route_6,T00119,17,High,Adjust service headway,Fog,20
+Route_5,T00120,29,Severe,Deploy standby bus,Fog,7
+Route_5,T00121,23,High,Adjust service headway,Fog,35
+Route_15,T00122,12,Medium,Monitor route conditions,Cloudy,8
+Route_17,T00123,24,High,Adjust service headway,Snow,39
+Route_9,T00124,-3,Low,No operational action required,Snow,84
+Route_3,T00125,27,Severe,Deploy standby bus,Cloudy,50
+Route_20,T00126,29,Severe,Deploy standby bus,Snow,0
+Route_17,T00127,29,Severe,Deploy standby bus,Cloudy,62
+Route_10,T00128,14,Medium,Monitor route conditions,Snow,67
+Route_3,T00129,19,High,Adjust service headway,Cloudy,73
+Route_18,T00130,19,High,Adjust service headway,Cloudy,25
+Route_18,T00131,11,Medium,Monitor route conditions,Snow,39
+Route_17,T00132,22,High,Adjust service headway,Cloudy,2
+Route_3,T00133,26,Severe,Deploy standby bus,Snow,8
+Route_3,T00134,21,High,Adjust service headway,Cloudy,31
+Route_6,T00135,12,Medium,Monitor route conditions,Fog,66
+Route_13,T00136,10,Medium,Monitor route conditions,Clear,3
+Route_15,T00137,13,Medium,Monitor route conditions,Snow,5
+Route_9,T00138,8,Medium,Monitor route conditions,Cloudy,72
+Route_4,T00139,25,High,Adjust service headway,Fog,25
+Route_14,T00140,28,Severe,Deploy standby bus,Clear,1
+Route_5,T00141,20,High,Adjust service headway,Cloudy,65
+Route_2,T00142,9,Medium,Monitor route conditions,Clear,84
+Route_11,T00143,16,High,Adjust service headway,Snow,85
+Route_9,T00144,11,Medium,Monitor route conditions,Clear,2
+Route_3,T00145,0,Low,No operational action required,Rain,34
+Route_9,T00146,24,High,Adjust service headway,Storm,58
+Route_3,T00147,-2,Low,No operational action required,Rain,37
+Route_2,T00148,26,Severe,Deploy standby bus,Snow,32
+Route_12,T00149,22,High,Adjust service headway,Snow,14
+Route_10,T00150,22,High,Adjust service headway,Clear,74
+Route_9,T00151,16,High,Adjust service headway,Fog,73
+Route_15,T00152,24,High,Adjust service headway,Cloudy,99
+Route_8,T00153,16,High,Adjust service headway,Storm,13
+Route_5,T00154,7,Medium,Monitor route conditions,Cloudy,65
+Route_11,T00155,6,Medium,Monitor route conditions,Fog,44
+Route_2,T00156,19,High,Adjust service headway,Snow,47
+Route_15,T00157,15,Medium,Monitor route conditions,Storm,43
+Route_6,T00158,14,Medium,Monitor route conditions,Rain,36
+Route_8,T00159,23,High,Adjust service headway,Snow,28
+Route_5,T00160,2,Low,No operational action required,Snow,98
+Route_16,T00161,6,Medium,Monitor route conditions,Clear,83
+Route_18,T00162,-2,Low,No operational action required,Fog,84
+Route_6,T00163,20,High,Adjust service headway,Clear,33
+Route_5,T00164,24,High,Adjust service headway,Clear,58
+Route_16,T00165,24,High,Adjust service headway,Cloudy,42
+Route_13,T00166,-2,Low,No operational action required,Snow,32
+Route_5,T00167,1,Low,No operational action required,Fog,18
+Route_13,T00168,7,Medium,Monitor route conditions,Clear,7
+Route_17,T00169,6,Medium,Monitor route conditions,Rain,30
+Route_18,T00170,-2,Low,No operational action required,Storm,10
+Route_8,T00171,11,Medium,Monitor route conditions,Fog,7
+Route_13,T00172,3,Low,No operational action required,Cloudy,24
+Route_19,T00173,16,High,Adjust service headway,Fog,19
+Route_3,T00174,18,High,Adjust service headway,Snow,37
+Route_8,T00175,27,Severe,Deploy standby bus,Cloudy,6
+Route_2,T00176,19,High,Adjust service headway,Storm,76
+Route_8,T00177,15,Medium,Monitor route conditions,Rain,38
+Route_13,T00178,0,Low,No operational action required,Clear,73
+Route_13,T00179,20,High,Adjust service headway,Fog,71
+Route_1,T00180,16,High,Adjust service headway,Cloudy,19
+Route_6,T00181,24,High,Adjust service headway,Storm,80
+Route_19,T00182,13,Medium,Monitor route conditions,Clear,10
+Route_16,T00183,15,Medium,Monitor route conditions,Storm,15
+Route_8,T00184,28,Severe,Deploy standby bus,Rain,41
+Route_1,T00185,26,Severe,Deploy standby bus,Clear,95
+Route_16,T00186,13,Medium,Monitor route conditions,Clear,89
+Route_9,T00187,25,High,Adjust service headway,Clear,51
+Route_13,T00188,2,Low,No operational action required,Cloudy,36
+Route_11,T00189,13,Medium,Monitor route conditions,Clear,51
+Route_13,T00190,13,Medium,Monitor route conditions,Storm,8
+Route_10,T00191,10,Medium,Monitor route conditions,Cloudy,34
+Route_4,T00192,20,High,Adjust service headway,Clear,66
+Route_6,T00193,28,Severe,Deploy standby bus,Storm,94
+Route_7,T00194,10,Medium,Monitor route conditions,Storm,6
+Route_5,T00195,23,High,Adjust service headway,Fog,1
+Route_11,T00196,15,Medium,Monitor route conditions,Storm,24
+Route_13,T00197,27,Severe,Deploy standby bus,Snow,75
+Route_19,T00198,5,Low,No operational action required,Rain,93
+Route_10,T00199,13,Medium,Monitor route conditions,Clear,93
+Route_10,T00200,15,Medium,Monitor route conditions,Clear,92
+Route_11,T00201,0,Low,No operational action required,Clear,40
+Route_7,T00202,7,Medium,Monitor route conditions,Storm,74
+Route_18,T00203,18,High,Adjust service headway,Storm,51
+Route_4,T00204,0,Low,No operational action required,Clear,86
+Route_2,T00205,13,Medium,Monitor route conditions,Snow,80
+Route_14,T00206,4,Low,No operational action required,Cloudy,76
+Route_13,T00207,7,Medium,Monitor route conditions,Cloudy,96
+Route_12,T00208,27,Severe,Deploy standby bus,Rain,64
+Route_7,T00209,7,Medium,Monitor route conditions,Fog,76
+Route_2,T00210,17,High,Adjust service headway,Rain,37
+Route_13,T00211,26,Severe,Deploy standby bus,Clear,66
+Route_14,T00212,6,Medium,Monitor route conditions,Clear,79
+Route_17,T00213,22,High,Adjust service headway,Clear,41
+Route_9,T00214,23,High,Adjust service headway,Fog,70
+Route_17,T00215,4,Low,No operational action required,Storm,53
+Route_8,T00216,4,Low,No operational action required,Fog,66
+Route_2,T00217,4,Low,No operational action required,Rain,77
+Route_13,T00218,12,Medium,Monitor route conditions,Storm,63
+Route_3,T00219,9,Medium,Monitor route conditions,Storm,79
+Route_16,T00220,19,High,Adjust service headway,Rain,3
+Route_6,T00221,8,Medium,Monitor route conditions,Storm,30
+Route_19,T00222,23,High,Adjust service headway,Cloudy,12
+Route_7,T00223,18,High,Adjust service headway,Rain,26
+Route_10,T00224,28,Severe,Deploy standby bus,Rain,58
+Route_9,T00225,23,High,Adjust service headway,Cloudy,64
+Route_2,T00226,-2,Low,No operational action required,Fog,63
+Route_15,T00227,29,Severe,Deploy standby bus,Fog,24
+Route_5,T00228,22,High,Adjust service headway,Fog,36
+Route_4,T00229,24,High,Adjust service headway,Storm,74
+Route_20,T00230,15,Medium,Monitor route conditions,Cloudy,72
+Route_4,T00231,1,Low,No operational action required,Rain,70
+Route_18,T00232,29,Severe,Deploy standby bus,Rain,13
+Route_4,T00233,16,High,Adjust service headway,Rain,93
+Route_17,T00234,26,Severe,Deploy standby bus,Storm,23
+Route_12,T00235,4,Low,No operational action required,Storm,66
+Route_17,T00236,13,Medium,Monitor route conditions,Snow,47
+Route_10,T00237,-3,Low,No operational action required,Fog,90
+Route_1,T00238,-1,Low,No operational action required,Snow,64
+Route_18,T00239,22,High,Adjust service headway,Snow,37
+Route_18,T00240,27,Severe,Deploy standby bus,Storm,89
+Route_14,T00241,4,Low,No operational action required,Fog,69
+Route_15,T00242,4,Low,No operational action required,Fog,58
+Route_12,T00243,24,High,Adjust service headway,Rain,11
+Route_4,T00244,0,Low,No operational action required,Storm,53
+Route_3,T00245,12,Medium,Monitor route conditions,Fog,50
+Route_20,T00246,9,Medium,Monitor route conditions,Snow,37
+Route_12,T00247,16,High,Adjust service headway,Cloudy,45
+Route_7,T00248,1,Low,No operational action required,Cloudy,98
+Route_11,T00249,16,High,Adjust service headway,Storm,9
+Route_1,T00250,20,High,Adjust service headway,Rain,8
+Route_6,T00251,15,Medium,Monitor route conditions,Rain,86
+Route_15,T00252,13,Medium,Monitor route conditions,Fog,93
+Route_15,T00253,1,Low,No operational action required,Storm,51
+Route_19,T00254,21,High,Adjust service headway,Cloudy,50
+Route_11,T00255,14,Medium,Monitor route conditions,Snow,21
+Route_2,T00256,4,Low,No operational action required,Fog,72
+Route_14,T00257,23,High,Adjust service headway,Snow,82
+Route_2,T00258,11,Medium,Monitor route conditions,Fog,71
+Route_4,T00259,9,Medium,Monitor route conditions,Clear,67
+Route_17,T00260,12,Medium,Monitor route conditions,Snow,4
+Route_3,T00261,18,High,Adjust service headway,Storm,82
+Route_13,T00262,16,High,Adjust service headway,Snow,81
+Route_9,T00263,9,Medium,Monitor route conditions,Snow,28
+Route_7,T00264,16,High,Adjust service headway,Fog,82
+Route_15,T00265,-2,Low,No operational action required,Cloudy,5
+Route_11,T00266,15,Medium,Monitor route conditions,Clear,68
+Route_20,T00267,2,Low,No operational action required,Snow,57
+Route_2,T00268,10,Medium,Monitor route conditions,Cloudy,42
+Route_15,T00269,0,Low,No operational action required,Rain,68
+Route_14,T00270,18,High,Adjust service headway,Clear,71
+Route_20,T00271,23,High,Adjust service headway,Clear,90
+Route_11,T00272,3,Low,No operational action required,Fog,36
+Route_3,T00273,-1,Low,No operational action required,Snow,57
+Route_17,T00274,29,Severe,Deploy standby bus,Rain,36
+Route_12,T00275,-2,Low,No operational action required,Fog,81
+Route_15,T00276,12,Medium,Monitor route conditions,Storm,25
+Route_16,T00277,21,High,Adjust service headway,Cloudy,41
+Route_5,T00278,11,Medium,Monitor route conditions,Cloudy,15
+Route_20,T00279,20,High,Adjust service headway,Fog,21
+Route_6,T00280,11,Medium,Monitor route conditions,Cloudy,22
+Route_19,T00281,27,Severe,Deploy standby bus,Snow,46
+Route_5,T00282,10,Medium,Monitor route conditions,Cloudy,66
+Route_3,T00283,10,Medium,Monitor route conditions,Snow,2
+Route_1,T00284,2,Low,No operational action required,Storm,11
+Route_6,T00285,10,Medium,Monitor route conditions,Rain,22
+Route_15,T00286,13,Medium,Monitor route conditions,Clear,10
+Route_2,T00287,14,Medium,Monitor route conditions,Fog,51
+Route_3,T00288,16,High,Adjust service headway,Fog,49
+Route_17,T00289,13,Medium,Monitor route conditions,Snow,56
+Route_12,T00290,12,Medium,Monitor route conditions,Storm,63
+Route_18,T00291,28,Severe,Deploy standby bus,Storm,45
+Route_15,T00292,5,Low,No operational action required,Clear,28
+Route_12,T00293,23,High,Adjust service headway,Rain,69
+Route_16,T00294,29,Severe,Deploy standby bus,Fog,45
+Route_8,T00295,6,Medium,Monitor route conditions,Snow,15
+Route_14,T00296,13,Medium,Monitor route conditions,Storm,97
+Route_17,T00297,13,Medium,Monitor route conditions,Fog,50
+Route_8,T00298,14,Medium,Monitor route conditions,Snow,10
+Route_15,T00299,19,High,Adjust service headway,Cloudy,10
+Route_14,T00300,4,Low,No operational action required,Fog,62
+Route_18,T00301,9,Medium,Monitor route conditions,Rain,52
+Route_20,T00302,19,High,Adjust service headway,Snow,88
+Route_7,T00303,16,High,Adjust service headway,Rain,57
+Route_3,T00304,18,High,Adjust service headway,Fog,18
+Route_12,T00305,19,High,Adjust service headway,Cloudy,31
+Route_3,T00306,-1,Low,No operational action required,Rain,49
+Route_20,T00307,29,Severe,Deploy standby bus,Storm,71
+Route_14,T00308,13,Medium,Monitor route conditions,Snow,54
+Route_15,T00309,15,Medium,Monitor route conditions,Fog,75
+Route_14,T00310,26,Severe,Deploy standby bus,Cloudy,40
+Route_7,T00311,19,High,Adjust service headway,Storm,98
+Route_17,T00312,11,Medium,Monitor route conditions,Fog,69
+Route_12,T00313,10,Medium,Monitor route conditions,Cloudy,20
+Route_20,T00314,-2,Low,No operational action required,Storm,25
+Route_4,T00315,14,Medium,Monitor route conditions,Rain,0
+Route_9,T00316,2,Low,No operational action required,Fog,80
+Route_6,T00317,28,Severe,Deploy standby bus,Fog,98
+Route_16,T00318,17,High,Adjust service headway,Rain,26
+Route_2,T00319,24,High,Adjust service headway,Clear,49
+Route_8,T00320,23,High,Adjust service headway,Storm,65
+Route_11,T00321,-2,Low,No operational action required,Rain,99
+Route_13,T00322,29,Severe,Deploy standby bus,Fog,64
+Route_17,T00323,12,Medium,Monitor route conditions,Storm,9
+Route_8,T00324,18,High,Adjust service headway,Storm,94
+Route_18,T00325,9,Medium,Monitor route conditions,Clear,36
+Route_18,T00326,-2,Low,No operational action required,Fog,68
+Route_14,T00327,10,Medium,Monitor route conditions,Cloudy,40
+Route_15,T00328,24,High,Adjust service headway,Clear,45
+Route_6,T00329,3,Low,No operational action required,Clear,76
+Route_11,T00330,14,Medium,Monitor route conditions,Cloudy,44
+Route_13,T00331,0,Low,No operational action required,Cloudy,87
+Route_1,T00332,26,Severe,Deploy standby bus,Clear,26
+Route_6,T00333,20,High,Adjust service headway,Storm,64
+Route_9,T00334,16,High,Adjust service headway,Rain,83
+Route_8,T00335,27,Severe,Deploy standby bus,Rain,7
+Route_11,T00336,20,High,Adjust service headway,Clear,66
+Route_19,T00337,3,Low,No operational action required,Storm,48
+Route_9,T00338,22,High,Adjust service headway,Cloudy,95
+Route_17,T00339,9,Medium,Monitor route conditions,Snow,88
+Route_12,T00340,4,Low,No operational action required,Clear,88
+Route_14,T00341,1,Low,No operational action required,Fog,13
+Route_15,T00342,9,Medium,Monitor route conditions,Storm,61
+Route_16,T00343,25,High,Adjust service headway,Fog,42
+Route_20,T00344,16,High,Adjust service headway,Fog,26
+Route_1,T00345,10,Medium,Monitor route conditions,Clear,95
+Route_10,T00346,28,Severe,Deploy standby bus,Storm,26
+Route_8,T00347,23,High,Adjust service headway,Fog,67
+Route_18,T00348,21,High,Adjust service headway,Storm,74
+Route_1,T00349,0,Low,No operational action required,Rain,47
+Route_2,T00350,17,High,Adjust service headway,Snow,66
+Route_1,T00351,14,Medium,Monitor route conditions,Fog,24
+Route_1,T00352,11,Medium,Monitor route conditions,Fog,63
+Route_9,T00353,20,High,Adjust service headway,Storm,23
+Route_13,T00354,4,Low,No operational action required,Snow,8
+Route_1,T00355,24,High,Adjust service headway,Rain,7
+Route_13,T00356,17,High,Adjust service headway,Fog,94
+Route_20,T00357,12,Medium,Monitor route conditions,Clear,58
+Route_7,T00358,12,Medium,Monitor route conditions,Storm,16
+Route_2,T00359,13,Medium,Monitor route conditions,Storm,42
+Route_6,T00360,5,Low,No operational action required,Fog,94
+Route_7,T00361,25,High,Adjust service headway,Rain,67
+Route_14,T00362,14,Medium,Monitor route conditions,Fog,3
+Route_18,T00363,8,Medium,Monitor route conditions,Cloudy,7
+Route_15,T00364,15,Medium,Monitor route conditions,Fog,41
+Route_2,T00365,18,High,Adjust service headway,Snow,48
+Route_10,T00366,11,Medium,Monitor route conditions,Snow,5
+Route_12,T00367,-3,Low,No operational action required,Cloudy,72
+Route_17,T00368,-2,Low,No operational action required,Snow,41
+Route_8,T00369,4,Low,No operational action required,Snow,71
+Route_11,T00370,18,High,Adjust service headway,Clear,31
+Route_3,T00371,21,High,Adjust service headway,Storm,14
+Route_6,T00372,-2,Low,No operational action required,Snow,81
+Route_9,T00373,5,Low,No operational action required,Storm,86
+Route_6,T00374,5,Low,No operational action required,Rain,68
+Route_9,T00375,9,Medium,Monitor route conditions,Fog,26
+Route_7,T00376,2,Low,No operational action required,Clear,96
+Route_9,T00377,26,Severe,Deploy standby bus,Cloudy,65
+Route_18,T00378,11,Medium,Monitor route conditions,Rain,58
+Route_12,T00379,11,Medium,Monitor route conditions,Clear,27
+Route_8,T00380,3,Low,No operational action required,Clear,23
+Route_8,T00381,7,Medium,Monitor route conditions,Cloudy,50
+Route_18,T00382,-2,Low,No operational action required,Cloudy,20
+Route_20,T00383,6,Medium,Monitor route conditions,Storm,30
+Route_15,T00384,13,Medium,Monitor route conditions,Fog,74
+Route_7,T00385,3,Low,No operational action required,Rain,49
+Route_11,T00386,0,Low,No operational action required,Fog,91
+Route_20,T00387,27,Severe,Deploy standby bus,Rain,39
+Route_16,T00388,21,High,Adjust service headway,Clear,67
+Route_4,T00389,9,Medium,Monitor route conditions,Snow,15
+Route_6,T00390,14,Medium,Monitor route conditions,Snow,75
+Route_3,T00391,17,High,Adjust service headway,Cloudy,85
+Route_9,T00392,-3,Low,No operational action required,Cloudy,98
+Route_10,T00393,4,Low,No operational action required,Clear,62
+Route_14,T00394,17,High,Adjust service headway,Clear,55
+Route_11,T00395,17,High,Adjust service headway,Rain,79
+Route_18,T00396,23,High,Adjust service headway,Clear,23
+Route_12,T00397,15,Medium,Monitor route conditions,Rain,98
+Route_12,T00398,19,High,Adjust service headway,Fog,27
+Route_13,T00399,1,Low,No operational action required,Cloudy,92
+Route_13,T00400,4,Low,No operational action required,Cloudy,84
+Route_19,T00401,7,Medium,Monitor route conditions,Snow,88
+Route_19,T00402,12,Medium,Monitor route conditions,Snow,30
+Route_14,T00403,20,High,Adjust service headway,Cloudy,14
+Route_4,T00404,17,High,Adjust service headway,Fog,41
+Route_13,T00405,19,High,Adjust service headway,Fog,98
+Route_8,T00406,4,Low,No operational action required,Storm,49
+Route_19,T00407,3,Low,No operational action required,Rain,85
+Route_12,T00408,-2,Low,No operational action required,Snow,4
+Route_18,T00409,26,Severe,Deploy standby bus,Rain,47
+Route_6,T00410,9,Medium,Monitor route conditions,Snow,12
+Route_18,T00411,19,High,Adjust service headway,Storm,31
+Route_19,T00412,25,High,Adjust service headway,Cloudy,66
+Route_5,T00413,16,High,Adjust service headway,Rain,78
+Route_9,T00414,29,Severe,Deploy standby bus,Snow,90
+Route_3,T00415,25,High,Adjust service headway,Rain,90
+Route_10,T00416,11,Medium,Monitor route conditions,Cloudy,29
+Route_19,T00417,19,High,Adjust service headway,Clear,5
+Route_3,T00418,-1,Low,No operational action required,Snow,24
+Route_15,T00419,25,High,Adjust service headway,Clear,27
+Route_1,T00420,4,Low,No operational action required,Storm,61
+Route_7,T00421,18,High,Adjust service headway,Fog,21
+Route_12,T00422,25,High,Adjust service headway,Rain,67
+Route_17,T00423,-2,Low,No operational action required,Snow,14
+Route_20,T00424,-3,Low,No operational action required,Rain,25
+Route_5,T00425,16,High,Adjust service headway,Storm,62
+Route_4,T00426,17,High,Adjust service headway,Storm,17
+Route_12,T00427,4,Low,No operational action required,Rain,72
+Route_20,T00428,23,High,Adjust service headway,Snow,62
+Route_18,T00429,2,Low,No operational action required,Cloudy,61
+Route_17,T00430,15,Medium,Monitor route conditions,Cloudy,67
+Route_19,T00431,14,Medium,Monitor route conditions,Fog,47
+Route_9,T00432,-3,Low,No operational action required,Rain,49
+Route_4,T00433,21,High,Adjust service headway,Rain,62
+Route_2,T00434,23,High,Adjust service headway,Snow,68
+Route_4,T00435,3,Low,No operational action required,Rain,5
+Route_2,T00436,25,High,Adjust service headway,Snow,57
+Route_15,T00437,27,Severe,Deploy standby bus,Rain,50
+Route_2,T00438,15,Medium,Monitor route conditions,Storm,11
+Route_4,T00439,2,Low,No operational action required,Clear,94
+Route_6,T00440,21,High,Adjust service headway,Rain,46
+Route_7,T00441,27,Severe,Deploy standby bus,Clear,8
+Route_10,T00442,5,Low,No operational action required,Cloudy,6
+Route_19,T00443,16,High,Adjust service headway,Fog,28
+Route_19,T00444,6,Medium,Monitor route conditions,Cloudy,77
+Route_12,T00445,23,High,Adjust service headway,Rain,50
+Route_3,T00446,9,Medium,Monitor route conditions,Snow,83
+Route_13,T00447,-2,Low,No operational action required,Cloudy,54
+Route_18,T00448,17,High,Adjust service headway,Storm,95
+Route_8,T00449,29,Severe,Deploy standby bus,Clear,58
+Route_15,T00450,20,High,Adjust service headway,Snow,55
+Route_1,T00451,5,Low,No operational action required,Snow,21
+Route_3,T00452,-2,Low,No operational action required,Rain,99
+Route_8,T00453,26,Severe,Deploy standby bus,Storm,17
+Route_4,T00454,18,High,Adjust service headway,Clear,57
+Route_16,T00455,7,Medium,Monitor route conditions,Storm,39
+Route_10,T00456,13,Medium,Monitor route conditions,Cloudy,88
+Route_12,T00457,9,Medium,Monitor route conditions,Rain,30
+Route_14,T00458,3,Low,No operational action required,Snow,55
+Route_14,T00459,12,Medium,Monitor route conditions,Snow,34
+Route_2,T00460,29,Severe,Deploy standby bus,Cloudy,25
+Route_5,T00461,-3,Low,No operational action required,Snow,67
+Route_5,T00462,7,Medium,Monitor route conditions,Fog,83
+Route_6,T00463,2,Low,No operational action required,Rain,33
+Route_13,T00464,16,High,Adjust service headway,Cloudy,75
+Route_9,T00465,22,High,Adjust service headway,Rain,15
+Route_15,T00466,8,Medium,Monitor route conditions,Clear,41
+Route_14,T00467,26,Severe,Deploy standby bus,Rain,4
+Route_7,T00468,24,High,Adjust service headway,Rain,60
+Route_20,T00469,23,High,Adjust service headway,Clear,43
+Route_2,T00470,15,Medium,Monitor route conditions,Cloudy,34
+Route_7,T00471,1,Low,No operational action required,Rain,90
+Route_6,T00472,1,Low,No operational action required,Storm,0
+Route_17,T00473,23,High,Adjust service headway,Rain,97
+Route_2,T00474,24,High,Adjust service headway,Cloudy,42
+Route_3,T00475,22,High,Adjust service headway,Snow,31
+Route_5,T00476,23,High,Adjust service headway,Clear,62
+Route_5,T00477,17,High,Adjust service headway,Snow,32
+Route_1,T00478,-3,Low,No operational action required,Cloudy,94
+Route_8,T00479,24,High,Adjust service headway,Fog,76
+Route_12,T00480,11,Medium,Monitor route conditions,Snow,65
+Route_4,T00481,13,Medium,Monitor route conditions,Rain,29
+Route_13,T00482,22,High,Adjust service headway,Rain,9
+Route_15,T00483,16,High,Adjust service headway,Clear,22
+Route_11,T00484,21,High,Adjust service headway,Rain,96
+Route_10,T00485,9,Medium,Monitor route conditions,Storm,38
+Route_3,T00486,29,Severe,Deploy standby bus,Storm,44
+Route_14,T00487,21,High,Adjust service headway,Snow,28
+Route_16,T00488,4,Low,No operational action required,Cloudy,29
+Route_10,T00489,1,Low,No operational action required,Clear,33
+Route_10,T00490,2,Low,No operational action required,Fog,51
+Route_12,T00491,19,High,Adjust service headway,Snow,80
+Route_9,T00492,26,Severe,Deploy standby bus,Cloudy,21
+Route_1,T00493,10,Medium,Monitor route conditions,Clear,4
+Route_5,T00494,19,High,Adjust service headway,Clear,10
+Route_20,T00495,7,Medium,Monitor route conditions,Snow,85
+Route_8,T00496,27,Severe,Deploy standby bus,Cloudy,31
+Route_11,T00497,2,Low,No operational action required,Cloudy,23
+Route_12,T00498,7,Medium,Monitor route conditions,Rain,10
+Route_1,T00499,9,Medium,Monitor route conditions,Fog,10
+Route_20,T00500,8,Medium,Monitor route conditions,Storm,16
+Route_11,T00501,-2,Low,No operational action required,Rain,31
+Route_5,T00502,13,Medium,Monitor route conditions,Clear,82
+Route_15,T00503,24,High,Adjust service headway,Fog,26
+Route_5,T00504,24,High,Adjust service headway,Fog,31
+Route_12,T00505,18,High,Adjust service headway,Cloudy,60
+Route_5,T00506,3,Low,No operational action required,Fog,24
+Route_17,T00507,11,Medium,Monitor route conditions,Snow,63
+Route_17,T00508,28,Severe,Deploy standby bus,Fog,63
+Route_12,T00509,7,Medium,Monitor route conditions,Clear,27
+Route_15,T00510,20,High,Adjust service headway,Snow,39
+Route_15,T00511,-1,Low,No operational action required,Snow,90
+Route_6,T00512,26,Severe,Deploy standby bus,Rain,13
+Route_12,T00513,2,Low,No operational action required,Fog,41
+Route_20,T00514,-2,Low,No operational action required,Cloudy,38
+Route_18,T00515,10,Medium,Monitor route conditions,Rain,1
+Route_14,T00516,14,Medium,Monitor route conditions,Cloudy,80
+Route_2,T00517,27,Severe,Deploy standby bus,Fog,0
+Route_9,T00518,9,Medium,Monitor route conditions,Rain,31
+Route_5,T00519,22,High,Adjust service headway,Fog,82
+Route_20,T00520,8,Medium,Monitor route conditions,Clear,63
+Route_1,T00521,14,Medium,Monitor route conditions,Rain,77
+Route_3,T00522,5,Low,No operational action required,Cloudy,30
+Route_6,T00523,17,High,Adjust service headway,Clear,57
+Route_5,T00524,20,High,Adjust service headway,Storm,81
+Route_5,T00525,4,Low,No operational action required,Cloudy,77
+Route_1,T00526,29,Severe,Deploy standby bus,Fog,13
+Route_17,T00527,19,High,Adjust service headway,Cloudy,87
+Route_19,T00528,9,Medium,Monitor route conditions,Storm,68
+Route_14,T00529,10,Medium,Monitor route conditions,Cloudy,15
+Route_12,T00530,10,Medium,Monitor route conditions,Clear,68
+Route_10,T00531,12,Medium,Monitor route conditions,Snow,53
+Route_20,T00532,22,High,Adjust service headway,Cloudy,12
+Route_18,T00533,22,High,Adjust service headway,Rain,79
+Route_11,T00534,-3,Low,No operational action required,Storm,78
+Route_2,T00535,28,Severe,Deploy standby bus,Cloudy,30
+Route_18,T00536,11,Medium,Monitor route conditions,Storm,68
+Route_7,T00537,17,High,Adjust service headway,Snow,20
+Route_15,T00538,14,Medium,Monitor route conditions,Clear,29
+Route_11,T00539,26,Severe,Deploy standby bus,Rain,22
+Route_18,T00540,9,Medium,Monitor route conditions,Fog,37
+Route_12,T00541,20,High,Adjust service headway,Cloudy,28
+Route_6,T00542,26,Severe,Deploy standby bus,Clear,76
+Route_20,T00543,-2,Low,No operational action required,Storm,31
+Route_13,T00544,15,Medium,Monitor route conditions,Snow,61
+Route_20,T00545,21,High,Adjust service headway,Storm,90
+Route_16,T00546,10,Medium,Monitor route conditions,Snow,97
+Route_18,T00547,2,Low,No operational action required,Snow,44
+Route_10,T00548,8,Medium,Monitor route conditions,Clear,48
+Route_8,T00549,16,High,Adjust service headway,Cloudy,32
+Route_18,T00550,19,High,Adjust service headway,Fog,3
+Route_1,T00551,26,Severe,Deploy standby bus,Cloudy,17
+Route_8,T00552,26,Severe,Deploy standby bus,Rain,69
+Route_6,T00553,26,Severe,Deploy standby bus,Cloudy,63
+Route_5,T00554,26,Severe,Deploy standby bus,Snow,27
+Route_15,T00555,12,Medium,Monitor route conditions,Snow,57
+Route_15,T00556,20,High,Adjust service headway,Rain,90
+Route_2,T00557,10,Medium,Monitor route conditions,Storm,89
+Route_1,T00558,22,High,Adjust service headway,Snow,55
+Route_11,T00559,4,Low,No operational action required,Rain,19
+Route_10,T00560,10,Medium,Monitor route conditions,Snow,76
+Route_18,T00561,27,Severe,Deploy standby bus,Fog,91
+Route_18,T00562,-2,Low,No operational action required,Snow,33
+Route_17,T00563,0,Low,No operational action required,Clear,86
+Route_8,T00564,-3,Low,No operational action required,Rain,9
+Route_15,T00565,16,High,Adjust service headway,Cloudy,93
+Route_8,T00566,10,Medium,Monitor route conditions,Rain,21
+Route_17,T00567,21,High,Adjust service headway,Storm,4
+Route_12,T00568,21,High,Adjust service headway,Snow,43
+Route_8,T00569,-1,Low,No operational action required,Rain,8
+Route_14,T00570,1,Low,No operational action required,Fog,42
+Route_4,T00571,22,High,Adjust service headway,Rain,3
+Route_1,T00572,0,Low,No operational action required,Fog,41
+Route_1,T00573,3,Low,No operational action required,Snow,64
+Route_19,T00574,26,Severe,Deploy standby bus,Cloudy,97
+Route_16,T00575,26,Severe,Deploy standby bus,Snow,40
+Route_14,T00576,15,Medium,Monitor route conditions,Storm,63
+Route_16,T00577,29,Severe,Deploy standby bus,Clear,54
+Route_5,T00578,29,Severe,Deploy standby bus,Cloudy,89
+Route_9,T00579,10,Medium,Monitor route conditions,Cloudy,17
+Route_2,T00580,6,Medium,Monitor route conditions,Clear,15
+Route_18,T00581,24,High,Adjust service headway,Rain,86
+Route_6,T00582,10,Medium,Monitor route conditions,Snow,45
+Route_9,T00583,12,Medium,Monitor route conditions,Rain,35
+Route_1,T00584,17,High,Adjust service headway,Rain,89
+Route_9,T00585,24,High,Adjust service headway,Snow,65
+Route_16,T00586,29,Severe,Deploy standby bus,Storm,43
+Route_13,T00587,2,Low,No operational action required,Cloudy,4
+Route_9,T00588,11,Medium,Monitor route conditions,Fog,28
+Route_13,T00589,-1,Low,No operational action required,Clear,3
+Route_9,T00590,10,Medium,Monitor route conditions,Cloudy,98
+Route_11,T00591,-2,Low,No operational action required,Rain,85
+Route_4,T00592,25,High,Adjust service headway,Clear,48
+Route_2,T00593,0,Low,No operational action required,Fog,71
+Route_6,T00594,22,High,Adjust service headway,Cloudy,84
+Route_14,T00595,8,Medium,Monitor route conditions,Cloudy,7
+Route_4,T00596,-2,Low,No operational action required,Storm,51
+Route_6,T00597,13,Medium,Monitor route conditions,Cloudy,68
+Route_19,T00598,6,Medium,Monitor route conditions,Cloudy,20
+Route_6,T00599,18,High,Adjust service headway,Fog,26
+Route_2,T00600,17,High,Adjust service headway,Fog,37
+Route_18,T00601,11,Medium,Monitor route conditions,Clear,4
+Route_13,T00602,17,High,Adjust service headway,Rain,84
+Route_9,T00603,17,High,Adjust service headway,Fog,60
+Route_19,T00604,17,High,Adjust service headway,Clear,7
+Route_13,T00605,28,Severe,Deploy standby bus,Cloudy,85
+Route_11,T00606,1,Low,No operational action required,Clear,17
+Route_1,T00607,5,Low,No operational action required,Clear,3
+Route_7,T00608,14,Medium,Monitor route conditions,Clear,3
+Route_15,T00609,17,High,Adjust service headway,Snow,36
+Route_1,T00610,4,Low,No operational action required,Clear,14
+Route_12,T00611,6,Medium,Monitor route conditions,Fog,37
+Route_7,T00612,20,High,Adjust service headway,Snow,26
+Route_15,T00613,20,High,Adjust service headway,Rain,84
+Route_19,T00614,28,Severe,Deploy standby bus,Clear,47
+Route_1,T00615,29,Severe,Deploy standby bus,Storm,45
+Route_17,T00616,7,Medium,Monitor route conditions,Cloudy,45
+Route_17,T00617,27,Severe,Deploy standby bus,Cloudy,47
+Route_3,T00618,14,Medium,Monitor route conditions,Snow,58
+Route_12,T00619,19,High,Adjust service headway,Cloudy,3
+Route_6,T00620,18,High,Adjust service headway,Cloudy,74
+Route_11,T00621,14,Medium,Monitor route conditions,Snow,18
+Route_3,T00622,16,High,Adjust service headway,Cloudy,56
+Route_8,T00623,9,Medium,Monitor route conditions,Clear,18
+Route_14,T00624,-3,Low,No operational action required,Rain,90
+Route_14,T00625,0,Low,No operational action required,Snow,41
+Route_10,T00626,20,High,Adjust service headway,Storm,91
+Route_2,T00627,-2,Low,No operational action required,Snow,4
+Route_14,T00628,24,High,Adjust service headway,Fog,47
+Route_9,T00629,22,High,Adjust service headway,Storm,24
+Route_3,T00630,19,High,Adjust service headway,Fog,66
+Route_8,T00631,11,Medium,Monitor route conditions,Snow,25
+Route_16,T00632,23,High,Adjust service headway,Fog,73
+Route_2,T00633,2,Low,No operational action required,Storm,87
+Route_6,T00634,6,Medium,Monitor route conditions,Clear,61
+Route_12,T00635,26,Severe,Deploy standby bus,Snow,92
+Route_5,T00636,25,High,Adjust service headway,Snow,6
+Route_2,T00637,0,Low,No operational action required,Cloudy,43
+Route_16,T00638,1,Low,No operational action required,Snow,86
+Route_5,T00639,0,Low,No operational action required,Snow,26
+Route_15,T00640,12,Medium,Monitor route conditions,Clear,41
+Route_12,T00641,21,High,Adjust service headway,Cloudy,72
+Route_4,T00642,10,Medium,Monitor route conditions,Rain,55
+Route_15,T00643,7,Medium,Monitor route conditions,Fog,2
+Route_11,T00644,25,High,Adjust service headway,Storm,12
+Route_16,T00645,18,High,Adjust service headway,Rain,69
+Route_6,T00646,10,Medium,Monitor route conditions,Cloudy,58
+Route_14,T00647,20,High,Adjust service headway,Clear,37
+Route_18,T00648,22,High,Adjust service headway,Storm,84
+Route_12,T00649,12,Medium,Monitor route conditions,Fog,82
+Route_11,T00650,28,Severe,Deploy standby bus,Snow,88
+Route_13,T00651,2,Low,No operational action required,Snow,67
+Route_11,T00652,4,Low,No operational action required,Rain,85
+Route_16,T00653,26,Severe,Deploy standby bus,Fog,68
+Route_15,T00654,23,High,Adjust service headway,Cloudy,0
+Route_15,T00655,3,Low,No operational action required,Fog,49
+Route_4,T00656,23,High,Adjust service headway,Clear,80
+Route_11,T00657,21,High,Adjust service headway,Rain,72
+Route_19,T00658,11,Medium,Monitor route conditions,Rain,8
+Route_15,T00659,21,High,Adjust service headway,Clear,52
+Route_4,T00660,18,High,Adjust service headway,Fog,87
+Route_13,T00661,14,Medium,Monitor route conditions,Clear,9
+Route_19,T00662,8,Medium,Monitor route conditions,Storm,83
+Route_2,T00663,19,High,Adjust service headway,Clear,80
+Route_14,T00664,21,High,Adjust service headway,Fog,76
+Route_4,T00665,6,Medium,Monitor route conditions,Clear,28
+Route_16,T00666,26,Severe,Deploy standby bus,Cloudy,35
+Route_20,T00667,6,Medium,Monitor route conditions,Snow,86
+Route_14,T00668,9,Medium,Monitor route conditions,Clear,26
+Route_15,T00669,25,High,Adjust service headway,Snow,17
+Route_3,T00670,5,Low,No operational action required,Clear,17
+Route_8,T00671,9,Medium,Monitor route conditions,Fog,8
+Route_16,T00672,10,Medium,Monitor route conditions,Storm,66
+Route_10,T00673,5,Low,No operational action required,Storm,6
+Route_4,T00674,4,Low,No operational action required,Snow,57
+Route_18,T00675,-1,Low,No operational action required,Fog,78
+Route_2,T00676,29,Severe,Deploy standby bus,Fog,29
+Route_17,T00677,28,Severe,Deploy standby bus,Fog,72
+Route_13,T00678,3,Low,No operational action required,Cloudy,60
+Route_4,T00679,15,Medium,Monitor route conditions,Rain,90
+Route_11,T00680,10,Medium,Monitor route conditions,Clear,99
+Route_7,T00681,15,Medium,Monitor route conditions,Fog,81
+Route_12,T00682,22,High,Adjust service headway,Fog,94
+Route_10,T00683,13,Medium,Monitor route conditions,Fog,16
+Route_7,T00684,24,High,Adjust service headway,Storm,52
+Route_13,T00685,15,Medium,Monitor route conditions,Fog,5
+Route_7,T00686,23,High,Adjust service headway,Clear,38
+Route_17,T00687,15,Medium,Monitor route conditions,Fog,24
+Route_10,T00688,29,Severe,Deploy standby bus,Clear,41
+Route_10,T00689,3,Low,No operational action required,Cloudy,41
+Route_4,T00690,25,High,Adjust service headway,Rain,58
+Route_20,T00691,1,Low,No operational action required,Storm,37
+Route_4,T00692,26,Severe,Deploy standby bus,Clear,30
+Route_7,T00693,4,Low,No operational action required,Snow,28
+Route_1,T00694,8,Medium,Monitor route conditions,Cloudy,8
+Route_12,T00695,9,Medium,Monitor route conditions,Rain,0
+Route_13,T00696,22,High,Adjust service headway,Rain,79
+Route_10,T00697,14,Medium,Monitor route conditions,Rain,86
+Route_15,T00698,16,High,Adjust service headway,Clear,71
+Route_13,T00699,12,Medium,Monitor route conditions,Cloudy,46
+Route_9,T00700,-1,Low,No operational action required,Fog,75
+Route_9,T00701,23,High,Adjust service headway,Snow,9
+Route_15,T00702,11,Medium,Monitor route conditions,Cloudy,15
+Route_10,T00703,18,High,Adjust service headway,Cloudy,46
+Route_10,T00704,19,High,Adjust service headway,Cloudy,42
+Route_8,T00705,0,Low,No operational action required,Clear,23
+Route_16,T00706,19,High,Adjust service headway,Snow,7
+Route_17,T00707,5,Low,No operational action required,Clear,74
+Route_5,T00708,20,High,Adjust service headway,Snow,25
+Route_4,T00709,17,High,Adjust service headway,Snow,6
+Route_18,T00710,12,Medium,Monitor route conditions,Clear,78
+Route_19,T00711,21,High,Adjust service headway,Snow,14
+Route_4,T00712,22,High,Adjust service headway,Cloudy,47
+Route_7,T00713,5,Low,No operational action required,Clear,2
+Route_10,T00714,11,Medium,Monitor route conditions,Snow,15
+Route_18,T00715,29,Severe,Deploy standby bus,Rain,78
+Route_19,T00716,-3,Low,No operational action required,Clear,88
+Route_4,T00717,1,Low,No operational action required,Storm,96
+Route_10,T00718,5,Low,No operational action required,Clear,13
+Route_1,T00719,2,Low,No operational action required,Clear,87
+Route_18,T00720,24,High,Adjust service headway,Clear,74
+Route_5,T00721,22,High,Adjust service headway,Snow,2
+Route_15,T00722,24,High,Adjust service headway,Clear,72
+Route_17,T00723,11,Medium,Monitor route conditions,Storm,69
+Route_3,T00724,2,Low,No operational action required,Fog,30
+Route_12,T00725,23,High,Adjust service headway,Clear,79
+Route_2,T00726,0,Low,No operational action required,Rain,74
+Route_1,T00727,7,Medium,Monitor route conditions,Storm,16
+Route_17,T00728,17,High,Adjust service headway,Fog,48
+Route_16,T00729,26,Severe,Deploy standby bus,Snow,2
+Route_5,T00730,14,Medium,Monitor route conditions,Clear,82
+Route_15,T00731,-1,Low,No operational action required,Fog,87
+Route_3,T00732,8,Medium,Monitor route conditions,Rain,54
+Route_7,T00733,23,High,Adjust service headway,Storm,71
+Route_11,T00734,26,Severe,Deploy standby bus,Storm,99
+Route_10,T00735,17,High,Adjust service headway,Snow,39
+Route_9,T00736,17,High,Adjust service headway,Snow,65
+Route_14,T00737,11,Medium,Monitor route conditions,Snow,86
+Route_13,T00738,14,Medium,Monitor route conditions,Fog,39
+Route_2,T00739,25,High,Adjust service headway,Clear,29
+Route_3,T00740,17,High,Adjust service headway,Cloudy,24
+Route_7,T00741,13,Medium,Monitor route conditions,Storm,6
+Route_18,T00742,14,Medium,Monitor route conditions,Cloudy,91
+Route_3,T00743,8,Medium,Monitor route conditions,Storm,49
+Route_10,T00744,7,Medium,Monitor route conditions,Snow,80
+Route_7,T00745,16,High,Adjust service headway,Clear,95
+Route_9,T00746,5,Low,No operational action required,Clear,0
+Route_17,T00747,-3,Low,No operational action required,Storm,90
+Route_11,T00748,-1,Low,No operational action required,Fog,43
+Route_7,T00749,17,High,Adjust service headway,Snow,99
+Route_14,T00750,19,High,Adjust service headway,Clear,48
+Route_19,T00751,5,Low,No operational action required,Clear,6
+Route_4,T00752,15,Medium,Monitor route conditions,Rain,2
+Route_6,T00753,15,Medium,Monitor route conditions,Clear,93
+Route_10,T00754,19,High,Adjust service headway,Rain,0
+Route_7,T00755,23,High,Adjust service headway,Clear,50
+Route_13,T00756,23,High,Adjust service headway,Clear,97
+Route_14,T00757,8,Medium,Monitor route conditions,Fog,37
+Route_4,T00758,23,High,Adjust service headway,Fog,42
+Route_8,T00759,29,Severe,Deploy standby bus,Snow,54
+Route_5,T00760,24,High,Adjust service headway,Clear,56
+Route_1,T00761,27,Severe,Deploy standby bus,Snow,52
+Route_4,T00762,28,Severe,Deploy standby bus,Snow,99
+Route_3,T00763,16,High,Adjust service headway,Snow,32
+Route_9,T00764,27,Severe,Deploy standby bus,Snow,79
+Route_8,T00765,27,Severe,Deploy standby bus,Storm,61
+Route_1,T00766,18,High,Adjust service headway,Storm,10
+Route_6,T00767,5,Low,No operational action required,Clear,71
+Route_9,T00768,5,Low,No operational action required,Storm,51
+Route_7,T00769,11,Medium,Monitor route conditions,Clear,0
+Route_4,T00770,9,Medium,Monitor route conditions,Fog,13
+Route_13,T00771,18,High,Adjust service headway,Cloudy,93
+Route_17,T00772,12,Medium,Monitor route conditions,Rain,84
+Route_2,T00773,28,Severe,Deploy standby bus,Storm,20
+Route_5,T00774,-2,Low,No operational action required,Storm,33
+Route_12,T00775,22,High,Adjust service headway,Fog,89
+Route_8,T00776,10,Medium,Monitor route conditions,Storm,13
+Route_6,T00777,4,Low,No operational action required,Clear,39
+Route_8,T00778,17,High,Adjust service headway,Clear,34
+Route_18,T00779,24,High,Adjust service headway,Cloudy,41
+Route_3,T00780,2,Low,No operational action required,Cloudy,81
+Route_12,T00781,16,High,Adjust service headway,Cloudy,19
+Route_3,T00782,27,Severe,Deploy standby bus,Clear,59
+Route_6,T00783,29,Severe,Deploy standby bus,Snow,8
+Route_2,T00784,3,Low,No operational action required,Snow,32
+Route_12,T00785,4,Low,No operational action required,Cloudy,48
+Route_2,T00786,5,Low,No operational action required,Cloudy,67
+Route_6,T00787,-2,Low,No operational action required,Clear,3
+Route_17,T00788,13,Medium,Monitor route conditions,Fog,47
+Route_3,T00789,13,Medium,Monitor route conditions,Storm,15
+Route_2,T00790,26,Severe,Deploy standby bus,Rain,46
+Route_20,T00791,2,Low,No operational action required,Snow,25
+Route_8,T00792,0,Low,No operational action required,Snow,69
+Route_12,T00793,5,Low,No operational action required,Clear,36
+Route_4,T00794,2,Low,No operational action required,Clear,21
+Route_5,T00795,9,Medium,Monitor route conditions,Rain,6
+Route_13,T00796,18,High,Adjust service headway,Rain,41
+Route_15,T00797,24,High,Adjust service headway,Cloudy,29
+Route_16,T00798,26,Severe,Deploy standby bus,Rain,73
+Route_10,T00799,-2,Low,No operational action required,Storm,78
+Route_16,T00800,4,Low,No operational action required,Storm,5
+Route_12,T00801,5,Low,No operational action required,Snow,23
+Route_17,T00802,-3,Low,No operational action required,Storm,65
+Route_16,T00803,9,Medium,Monitor route conditions,Storm,39
+Route_12,T00804,11,Medium,Monitor route conditions,Storm,14
+Route_8,T00805,28,Severe,Deploy standby bus,Cloudy,52
+Route_20,T00806,27,Severe,Deploy standby bus,Snow,84
+Route_3,T00807,10,Medium,Monitor route conditions,Clear,81
+Route_16,T00808,10,Medium,Monitor route conditions,Snow,4
+Route_13,T00809,25,High,Adjust service headway,Snow,88
+Route_19,T00810,15,Medium,Monitor route conditions,Snow,35
+Route_8,T00811,23,High,Adjust service headway,Rain,73
+Route_5,T00812,5,Low,No operational action required,Clear,45
+Route_20,T00813,24,High,Adjust service headway,Rain,22
+Route_8,T00814,20,High,Adjust service headway,Cloudy,87
+Route_12,T00815,24,High,Adjust service headway,Cloudy,44
+Route_1,T00816,14,Medium,Monitor route conditions,Fog,9
+Route_20,T00817,21,High,Adjust service headway,Fog,53
+Route_6,T00818,0,Low,No operational action required,Cloudy,69
+Route_18,T00819,10,Medium,Monitor route conditions,Cloudy,76
+Route_8,T00820,22,High,Adjust service headway,Rain,84
+Route_7,T00821,4,Low,No operational action required,Cloudy,31
+Route_1,T00822,20,High,Adjust service headway,Clear,42
+Route_16,T00823,12,Medium,Monitor route conditions,Rain,14
+Route_12,T00824,16,High,Adjust service headway,Cloudy,65
+Route_6,T00825,11,Medium,Monitor route conditions,Rain,14
+Route_20,T00826,3,Low,No operational action required,Rain,80
+Route_2,T00827,13,Medium,Monitor route conditions,Storm,19
+Route_14,T00828,18,High,Adjust service headway,Fog,49
+Route_4,T00829,18,High,Adjust service headway,Rain,5
+Route_1,T00830,8,Medium,Monitor route conditions,Snow,78
+Route_18,T00831,14,Medium,Monitor route conditions,Rain,16
+Route_13,T00832,11,Medium,Monitor route conditions,Snow,25
+Route_2,T00833,12,Medium,Monitor route conditions,Storm,21
+Route_9,T00834,1,Low,No operational action required,Cloudy,72
+Route_2,T00835,-2,Low,No operational action required,Rain,63
+Route_9,T00836,24,High,Adjust service headway,Storm,75
+Route_1,T00837,23,High,Adjust service headway,Clear,85
+Route_11,T00838,27,Severe,Deploy standby bus,Storm,57
+Route_3,T00839,-3,Low,No operational action required,Fog,86
+Route_20,T00840,25,High,Adjust service headway,Fog,36
+Route_4,T00841,-3,Low,No operational action required,Cloudy,77
+Route_18,T00842,4,Low,No operational action required,Snow,87
+Route_6,T00843,12,Medium,Monitor route conditions,Cloudy,71
+Route_3,T00844,24,High,Adjust service headway,Snow,89
+Route_11,T00845,18,High,Adjust service headway,Snow,95
+Route_15,T00846,14,Medium,Monitor route conditions,Snow,27
+Route_5,T00847,18,High,Adjust service headway,Snow,95
+Route_20,T00848,8,Medium,Monitor route conditions,Fog,85
+Route_10,T00849,15,Medium,Monitor route conditions,Fog,48
+Route_12,T00850,21,High,Adjust service headway,Rain,72
+Route_15,T00851,1,Low,No operational action required,Fog,66
+Route_17,T00852,6,Medium,Monitor route conditions,Cloudy,88
+Route_10,T00853,3,Low,No operational action required,Fog,75
+Route_6,T00854,11,Medium,Monitor route conditions,Cloudy,92
+Route_18,T00855,20,High,Adjust service headway,Clear,66
+Route_13,T00856,22,High,Adjust service headway,Fog,40
+Route_3,T00857,22,High,Adjust service headway,Cloudy,45
+Route_10,T00858,22,High,Adjust service headway,Snow,86
+Route_14,T00859,6,Medium,Monitor route conditions,Storm,86
+Route_6,T00860,13,Medium,Monitor route conditions,Snow,54
+Route_3,T00861,10,Medium,Monitor route conditions,Rain,81
+Route_16,T00862,-2,Low,No operational action required,Cloudy,10
+Route_7,T00863,9,Medium,Monitor route conditions,Snow,99
+Route_20,T00864,23,High,Adjust service headway,Fog,25
+Route_14,T00865,5,Low,No operational action required,Fog,71
+Route_9,T00866,3,Low,No operational action required,Clear,91
+Route_15,T00867,6,Medium,Monitor route conditions,Storm,81
+Route_3,T00868,5,Low,No operational action required,Cloudy,12
+Route_2,T00869,18,High,Adjust service headway,Snow,35
+Route_2,T00870,19,High,Adjust service headway,Storm,63
+Route_3,T00871,3,Low,No operational action required,Clear,50
+Route_18,T00872,5,Low,No operational action required,Rain,75
+Route_14,T00873,23,High,Adjust service headway,Storm,21
+Route_20,T00874,20,High,Adjust service headway,Clear,59
+Route_18,T00875,25,High,Adjust service headway,Cloudy,1
+Route_10,T00876,13,Medium,Monitor route conditions,Rain,55
+Route_2,T00877,16,High,Adjust service headway,Fog,39
+Route_1,T00878,3,Low,No operational action required,Clear,27
+Route_4,T00879,3,Low,No operational action required,Fog,76
+Route_14,T00880,24,High,Adjust service headway,Rain,96
+Route_1,T00881,15,Medium,Monitor route conditions,Clear,2
+Route_14,T00882,16,High,Adjust service headway,Clear,62
+Route_16,T00883,3,Low,No operational action required,Rain,97
+Route_14,T00884,2,Low,No operational action required,Cloudy,22
+Route_20,T00885,21,High,Adjust service headway,Clear,54
+Route_3,T00886,9,Medium,Monitor route conditions,Rain,31
+Route_3,T00887,18,High,Adjust service headway,Storm,83
+Route_9,T00888,13,Medium,Monitor route conditions,Fog,27
+Route_6,T00889,18,High,Adjust service headway,Clear,7
+Route_13,T00890,4,Low,No operational action required,Storm,2
+Route_2,T00891,14,Medium,Monitor route conditions,Clear,93
+Route_8,T00892,20,High,Adjust service headway,Cloudy,88
+Route_2,T00893,-2,Low,No operational action required,Rain,52
+Route_4,T00894,-2,Low,No operational action required,Clear,93
+Route_15,T00895,23,High,Adjust service headway,Rain,28
+Route_4,T00896,10,Medium,Monitor route conditions,Snow,93
+Route_13,T00897,8,Medium,Monitor route conditions,Clear,97
+Route_12,T00898,28,Severe,Deploy standby bus,Cloudy,88
+Route_13,T00899,24,High,Adjust service headway,Cloudy,80
+Route_14,T00900,24,High,Adjust service headway,Storm,58
+Route_20,T00901,21,High,Adjust service headway,Cloudy,23
+Route_18,T00902,0,Low,No operational action required,Rain,37
+Route_6,T00903,22,High,Adjust service headway,Snow,27
+Route_11,T00904,-1,Low,No operational action required,Cloudy,96
+Route_2,T00905,-3,Low,No operational action required,Clear,61
+Route_19,T00906,13,Medium,Monitor route conditions,Cloudy,99
+Route_19,T00907,3,Low,No operational action required,Snow,50
+Route_5,T00908,1,Low,No operational action required,Rain,6
+Route_19,T00909,15,Medium,Monitor route conditions,Clear,22
+Route_2,T00910,12,Medium,Monitor route conditions,Storm,45
+Route_10,T00911,23,High,Adjust service headway,Storm,89
+Route_2,T00912,21,High,Adjust service headway,Storm,77
+Route_11,T00913,22,High,Adjust service headway,Clear,27
+Route_18,T00914,10,Medium,Monitor route conditions,Storm,23
+Route_15,T00915,10,Medium,Monitor route conditions,Cloudy,6
+Route_9,T00916,10,Medium,Monitor route conditions,Clear,99
+Route_19,T00917,21,High,Adjust service headway,Clear,78
+Route_9,T00918,0,Low,No operational action required,Clear,48
+Route_3,T00919,11,Medium,Monitor route conditions,Fog,2
+Route_9,T00920,28,Severe,Deploy standby bus,Rain,1
+Route_14,T00921,14,Medium,Monitor route conditions,Fog,6
+Route_19,T00922,10,Medium,Monitor route conditions,Fog,79
+Route_7,T00923,-3,Low,No operational action required,Fog,20
+Route_16,T00924,16,High,Adjust service headway,Rain,8
+Route_16,T00925,6,Medium,Monitor route conditions,Fog,11
+Route_1,T00926,6,Medium,Monitor route conditions,Storm,92
+Route_4,T00927,20,High,Adjust service headway,Clear,23
+Route_4,T00928,24,High,Adjust service headway,Clear,32
+Route_7,T00929,23,High,Adjust service headway,Cloudy,77
+Route_8,T00930,-3,Low,No operational action required,Snow,42
+Route_17,T00931,29,Severe,Deploy standby bus,Storm,81
+Route_5,T00932,0,Low,No operational action required,Rain,4
+Route_7,T00933,3,Low,No operational action required,Snow,78
+Route_20,T00934,5,Low,No operational action required,Clear,70
+Route_20,T00935,12,Medium,Monitor route conditions,Fog,88
+Route_4,T00936,1,Low,No operational action required,Cloudy,13
+Route_6,T00937,19,High,Adjust service headway,Cloudy,35
+Route_7,T00938,21,High,Adjust service headway,Clear,34
+Route_18,T00939,9,Medium,Monitor route conditions,Storm,49
+Route_5,T00940,20,High,Adjust service headway,Snow,87
+Route_20,T00941,7,Medium,Monitor route conditions,Cloudy,78
+Route_3,T00942,13,Medium,Monitor route conditions,Clear,10
+Route_7,T00943,9,Medium,Monitor route conditions,Storm,23
+Route_14,T00944,23,High,Adjust service headway,Clear,74
+Route_7,T00945,16,High,Adjust service headway,Clear,43
+Route_5,T00946,29,Severe,Deploy standby bus,Storm,50
+Route_5,T00947,28,Severe,Deploy standby bus,Storm,16
+Route_2,T00948,4,Low,No operational action required,Storm,69
+Route_6,T00949,25,High,Adjust service headway,Clear,84
+Route_15,T00950,15,Medium,Monitor route conditions,Cloudy,7
+Route_10,T00951,2,Low,No operational action required,Rain,78
+Route_7,T00952,17,High,Adjust service headway,Rain,95
+Route_5,T00953,18,High,Adjust service headway,Clear,73
+Route_1,T00954,6,Medium,Monitor route conditions,Clear,27
+Route_13,T00955,6,Medium,Monitor route conditions,Cloudy,78
+Route_18,T00956,25,High,Adjust service headway,Storm,11
+Route_13,T00957,12,Medium,Monitor route conditions,Clear,42
+Route_18,T00958,-3,Low,No operational action required,Fog,81
+Route_5,T00959,13,Medium,Monitor route conditions,Storm,36
+Route_13,T00960,26,Severe,Deploy standby bus,Clear,87
+Route_4,T00961,22,High,Adjust service headway,Fog,62
+Route_17,T00962,15,Medium,Monitor route conditions,Snow,92
+Route_3,T00963,17,High,Adjust service headway,Cloudy,62
+Route_17,T00964,13,Medium,Monitor route conditions,Fog,9
+Route_11,T00965,17,High,Adjust service headway,Clear,77
+Route_20,T00966,15,Medium,Monitor route conditions,Rain,79
+Route_4,T00967,3,Low,No operational action required,Clear,36
+Route_2,T00968,13,Medium,Monitor route conditions,Rain,10
+Route_20,T00969,-3,Low,No operational action required,Cloudy,89
+Route_16,T00970,2,Low,No operational action required,Cloudy,18
+Route_18,T00971,22,High,Adjust service headway,Storm,51
+Route_8,T00972,-2,Low,No operational action required,Storm,17
+Route_3,T00973,28,Severe,Deploy standby bus,Rain,93
+Route_9,T00974,1,Low,No operational action required,Rain,31
+Route_20,T00975,27,Severe,Deploy standby bus,Cloudy,22
+Route_6,T00976,8,Medium,Monitor route conditions,Fog,11
+Route_10,T00977,26,Severe,Deploy standby bus,Rain,57
+Route_10,T00978,2,Low,No operational action required,Rain,76
+Route_13,T00979,11,Medium,Monitor route conditions,Fog,20
+Route_17,T00980,11,Medium,Monitor route conditions,Storm,20
+Route_9,T00981,12,Medium,Monitor route conditions,Storm,92
+Route_17,T00982,16,High,Adjust service headway,Rain,92
+Route_9,T00983,9,Medium,Monitor route conditions,Storm,90
+Route_9,T00984,27,Severe,Deploy standby bus,Storm,28
+Route_1,T00985,25,High,Adjust service headway,Snow,78
+Route_2,T00986,-1,Low,No operational action required,Storm,46
+Route_16,T00987,5,Low,No operational action required,Cloudy,11
+Route_1,T00988,7,Medium,Monitor route conditions,Clear,57
+Route_10,T00989,7,Medium,Monitor route conditions,Rain,40
+Route_18,T00990,21,High,Adjust service headway,Rain,18
+Route_8,T00991,18,High,Adjust service headway,Cloudy,11
+Route_11,T00992,5,Low,No operational action required,Clear,22
+Route_2,T00993,16,High,Adjust service headway,Clear,4
+Route_8,T00994,17,High,Adjust service headway,Cloudy,25
+Route_8,T00995,6,Medium,Monitor route conditions,Fog,62
+Route_17,T00996,18,High,Adjust service headway,Fog,51
+Route_15,T00997,25,High,Adjust service headway,Clear,9
+Route_17,T00998,5,Low,No operational action required,Fog,85
+Route_13,T00999,1,Low,No operational action required,Fog,38
+Route_19,T01000,7,Medium,Monitor route conditions,Fog,22
+Route_5,T01001,-3,Low,No operational action required,Clear,10
+Route_12,T01002,-3,Low,No operational action required,Fog,91
+Route_1,T01003,1,Low,No operational action required,Rain,94
+Route_5,T01004,18,High,Adjust service headway,Snow,71
+Route_8,T01005,22,High,Adjust service headway,Clear,47
+Route_13,T01006,2,Low,No operational action required,Cloudy,91
+Route_8,T01007,28,Severe,Deploy standby bus,Fog,15
+Route_11,T01008,7,Medium,Monitor route conditions,Storm,45
+Route_1,T01009,6,Medium,Monitor route conditions,Clear,46
+Route_13,T01010,27,Severe,Deploy standby bus,Cloudy,94
+Route_19,T01011,8,Medium,Monitor route conditions,Snow,47
+Route_3,T01012,12,Medium,Monitor route conditions,Rain,79
+Route_17,T01013,-1,Low,No operational action required,Cloudy,68
+Route_5,T01014,-2,Low,No operational action required,Fog,98
+Route_20,T01015,1,Low,No operational action required,Storm,24
+Route_8,T01016,7,Medium,Monitor route conditions,Fog,76
+Route_14,T01017,21,High,Adjust service headway,Cloudy,92
+Route_4,T01018,18,High,Adjust service headway,Clear,90
+Route_11,T01019,18,High,Adjust service headway,Storm,80
+Route_20,T01020,7,Medium,Monitor route conditions,Storm,36
+Route_15,T01021,28,Severe,Deploy standby bus,Cloudy,62
+Route_19,T01022,27,Severe,Deploy standby bus,Snow,28
+Route_7,T01023,4,Low,No operational action required,Snow,57
+Route_19,T01024,16,High,Adjust service headway,Fog,97
+Route_19,T01025,0,Low,No operational action required,Cloudy,93
+Route_11,T01026,14,Medium,Monitor route conditions,Storm,30
+Route_5,T01027,0,Low,No operational action required,Cloudy,85
+Route_5,T01028,16,High,Adjust service headway,Storm,88
+Route_8,T01029,5,Low,No operational action required,Fog,67
+Route_10,T01030,12,Medium,Monitor route conditions,Clear,98
+Route_6,T01031,22,High,Adjust service headway,Clear,40
+Route_15,T01032,21,High,Adjust service headway,Cloudy,49
+Route_16,T01033,0,Low,No operational action required,Storm,43
+Route_17,T01034,15,Medium,Monitor route conditions,Clear,8
+Route_8,T01035,10,Medium,Monitor route conditions,Storm,58
+Route_8,T01036,17,High,Adjust service headway,Fog,89
+Route_9,T01037,11,Medium,Monitor route conditions,Cloudy,90
+Route_2,T01038,-1,Low,No operational action required,Storm,26
+Route_15,T01039,12,Medium,Monitor route conditions,Cloudy,81
+Route_18,T01040,10,Medium,Monitor route conditions,Storm,93
+Route_3,T01041,5,Low,No operational action required,Snow,58
+Route_17,T01042,3,Low,No operational action required,Snow,94
+Route_4,T01043,10,Medium,Monitor route conditions,Storm,2
+Route_4,T01044,2,Low,No operational action required,Fog,92
+Route_14,T01045,17,High,Adjust service headway,Cloudy,6
+Route_9,T01046,11,Medium,Monitor route conditions,Rain,81
+Route_9,T01047,4,Low,No operational action required,Storm,15
+Route_18,T01048,-3,Low,No operational action required,Storm,48
+Route_10,T01049,28,Severe,Deploy standby bus,Snow,31
+Route_4,T01050,1,Low,No operational action required,Clear,88
+Route_12,T01051,26,Severe,Deploy standby bus,Snow,43
+Route_8,T01052,18,High,Adjust service headway,Cloudy,95
+Route_2,T01053,16,High,Adjust service headway,Snow,18
+Route_13,T01054,12,Medium,Monitor route conditions,Rain,2
+Route_16,T01055,3,Low,No operational action required,Fog,59
+Route_2,T01056,3,Low,No operational action required,Rain,34
+Route_11,T01057,-2,Low,No operational action required,Fog,28
+Route_10,T01058,10,Medium,Monitor route conditions,Rain,74
+Route_15,T01059,27,Severe,Deploy standby bus,Snow,69
+Route_17,T01060,10,Medium,Monitor route conditions,Rain,82
+Route_8,T01061,1,Low,No operational action required,Snow,44
+Route_18,T01062,7,Medium,Monitor route conditions,Snow,26
+Route_9,T01063,1,Low,No operational action required,Cloudy,68
+Route_8,T01064,25,High,Adjust service headway,Snow,89
+Route_14,T01065,7,Medium,Monitor route conditions,Clear,34
+Route_18,T01066,1,Low,No operational action required,Rain,18
+Route_20,T01067,28,Severe,Deploy standby bus,Storm,16
+Route_20,T01068,11,Medium,Monitor route conditions,Storm,34
+Route_12,T01069,15,Medium,Monitor route conditions,Storm,76
+Route_19,T01070,18,High,Adjust service headway,Clear,77
+Route_14,T01071,13,Medium,Monitor route conditions,Snow,29
+Route_17,T01072,8,Medium,Monitor route conditions,Rain,47
+Route_3,T01073,21,High,Adjust service headway,Fog,56
+Route_7,T01074,13,Medium,Monitor route conditions,Fog,16
+Route_17,T01075,6,Medium,Monitor route conditions,Cloudy,14
+Route_12,T01076,24,High,Adjust service headway,Clear,81
+Route_9,T01077,14,Medium,Monitor route conditions,Rain,13
+Route_15,T01078,14,Medium,Monitor route conditions,Snow,13
+Route_18,T01079,28,Severe,Deploy standby bus,Storm,44
+Route_13,T01080,10,Medium,Monitor route conditions,Clear,96
+Route_8,T01081,12,Medium,Monitor route conditions,Clear,37
+Route_14,T01082,14,Medium,Monitor route conditions,Rain,62
+Route_8,T01083,12,Medium,Monitor route conditions,Snow,74
+Route_14,T01084,13,Medium,Monitor route conditions,Cloudy,10
+Route_7,T01085,3,Low,No operational action required,Snow,47
+Route_12,T01086,8,Medium,Monitor route conditions,Cloudy,25
+Route_11,T01087,6,Medium,Monitor route conditions,Cloudy,66
+Route_11,T01088,1,Low,No operational action required,Storm,24
+Route_13,T01089,17,High,Adjust service headway,Storm,80
+Route_18,T01090,-1,Low,No operational action required,Rain,60
+Route_2,T01091,15,Medium,Monitor route conditions,Snow,85
+Route_15,T01092,2,Low,No operational action required,Cloudy,92
+Route_20,T01093,10,Medium,Monitor route conditions,Rain,25
+Route_18,T01094,0,Low,No operational action required,Cloudy,33
+Route_15,T01095,14,Medium,Monitor route conditions,Clear,89
+Route_19,T01096,25,High,Adjust service headway,Fog,8
+Route_12,T01097,12,Medium,Monitor route conditions,Fog,39
+Route_13,T01098,16,High,Adjust service headway,Cloudy,74
+Route_11,T01099,20,High,Adjust service headway,Rain,6
+Route_5,T01100,15,Medium,Monitor route conditions,Storm,29
+Route_1,T01101,0,Low,No operational action required,Snow,65
+Route_3,T01102,29,Severe,Deploy standby bus,Cloudy,29
+Route_19,T01103,-2,Low,No operational action required,Cloudy,67
+Route_7,T01104,9,Medium,Monitor route conditions,Snow,57
+Route_12,T01105,26,Severe,Deploy standby bus,Storm,54
+Route_15,T01106,26,Severe,Deploy standby bus,Cloudy,13
+Route_5,T01107,20,High,Adjust service headway,Clear,76
+Route_15,T01108,29,Severe,Deploy standby bus,Storm,88
+Route_8,T01109,6,Medium,Monitor route conditions,Clear,76
+Route_10,T01110,14,Medium,Monitor route conditions,Fog,76
+Route_16,T01111,15,Medium,Monitor route conditions,Snow,36
+Route_8,T01112,3,Low,No operational action required,Storm,43
+Route_1,T01113,15,Medium,Monitor route conditions,Storm,5
+Route_12,T01114,20,High,Adjust service headway,Rain,25
+Route_5,T01115,11,Medium,Monitor route conditions,Rain,13
+Route_3,T01116,19,High,Adjust service headway,Snow,7
+Route_1,T01117,0,Low,No operational action required,Storm,23
+Route_4,T01118,0,Low,No operational action required,Fog,85
+Route_8,T01119,1,Low,No operational action required,Cloudy,38
+Route_3,T01120,19,High,Adjust service headway,Snow,48
+Route_10,T01121,7,Medium,Monitor route conditions,Snow,84
+Route_2,T01122,7,Medium,Monitor route conditions,Rain,62
+Route_11,T01123,9,Medium,Monitor route conditions,Fog,25
+Route_10,T01124,10,Medium,Monitor route conditions,Snow,9
+Route_14,T01125,4,Low,No operational action required,Fog,76
+Route_7,T01126,21,High,Adjust service headway,Snow,57
+Route_2,T01127,14,Medium,Monitor route conditions,Rain,13
+Route_9,T01128,14,Medium,Monitor route conditions,Cloudy,72
+Route_16,T01129,6,Medium,Monitor route conditions,Rain,70
+Route_13,T01130,3,Low,No operational action required,Snow,38
+Route_9,T01131,10,Medium,Monitor route conditions,Fog,30
+Route_20,T01132,11,Medium,Monitor route conditions,Clear,49
+Route_4,T01133,12,Medium,Monitor route conditions,Rain,15
+Route_10,T01134,-2,Low,No operational action required,Fog,71
+Route_12,T01135,26,Severe,Deploy standby bus,Rain,50
+Route_17,T01136,26,Severe,Deploy standby bus,Snow,14
+Route_14,T01137,14,Medium,Monitor route conditions,Fog,88
+Route_14,T01138,27,Severe,Deploy standby bus,Cloudy,37
+Route_2,T01139,9,Medium,Monitor route conditions,Fog,78
+Route_20,T01140,16,High,Adjust service headway,Storm,88
+Route_11,T01141,19,High,Adjust service headway,Clear,70
+Route_16,T01142,29,Severe,Deploy standby bus,Snow,89
+Route_19,T01143,16,High,Adjust service headway,Fog,71
+Route_6,T01144,-1,Low,No operational action required,Snow,81
+Route_19,T01145,4,Low,No operational action required,Rain,20
+Route_5,T01146,28,Severe,Deploy standby bus,Rain,15
+Route_4,T01147,25,High,Adjust service headway,Fog,66
+Route_15,T01148,3,Low,No operational action required,Storm,64
+Route_4,T01149,-2,Low,No operational action required,Fog,12
+Route_20,T01150,17,High,Adjust service headway,Cloudy,63
+Route_10,T01151,2,Low,No operational action required,Storm,60
+Route_3,T01152,24,High,Adjust service headway,Snow,31
+Route_5,T01153,28,Severe,Deploy standby bus,Fog,11
+Route_6,T01154,5,Low,No operational action required,Snow,94
+Route_8,T01155,7,Medium,Monitor route conditions,Clear,40
+Route_7,T01156,19,High,Adjust service headway,Storm,65
+Route_10,T01157,7,Medium,Monitor route conditions,Fog,7
+Route_6,T01158,-2,Low,No operational action required,Clear,58
+Route_14,T01159,-1,Low,No operational action required,Fog,24
+Route_4,T01160,7,Medium,Monitor route conditions,Cloudy,4
+Route_13,T01161,11,Medium,Monitor route conditions,Rain,44
+Route_20,T01162,7,Medium,Monitor route conditions,Snow,1
+Route_17,T01163,27,Severe,Deploy standby bus,Fog,41
+Route_7,T01164,24,High,Adjust service headway,Storm,37
+Route_4,T01165,24,High,Adjust service headway,Fog,2
+Route_14,T01166,28,Severe,Deploy standby bus,Fog,45
+Route_3,T01167,21,High,Adjust service headway,Fog,21
+Route_5,T01168,16,High,Adjust service headway,Fog,32
+Route_16,T01169,24,High,Adjust service headway,Storm,31
+Route_20,T01170,21,High,Adjust service headway,Storm,16
+Route_4,T01171,7,Medium,Monitor route conditions,Fog,81
+Route_2,T01172,15,Medium,Monitor route conditions,Rain,55
+Route_18,T01173,24,High,Adjust service headway,Fog,2
+Route_19,T01174,-3,Low,No operational action required,Snow,69
+Route_19,T01175,1,Low,No operational action required,Snow,48
+Route_17,T01176,6,Medium,Monitor route conditions,Storm,54
+Route_14,T01177,-2,Low,No operational action required,Snow,76
+Route_19,T01178,14,Medium,Monitor route conditions,Snow,30
+Route_13,T01179,9,Medium,Monitor route conditions,Cloudy,80
+Route_12,T01180,1,Low,No operational action required,Fog,20
+Route_6,T01181,16,High,Adjust service headway,Fog,15
+Route_4,T01182,-2,Low,No operational action required,Fog,16
+Route_19,T01183,7,Medium,Monitor route conditions,Fog,95
+Route_16,T01184,26,Severe,Deploy standby bus,Clear,0
+Route_13,T01185,28,Severe,Deploy standby bus,Fog,71
+Route_4,T01186,28,Severe,Deploy standby bus,Storm,64
+Route_17,T01187,24,High,Adjust service headway,Storm,65
+Route_1,T01188,6,Medium,Monitor route conditions,Clear,36
+Route_18,T01189,18,High,Adjust service headway,Fog,23
+Route_20,T01190,13,Medium,Monitor route conditions,Rain,90
+Route_17,T01191,18,High,Adjust service headway,Fog,83
+Route_15,T01192,15,Medium,Monitor route conditions,Storm,61
+Route_11,T01193,13,Medium,Monitor route conditions,Cloudy,20
+Route_13,T01194,20,High,Adjust service headway,Snow,36
+Route_1,T01195,28,Severe,Deploy standby bus,Cloudy,34
+Route_17,T01196,24,High,Adjust service headway,Rain,37
+Route_6,T01197,10,Medium,Monitor route conditions,Fog,52
+Route_4,T01198,2,Low,No operational action required,Clear,14
+Route_20,T01199,5,Low,No operational action required,Fog,41
+Route_16,T01200,17,High,Adjust service headway,Rain,93
+Route_15,T01201,8,Medium,Monitor route conditions,Rain,3
+Route_15,T01202,26,Severe,Deploy standby bus,Snow,38
+Route_6,T01203,27,Severe,Deploy standby bus,Rain,78
+Route_15,T01204,0,Low,No operational action required,Cloudy,22
+Route_14,T01205,27,Severe,Deploy standby bus,Snow,14
+Route_11,T01206,23,High,Adjust service headway,Fog,89
+Route_7,T01207,21,High,Adjust service headway,Fog,11
+Route_9,T01208,1,Low,No operational action required,Clear,81
+Route_16,T01209,2,Low,No operational action required,Rain,69
+Route_5,T01210,1,Low,No operational action required,Rain,81
+Route_20,T01211,23,High,Adjust service headway,Storm,53
+Route_10,T01212,4,Low,No operational action required,Snow,87
+Route_18,T01213,5,Low,No operational action required,Storm,37
+Route_3,T01214,11,Medium,Monitor route conditions,Snow,27
+Route_13,T01215,3,Low,No operational action required,Cloudy,78
+Route_11,T01216,28,Severe,Deploy standby bus,Snow,18
+Route_17,T01217,4,Low,No operational action required,Fog,68
+Route_13,T01218,11,Medium,Monitor route conditions,Clear,63
+Route_6,T01219,15,Medium,Monitor route conditions,Snow,3
+Route_17,T01220,2,Low,No operational action required,Snow,80
+Route_13,T01221,15,Medium,Monitor route conditions,Snow,9
+Route_19,T01222,24,High,Adjust service headway,Clear,11
+Route_19,T01223,13,Medium,Monitor route conditions,Rain,68
+Route_10,T01224,15,Medium,Monitor route conditions,Clear,6
+Route_3,T01225,27,Severe,Deploy standby bus,Rain,43
+Route_14,T01226,7,Medium,Monitor route conditions,Fog,22
+Route_19,T01227,11,Medium,Monitor route conditions,Clear,1
+Route_5,T01228,6,Medium,Monitor route conditions,Rain,93
+Route_5,T01229,19,High,Adjust service headway,Fog,36
+Route_20,T01230,-1,Low,No operational action required,Fog,68
+Route_17,T01231,-1,Low,No operational action required,Rain,19
+Route_10,T01232,14,Medium,Monitor route conditions,Rain,89
+Route_5,T01233,21,High,Adjust service headway,Cloudy,43
+Route_4,T01234,16,High,Adjust service headway,Fog,69
+Route_6,T01235,25,High,Adjust service headway,Rain,92
+Route_4,T01236,18,High,Adjust service headway,Fog,73
+Route_7,T01237,11,Medium,Monitor route conditions,Clear,50
+Route_7,T01238,6,Medium,Monitor route conditions,Storm,79
+Route_18,T01239,17,High,Adjust service headway,Storm,97
+Route_3,T01240,25,High,Adjust service headway,Snow,30
+Route_1,T01241,28,Severe,Deploy standby bus,Rain,99
+Route_4,T01242,6,Medium,Monitor route conditions,Rain,40
+Route_6,T01243,9,Medium,Monitor route conditions,Fog,57
+Route_9,T01244,19,High,Adjust service headway,Snow,4
+Route_14,T01245,19,High,Adjust service headway,Rain,32
+Route_12,T01246,27,Severe,Deploy standby bus,Fog,42
+Route_20,T01247,0,Low,No operational action required,Rain,18
+Route_4,T01248,-1,Low,No operational action required,Fog,31
+Route_12,T01249,17,High,Adjust service headway,Rain,86
+Route_10,T01250,-2,Low,No operational action required,Cloudy,2
+Route_7,T01251,0,Low,No operational action required,Fog,0
+Route_3,T01252,-3,Low,No operational action required,Cloudy,99
+Route_14,T01253,11,Medium,Monitor route conditions,Cloudy,40
+Route_10,T01254,29,Severe,Deploy standby bus,Cloudy,91
+Route_16,T01255,2,Low,No operational action required,Cloudy,47
+Route_16,T01256,3,Low,No operational action required,Clear,38
+Route_10,T01257,15,Medium,Monitor route conditions,Snow,4
+Route_13,T01258,-3,Low,No operational action required,Storm,76
+Route_6,T01259,15,Medium,Monitor route conditions,Clear,10
+Route_12,T01260,22,High,Adjust service headway,Rain,21
+Route_9,T01261,8,Medium,Monitor route conditions,Rain,86
+Route_13,T01262,18,High,Adjust service headway,Snow,63
+Route_4,T01263,9,Medium,Monitor route conditions,Storm,11
+Route_11,T01264,24,High,Adjust service headway,Storm,52
+Route_20,T01265,10,Medium,Monitor route conditions,Storm,54
+Route_18,T01266,18,High,Adjust service headway,Cloudy,52
+Route_11,T01267,26,Severe,Deploy standby bus,Clear,20
+Route_4,T01268,16,High,Adjust service headway,Rain,18
+Route_18,T01269,23,High,Adjust service headway,Clear,68
+Route_1,T01270,-3,Low,No operational action required,Clear,87
+Route_7,T01271,11,Medium,Monitor route conditions,Clear,93
+Route_6,T01272,28,Severe,Deploy standby bus,Storm,71
+Route_15,T01273,4,Low,No operational action required,Snow,65
+Route_18,T01274,29,Severe,Deploy standby bus,Snow,58
+Route_11,T01275,14,Medium,Monitor route conditions,Storm,48
+Route_20,T01276,25,High,Adjust service headway,Rain,97
+Route_15,T01277,28,Severe,Deploy standby bus,Rain,58
+Route_16,T01278,29,Severe,Deploy standby bus,Rain,22
+Route_7,T01279,1,Low,No operational action required,Snow,2
+Route_10,T01280,14,Medium,Monitor route conditions,Snow,55
+Route_12,T01281,6,Medium,Monitor route conditions,Clear,57
+Route_14,T01282,29,Severe,Deploy standby bus,Storm,87
+Route_5,T01283,19,High,Adjust service headway,Cloudy,61
+Route_18,T01284,1,Low,No operational action required,Clear,17
+Route_5,T01285,20,High,Adjust service headway,Fog,60
+Route_3,T01286,13,Medium,Monitor route conditions,Snow,36
+Route_5,T01287,27,Severe,Deploy standby bus,Clear,53
+Route_17,T01288,3,Low,No operational action required,Storm,94
+Route_19,T01289,13,Medium,Monitor route conditions,Fog,77
+Route_19,T01290,24,High,Adjust service headway,Clear,64
+Route_12,T01291,18,High,Adjust service headway,Storm,13
+Route_9,T01292,11,Medium,Monitor route conditions,Storm,4
+Route_1,T01293,11,Medium,Monitor route conditions,Snow,94
+Route_18,T01294,21,High,Adjust service headway,Cloudy,94
+Route_4,T01295,17,High,Adjust service headway,Clear,93
+Route_10,T01296,-2,Low,No operational action required,Storm,99
+Route_7,T01297,23,High,Adjust service headway,Rain,61
+Route_1,T01298,28,Severe,Deploy standby bus,Storm,0
+Route_17,T01299,17,High,Adjust service headway,Cloudy,62
+Route_2,T01300,0,Low,No operational action required,Storm,66
+Route_11,T01301,15,Medium,Monitor route conditions,Snow,19
+Route_9,T01302,-2,Low,No operational action required,Clear,42
+Route_7,T01303,22,High,Adjust service headway,Snow,84
+Route_17,T01304,10,Medium,Monitor route conditions,Clear,93
+Route_17,T01305,11,Medium,Monitor route conditions,Fog,41
+Route_2,T01306,16,High,Adjust service headway,Clear,93
+Route_6,T01307,15,Medium,Monitor route conditions,Fog,68
+Route_14,T01308,5,Low,No operational action required,Snow,73
+Route_6,T01309,3,Low,No operational action required,Rain,87
+Route_2,T01310,26,Severe,Deploy standby bus,Cloudy,38
+Route_1,T01311,9,Medium,Monitor route conditions,Rain,61
+Route_10,T01312,23,High,Adjust service headway,Fog,47
+Route_5,T01313,9,Medium,Monitor route conditions,Storm,5
+Route_2,T01314,11,Medium,Monitor route conditions,Storm,73
+Route_16,T01315,5,Low,No operational action required,Rain,41
+Route_2,T01316,19,High,Adjust service headway,Storm,57
+Route_10,T01317,-1,Low,No operational action required,Fog,42
+Route_2,T01318,15,Medium,Monitor route conditions,Snow,9
+Route_16,T01319,24,High,Adjust service headway,Cloudy,88
+Route_16,T01320,19,High,Adjust service headway,Clear,77
+Route_19,T01321,3,Low,No operational action required,Fog,38
+Route_7,T01322,8,Medium,Monitor route conditions,Fog,12
+Route_12,T01323,10,Medium,Monitor route conditions,Clear,74
+Route_15,T01324,11,Medium,Monitor route conditions,Clear,38
+Route_8,T01325,-1,Low,No operational action required,Cloudy,10
+Route_6,T01326,11,Medium,Monitor route conditions,Cloudy,15
+Route_10,T01327,20,High,Adjust service headway,Cloudy,32
+Route_3,T01328,4,Low,No operational action required,Storm,59
+Route_19,T01329,1,Low,No operational action required,Fog,95
+Route_17,T01330,0,Low,No operational action required,Snow,58
+Route_7,T01331,10,Medium,Monitor route conditions,Clear,73
+Route_20,T01332,12,Medium,Monitor route conditions,Fog,50
+Route_4,T01333,16,High,Adjust service headway,Fog,14
+Route_14,T01334,20,High,Adjust service headway,Cloudy,79
+Route_20,T01335,2,Low,No operational action required,Cloudy,42
+Route_15,T01336,27,Severe,Deploy standby bus,Fog,26
+Route_8,T01337,2,Low,No operational action required,Cloudy,55
+Route_15,T01338,11,Medium,Monitor route conditions,Storm,59
+Route_20,T01339,25,High,Adjust service headway,Clear,95
+Route_14,T01340,-1,Low,No operational action required,Fog,69
+Route_9,T01341,7,Medium,Monitor route conditions,Clear,46
+Route_8,T01342,-1,Low,No operational action required,Storm,99
+Route_17,T01343,24,High,Adjust service headway,Cloudy,7
+Route_2,T01344,6,Medium,Monitor route conditions,Rain,62
+Route_3,T01345,29,Severe,Deploy standby bus,Storm,88
+Route_8,T01346,12,Medium,Monitor route conditions,Rain,6
+Route_12,T01347,6,Medium,Monitor route conditions,Clear,80
+Route_1,T01348,29,Severe,Deploy standby bus,Fog,93
+Route_10,T01349,-1,Low,No operational action required,Cloudy,1
+Route_20,T01350,1,Low,No operational action required,Storm,16
+Route_3,T01351,8,Medium,Monitor route conditions,Cloudy,3
+Route_6,T01352,9,Medium,Monitor route conditions,Rain,25
+Route_7,T01353,20,High,Adjust service headway,Rain,77
+Route_20,T01354,28,Severe,Deploy standby bus,Snow,71
+Route_18,T01355,12,Medium,Monitor route conditions,Fog,68
+Route_11,T01356,28,Severe,Deploy standby bus,Rain,4
+Route_19,T01357,17,High,Adjust service headway,Fog,4
+Route_5,T01358,8,Medium,Monitor route conditions,Snow,90
+Route_19,T01359,17,High,Adjust service headway,Storm,68
+Route_11,T01360,17,High,Adjust service headway,Snow,2
+Route_12,T01361,2,Low,No operational action required,Fog,37
+Route_10,T01362,5,Low,No operational action required,Rain,93
+Route_8,T01363,-3,Low,No operational action required,Clear,0
+Route_9,T01364,8,Medium,Monitor route conditions,Fog,7
+Route_4,T01365,10,Medium,Monitor route conditions,Cloudy,12
+Route_5,T01366,2,Low,No operational action required,Clear,83
+Route_8,T01367,-3,Low,No operational action required,Fog,69
+Route_9,T01368,18,High,Adjust service headway,Cloudy,49
+Route_15,T01369,7,Medium,Monitor route conditions,Snow,7
+Route_15,T01370,-1,Low,No operational action required,Clear,29
+Route_16,T01371,2,Low,No operational action required,Fog,39
+Route_14,T01372,2,Low,No operational action required,Storm,78
+Route_8,T01373,16,High,Adjust service headway,Snow,73
+Route_18,T01374,17,High,Adjust service headway,Cloudy,32
+Route_10,T01375,-2,Low,No operational action required,Storm,72
+Route_20,T01376,22,High,Adjust service headway,Rain,51
+Route_6,T01377,27,Severe,Deploy standby bus,Snow,32
+Route_12,T01378,22,High,Adjust service headway,Snow,72
+Route_2,T01379,28,Severe,Deploy standby bus,Fog,77
+Route_7,T01380,6,Medium,Monitor route conditions,Fog,95
+Route_16,T01381,19,High,Adjust service headway,Cloudy,36
+Route_3,T01382,2,Low,No operational action required,Snow,69
+Route_13,T01383,19,High,Adjust service headway,Fog,68
+Route_3,T01384,24,High,Adjust service headway,Rain,3
+Route_18,T01385,26,Severe,Deploy standby bus,Fog,59
+Route_11,T01386,10,Medium,Monitor route conditions,Snow,79
+Route_8,T01387,28,Severe,Deploy standby bus,Clear,73
+Route_6,T01388,18,High,Adjust service headway,Storm,30
+Route_1,T01389,27,Severe,Deploy standby bus,Snow,94
+Route_1,T01390,3,Low,No operational action required,Rain,13
+Route_8,T01391,17,High,Adjust service headway,Snow,76
+Route_5,T01392,12,Medium,Monitor route conditions,Rain,59
+Route_16,T01393,16,High,Adjust service headway,Snow,67
+Route_11,T01394,15,Medium,Monitor route conditions,Storm,25
+Route_5,T01395,28,Severe,Deploy standby bus,Storm,23
+Route_4,T01396,11,Medium,Monitor route conditions,Rain,55
+Route_6,T01397,1,Low,No operational action required,Snow,8
+Route_14,T01398,7,Medium,Monitor route conditions,Storm,34
+Route_19,T01399,11,Medium,Monitor route conditions,Cloudy,78
+Route_9,T01400,25,High,Adjust service headway,Snow,23
+Route_12,T01401,0,Low,No operational action required,Storm,30
+Route_11,T01402,19,High,Adjust service headway,Clear,82
+Route_14,T01403,11,Medium,Monitor route conditions,Clear,65
+Route_16,T01404,-1,Low,No operational action required,Cloudy,65
+Route_1,T01405,28,Severe,Deploy standby bus,Storm,40
+Route_13,T01406,6,Medium,Monitor route conditions,Clear,35
+Route_13,T01407,18,High,Adjust service headway,Snow,33
+Route_2,T01408,10,Medium,Monitor route conditions,Fog,38
+Route_4,T01409,13,Medium,Monitor route conditions,Storm,82
+Route_6,T01410,17,High,Adjust service headway,Cloudy,22
+Route_5,T01411,11,Medium,Monitor route conditions,Storm,79
+Route_3,T01412,11,Medium,Monitor route conditions,Rain,43
+Route_1,T01413,-3,Low,No operational action required,Rain,69
+Route_4,T01414,20,High,Adjust service headway,Clear,57
+Route_20,T01415,8,Medium,Monitor route conditions,Rain,58
+Route_2,T01416,6,Medium,Monitor route conditions,Cloudy,25
+Route_5,T01417,27,Severe,Deploy standby bus,Clear,21
+Route_3,T01418,7,Medium,Monitor route conditions,Cloudy,87
+Route_9,T01419,12,Medium,Monitor route conditions,Snow,39
+Route_20,T01420,5,Low,No operational action required,Cloudy,84
+Route_6,T01421,10,Medium,Monitor route conditions,Rain,93
+Route_18,T01422,15,Medium,Monitor route conditions,Snow,10
+Route_6,T01423,27,Severe,Deploy standby bus,Rain,8
+Route_19,T01424,5,Low,No operational action required,Cloudy,11
+Route_12,T01425,22,High,Adjust service headway,Rain,25
+Route_11,T01426,4,Low,No operational action required,Rain,37
+Route_2,T01427,20,High,Adjust service headway,Rain,2
+Route_15,T01428,4,Low,No operational action required,Storm,96
+Route_12,T01429,15,Medium,Monitor route conditions,Snow,14
+Route_12,T01430,26,Severe,Deploy standby bus,Snow,46
+Route_9,T01431,18,High,Adjust service headway,Snow,4
+Route_2,T01432,5,Low,No operational action required,Cloudy,53
+Route_3,T01433,0,Low,No operational action required,Fog,23
+Route_12,T01434,4,Low,No operational action required,Cloudy,10
+Route_16,T01435,-3,Low,No operational action required,Snow,32
+Route_1,T01436,24,High,Adjust service headway,Clear,86
+Route_3,T01437,2,Low,No operational action required,Rain,73
+Route_20,T01438,7,Medium,Monitor route conditions,Rain,56
+Route_2,T01439,1,Low,No operational action required,Fog,51
+Route_9,T01440,20,High,Adjust service headway,Clear,63
+Route_19,T01441,14,Medium,Monitor route conditions,Storm,42
+Route_15,T01442,16,High,Adjust service headway,Cloudy,91
+Route_18,T01443,24,High,Adjust service headway,Storm,80
+Route_11,T01444,9,Medium,Monitor route conditions,Clear,43
+Route_16,T01445,1,Low,No operational action required,Fog,89
+Route_17,T01446,26,Severe,Deploy standby bus,Clear,88
+Route_5,T01447,-3,Low,No operational action required,Fog,35
+Route_12,T01448,18,High,Adjust service headway,Storm,11
+Route_11,T01449,14,Medium,Monitor route conditions,Storm,55
+Route_15,T01450,1,Low,No operational action required,Clear,2
+Route_3,T01451,27,Severe,Deploy standby bus,Clear,49
+Route_1,T01452,2,Low,No operational action required,Rain,28
+Route_20,T01453,23,High,Adjust service headway,Fog,87
+Route_16,T01454,21,High,Adjust service headway,Rain,82
+Route_2,T01455,25,High,Adjust service headway,Cloudy,76
+Route_2,T01456,24,High,Adjust service headway,Cloudy,15
+Route_3,T01457,12,Medium,Monitor route conditions,Clear,39
+Route_8,T01458,8,Medium,Monitor route conditions,Storm,26
+Route_15,T01459,16,High,Adjust service headway,Cloudy,69
+Route_7,T01460,14,Medium,Monitor route conditions,Cloudy,41
+Route_6,T01461,19,High,Adjust service headway,Rain,56
+Route_9,T01462,23,High,Adjust service headway,Rain,9
+Route_20,T01463,13,Medium,Monitor route conditions,Cloudy,37
+Route_1,T01464,17,High,Adjust service headway,Clear,7
+Route_8,T01465,27,Severe,Deploy standby bus,Rain,17
+Route_3,T01466,-1,Low,No operational action required,Cloudy,95
+Route_4,T01467,13,Medium,Monitor route conditions,Storm,16
+Route_15,T01468,22,High,Adjust service headway,Rain,57
+Route_6,T01469,19,High,Adjust service headway,Cloudy,65
+Route_15,T01470,2,Low,No operational action required,Fog,43
+Route_3,T01471,24,High,Adjust service headway,Rain,83
+Route_14,T01472,4,Low,No operational action required,Fog,73
+Route_20,T01473,4,Low,No operational action required,Rain,8
+Route_14,T01474,15,Medium,Monitor route conditions,Rain,47
+Route_4,T01475,25,High,Adjust service headway,Snow,38
+Route_12,T01476,19,High,Adjust service headway,Snow,88
+Route_17,T01477,28,Severe,Deploy standby bus,Fog,88
+Route_7,T01478,6,Medium,Monitor route conditions,Clear,87
+Route_9,T01479,23,High,Adjust service headway,Cloudy,5
+Route_3,T01480,-3,Low,No operational action required,Clear,29
+Route_13,T01481,25,High,Adjust service headway,Clear,73
+Route_15,T01482,-1,Low,No operational action required,Snow,94
+Route_18,T01483,27,Severe,Deploy standby bus,Cloudy,17
+Route_19,T01484,7,Medium,Monitor route conditions,Snow,42
+Route_1,T01485,18,High,Adjust service headway,Snow,32
+Route_6,T01486,14,Medium,Monitor route conditions,Snow,52
+Route_2,T01487,2,Low,No operational action required,Storm,55
+Route_14,T01488,-1,Low,No operational action required,Clear,18
+Route_6,T01489,1,Low,No operational action required,Clear,86
+Route_14,T01490,5,Low,No operational action required,Clear,68
+Route_4,T01491,24,High,Adjust service headway,Storm,25
+Route_8,T01492,15,Medium,Monitor route conditions,Rain,28
+Route_3,T01493,24,High,Adjust service headway,Fog,23
+Route_19,T01494,23,High,Adjust service headway,Fog,5
+Route_14,T01495,9,Medium,Monitor route conditions,Storm,53
+Route_20,T01496,17,High,Adjust service headway,Clear,38
+Route_17,T01497,23,High,Adjust service headway,Fog,3
+Route_8,T01498,2,Low,No operational action required,Storm,57
+Route_14,T01499,7,Medium,Monitor route conditions,Snow,47
+Route_6,T01500,13,Medium,Monitor route conditions,Cloudy,59
+Route_16,T01501,3,Low,No operational action required,Fog,25
+Route_19,T01502,26,Severe,Deploy standby bus,Cloudy,78
+Route_14,T01503,17,High,Adjust service headway,Clear,76
+Route_19,T01504,-3,Low,No operational action required,Fog,39
+Route_3,T01505,21,High,Adjust service headway,Storm,85
+Route_10,T01506,28,Severe,Deploy standby bus,Rain,76
+Route_19,T01507,4,Low,No operational action required,Fog,55
+Route_9,T01508,1,Low,No operational action required,Fog,38
+Route_20,T01509,26,Severe,Deploy standby bus,Fog,80
+Route_13,T01510,4,Low,No operational action required,Fog,99
+Route_7,T01511,15,Medium,Monitor route conditions,Storm,38
+Route_14,T01512,26,Severe,Deploy standby bus,Storm,47
+Route_9,T01513,11,Medium,Monitor route conditions,Rain,24
+Route_19,T01514,23,High,Adjust service headway,Storm,33
+Route_15,T01515,9,Medium,Monitor route conditions,Storm,20
+Route_20,T01516,10,Medium,Monitor route conditions,Clear,24
+Route_14,T01517,26,Severe,Deploy standby bus,Clear,88
+Route_6,T01518,9,Medium,Monitor route conditions,Cloudy,21
+Route_4,T01519,12,Medium,Monitor route conditions,Rain,22
+Route_8,T01520,3,Low,No operational action required,Clear,24
+Route_17,T01521,23,High,Adjust service headway,Rain,77
+Route_9,T01522,11,Medium,Monitor route conditions,Rain,77
+Route_1,T01523,24,High,Adjust service headway,Fog,25
+Route_20,T01524,3,Low,No operational action required,Snow,29
+Route_14,T01525,16,High,Adjust service headway,Snow,89
+Route_11,T01526,28,Severe,Deploy standby bus,Snow,37
+Route_3,T01527,28,Severe,Deploy standby bus,Rain,85
+Route_9,T01528,22,High,Adjust service headway,Fog,33
+Route_14,T01529,16,High,Adjust service headway,Cloudy,88
+Route_9,T01530,14,Medium,Monitor route conditions,Cloudy,99
+Route_4,T01531,11,Medium,Monitor route conditions,Snow,76
+Route_4,T01532,18,High,Adjust service headway,Cloudy,92
+Route_8,T01533,18,High,Adjust service headway,Fog,72
+Route_2,T01534,17,High,Adjust service headway,Snow,14
+Route_9,T01535,-2,Low,No operational action required,Fog,94
+Route_14,T01536,14,Medium,Monitor route conditions,Cloudy,43
+Route_9,T01537,19,High,Adjust service headway,Snow,90
+Route_16,T01538,9,Medium,Monitor route conditions,Fog,94
+Route_17,T01539,5,Low,No operational action required,Storm,9
+Route_16,T01540,3,Low,No operational action required,Storm,36
+Route_12,T01541,-3,Low,No operational action required,Fog,6
+Route_3,T01542,-2,Low,No operational action required,Fog,31
+Route_11,T01543,0,Low,No operational action required,Clear,10
+Route_14,T01544,10,Medium,Monitor route conditions,Clear,47
+Route_18,T01545,28,Severe,Deploy standby bus,Rain,91
+Route_5,T01546,-2,Low,No operational action required,Snow,67
+Route_16,T01547,10,Medium,Monitor route conditions,Rain,47
+Route_20,T01548,16,High,Adjust service headway,Rain,44
+Route_5,T01549,21,High,Adjust service headway,Cloudy,94
+Route_3,T01550,4,Low,No operational action required,Storm,92
+Route_12,T01551,24,High,Adjust service headway,Cloudy,32
+Route_1,T01552,17,High,Adjust service headway,Snow,3
+Route_9,T01553,19,High,Adjust service headway,Fog,46
+Route_9,T01554,28,Severe,Deploy standby bus,Clear,89
+Route_4,T01555,4,Low,No operational action required,Snow,52
+Route_3,T01556,27,Severe,Deploy standby bus,Fog,30
+Route_17,T01557,12,Medium,Monitor route conditions,Snow,30
+Route_2,T01558,23,High,Adjust service headway,Fog,26
+Route_1,T01559,14,Medium,Monitor route conditions,Clear,88
+Route_8,T01560,11,Medium,Monitor route conditions,Fog,47
+Route_13,T01561,23,High,Adjust service headway,Rain,35
+Route_15,T01562,13,Medium,Monitor route conditions,Snow,48
+Route_8,T01563,-2,Low,No operational action required,Clear,30
+Route_12,T01564,27,Severe,Deploy standby bus,Fog,43
+Route_12,T01565,-1,Low,No operational action required,Rain,58
+Route_14,T01566,13,Medium,Monitor route conditions,Rain,22
+Route_15,T01567,10,Medium,Monitor route conditions,Storm,98
+Route_15,T01568,10,Medium,Monitor route conditions,Rain,67
+Route_9,T01569,-3,Low,No operational action required,Cloudy,91
+Route_19,T01570,25,High,Adjust service headway,Clear,41
+Route_20,T01571,0,Low,No operational action required,Clear,41
+Route_8,T01572,29,Severe,Deploy standby bus,Clear,12
+Route_19,T01573,13,Medium,Monitor route conditions,Fog,0
+Route_6,T01574,24,High,Adjust service headway,Snow,75
+Route_20,T01575,22,High,Adjust service headway,Fog,52
+Route_19,T01576,4,Low,No operational action required,Cloudy,39
+Route_4,T01577,14,Medium,Monitor route conditions,Snow,89
+Route_7,T01578,27,Severe,Deploy standby bus,Rain,45
+Route_4,T01579,23,High,Adjust service headway,Fog,86
+Route_12,T01580,12,Medium,Monitor route conditions,Snow,21
+Route_13,T01581,6,Medium,Monitor route conditions,Rain,51
+Route_3,T01582,8,Medium,Monitor route conditions,Snow,27
+Route_12,T01583,18,High,Adjust service headway,Rain,52
+Route_2,T01584,12,Medium,Monitor route conditions,Snow,62
+Route_2,T01585,8,Medium,Monitor route conditions,Fog,16
+Route_9,T01586,7,Medium,Monitor route conditions,Fog,63
+Route_1,T01587,16,High,Adjust service headway,Cloudy,5
+Route_8,T01588,-3,Low,No operational action required,Storm,13
+Route_6,T01589,23,High,Adjust service headway,Clear,16
+Route_6,T01590,-1,Low,No operational action required,Fog,37
+Route_18,T01591,8,Medium,Monitor route conditions,Fog,68
+Route_17,T01592,26,Severe,Deploy standby bus,Rain,12
+Route_12,T01593,5,Low,No operational action required,Storm,52
+Route_6,T01594,-3,Low,No operational action required,Fog,8
+Route_8,T01595,0,Low,No operational action required,Snow,43
+Route_19,T01596,11,Medium,Monitor route conditions,Storm,25
+Route_10,T01597,23,High,Adjust service headway,Clear,76
+Route_1,T01598,4,Low,No operational action required,Snow,18
+Route_13,T01599,19,High,Adjust service headway,Rain,47
+Route_17,T01600,11,Medium,Monitor route conditions,Cloudy,80
+Route_3,T01601,23,High,Adjust service headway,Snow,79
+Route_8,T01602,27,Severe,Deploy standby bus,Clear,29
+Route_14,T01603,4,Low,No operational action required,Snow,31
+Route_3,T01604,26,Severe,Deploy standby bus,Storm,77
+Route_16,T01605,14,Medium,Monitor route conditions,Storm,78
+Route_13,T01606,0,Low,No operational action required,Clear,75
+Route_20,T01607,18,High,Adjust service headway,Storm,74
+Route_17,T01608,-1,Low,No operational action required,Snow,68
+Route_13,T01609,11,Medium,Monitor route conditions,Cloudy,10
+Route_6,T01610,29,Severe,Deploy standby bus,Snow,97
+Route_17,T01611,10,Medium,Monitor route conditions,Cloudy,82
+Route_14,T01612,-3,Low,No operational action required,Storm,25
+Route_17,T01613,22,High,Adjust service headway,Snow,25
+Route_8,T01614,4,Low,No operational action required,Storm,16
+Route_11,T01615,12,Medium,Monitor route conditions,Cloudy,94
+Route_20,T01616,6,Medium,Monitor route conditions,Storm,82
+Route_1,T01617,22,High,Adjust service headway,Fog,43
+Route_7,T01618,24,High,Adjust service headway,Rain,83
+Route_17,T01619,8,Medium,Monitor route conditions,Snow,22
+Route_10,T01620,16,High,Adjust service headway,Fog,24
+Route_11,T01621,10,Medium,Monitor route conditions,Storm,91
+Route_9,T01622,25,High,Adjust service headway,Storm,36
+Route_9,T01623,8,Medium,Monitor route conditions,Rain,75
+Route_5,T01624,14,Medium,Monitor route conditions,Storm,64
+Route_17,T01625,-2,Low,No operational action required,Rain,1
+Route_9,T01626,-2,Low,No operational action required,Snow,73
+Route_17,T01627,13,Medium,Monitor route conditions,Cloudy,97
+Route_19,T01628,6,Medium,Monitor route conditions,Rain,31
+Route_7,T01629,14,Medium,Monitor route conditions,Rain,88
+Route_9,T01630,18,High,Adjust service headway,Fog,73
+Route_7,T01631,15,Medium,Monitor route conditions,Storm,54
+Route_13,T01632,-3,Low,No operational action required,Snow,49
+Route_11,T01633,20,High,Adjust service headway,Cloudy,64
+Route_14,T01634,21,High,Adjust service headway,Clear,31
+Route_19,T01635,27,Severe,Deploy standby bus,Rain,36
+Route_11,T01636,27,Severe,Deploy standby bus,Clear,75
+Route_13,T01637,-2,Low,No operational action required,Storm,81
+Route_14,T01638,15,Medium,Monitor route conditions,Rain,93
+Route_13,T01639,8,Medium,Monitor route conditions,Clear,12
+Route_1,T01640,6,Medium,Monitor route conditions,Fog,53
+Route_8,T01641,27,Severe,Deploy standby bus,Clear,2
+Route_12,T01642,18,High,Adjust service headway,Fog,84
+Route_19,T01643,19,High,Adjust service headway,Cloudy,41
+Route_12,T01644,19,High,Adjust service headway,Storm,77
+Route_8,T01645,11,Medium,Monitor route conditions,Snow,39
+Route_8,T01646,22,High,Adjust service headway,Clear,73
+Route_13,T01647,-1,Low,No operational action required,Rain,65
+Route_12,T01648,19,High,Adjust service headway,Storm,59
+Route_16,T01649,16,High,Adjust service headway,Clear,10
+Route_1,T01650,4,Low,No operational action required,Rain,0
+Route_13,T01651,14,Medium,Monitor route conditions,Rain,25
+Route_7,T01652,2,Low,No operational action required,Snow,41
+Route_5,T01653,23,High,Adjust service headway,Snow,61
+Route_8,T01654,11,Medium,Monitor route conditions,Rain,60
+Route_14,T01655,1,Low,No operational action required,Snow,76
+Route_13,T01656,5,Low,No operational action required,Rain,91
+Route_15,T01657,3,Low,No operational action required,Clear,99
+Route_17,T01658,16,High,Adjust service headway,Cloudy,84
+Route_15,T01659,6,Medium,Monitor route conditions,Snow,61
+Route_20,T01660,22,High,Adjust service headway,Fog,73
+Route_18,T01661,0,Low,No operational action required,Fog,11
+Route_18,T01662,20,High,Adjust service headway,Fog,26
+Route_2,T01663,10,Medium,Monitor route conditions,Cloudy,66
+Route_4,T01664,-3,Low,No operational action required,Rain,27
+Route_1,T01665,13,Medium,Monitor route conditions,Rain,65
+Route_4,T01666,20,High,Adjust service headway,Storm,27
+Route_18,T01667,23,High,Adjust service headway,Fog,94
+Route_5,T01668,3,Low,No operational action required,Fog,20
+Route_19,T01669,5,Low,No operational action required,Rain,6
+Route_15,T01670,8,Medium,Monitor route conditions,Fog,94
+Route_8,T01671,17,High,Adjust service headway,Rain,13
+Route_20,T01672,-1,Low,No operational action required,Rain,38
+Route_17,T01673,11,Medium,Monitor route conditions,Snow,72
+Route_1,T01674,17,High,Adjust service headway,Rain,86
+Route_12,T01675,6,Medium,Monitor route conditions,Clear,61
+Route_19,T01676,29,Severe,Deploy standby bus,Clear,11
+Route_15,T01677,2,Low,No operational action required,Clear,92
+Route_9,T01678,-2,Low,No operational action required,Clear,37
+Route_7,T01679,25,High,Adjust service headway,Cloudy,57
+Route_2,T01680,29,Severe,Deploy standby bus,Storm,55
+Route_9,T01681,0,Low,No operational action required,Storm,38
+Route_10,T01682,0,Low,No operational action required,Rain,85
+Route_2,T01683,25,High,Adjust service headway,Fog,3
+Route_19,T01684,16,High,Adjust service headway,Clear,47
+Route_11,T01685,19,High,Adjust service headway,Storm,6
+Route_13,T01686,14,Medium,Monitor route conditions,Storm,59
+Route_10,T01687,21,High,Adjust service headway,Clear,39
+Route_14,T01688,-3,Low,No operational action required,Cloudy,7
+Route_18,T01689,11,Medium,Monitor route conditions,Cloudy,57
+Route_19,T01690,16,High,Adjust service headway,Storm,56
+Route_9,T01691,23,High,Adjust service headway,Cloudy,34
+Route_7,T01692,18,High,Adjust service headway,Snow,72
+Route_3,T01693,1,Low,No operational action required,Clear,12
+Route_20,T01694,-1,Low,No operational action required,Storm,38
+Route_6,T01695,13,Medium,Monitor route conditions,Clear,83
+Route_2,T01696,20,High,Adjust service headway,Cloudy,20
+Route_6,T01697,20,High,Adjust service headway,Clear,46
+Route_3,T01698,-1,Low,No operational action required,Cloudy,82
+Route_16,T01699,3,Low,No operational action required,Cloudy,1
+Route_8,T01700,21,High,Adjust service headway,Clear,43
+Route_2,T01701,-1,Low,No operational action required,Cloudy,29
+Route_17,T01702,11,Medium,Monitor route conditions,Snow,86
+Route_9,T01703,25,High,Adjust service headway,Rain,54
+Route_12,T01704,25,High,Adjust service headway,Clear,39
+Route_3,T01705,6,Medium,Monitor route conditions,Rain,76
+Route_11,T01706,28,Severe,Deploy standby bus,Clear,96
+Route_1,T01707,19,High,Adjust service headway,Cloudy,95
+Route_13,T01708,5,Low,No operational action required,Cloudy,91
+Route_15,T01709,10,Medium,Monitor route conditions,Storm,23
+Route_5,T01710,0,Low,No operational action required,Snow,41
+Route_17,T01711,16,High,Adjust service headway,Storm,27
+Route_6,T01712,24,High,Adjust service headway,Rain,93
+Route_11,T01713,10,Medium,Monitor route conditions,Cloudy,92
+Route_18,T01714,9,Medium,Monitor route conditions,Storm,97
+Route_4,T01715,27,Severe,Deploy standby bus,Cloudy,50
+Route_3,T01716,29,Severe,Deploy standby bus,Clear,21
+Route_13,T01717,24,High,Adjust service headway,Storm,88
+Route_9,T01718,21,High,Adjust service headway,Rain,77
+Route_6,T01719,28,Severe,Deploy standby bus,Storm,73
+Route_12,T01720,5,Low,No operational action required,Cloudy,73
+Route_2,T01721,24,High,Adjust service headway,Fog,7
+Route_3,T01722,27,Severe,Deploy standby bus,Fog,13
+Route_3,T01723,13,Medium,Monitor route conditions,Snow,44
+Route_12,T01724,19,High,Adjust service headway,Cloudy,37
+Route_15,T01725,9,Medium,Monitor route conditions,Clear,31
+Route_9,T01726,6,Medium,Monitor route conditions,Storm,61
+Route_8,T01727,12,Medium,Monitor route conditions,Fog,95
+Route_11,T01728,2,Low,No operational action required,Clear,66
+Route_16,T01729,7,Medium,Monitor route conditions,Cloudy,83
+Route_4,T01730,-1,Low,No operational action required,Clear,60
+Route_1,T01731,24,High,Adjust service headway,Cloudy,12
+Route_7,T01732,11,Medium,Monitor route conditions,Snow,86
+Route_2,T01733,9,Medium,Monitor route conditions,Storm,82
+Route_5,T01734,13,Medium,Monitor route conditions,Clear,79
+Route_7,T01735,3,Low,No operational action required,Storm,99
+Route_4,T01736,24,High,Adjust service headway,Clear,98
+Route_5,T01737,9,Medium,Monitor route conditions,Cloudy,46
+Route_1,T01738,13,Medium,Monitor route conditions,Cloudy,53
+Route_1,T01739,11,Medium,Monitor route conditions,Clear,70
+Route_15,T01740,24,High,Adjust service headway,Snow,51
+Route_20,T01741,11,Medium,Monitor route conditions,Cloudy,71
+Route_19,T01742,7,Medium,Monitor route conditions,Rain,24
+Route_10,T01743,27,Severe,Deploy standby bus,Rain,22
+Route_18,T01744,0,Low,No operational action required,Storm,73
+Route_3,T01745,23,High,Adjust service headway,Rain,29
+Route_11,T01746,6,Medium,Monitor route conditions,Rain,96
+Route_15,T01747,26,Severe,Deploy standby bus,Snow,10
+Route_11,T01748,16,High,Adjust service headway,Snow,34
+Route_17,T01749,25,High,Adjust service headway,Fog,26
+Route_17,T01750,25,High,Adjust service headway,Fog,66
+Route_6,T01751,19,High,Adjust service headway,Snow,46
+Route_5,T01752,17,High,Adjust service headway,Fog,49
+Route_8,T01753,6,Medium,Monitor route conditions,Snow,7
+Route_2,T01754,8,Medium,Monitor route conditions,Fog,54
+Route_16,T01755,26,Severe,Deploy standby bus,Cloudy,76
+Route_20,T01756,29,Severe,Deploy standby bus,Snow,41
+Route_12,T01757,14,Medium,Monitor route conditions,Storm,66
+Route_6,T01758,10,Medium,Monitor route conditions,Storm,19
+Route_1,T01759,18,High,Adjust service headway,Snow,44
+Route_4,T01760,17,High,Adjust service headway,Rain,34
+Route_17,T01761,-3,Low,No operational action required,Storm,76
+Route_13,T01762,11,Medium,Monitor route conditions,Rain,19
+Route_18,T01763,18,High,Adjust service headway,Storm,23
+Route_5,T01764,28,Severe,Deploy standby bus,Clear,56
+Route_3,T01765,29,Severe,Deploy standby bus,Clear,54
+Route_11,T01766,19,High,Adjust service headway,Snow,8
+Route_13,T01767,-2,Low,No operational action required,Storm,93
+Route_4,T01768,-2,Low,No operational action required,Cloudy,88
+Route_14,T01769,25,High,Adjust service headway,Rain,15
+Route_11,T01770,-1,Low,No operational action required,Storm,54
+Route_10,T01771,3,Low,No operational action required,Snow,71
+Route_19,T01772,25,High,Adjust service headway,Rain,57
+Route_18,T01773,19,High,Adjust service headway,Fog,63
+Route_6,T01774,12,Medium,Monitor route conditions,Snow,91
+Route_15,T01775,27,Severe,Deploy standby bus,Storm,75
+Route_10,T01776,-3,Low,No operational action required,Cloudy,87
+Route_5,T01777,14,Medium,Monitor route conditions,Fog,48
+Route_5,T01778,11,Medium,Monitor route conditions,Snow,28
+Route_10,T01779,13,Medium,Monitor route conditions,Storm,78
+Route_5,T01780,6,Medium,Monitor route conditions,Clear,81
+Route_3,T01781,16,High,Adjust service headway,Storm,6
+Route_6,T01782,2,Low,No operational action required,Clear,76
+Route_4,T01783,4,Low,No operational action required,Clear,82
+Route_18,T01784,28,Severe,Deploy standby bus,Snow,68
+Route_9,T01785,0,Low,No operational action required,Storm,89
+Route_17,T01786,16,High,Adjust service headway,Storm,1
+Route_13,T01787,20,High,Adjust service headway,Clear,32
+Route_15,T01788,20,High,Adjust service headway,Rain,47
+Route_20,T01789,22,High,Adjust service headway,Fog,36
+Route_17,T01790,21,High,Adjust service headway,Cloudy,88
+Route_13,T01791,3,Low,No operational action required,Storm,88
+Route_16,T01792,6,Medium,Monitor route conditions,Fog,29
+Route_4,T01793,8,Medium,Monitor route conditions,Fog,40
+Route_5,T01794,-3,Low,No operational action required,Rain,3
+Route_5,T01795,21,High,Adjust service headway,Fog,82
+Route_9,T01796,12,Medium,Monitor route conditions,Storm,90
+Route_17,T01797,1,Low,No operational action required,Snow,38
+Route_13,T01798,15,Medium,Monitor route conditions,Snow,23
+Route_2,T01799,0,Low,No operational action required,Fog,49
+Route_13,T01800,2,Low,No operational action required,Storm,36
+Route_19,T01801,22,High,Adjust service headway,Storm,52
+Route_3,T01802,5,Low,No operational action required,Clear,24
+Route_10,T01803,10,Medium,Monitor route conditions,Rain,92
+Route_2,T01804,5,Low,No operational action required,Cloudy,30
+Route_13,T01805,11,Medium,Monitor route conditions,Clear,98
+Route_19,T01806,16,High,Adjust service headway,Cloudy,91
+Route_17,T01807,4,Low,No operational action required,Storm,37
+Route_14,T01808,28,Severe,Deploy standby bus,Snow,57
+Route_12,T01809,17,High,Adjust service headway,Clear,52
+Route_12,T01810,15,Medium,Monitor route conditions,Fog,49
+Route_11,T01811,25,High,Adjust service headway,Fog,3
+Route_7,T01812,27,Severe,Deploy standby bus,Cloudy,91
+Route_4,T01813,2,Low,No operational action required,Storm,51
+Route_19,T01814,0,Low,No operational action required,Snow,30
+Route_1,T01815,25,High,Adjust service headway,Cloudy,86
+Route_3,T01816,-1,Low,No operational action required,Snow,77
+Route_13,T01817,-3,Low,No operational action required,Rain,91
+Route_15,T01818,11,Medium,Monitor route conditions,Snow,13
+Route_2,T01819,17,High,Adjust service headway,Fog,0
+Route_11,T01820,27,Severe,Deploy standby bus,Clear,42
+Route_4,T01821,3,Low,No operational action required,Clear,95
+Route_19,T01822,13,Medium,Monitor route conditions,Clear,58
+Route_17,T01823,15,Medium,Monitor route conditions,Snow,60
+Route_3,T01824,-1,Low,No operational action required,Fog,40
+Route_18,T01825,26,Severe,Deploy standby bus,Snow,17
+Route_8,T01826,25,High,Adjust service headway,Storm,59
+Route_19,T01827,10,Medium,Monitor route conditions,Fog,68
+Route_5,T01828,24,High,Adjust service headway,Fog,78
+Route_7,T01829,26,Severe,Deploy standby bus,Snow,58
+Route_8,T01830,22,High,Adjust service headway,Snow,41
+Route_5,T01831,3,Low,No operational action required,Clear,79
+Route_17,T01832,27,Severe,Deploy standby bus,Fog,99
+Route_5,T01833,1,Low,No operational action required,Clear,35
+Route_4,T01834,10,Medium,Monitor route conditions,Storm,39
+Route_19,T01835,23,High,Adjust service headway,Rain,29
+Route_2,T01836,20,High,Adjust service headway,Clear,86
+Route_11,T01837,25,High,Adjust service headway,Snow,10
+Route_13,T01838,18,High,Adjust service headway,Cloudy,24
+Route_15,T01839,4,Low,No operational action required,Rain,44
+Route_12,T01840,11,Medium,Monitor route conditions,Storm,50
+Route_11,T01841,1,Low,No operational action required,Snow,42
+Route_7,T01842,0,Low,No operational action required,Rain,65
+Route_5,T01843,7,Medium,Monitor route conditions,Snow,98
+Route_17,T01844,14,Medium,Monitor route conditions,Clear,46
+Route_20,T01845,26,Severe,Deploy standby bus,Snow,23
+Route_9,T01846,11,Medium,Monitor route conditions,Storm,76
+Route_14,T01847,2,Low,No operational action required,Cloudy,36
+Route_12,T01848,12,Medium,Monitor route conditions,Clear,55
+Route_6,T01849,5,Low,No operational action required,Clear,93
+Route_17,T01850,23,High,Adjust service headway,Storm,74
+Route_19,T01851,9,Medium,Monitor route conditions,Storm,86
+Route_19,T01852,23,High,Adjust service headway,Rain,45
+Route_16,T01853,5,Low,No operational action required,Cloudy,27
+Route_12,T01854,1,Low,No operational action required,Snow,92
+Route_12,T01855,18,High,Adjust service headway,Rain,51
+Route_20,T01856,27,Severe,Deploy standby bus,Snow,14
+Route_6,T01857,-1,Low,No operational action required,Snow,44
+Route_4,T01858,26,Severe,Deploy standby bus,Snow,57
+Route_6,T01859,17,High,Adjust service headway,Rain,66
+Route_11,T01860,2,Low,No operational action required,Clear,72
+Route_1,T01861,24,High,Adjust service headway,Storm,71
+Route_15,T01862,28,Severe,Deploy standby bus,Clear,96
+Route_11,T01863,21,High,Adjust service headway,Cloudy,97
+Route_19,T01864,28,Severe,Deploy standby bus,Rain,72
+Route_18,T01865,18,High,Adjust service headway,Cloudy,80
+Route_17,T01866,20,High,Adjust service headway,Storm,40
+Route_19,T01867,26,Severe,Deploy standby bus,Storm,64
+Route_14,T01868,28,Severe,Deploy standby bus,Fog,39
+Route_18,T01869,27,Severe,Deploy standby bus,Cloudy,4
+Route_19,T01870,19,High,Adjust service headway,Clear,93
+Route_15,T01871,29,Severe,Deploy standby bus,Cloudy,74
+Route_15,T01872,21,High,Adjust service headway,Rain,27
+Route_4,T01873,20,High,Adjust service headway,Storm,37
+Route_7,T01874,27,Severe,Deploy standby bus,Storm,80
+Route_13,T01875,9,Medium,Monitor route conditions,Cloudy,86
+Route_3,T01876,6,Medium,Monitor route conditions,Cloudy,17
+Route_16,T01877,19,High,Adjust service headway,Snow,36
+Route_9,T01878,14,Medium,Monitor route conditions,Cloudy,26
+Route_8,T01879,28,Severe,Deploy standby bus,Snow,24
+Route_20,T01880,29,Severe,Deploy standby bus,Rain,68
+Route_13,T01881,24,High,Adjust service headway,Rain,82
+Route_17,T01882,12,Medium,Monitor route conditions,Clear,26
+Route_17,T01883,12,Medium,Monitor route conditions,Cloudy,76
+Route_17,T01884,14,Medium,Monitor route conditions,Clear,53
+Route_1,T01885,4,Low,No operational action required,Fog,6
+Route_8,T01886,12,Medium,Monitor route conditions,Rain,89
+Route_19,T01887,7,Medium,Monitor route conditions,Storm,77
+Route_6,T01888,2,Low,No operational action required,Snow,26
+Route_3,T01889,-3,Low,No operational action required,Fog,58
+Route_5,T01890,8,Medium,Monitor route conditions,Storm,71
+Route_13,T01891,24,High,Adjust service headway,Fog,30
+Route_15,T01892,13,Medium,Monitor route conditions,Clear,98
+Route_14,T01893,-3,Low,No operational action required,Clear,90
+Route_16,T01894,28,Severe,Deploy standby bus,Snow,67
+Route_18,T01895,4,Low,No operational action required,Rain,3
+Route_11,T01896,20,High,Adjust service headway,Snow,17
+Route_3,T01897,6,Medium,Monitor route conditions,Storm,62
+Route_10,T01898,6,Medium,Monitor route conditions,Fog,86
+Route_10,T01899,21,High,Adjust service headway,Snow,95
+Route_16,T01900,6,Medium,Monitor route conditions,Cloudy,75
+Route_12,T01901,15,Medium,Monitor route conditions,Cloudy,51
+Route_2,T01902,11,Medium,Monitor route conditions,Rain,83
+Route_9,T01903,12,Medium,Monitor route conditions,Snow,62
+Route_3,T01904,-2,Low,No operational action required,Storm,44
+Route_15,T01905,25,High,Adjust service headway,Cloudy,11
+Route_3,T01906,0,Low,No operational action required,Rain,7
+Route_19,T01907,25,High,Adjust service headway,Snow,21
+Route_18,T01908,27,Severe,Deploy standby bus,Rain,90
+Route_8,T01909,13,Medium,Monitor route conditions,Storm,40
+Route_17,T01910,6,Medium,Monitor route conditions,Cloudy,40
+Route_8,T01911,23,High,Adjust service headway,Cloudy,80
+Route_7,T01912,11,Medium,Monitor route conditions,Cloudy,56
+Route_7,T01913,27,Severe,Deploy standby bus,Clear,31
+Route_3,T01914,17,High,Adjust service headway,Cloudy,96
+Route_1,T01915,22,High,Adjust service headway,Fog,94
+Route_4,T01916,13,Medium,Monitor route conditions,Clear,54
+Route_5,T01917,-1,Low,No operational action required,Snow,5
+Route_1,T01918,10,Medium,Monitor route conditions,Clear,38
+Route_15,T01919,9,Medium,Monitor route conditions,Clear,8
+Route_5,T01920,23,High,Adjust service headway,Clear,31
+Route_13,T01921,-3,Low,No operational action required,Rain,35
+Route_8,T01922,13,Medium,Monitor route conditions,Fog,15
+Route_8,T01923,10,Medium,Monitor route conditions,Storm,11
+Route_5,T01924,13,Medium,Monitor route conditions,Cloudy,40
+Route_9,T01925,-1,Low,No operational action required,Clear,66
+Route_1,T01926,21,High,Adjust service headway,Storm,57
+Route_4,T01927,-2,Low,No operational action required,Rain,90
+Route_3,T01928,22,High,Adjust service headway,Storm,90
+Route_2,T01929,27,Severe,Deploy standby bus,Clear,8
+Route_8,T01930,5,Low,No operational action required,Snow,16
+Route_9,T01931,26,Severe,Deploy standby bus,Fog,4
+Route_2,T01932,16,High,Adjust service headway,Storm,25
+Route_14,T01933,17,High,Adjust service headway,Clear,84
+Route_14,T01934,25,High,Adjust service headway,Clear,0
+Route_4,T01935,21,High,Adjust service headway,Cloudy,0
+Route_6,T01936,21,High,Adjust service headway,Snow,34
+Route_11,T01937,5,Low,No operational action required,Cloudy,8
+Route_3,T01938,22,High,Adjust service headway,Snow,86
+Route_8,T01939,12,Medium,Monitor route conditions,Fog,37
+Route_3,T01940,8,Medium,Monitor route conditions,Cloudy,3
+Route_14,T01941,20,High,Adjust service headway,Fog,51
+Route_13,T01942,22,High,Adjust service headway,Rain,18
+Route_13,T01943,16,High,Adjust service headway,Rain,4
+Route_2,T01944,5,Low,No operational action required,Snow,91
+Route_13,T01945,19,High,Adjust service headway,Snow,47
+Route_19,T01946,25,High,Adjust service headway,Cloudy,86
+Route_6,T01947,27,Severe,Deploy standby bus,Rain,62
+Route_16,T01948,15,Medium,Monitor route conditions,Storm,37
+Route_2,T01949,16,High,Adjust service headway,Storm,51
+Route_8,T01950,19,High,Adjust service headway,Storm,86
+Route_17,T01951,23,High,Adjust service headway,Rain,45
+Route_2,T01952,26,Severe,Deploy standby bus,Storm,81
+Route_10,T01953,17,High,Adjust service headway,Fog,92
+Route_16,T01954,3,Low,No operational action required,Clear,91
+Route_6,T01955,18,High,Adjust service headway,Snow,8
+Route_2,T01956,6,Medium,Monitor route conditions,Cloudy,49
+Route_2,T01957,19,High,Adjust service headway,Fog,73
+Route_13,T01958,11,Medium,Monitor route conditions,Storm,65
+Route_15,T01959,26,Severe,Deploy standby bus,Clear,76
+Route_2,T01960,9,Medium,Monitor route conditions,Cloudy,37
+Route_7,T01961,0,Low,No operational action required,Fog,26
+Route_3,T01962,14,Medium,Monitor route conditions,Cloudy,19
+Route_8,T01963,19,High,Adjust service headway,Snow,61
+Route_14,T01964,29,Severe,Deploy standby bus,Rain,73
+Route_7,T01965,13,Medium,Monitor route conditions,Storm,15
+Route_7,T01966,24,High,Adjust service headway,Fog,78
+Route_1,T01967,10,Medium,Monitor route conditions,Fog,12
+Route_17,T01968,7,Medium,Monitor route conditions,Clear,19
+Route_9,T01969,9,Medium,Monitor route conditions,Clear,23
+Route_13,T01970,29,Severe,Deploy standby bus,Clear,49
+Route_19,T01971,-2,Low,No operational action required,Cloudy,6
+Route_19,T01972,25,High,Adjust service headway,Storm,86
+Route_17,T01973,0,Low,No operational action required,Cloudy,87
+Route_10,T01974,8,Medium,Monitor route conditions,Storm,28
+Route_10,T01975,22,High,Adjust service headway,Fog,4
+Route_4,T01976,24,High,Adjust service headway,Cloudy,34
+Route_8,T01977,-1,Low,No operational action required,Cloudy,64
+Route_20,T01978,16,High,Adjust service headway,Cloudy,99
+Route_20,T01979,6,Medium,Monitor route conditions,Rain,81
+Route_18,T01980,14,Medium,Monitor route conditions,Snow,69
+Route_14,T01981,23,High,Adjust service headway,Storm,86
+Route_18,T01982,27,Severe,Deploy standby bus,Storm,73
+Route_14,T01983,23,High,Adjust service headway,Cloudy,6
+Route_20,T01984,-3,Low,No operational action required,Rain,43
+Route_15,T01985,2,Low,No operational action required,Cloudy,71
+Route_4,T01986,7,Medium,Monitor route conditions,Storm,12
+Route_13,T01987,16,High,Adjust service headway,Snow,93
+Route_8,T01988,17,High,Adjust service headway,Snow,81
+Route_18,T01989,17,High,Adjust service headway,Fog,77
+Route_12,T01990,14,Medium,Monitor route conditions,Rain,74
+Route_14,T01991,17,High,Adjust service headway,Snow,37
+Route_2,T01992,15,Medium,Monitor route conditions,Rain,12
+Route_18,T01993,0,Low,No operational action required,Cloudy,53
+Route_2,T01994,9,Medium,Monitor route conditions,Fog,43
+Route_11,T01995,14,Medium,Monitor route conditions,Storm,96
+Route_9,T01996,25,High,Adjust service headway,Snow,12
+Route_12,T01997,21,High,Adjust service headway,Snow,24
+Route_17,T01998,9,Medium,Monitor route conditions,Clear,23
+Route_15,T01999,23,High,Adjust service headway,Storm,28
