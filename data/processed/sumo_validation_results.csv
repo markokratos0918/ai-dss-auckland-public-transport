@@ -1,0 +1,4 @@
+scenario_name,selected_route,avg_delay_min,max_delay_min,congestion_index,queue_impact,service_reliability,validation_interpretation
+Baseline Operations,Route_12,5.0,15.0,35.0,Low,Stable,Normal operations remain within acceptable delay range.
+Disruption Scenario,Route_12,21.47,28.0,53.02,High,Degraded,High delay and congestion conditions justify operational intervention.
+Intervention Scenario,Route_12,12.0,18.0,40.0,Medium,Improved,Intervention scenario indicates potential reduction in delay propagation.

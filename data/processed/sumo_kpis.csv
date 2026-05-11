@@ -1,0 +1,7 @@
+metric,description,baseline_target,intervention_goal
+Average Delay,Average vehicle delay across the corridor,< 10 min,Reduce delay
+Maximum Delay,Maximum observed delay during simulation,< 15 min,Reduce peak disruption
+Congestion Index,Traffic congestion severity indicator,< 40,Reduce congestion
+Queue Length,Estimated traffic queue propagation,Low,Reduce queue buildup
+Service Reliability,Transport schedule consistency,Stable,Improve consistency
+Intervention Effectiveness,Measured improvement after intervention,N/A,Improve corridor performance

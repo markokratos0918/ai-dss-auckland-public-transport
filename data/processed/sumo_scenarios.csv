@@ -1,0 +1,4 @@
+scenario_name,description,selected_route,avg_delay_min,traffic_congestion_index,recommended_action
+Baseline Operations,Normal transport operations without disruption,Route_12,5.0,35.0,None
+Disruption Scenario,High congestion and severe delay conditions on Route_12,Route_12,21.47,53.02,Monitor conditions
+Intervention Scenario,Operational intervention using AI recommendations,Route_12,12.0,40.0,Adjust service headway

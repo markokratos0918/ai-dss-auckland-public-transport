@@ -1,0 +1,5 @@
+delay_risk,recommended_action,expected_simulation_effect
+Low,No operational action required,Stable corridor performance
+Medium,Monitor route conditions,Early congestion detection
+High,Adjust service headway,Reduced delay propagation
+Severe,Deploy standby bus,Rapid recovery from disruption
