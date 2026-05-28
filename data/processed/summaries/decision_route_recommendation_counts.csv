@@ -1,0 +1,1494 @@
+route_id,route_short_name,route_long_name,delay_risk,recommended_action,records,share_pct
+S001-203,,,Low,No operational action required,123,0.0049
+S001E-203,,,Low,No operational action required,105,0.0042
+S001E-203,,,Medium,Monitor route conditions,21,0.0008
+S001E-203,,,High,Adjust service headway,18,0.0007
+S001F-203,,,Low,No operational action required,82,0.0032
+S001F-203,,,Medium,Monitor route conditions,38,0.0015
+S001N-203,,,Low,No operational action required,129,0.0051
+S001N-203,,,Medium,Monitor route conditions,8,0.0003
+S002-218,,,Low,No operational action required,139,0.0055
+S002-218,,,Medium,Monitor route conditions,41,0.0016
+S002A-203,,,Low,No operational action required,137,0.0054
+S002A-203,,,Medium,Monitor route conditions,10,0.0004
+S002D-203,,,Low,No operational action required,96,0.0038
+S002D-203,,,Medium,Monitor route conditions,31,0.0012
+S002F-203,,,Low,No operational action required,89,0.0035
+S002F-203,,,Medium,Monitor route conditions,24,0.0009
+S003-203,,,Low,No operational action required,104,0.0041
+S003-203,,,Medium,Monitor route conditions,57,0.0023
+S003C-203,,,Low,No operational action required,92,0.0036
+S003C-203,,,Medium,Monitor route conditions,40,0.0016
+S003D-203,,,Low,No operational action required,66,0.0026
+S003D-203,,,Medium,Monitor route conditions,51,0.002
+S003D-203,,,High,Adjust service headway,1,0.0
+S004F-203,,,Low,No operational action required,64,0.0025
+S004F-203,,,Medium,Monitor route conditions,34,0.0013
+S005-218,,,Low,No operational action required,137,0.0054
+S005-218,,,Medium,Monitor route conditions,75,0.003
+S005-218,,,High,Adjust service headway,6,0.0002
+S005B-203,,,Low,No operational action required,301,0.0119
+S005B-203,,,Medium,Monitor route conditions,52,0.0021
+S005B-203,,,High,Adjust service headway,9,0.0004
+S005C-203,,,Low,No operational action required,93,0.0037
+S005C-203,,,Medium,Monitor route conditions,14,0.0006
+S006-218,,,Low,No operational action required,127,0.005
+S006-218,,,Medium,Monitor route conditions,142,0.0056
+S006-218,,,High,Adjust service headway,19,0.0008
+S006A-203,,,Low,No operational action required,174,0.0069
+S006A-203,,,Medium,Monitor route conditions,58,0.0023
+S006A-203,,,High,Adjust service headway,10,0.0004
+S006B-203,,,Low,No operational action required,122,0.0048
+S006B-203,,,Medium,Monitor route conditions,215,0.0085
+S006B-203,,,High,Adjust service headway,9,0.0004
+S006C-203,,,Low,No operational action required,305,0.0121
+S006C-203,,,Medium,Monitor route conditions,208,0.0082
+S006C-203,,,High,Adjust service headway,9,0.0004
+S006C-203,,,Severe,Deploy standby bus or supervisor review,7,0.0003
+S007-218,,,Low,No operational action required,108,0.0043
+S007-218,,,Medium,Monitor route conditions,57,0.0023
+S007-218,,,High,Adjust service headway,9,0.0004
+S007A-203,,,Low,No operational action required,104,0.0041
+S007A-203,,,High,Adjust service headway,5,0.0002
+S007A-203,,,Severe,Deploy standby bus or supervisor review,2,0.0001
+S007F-203,,,Low,No operational action required,396,0.0157
+S007F-203,,,Medium,Monitor route conditions,69,0.0027
+S007F-203,,,High,Adjust service headway,15,0.0006
+S008-218,,,Low,No operational action required,190,0.0075
+S008-218,,,Medium,Monitor route conditions,83,0.0033
+S008A-203,,,Low,No operational action required,120,0.0047
+S008A-203,,,Medium,Monitor route conditions,140,0.0055
+S008A-203,,,High,Adjust service headway,26,0.001
+S008C-203,,,Low,No operational action required,187,0.0074
+S008C-203,,,Medium,Monitor route conditions,27,0.0011
+S009-203,,,Low,No operational action required,124,0.0049
+S009-203,,,Medium,Monitor route conditions,135,0.0053
+S009A-218,,,Low,No operational action required,225,0.0089
+S009A-218,,,Medium,Monitor route conditions,19,0.0008
+S009B-203,,,Low,No operational action required,42,0.0017
+S009B-203,,,Medium,Monitor route conditions,65,0.0026
+S009C-203,,,Low,No operational action required,131,0.0052
+S009C-203,,,Medium,Monitor route conditions,15,0.0006
+S010-218,,,Low,No operational action required,208,0.0082
+S010-218,,,Medium,Monitor route conditions,60,0.0024
+S010A-203,,,Low,No operational action required,134,0.0053
+S010A-203,,,Medium,Monitor route conditions,10,0.0004
+S010B-202,,,Low,No operational action required,132,0.0052
+S010B-202,,,Medium,Monitor route conditions,129,0.0051
+S011-203,,,Low,No operational action required,34,0.0013
+S011-203,,,Medium,Monitor route conditions,77,0.003
+S011A-218,,,Low,No operational action required,165,0.0065
+S011A-218,,,Medium,Monitor route conditions,12,0.0005
+S012-218,,,Low,No operational action required,236,0.0093
+S012-218,,,Medium,Monitor route conditions,42,0.0017
+S012-218,,,High,Adjust service headway,2,0.0001
+S012-218,,,Severe,Deploy standby bus or supervisor review,11,0.0004
+S012A-203,,,Low,No operational action required,223,0.0088
+S012A-203,,,Medium,Monitor route conditions,43,0.0017
+S012B-203,,,Low,No operational action required,84,0.0033
+S012B-203,,,Medium,Monitor route conditions,18,0.0007
+S012D-203,,,Low,No operational action required,66,0.0026
+S012D-203,,,Medium,Monitor route conditions,24,0.0009
+S012G-203,,,Low,No operational action required,93,0.0037
+S012G-203,,,Medium,Monitor route conditions,26,0.001
+S013-203,,,Low,No operational action required,257,0.0102
+S013-203,,,Medium,Monitor route conditions,180,0.0071
+S013-203,,,High,Adjust service headway,7,0.0003
+S013A-218,,,Low,No operational action required,175,0.0069
+S013A-218,,,Medium,Monitor route conditions,25,0.001
+S013A-218,,,High,Adjust service headway,1,0.0
+S013A-218,,,Severe,Deploy standby bus or supervisor review,9,0.0004
+S013D-203,,,Low,No operational action required,106,0.0042
+S013D-203,,,Medium,Monitor route conditions,132,0.0052
+S013D-203,,,Severe,Deploy standby bus or supervisor review,10,0.0004
+S014-202,,,Low,No operational action required,94,0.0037
+S014-202,,,Medium,Monitor route conditions,21,0.0008
+S014-202,,,High,Adjust service headway,10,0.0004
+S014-202,,,Severe,Deploy standby bus or supervisor review,10,0.0004
+S014A-218,,,Low,No operational action required,138,0.0055
+S014A-218,,,Medium,Monitor route conditions,58,0.0023
+S014A-218,,,High,Adjust service headway,9,0.0004
+S014D-203,,,Low,No operational action required,90,0.0036
+S014D-203,,,Medium,Monitor route conditions,34,0.0013
+S014H-203,,,Low,No operational action required,95,0.0038
+S014H-203,,,Medium,Monitor route conditions,4,0.0002
+S014I-203,,,Low,No operational action required,130,0.0051
+S014I-203,,,Medium,Monitor route conditions,18,0.0007
+S015-203,,,Low,No operational action required,40,0.0016
+S015-203,,,Medium,Monitor route conditions,100,0.004
+S015A-203,,,Low,No operational action required,28,0.0011
+S015A-203,,,Medium,Monitor route conditions,63,0.0025
+S015B-203,,,Low,No operational action required,112,0.0044
+S015B-203,,,Medium,Monitor route conditions,43,0.0017
+S015C-202,,,Low,No operational action required,242,0.0096
+S015C-202,,,Medium,Monitor route conditions,118,0.0047
+S015E-203,,,Low,No operational action required,87,0.0034
+S015E-203,,,Medium,Monitor route conditions,32,0.0013
+S015G-203,,,Low,No operational action required,48,0.0019
+S015G-203,,,Medium,Monitor route conditions,85,0.0034
+S016-202,,,Low,No operational action required,61,0.0024
+S016-202,,,Medium,Monitor route conditions,22,0.0009
+S016E-203,,,Low,No operational action required,257,0.0102
+S016E-203,,,Medium,Monitor route conditions,94,0.0037
+S017-202,,,Low,No operational action required,211,0.0083
+S017-202,,,Medium,Monitor route conditions,180,0.0071
+S017-202,,,High,Adjust service headway,8,0.0003
+S017A-202,,,Low,No operational action required,78,0.0031
+S017A-202,,,Medium,Monitor route conditions,18,0.0007
+S017A-202,,,High,Adjust service headway,12,0.0005
+S017B-218,,,Low,No operational action required,172,0.0068
+S017B-218,,,Medium,Monitor route conditions,23,0.0009
+S017F-203,,,Low,No operational action required,397,0.0157
+S017F-203,,,Medium,Monitor route conditions,231,0.0091
+S018-218,,,Low,No operational action required,182,0.0072
+S018A-203,,,Low,No operational action required,6,0.0002
+S018A-203,,,Medium,Monitor route conditions,41,0.0016
+S018A-203,,,High,Adjust service headway,49,0.0019
+S019-218,,,Low,No operational action required,176,0.007
+S019-218,,,Medium,Monitor route conditions,17,0.0007
+S019A-218,,,Low,No operational action required,174,0.0069
+S019A-218,,,Medium,Monitor route conditions,11,0.0004
+S020-203,,,Low,No operational action required,39,0.0015
+S020-203,,,Medium,Monitor route conditions,62,0.0025
+S020-203,,,High,Adjust service headway,68,0.0027
+S020A-218,,,Low,No operational action required,152,0.006
+S020A-218,,,Medium,Monitor route conditions,34,0.0013
+S020I-203,,,Low,No operational action required,78,0.0031
+S020I-203,,,Medium,Monitor route conditions,31,0.0012
+S020J-203,,,Low,No operational action required,96,0.0038
+S020J-203,,,Medium,Monitor route conditions,58,0.0023
+S021-218,,,Low,No operational action required,187,0.0074
+S021-218,,,Medium,Monitor route conditions,8,0.0003
+S022-202,,,Low,No operational action required,100,0.004
+S022-202,,,Medium,Monitor route conditions,24,0.0009
+S022-202,,,High,Adjust service headway,10,0.0004
+S022A-218,,,Low,No operational action required,250,0.0099
+S022A-218,,,Medium,Monitor route conditions,34,0.0013
+S022C-203,,,Low,No operational action required,171,0.0068
+S022C-203,,,Medium,Monitor route conditions,24,0.0009
+S023-202,,,Low,No operational action required,67,0.0026
+S023-202,,,Medium,Monitor route conditions,27,0.0011
+S023A-202,,,Low,No operational action required,95,0.0038
+S023A-202,,,Medium,Monitor route conditions,56,0.0022
+S023B-203,,,Low,No operational action required,52,0.0021
+S023B-203,,,Medium,Monitor route conditions,59,0.0023
+S024B-218,,,Low,No operational action required,109,0.0043
+S024B-218,,,Medium,Monitor route conditions,40,0.0016
+S024B-218,,,High,Adjust service headway,1,0.0
+S025-203,,,Low,No operational action required,143,0.0057
+S025-203,,,Medium,Monitor route conditions,52,0.0021
+S025A-203,,,Low,No operational action required,64,0.0025
+S025A-203,,,Medium,Monitor route conditions,218,0.0086
+S025A-203,,,Severe,Deploy standby bus or supervisor review,1,0.0
+S025B-203,,,Low,No operational action required,95,0.0038
+S025E-218,,,Low,No operational action required,209,0.0083
+S025E-218,,,Medium,Monitor route conditions,91,0.0036
+S025E-218,,,High,Adjust service headway,1,0.0
+S026-203,,,Low,No operational action required,97,0.0038
+S026-203,,,Medium,Monitor route conditions,26,0.001
+S026D-218,,,Low,No operational action required,191,0.0075
+S026D-218,,,Medium,Monitor route conditions,89,0.0035
+S026D-218,,,High,Adjust service headway,12,0.0005
+S026D-218,,,Severe,Deploy standby bus or supervisor review,4,0.0002
+S027-202,,,Low,No operational action required,179,0.0071
+S027-202,,,Medium,Monitor route conditions,11,0.0004
+S027E-218,,,Low,No operational action required,147,0.0058
+S027E-218,,,Medium,Monitor route conditions,148,0.0058
+S027H-203,,,Low,No operational action required,65,0.0026
+S027H-203,,,Medium,Monitor route conditions,92,0.0036
+S027H-203,,,High,Adjust service headway,2,0.0001
+S028-202,,,Low,No operational action required,346,0.0137
+S028-202,,,Medium,Monitor route conditions,56,0.0022
+S028-202,,,High,Adjust service headway,1,0.0
+S028A-218,,,Low,No operational action required,154,0.0061
+S028A-218,,,Medium,Monitor route conditions,7,0.0003
+S028B-207,,,Low,No operational action required,38,0.0015
+S028B-207,,,Medium,Monitor route conditions,89,0.0035
+S028B-207,,,High,Adjust service headway,12,0.0005
+S028E-207,,,Low,No operational action required,106,0.0042
+S028E-207,,,Medium,Monitor route conditions,167,0.0066
+S028E-207,,,High,Adjust service headway,6,0.0002
+S028F-203,,,Low,No operational action required,104,0.0041
+S028F-203,,,Medium,Monitor route conditions,43,0.0017
+S029-202,,,Low,No operational action required,60,0.0024
+S029-202,,,Medium,Monitor route conditions,101,0.004
+S029E-203,,,Low,No operational action required,131,0.0052
+S029G-207,,,Low,No operational action required,161,0.0064
+S029G-207,,,Medium,Monitor route conditions,119,0.0047
+S030-203,,,Low,No operational action required,64,0.0025
+S030-203,,,Medium,Monitor route conditions,62,0.0025
+S030-203,,,High,Adjust service headway,6,0.0002
+S031-203,,,Low,No operational action required,31,0.0012
+S031-203,,,Medium,Monitor route conditions,71,0.0028
+S031-203,,,High,Adjust service headway,9,0.0004
+S031A-203,,,Low,No operational action required,87,0.0034
+S031A-203,,,Medium,Monitor route conditions,45,0.0018
+S031A-203,,,High,Adjust service headway,1,0.0
+S031B-203,,,Low,No operational action required,245,0.0097
+S031B-203,,,Medium,Monitor route conditions,101,0.004
+S031C-203,,,Low,No operational action required,43,0.0017
+S031C-203,,,Medium,Monitor route conditions,47,0.0019
+S031G-207,,,Low,No operational action required,166,0.0066
+S031G-207,,,Medium,Monitor route conditions,87,0.0034
+S031G-207,,,High,Adjust service headway,23,0.0009
+S032-203,,,Low,No operational action required,133,0.0053
+S032-203,,,Medium,Monitor route conditions,23,0.0009
+S032A-203,,,Low,No operational action required,227,0.009
+S032A-203,,,Medium,Monitor route conditions,88,0.0035
+S033-203,,,Low,No operational action required,151,0.006
+S033-203,,,Medium,Monitor route conditions,27,0.0011
+S033A-203,,,Low,No operational action required,34,0.0013
+S033A-203,,,Medium,Monitor route conditions,40,0.0016
+S033A-203,,,High,Adjust service headway,44,0.0017
+S033D-203,,,Low,No operational action required,99,0.0039
+S033D-203,,,Medium,Monitor route conditions,7,0.0003
+S034-202,,,Low,No operational action required,116,0.0046
+S034-202,,,Medium,Monitor route conditions,16,0.0006
+S035-203,,,Low,No operational action required,91,0.0036
+S036-203,,,Low,No operational action required,104,0.0041
+S036-203,,,Medium,Monitor route conditions,59,0.0023
+S036A-203,,,Low,No operational action required,100,0.004
+S036A-203,,,Medium,Monitor route conditions,16,0.0006
+S037-203,,,Low,No operational action required,29,0.0011
+S037-203,,,Medium,Monitor route conditions,79,0.0031
+S038-203,,,Low,No operational action required,80,0.0032
+S038-203,,,Medium,Monitor route conditions,7,0.0003
+S038-203,,,High,Adjust service headway,11,0.0004
+S039-218,,,Low,No operational action required,80,0.0032
+S039-218,,,Medium,Monitor route conditions,7,0.0003
+S040-221,,,Low,No operational action required,286,0.0113
+S040-221,,,Medium,Monitor route conditions,82,0.0032
+S041-203,,,Low,No operational action required,87,0.0034
+S041-203,,,Medium,Monitor route conditions,23,0.0009
+S041-203,,,High,Adjust service headway,14,0.0006
+S041A-203,,,Low,No operational action required,58,0.0023
+S041A-203,,,Medium,Monitor route conditions,50,0.002
+S042-203,,,Low,No operational action required,136,0.0054
+S042-203,,,Medium,Monitor route conditions,108,0.0043
+S042-203,,,High,Adjust service headway,56,0.0022
+S042-203,,,Severe,Deploy standby bus or supervisor review,7,0.0003
+S042B-202,,,Low,No operational action required,110,0.0043
+S042B-202,,,Medium,Monitor route conditions,27,0.0011
+S042C-202,,,Low,No operational action required,95,0.0038
+S042C-202,,,Medium,Monitor route conditions,1,0.0
+S043-218,,,Low,No operational action required,104,0.0041
+S043-218,,,Medium,Monitor route conditions,63,0.0025
+S043-218,,,High,Adjust service headway,7,0.0003
+S044-203,,,Low,No operational action required,69,0.0027
+S044-203,,,Medium,Monitor route conditions,15,0.0006
+S044A-221,,,Low,No operational action required,100,0.004
+S044A-221,,,Medium,Monitor route conditions,30,0.0012
+S044A-221,,,Severe,Deploy standby bus or supervisor review,2,0.0001
+S045-203,,,Low,No operational action required,84,0.0033
+S045-203,,,Medium,Monitor route conditions,67,0.0026
+S045B-221,,,Low,No operational action required,17,0.0007
+S045B-221,,,Medium,Monitor route conditions,34,0.0013
+S045B-221,,,High,Adjust service headway,82,0.0032
+S045B-221,,,Severe,Deploy standby bus or supervisor review,2,0.0001
+S045D-221,,,Low,No operational action required,58,0.0023
+S045D-221,,,Medium,Monitor route conditions,128,0.0051
+S046-202,,,Low,No operational action required,116,0.0046
+S046-202,,,Medium,Monitor route conditions,31,0.0012
+S046B-203,,,Low,No operational action required,78,0.0031
+S046B-203,,,Medium,Monitor route conditions,69,0.0027
+S046B-203,,,High,Adjust service headway,5,0.0002
+S046B-203,,,Severe,Deploy standby bus or supervisor review,3,0.0001
+S046D-221,,,Low,No operational action required,57,0.0023
+S046D-221,,,Medium,Monitor route conditions,64,0.0025
+S046D-221,,,High,Adjust service headway,21,0.0008
+S046D-221,,,Severe,Deploy standby bus or supervisor review,3,0.0001
+S046G-221,,,Low,No operational action required,89,0.0035
+S046G-221,,,Medium,Monitor route conditions,69,0.0027
+S046G-221,,,High,Adjust service headway,3,0.0001
+S046X-221,,,Low,No operational action required,142,0.0056
+S046X-221,,,Medium,Monitor route conditions,15,0.0006
+S047A-221,,,Low,No operational action required,121,0.0048
+S047A-221,,,Medium,Monitor route conditions,76,0.003
+S047A-221,,,High,Adjust service headway,6,0.0002
+S047B-221,,,Low,No operational action required,72,0.0028
+S047B-221,,,Medium,Monitor route conditions,81,0.0032
+S047B-221,,,High,Adjust service headway,10,0.0004
+S047B-221,,,Severe,Deploy standby bus or supervisor review,2,0.0001
+S047C-221,,,Low,No operational action required,123,0.0049
+S047C-221,,,Medium,Monitor route conditions,44,0.0017
+S047C-221,,,High,Adjust service headway,8,0.0003
+S047D-221,,,Low,No operational action required,50,0.002
+S047D-221,,,Medium,Monitor route conditions,69,0.0027
+S048-203,,,Low,No operational action required,139,0.0055
+S048-203,,,Medium,Monitor route conditions,92,0.0036
+S049-203,,,Low,No operational action required,116,0.0046
+S049-203,,,Medium,Monitor route conditions,57,0.0023
+S049A-203,,,Low,No operational action required,97,0.0038
+S049A-203,,,Medium,Monitor route conditions,95,0.0038
+S049C-221,,,Low,No operational action required,109,0.0043
+S049C-221,,,Medium,Monitor route conditions,100,0.004
+S050-221,,,Low,No operational action required,104,0.0041
+S050-221,,,Medium,Monitor route conditions,69,0.0027
+S050A-221,,,Low,No operational action required,67,0.0026
+S050A-221,,,Medium,Monitor route conditions,28,0.0011
+S050B-203,,,Low,No operational action required,246,0.0097
+S050B-203,,,Medium,Monitor route conditions,305,0.0121
+S050B-203,,,High,Adjust service headway,12,0.0005
+S050B-203,,,Severe,Deploy standby bus or supervisor review,24,0.0009
+S051-202,,,Low,No operational action required,72,0.0028
+S051-202,,,Medium,Monitor route conditions,9,0.0004
+S051B-202,,,Low,No operational action required,98,0.0039
+S051B-202,,,Medium,Monitor route conditions,28,0.0011
+S052-202,,,Low,No operational action required,69,0.0027
+S052-202,,,Medium,Monitor route conditions,51,0.002
+S052A-202,,,Low,No operational action required,83,0.0033
+S052A-202,,,Medium,Monitor route conditions,6,0.0002
+S053-203,,,Low,No operational action required,3,0.0001
+S053-203,,,Medium,Monitor route conditions,12,0.0005
+S053-203,,,High,Adjust service headway,48,0.0019
+S053-203,,,Severe,Deploy standby bus or supervisor review,43,0.0017
+S053A-203,,,Low,No operational action required,279,0.011
+S053A-203,,,Medium,Monitor route conditions,29,0.0011
+S053B-202,,,Low,No operational action required,85,0.0034
+S053B-202,,,Medium,Monitor route conditions,3,0.0001
+S053E-202,,,Low,No operational action required,110,0.0043
+S053E-202,,,Medium,Monitor route conditions,19,0.0008
+S053F-203,,,Low,No operational action required,139,0.0055
+S053F-203,,,Medium,Monitor route conditions,107,0.0042
+S054-202,,,Low,No operational action required,183,0.0072
+S054-202,,,Medium,Monitor route conditions,120,0.0047
+S054A-202,,,Low,No operational action required,86,0.0034
+S054A-202,,,Medium,Monitor route conditions,15,0.0006
+S055-203,,,Low,No operational action required,107,0.0042
+S055-203,,,Medium,Monitor route conditions,48,0.0019
+S056-203,,,Low,No operational action required,111,0.0044
+S056-203,,,Medium,Monitor route conditions,19,0.0008
+S056-203,,,High,Adjust service headway,6,0.0002
+S056E-203,,,Low,No operational action required,62,0.0025
+S056E-203,,,Medium,Monitor route conditions,167,0.0066
+S056E-203,,,High,Adjust service headway,12,0.0005
+S057-202,,,Low,No operational action required,100,0.004
+S057-202,,,Medium,Monitor route conditions,26,0.001
+S058-203,,,Low,No operational action required,96,0.0038
+S058-203,,,Medium,Monitor route conditions,6,0.0002
+S058A-203,,,Low,No operational action required,75,0.003
+S058A-203,,,Medium,Monitor route conditions,30,0.0012
+S058A-203,,,High,Adjust service headway,14,0.0006
+S059-203,,,Low,No operational action required,101,0.004
+S059-203,,,Medium,Monitor route conditions,11,0.0004
+S059B-203,,,Low,No operational action required,60,0.0024
+S059B-203,,,Medium,Monitor route conditions,38,0.0015
+S060-203,,,Low,No operational action required,178,0.007
+S060-203,,,Medium,Monitor route conditions,255,0.0101
+S060A-203,,,Low,No operational action required,47,0.0019
+S060A-203,,,Medium,Monitor route conditions,81,0.0032
+S060K-202,,,Low,No operational action required,172,0.0068
+S060K-202,,,Medium,Monitor route conditions,95,0.0038
+S061-203,,,Low,No operational action required,157,0.0062
+S061-203,,,Medium,Monitor route conditions,275,0.0109
+S061-203,,,High,Adjust service headway,3,0.0001
+S061A-203,,,Low,No operational action required,24,0.0009
+S061A-203,,,Medium,Monitor route conditions,83,0.0033
+S061A-203,,,High,Adjust service headway,15,0.0006
+S061E-203,,,Low,No operational action required,114,0.0045
+S061E-203,,,Medium,Monitor route conditions,79,0.0031
+S061G-203,,,Low,No operational action required,117,0.0046
+S061G-203,,,Medium,Monitor route conditions,34,0.0013
+S061J-203,,,Low,No operational action required,85,0.0034
+S061J-203,,,Medium,Monitor route conditions,53,0.0021
+S062-203,,,Low,No operational action required,139,0.0055
+S062-203,,,Medium,Monitor route conditions,90,0.0036
+S062A-203,,,Low,No operational action required,110,0.0043
+S062A-203,,,Medium,Monitor route conditions,2,0.0001
+S062B-202,,,Low,No operational action required,90,0.0036
+S062C-203,,,Low,No operational action required,112,0.0044
+S062C-203,,,Medium,Monitor route conditions,112,0.0044
+S063-203,,,Low,No operational action required,94,0.0037
+S063-203,,,Medium,Monitor route conditions,7,0.0003
+S064-203,,,Low,No operational action required,96,0.0038
+S064-203,,,Medium,Monitor route conditions,125,0.0049
+S064-203,,,High,Adjust service headway,101,0.004
+S065-202,,,Low,No operational action required,116,0.0046
+S065-202,,,Medium,Monitor route conditions,9,0.0004
+S066-202,,,Low,No operational action required,107,0.0042
+S066-202,,,Medium,Monitor route conditions,19,0.0008
+S066-202,,,High,Adjust service headway,8,0.0003
+S067A-202,,,Low,No operational action required,65,0.0026
+S067A-202,,,Medium,Monitor route conditions,68,0.0027
+S068-203,,,Low,No operational action required,120,0.0047
+S068-203,,,Medium,Monitor route conditions,43,0.0017
+S068-203,,,Severe,Deploy standby bus or supervisor review,10,0.0004
+S069-203,,,Low,No operational action required,44,0.0017
+S069-203,,,Medium,Monitor route conditions,110,0.0043
+S069-203,,,High,Adjust service headway,3,0.0001
+S070-203,,,Low,No operational action required,88,0.0035
+S070-203,,,Medium,Monitor route conditions,163,0.0064
+S070A-203,,,Low,No operational action required,124,0.0049
+S071-203,,,Low,No operational action required,263,0.0104
+S071-203,,,Medium,Monitor route conditions,144,0.0057
+S072-202,,,Low,No operational action required,126,0.005
+S072-202,,,Medium,Monitor route conditions,13,0.0005
+S072D-203,,,Low,No operational action required,236,0.0093
+S072D-203,,,Medium,Monitor route conditions,140,0.0055
+S072D-203,,,High,Adjust service headway,1,0.0
+S072D-203,,,Severe,Deploy standby bus or supervisor review,14,0.0006
+S073-202,,,Low,No operational action required,67,0.0026
+S073-202,,,Medium,Monitor route conditions,66,0.0026
+S073A-202,,,Low,No operational action required,118,0.0047
+S073A-202,,,Medium,Monitor route conditions,22,0.0009
+S073B-203,,,Low,No operational action required,207,0.0082
+S073B-203,,,Medium,Monitor route conditions,59,0.0023
+S073C-202,,,Low,No operational action required,67,0.0026
+S073C-202,,,Medium,Monitor route conditions,41,0.0016
+S073H-203,,,Low,No operational action required,134,0.0053
+S073H-203,,,Medium,Monitor route conditions,12,0.0005
+S074-203,,,Low,No operational action required,92,0.0036
+S074-203,,,Medium,Monitor route conditions,184,0.0073
+S074-203,,,High,Adjust service headway,38,0.0015
+S074D-203,,,Low,No operational action required,35,0.0014
+S074D-203,,,Medium,Monitor route conditions,51,0.002
+S074D-203,,,High,Adjust service headway,5,0.0002
+S074D-203,,,Severe,Deploy standby bus or supervisor review,145,0.0057
+S075-203,,,Low,No operational action required,63,0.0025
+S075-203,,,Medium,Monitor route conditions,97,0.0038
+S075-203,,,High,Adjust service headway,1,0.0
+S075-203,,,Severe,Deploy standby bus or supervisor review,8,0.0003
+S075B-203,,,Low,No operational action required,38,0.0015
+S075B-203,,,Medium,Monitor route conditions,96,0.0038
+S075B-203,,,High,Adjust service headway,62,0.0025
+S076-203,,,Low,No operational action required,84,0.0033
+S076-203,,,Medium,Monitor route conditions,53,0.0021
+S076A-203,,,Low,No operational action required,202,0.008
+S076A-203,,,Medium,Monitor route conditions,96,0.0038
+S076A-203,,,High,Adjust service headway,35,0.0014
+S076A-203,,,Severe,Deploy standby bus or supervisor review,12,0.0005
+S076B-218,,,Low,No operational action required,99,0.0039
+S076B-218,,,Medium,Monitor route conditions,53,0.0021
+S077B-203,,,Low,No operational action required,75,0.003
+S077B-203,,,Medium,Monitor route conditions,12,0.0005
+S078-203,,,Low,No operational action required,170,0.0067
+S078-203,,,Medium,Monitor route conditions,49,0.0019
+S079-203,,,Low,No operational action required,225,0.0089
+S079-203,,,Medium,Monitor route conditions,6,0.0002
+S080-202,,,Low,No operational action required,115,0.0045
+S080-202,,,Medium,Monitor route conditions,36,0.0014
+S080-202,,,High,Adjust service headway,1,0.0
+S080A-203,,,Low,No operational action required,44,0.0017
+S080A-203,,,Medium,Monitor route conditions,50,0.002
+S081-202,,,Low,No operational action required,73,0.0029
+S081-202,,,Medium,Monitor route conditions,136,0.0054
+S081-202,,,High,Adjust service headway,10,0.0004
+S081-202,,,Severe,Deploy standby bus or supervisor review,1,0.0
+S081A-202,,,Low,No operational action required,173,0.0068
+S081A-202,,,Medium,Monitor route conditions,69,0.0027
+S081A-202,,,High,Adjust service headway,3,0.0001
+S081A-202,,,Severe,Deploy standby bus or supervisor review,8,0.0003
+S082-202,,,Low,No operational action required,203,0.008
+S082-202,,,Medium,Monitor route conditions,82,0.0032
+S082A-202,,,Low,No operational action required,55,0.0022
+S082A-202,,,Medium,Monitor route conditions,24,0.0009
+S082A-202,,,Severe,Deploy standby bus or supervisor review,18,0.0007
+S083-202,,,Low,No operational action required,138,0.0055
+S083-202,,,Medium,Monitor route conditions,59,0.0023
+S084-202,,,Low,No operational action required,118,0.0047
+S084-202,,,Medium,Monitor route conditions,32,0.0013
+S084B-203,,,Low,No operational action required,58,0.0023
+S084B-203,,,Medium,Monitor route conditions,27,0.0011
+S084C-203,,,Low,No operational action required,97,0.0038
+S084C-203,,,Medium,Monitor route conditions,56,0.0022
+S087-202,,,Low,No operational action required,233,0.0092
+S087-202,,,Medium,Monitor route conditions,45,0.0018
+S087-202,,,High,Adjust service headway,12,0.0005
+S087-202,,,Severe,Deploy standby bus or supervisor review,10,0.0004
+S087C-217,,,Low,No operational action required,115,0.0045
+S088-217,,,Low,No operational action required,220,0.0087
+S088-217,,,Medium,Monitor route conditions,8,0.0003
+S089-202,,,Low,No operational action required,80,0.0032
+S089-202,,,Medium,Monitor route conditions,39,0.0015
+S089D-217,,,Low,No operational action required,107,0.0042
+S089D-217,,,Medium,Monitor route conditions,62,0.0025
+S090-217,,,Low,No operational action required,121,0.0048
+S090-217,,,Medium,Monitor route conditions,1,0.0
+S091-217,,,Low,No operational action required,100,0.004
+S092-217,,,Low,No operational action required,85,0.0034
+S092-217,,,Medium,Monitor route conditions,2,0.0001
+S093-217,,,Low,No operational action required,260,0.0103
+S094-217,,,Low,No operational action required,185,0.0073
+S094-217,,,Medium,Monitor route conditions,8,0.0003
+S095-217,,,Low,No operational action required,77,0.003
+S095-217,,,Medium,Monitor route conditions,6,0.0002
+S096-217,,,Low,No operational action required,148,0.0058
+S096-217,,,Medium,Monitor route conditions,68,0.0027
+S096-217,,,High,Adjust service headway,36,0.0014
+S097-217,,,Low,No operational action required,104,0.0041
+S213-202,,,Low,No operational action required,39,0.0015
+S213-202,,,Medium,Monitor route conditions,119,0.0047
+S220-217,,,Low,No operational action required,141,0.0056
+S220-217,,,Medium,Monitor route conditions,37,0.0015
+S220-217,,,High,Adjust service headway,82,0.0032
+S400-205,,,Low,No operational action required,151,0.006
+S400-205,,,Medium,Monitor route conditions,42,0.0017
+S400-205,,,High,Adjust service headway,6,0.0002
+S401-205,,,Low,No operational action required,189,0.0075
+S401-205,,,Medium,Monitor route conditions,58,0.0023
+S402-202,,,Low,No operational action required,184,0.0073
+S402-202,,,Medium,Monitor route conditions,41,0.0016
+S402-202,,,High,Adjust service headway,10,0.0004
+S403-203,,,Low,No operational action required,107,0.0042
+S403-203,,,Medium,Monitor route conditions,158,0.0062
+S403-203,,,High,Adjust service headway,1,0.0
+S404-203,,,Low,No operational action required,114,0.0045
+S404-203,,,Medium,Monitor route conditions,132,0.0052
+S404-203,,,High,Adjust service headway,10,0.0004
+S404-203,,,Severe,Deploy standby bus or supervisor review,8,0.0003
+S405-203,,,Low,No operational action required,198,0.0078
+S405-203,,,Medium,Monitor route conditions,31,0.0012
+S406-203,,,Low,No operational action required,113,0.0045
+S406-203,,,Medium,Monitor route conditions,114,0.0045
+S406-203,,,High,Adjust service headway,10,0.0004
+S406-203,,,Severe,Deploy standby bus or supervisor review,1,0.0
+S407-202,,,Low,No operational action required,210,0.0083
+S407-202,,,Medium,Monitor route conditions,55,0.0022
+S408-202,,,Low,No operational action required,59,0.0023
+S408-202,,,Medium,Monitor route conditions,141,0.0056
+S408-202,,,High,Adjust service headway,5,0.0002
+S409-202,,,Low,No operational action required,170,0.0067
+S409-202,,,Medium,Monitor route conditions,57,0.0023
+S410-205,,,Low,No operational action required,137,0.0054
+S410-205,,,Medium,Monitor route conditions,86,0.0034
+S410-205,,,High,Adjust service headway,20,0.0008
+S411-202,,,Low,No operational action required,205,0.0081
+S411-202,,,Medium,Monitor route conditions,43,0.0017
+S412-202,,,Low,No operational action required,257,0.0102
+S412-202,,,Medium,Monitor route conditions,32,0.0013
+S412-202,,,High,Adjust service headway,12,0.0005
+S413-202,,,Low,No operational action required,321,0.0127
+S413-202,,,Medium,Monitor route conditions,224,0.0089
+S414-202,,,Low,No operational action required,225,0.0089
+S414-202,,,Medium,Monitor route conditions,25,0.001
+S415-205,,,Low,No operational action required,164,0.0065
+S415-205,,,Medium,Monitor route conditions,55,0.0022
+S415-205,,,High,Adjust service headway,33,0.0013
+S416-205,,,Low,No operational action required,119,0.0047
+S416-205,,,Medium,Monitor route conditions,115,0.0045
+S416-205,,,High,Adjust service headway,18,0.0007
+S417-202,,,Low,No operational action required,449,0.0177
+S417-202,,,Medium,Monitor route conditions,78,0.0031
+S418-202,,,Low,No operational action required,313,0.0124
+S418-202,,,Medium,Monitor route conditions,93,0.0037
+S419-202,,,Low,No operational action required,185,0.0073
+S419-202,,,Medium,Monitor route conditions,69,0.0027
+S420-221,,,Low,No operational action required,101,0.004
+S420-221,,,Medium,Monitor route conditions,130,0.0051
+S421-221,,,Low,No operational action required,183,0.0072
+S421-221,,,Medium,Monitor route conditions,44,0.0017
+S423-221,,,Low,No operational action required,151,0.006
+S423-221,,,Medium,Monitor route conditions,73,0.0029
+S424-221,,,Low,No operational action required,179,0.0071
+S424-221,,,Medium,Monitor route conditions,23,0.0009
+S425-221,,,Low,No operational action required,112,0.0044
+S425-221,,,Medium,Monitor route conditions,125,0.0049
+S426-221,,,Low,No operational action required,230,0.0091
+S426-221,,,Medium,Monitor route conditions,38,0.0015
+S427-221,,,Low,No operational action required,256,0.0101
+S427-221,,,Medium,Monitor route conditions,29,0.0011
+S428-221,,,Low,No operational action required,184,0.0073
+S428-221,,,Medium,Monitor route conditions,43,0.0017
+S429-221,,,Low,No operational action required,15,0.0006
+S429-221,,,Medium,Monitor route conditions,136,0.0054
+S430-221,,,Low,No operational action required,178,0.007
+S430-221,,,Medium,Monitor route conditions,85,0.0034
+S431-221,,,Low,No operational action required,171,0.0068
+S431-221,,,Medium,Monitor route conditions,78,0.0031
+S433-221,,,Low,No operational action required,201,0.0079
+S433-221,,,Medium,Monitor route conditions,31,0.0012
+S433-221,,,High,Adjust service headway,1,0.0
+S434-221,,,Low,No operational action required,336,0.0133
+S434-221,,,Medium,Monitor route conditions,70,0.0028
+S435-221,,,Low,No operational action required,205,0.0081
+S435-221,,,Medium,Monitor route conditions,18,0.0007
+S436-221,,,Low,No operational action required,150,0.0059
+S436-221,,,Medium,Monitor route conditions,81,0.0032
+S437-221,,,Low,No operational action required,107,0.0042
+S437-221,,,Medium,Monitor route conditions,9,0.0004
+S438-218,,,Low,No operational action required,217,0.0086
+S438-218,,,Medium,Monitor route conditions,4,0.0002
+S439-221,,,Low,No operational action required,103,0.0041
+S439-221,,,Medium,Monitor route conditions,12,0.0005
+S440-205,,,Low,No operational action required,200,0.0079
+S440-205,,,Medium,Monitor route conditions,60,0.0024
+S440-205,,,High,Adjust service headway,2,0.0001
+S441-205,,,Low,No operational action required,227,0.009
+S441-205,,,Medium,Monitor route conditions,1,0.0
+S442-205,,,Low,No operational action required,164,0.0065
+S442-205,,,Medium,Monitor route conditions,44,0.0017
+S442-205,,,High,Adjust service headway,19,0.0008
+S443-205,,,Low,No operational action required,177,0.007
+S443-205,,,Medium,Monitor route conditions,22,0.0009
+S444-205,,,Low,No operational action required,156,0.0062
+S444-205,,,Medium,Monitor route conditions,82,0.0032
+S445-205,,,Low,No operational action required,91,0.0036
+S445-205,,,Medium,Monitor route conditions,31,0.0012
+S449-202,,,Low,No operational action required,53,0.0021
+S449-202,,,Medium,Monitor route conditions,12,0.0005
+S449-202,,,High,Adjust service headway,106,0.0042
+S454-203,,,Low,No operational action required,122,0.0048
+S454-203,,,Medium,Monitor route conditions,103,0.0041
+S455-203,,,Low,No operational action required,83,0.0033
+S455-203,,,Medium,Monitor route conditions,48,0.0019
+S456-203,,,Low,No operational action required,134,0.0053
+S456-203,,,Medium,Monitor route conditions,41,0.0016
+S456-203,,,High,Adjust service headway,8,0.0003
+S456-203,,,Severe,Deploy standby bus or supervisor review,16,0.0006
+S457-203,,,Low,No operational action required,35,0.0014
+S457-203,,,Medium,Monitor route conditions,67,0.0026
+S457-203,,,High,Adjust service headway,29,0.0011
+S458-203,,,Low,No operational action required,140,0.0055
+S458-203,,,Medium,Monitor route conditions,72,0.0028
+S458-203,,,High,Adjust service headway,9,0.0004
+S459-203,,,Low,No operational action required,99,0.0039
+S459-203,,,Medium,Monitor route conditions,98,0.0039
+S459-203,,,High,Adjust service headway,26,0.001
+S459-203,,,Severe,Deploy standby bus or supervisor review,55,0.0022
+S460-202,,,Low,No operational action required,49,0.0019
+S460-202,,,Medium,Monitor route conditions,63,0.0025
+S461-203,,,Low,No operational action required,111,0.0044
+S461-203,,,Medium,Monitor route conditions,65,0.0026
+S461-203,,,High,Adjust service headway,64,0.0025
+S461-203,,,Severe,Deploy standby bus or supervisor review,7,0.0003
+S462-203,,,Low,No operational action required,177,0.007
+S462-203,,,Medium,Monitor route conditions,47,0.0019
+S462-203,,,High,Adjust service headway,2,0.0001
+S462-203,,,Severe,Deploy standby bus or supervisor review,12,0.0005
+S463-203,,,Low,No operational action required,106,0.0042
+S463-203,,,Medium,Monitor route conditions,94,0.0037
+S463-203,,,High,Adjust service headway,38,0.0015
+S464-203,,,Low,No operational action required,75,0.003
+S464-203,,,Medium,Monitor route conditions,46,0.0018
+S464-203,,,High,Adjust service headway,1,0.0
+S465-203,,,Low,No operational action required,54,0.0021
+S465-203,,,Medium,Monitor route conditions,50,0.002
+S465-203,,,High,Adjust service headway,6,0.0002
+S466-202,,,Low,No operational action required,69,0.0027
+S466-202,,,Medium,Monitor route conditions,68,0.0027
+S466-202,,,High,Adjust service headway,9,0.0004
+S467-202,,,Low,No operational action required,105,0.0042
+S467-202,,,Medium,Monitor route conditions,42,0.0017
+S469-203,,,Low,No operational action required,121,0.0048
+S469-203,,,Medium,Monitor route conditions,110,0.0043
+S469-203,,,High,Adjust service headway,56,0.0022
+S469-203,,,Severe,Deploy standby bus or supervisor review,17,0.0007
+S477-203,,,Low,No operational action required,104,0.0041
+S477-203,,,Medium,Monitor route conditions,54,0.0021
+S481-202,,,Low,No operational action required,141,0.0056
+S481-202,,,Medium,Monitor route conditions,12,0.0005
+S500-202,,,Low,No operational action required,85,0.0034
+S500-202,,,Medium,Monitor route conditions,144,0.0057
+S501-202,,,Low,No operational action required,305,0.0121
+S501-202,,,Medium,Monitor route conditions,37,0.0015
+S505-202,,,Low,No operational action required,149,0.0059
+S505-202,,,Medium,Monitor route conditions,49,0.0019
+S510-202,,,Low,No operational action required,345,0.0136
+S510-202,,,Medium,Monitor route conditions,345,0.0136
+S511-202,,,Low,No operational action required,180,0.0071
+S511-202,,,Medium,Monitor route conditions,22,0.0009
+S512-202,,,Low,No operational action required,125,0.0049
+S512-202,,,Medium,Monitor route conditions,36,0.0014
+S513-202,,,Low,No operational action required,196,0.0077
+S513-202,,,Medium,Monitor route conditions,44,0.0017
+S514-202,,,Low,No operational action required,284,0.0112
+S514-202,,,Medium,Monitor route conditions,57,0.0023
+S514-202,,,High,Adjust service headway,9,0.0004
+S515-202,,,Low,No operational action required,307,0.0121
+S515-202,,,Medium,Monitor route conditions,66,0.0026
+S516-202,,,Low,No operational action required,178,0.007
+S516-202,,,Medium,Monitor route conditions,130,0.0051
+S516-202,,,High,Adjust service headway,1,0.0
+S519-202,,,Low,No operational action required,55,0.0022
+S519-202,,,Medium,Monitor route conditions,21,0.0008
+S520-202,,,Low,No operational action required,185,0.0073
+S520-202,,,Medium,Monitor route conditions,72,0.0028
+S520-202,,,High,Adjust service headway,7,0.0003
+S521-202,,,Low,No operational action required,172,0.0068
+S521-202,,,Medium,Monitor route conditions,94,0.0037
+S521-202,,,High,Adjust service headway,22,0.0009
+S522G-221,,,Low,No operational action required,120,0.0047
+S522G-221,,,Medium,Monitor route conditions,133,0.0053
+S522G-221,,,High,Adjust service headway,10,0.0004
+S522N-202,,,Low,No operational action required,135,0.0053
+S522N-202,,,Medium,Monitor route conditions,134,0.0053
+S522N-202,,,High,Adjust service headway,3,0.0001
+S523-202,,,Low,No operational action required,165,0.0065
+S523-202,,,Medium,Monitor route conditions,146,0.0058
+S523-202,,,High,Adjust service headway,18,0.0007
+S524-202,,,Low,No operational action required,154,0.0061
+S524-202,,,Medium,Monitor route conditions,68,0.0027
+S525-202,,,Low,No operational action required,171,0.0068
+S525-202,,,Medium,Monitor route conditions,70,0.0028
+S529-218,,,Low,No operational action required,92,0.0036
+S529-218,,,Medium,Monitor route conditions,48,0.0019
+S529-218,,,High,Adjust service headway,88,0.0035
+S530-202,,,Low,No operational action required,110,0.0043
+S530-202,,,Medium,Monitor route conditions,18,0.0007
+S531-202,,,Low,No operational action required,91,0.0036
+S531-202,,,Medium,Monitor route conditions,17,0.0007
+S540-202,,,Low,No operational action required,6,0.0002
+S540-202,,,Medium,Monitor route conditions,32,0.0013
+S540-202,,,High,Adjust service headway,224,0.0089
+S541-202,,,Low,No operational action required,94,0.0037
+S541-202,,,Medium,Monitor route conditions,18,0.0007
+S542-202,,,Low,No operational action required,436,0.0172
+S542-202,,,Medium,Monitor route conditions,34,0.0013
+S543-202,,,Low,No operational action required,126,0.005
+S543-202,,,Medium,Monitor route conditions,8,0.0003
+S544-202,,,Low,No operational action required,360,0.0142
+S544-202,,,Medium,Monitor route conditions,71,0.0028
+S545-202,,,Low,No operational action required,149,0.0059
+S545-202,,,Medium,Monitor route conditions,78,0.0031
+S546-202,,,Low,No operational action required,257,0.0102
+S546-202,,,Medium,Monitor route conditions,114,0.0045
+S547-202,,,Low,No operational action required,475,0.0188
+S547-202,,,Medium,Monitor route conditions,171,0.0068
+S548-202,,,Low,No operational action required,140,0.0055
+S548-202,,,Medium,Monitor route conditions,8,0.0003
+S549-202,,,Low,No operational action required,148,0.0058
+S549-202,,,Medium,Monitor route conditions,90,0.0036
+S550-202,,,Low,No operational action required,179,0.0071
+S550-202,,,Medium,Monitor route conditions,34,0.0013
+S813-202,,,Low,No operational action required,235,0.0093
+S813-202,,,Medium,Monitor route conditions,79,0.0031
+101-202,101,101,Low,No operational action required,1135,0.0449
+101-202,101,101,Medium,Monitor route conditions,854,0.0338
+101-202,101,101,High,Adjust service headway,48,0.0019
+105-202,105,105,Low,No operational action required,12706,0.5022
+105-202,105,105,Medium,Monitor route conditions,4511,0.1783
+105-202,105,105,High,Adjust service headway,43,0.0017
+106-202,106,106,Low,No operational action required,3495,0.1381
+106-202,106,106,Medium,Monitor route conditions,2009,0.0794
+106-202,106,106,High,Adjust service headway,3,0.0001
+106-202,106,106,Severe,Deploy standby bus or supervisor review,3,0.0001
+111-203,111,111,Low,No operational action required,3503,0.1385
+111-203,111,111,Medium,Monitor route conditions,654,0.0259
+111-203,111,111,High,Adjust service headway,63,0.0025
+111-203,111,111,Severe,Deploy standby bus or supervisor review,22,0.0009
+112-203,112,112,Low,No operational action required,8097,0.32
+112-203,112,112,Medium,Monitor route conditions,1147,0.0453
+112-203,112,112,High,Adjust service headway,32,0.0013
+112-203,112,112,Severe,Deploy standby bus or supervisor review,14,0.0006
+114-203,114,114,Low,No operational action required,4069,0.1608
+114-203,114,114,Medium,Monitor route conditions,1187,0.0469
+114-203,114,114,High,Adjust service headway,132,0.0052
+114-203,114,114,Severe,Deploy standby bus or supervisor review,14,0.0006
+116-203,116,116,Low,No operational action required,2976,0.1176
+116-203,116,116,Medium,Monitor route conditions,134,0.0053
+116-203,116,116,Severe,Deploy standby bus or supervisor review,13,0.0005
+11T-207,11T,11T,Low,No operational action required,12646,0.4998
+11T-207,11T,11T,Medium,Monitor route conditions,4659,0.1842
+11T-207,11T,11T,High,Adjust service headway,128,0.0051
+11T-207,11T,11T,Severe,Deploy standby bus or supervisor review,11,0.0004
+11W-207,11W,11W,Low,No operational action required,13025,0.5148
+11W-207,11W,11W,Medium,Monitor route conditions,4720,0.1866
+11W-207,11W,11W,High,Adjust service headway,110,0.0043
+11W-207,11W,11W,Severe,Deploy standby bus or supervisor review,28,0.0011
+12-207,12,12,Low,No operational action required,17768,0.7023
+12-207,12,12,Medium,Monitor route conditions,6323,0.2499
+12-207,12,12,High,Adjust service headway,308,0.0122
+12-207,12,12,Severe,Deploy standby bus or supervisor review,41,0.0016
+122-202,122,122,Low,No operational action required,2806,0.1109
+122-202,122,122,Medium,Monitor route conditions,671,0.0265
+122-202,122,122,High,Adjust service headway,25,0.001
+123-202,123,123,Low,No operational action required,2911,0.1151
+123-202,123,123,Medium,Monitor route conditions,715,0.0283
+123-202,123,123,High,Adjust service headway,35,0.0014
+125-202,125,125,Low,No operational action required,5975,0.2362
+125-202,125,125,Medium,Monitor route conditions,1793,0.0709
+125-202,125,125,High,Adjust service headway,142,0.0056
+125-202,125,125,Severe,Deploy standby bus or supervisor review,52,0.0021
+126-203,126,126,Low,No operational action required,2824,0.1116
+126-203,126,126,Medium,Monitor route conditions,1864,0.0737
+126-203,126,126,High,Adjust service headway,139,0.0055
+126-203,126,126,Severe,Deploy standby bus or supervisor review,45,0.0018
+128-202,128,128,Low,No operational action required,2579,0.1019
+128-202,128,128,Medium,Monitor route conditions,719,0.0284
+128-202,128,128,High,Adjust service headway,167,0.0066
+128-202,128,128,Severe,Deploy standby bus or supervisor review,1088,0.043
+13-203,13,13,Low,No operational action required,13883,0.5487
+13-203,13,13,Medium,Monitor route conditions,7814,0.3089
+13-203,13,13,High,Adjust service headway,470,0.0186
+13-203,13,13,Severe,Deploy standby bus or supervisor review,89,0.0035
+135-203,135,135,Low,No operational action required,9079,0.3589
+135-203,135,135,Medium,Monitor route conditions,3614,0.1428
+135-203,135,135,High,Adjust service headway,242,0.0096
+135-203,135,135,Severe,Deploy standby bus or supervisor review,97,0.0038
+14-202,14,14,Low,No operational action required,12611,0.4985
+14-202,14,14,Medium,Monitor route conditions,8118,0.3209
+14-202,14,14,High,Adjust service headway,297,0.0117
+14-202,14,14,Severe,Deploy standby bus or supervisor review,86,0.0034
+143-203,143,143,Low,No operational action required,6771,0.2676
+143-203,143,143,Medium,Monitor route conditions,504,0.0199
+143-203,143,143,High,Adjust service headway,2,0.0001
+145-203,145,145,Low,No operational action required,8133,0.3215
+145-203,145,145,Medium,Monitor route conditions,2630,0.104
+145-203,145,145,High,Adjust service headway,232,0.0092
+145-203,145,145,Severe,Deploy standby bus or supervisor review,54,0.0021
+147-203,147,147,Low,No operational action required,8853,0.3499
+147-203,147,147,Medium,Monitor route conditions,1431,0.0566
+147-203,147,147,High,Adjust service headway,83,0.0033
+147-203,147,147,Severe,Deploy standby bus or supervisor review,57,0.0023
+148-203,148,148,Low,No operational action required,2728,0.1078
+148-203,148,148,Medium,Monitor route conditions,409,0.0162
+148-203,148,148,Severe,Deploy standby bus or supervisor review,8,0.0003
+149-203,149,149,Low,No operational action required,5800,0.2293
+149-203,149,149,Medium,Monitor route conditions,2412,0.0953
+149-203,149,149,High,Adjust service headway,148,0.0058
+149-203,149,149,Severe,Deploy standby bus or supervisor review,31,0.0012
+152-203,152,152,Low,No operational action required,7110,0.281
+152-203,152,152,Medium,Monitor route conditions,1112,0.044
+152-203,152,152,High,Adjust service headway,31,0.0012
+152-203,152,152,Severe,Deploy standby bus or supervisor review,26,0.001
+154-203,154,154,Low,No operational action required,8426,0.333
+154-203,154,154,Medium,Monitor route conditions,2183,0.0863
+154-203,154,154,High,Adjust service headway,42,0.0017
+154-203,154,154,Severe,Deploy standby bus or supervisor review,32,0.0013
+161-203,161,161,Low,No operational action required,3946,0.156
+161-203,161,161,Medium,Monitor route conditions,285,0.0113
+162-202,162,162,Low,No operational action required,9344,0.3693
+162-202,162,162,Medium,Monitor route conditions,1600,0.0632
+162-202,162,162,High,Adjust service headway,1,0.0
+162-202,162,162,Severe,Deploy standby bus or supervisor review,28,0.0011
+170-203,170,170,Low,No operational action required,4264,0.1685
+170-203,170,170,Medium,Monitor route conditions,258,0.0102
+170-203,170,170,High,Adjust service headway,3,0.0001
+170-203,170,170,Severe,Deploy standby bus or supervisor review,1,0.0
+171-203,171,171,Low,No operational action required,2045,0.0808
+171-203,171,171,Medium,Monitor route conditions,902,0.0357
+171-203,171,171,High,Adjust service headway,53,0.0021
+172-203,172,172,Low,No operational action required,7779,0.3075
+172-203,172,172,Medium,Monitor route conditions,959,0.0379
+172-203,172,172,High,Adjust service headway,32,0.0013
+172-203,172,172,Severe,Deploy standby bus or supervisor review,18,0.0007
+18-202,18,18,Low,No operational action required,24933,0.9855
+18-202,18,18,Medium,Monitor route conditions,8091,0.3198
+18-202,18,18,High,Adjust service headway,93,0.0037
+18-202,18,18,Severe,Deploy standby bus or supervisor review,11,0.0004
+186-203,186,186,Low,No operational action required,3923,0.1551
+186-203,186,186,Medium,Monitor route conditions,446,0.0176
+186-203,186,186,High,Adjust service headway,18,0.0007
+186-203,186,186,Severe,Deploy standby bus or supervisor review,8,0.0003
+191-203,191,191,Low,No operational action required,3917,0.1548
+191-203,191,191,Medium,Monitor route conditions,1222,0.0483
+191-203,191,191,High,Adjust service headway,46,0.0018
+195-203,195,195,Low,No operational action required,10775,0.4259
+195-203,195,195,Medium,Monitor route conditions,5064,0.2002
+195-203,195,195,High,Adjust service headway,180,0.0071
+195-203,195,195,Severe,Deploy standby bus or supervisor review,123,0.0049
+20-202,20,20,Low,No operational action required,14762,0.5835
+20-202,20,20,Medium,Monitor route conditions,2539,0.1004
+20-202,20,20,High,Adjust service headway,22,0.0009
+209-203,209,209,Low,No operational action required,1296,0.0512
+209-203,209,209,Medium,Monitor route conditions,764,0.0302
+209-203,209,209,High,Adjust service headway,37,0.0015
+22N-202,22N,22N,Low,No operational action required,9685,0.3828
+22N-202,22N,22N,Medium,Monitor route conditions,6256,0.2473
+22N-202,22N,22N,High,Adjust service headway,151,0.006
+22N-202,22N,22N,Severe,Deploy standby bus or supervisor review,5,0.0002
+22R-202,22R,22R,Low,No operational action required,10230,0.4044
+22R-202,22R,22R,Medium,Monitor route conditions,6600,0.2609
+22R-202,22R,22R,High,Adjust service headway,145,0.0057
+22R-202,22R,22R,Severe,Deploy standby bus or supervisor review,26,0.001
+24B-202,24B,24B,Low,No operational action required,12544,0.4958
+24B-202,24B,24B,Medium,Monitor route conditions,7272,0.2874
+24B-202,24B,24B,High,Adjust service headway,142,0.0056
+24B-202,24B,24B,Severe,Deploy standby bus or supervisor review,36,0.0014
+24R-202,24R,24R,Low,No operational action required,12056,0.4765
+24R-202,24R,24R,Medium,Monitor route conditions,5604,0.2215
+24R-202,24R,24R,High,Adjust service headway,62,0.0025
+24R-202,24R,24R,Severe,Deploy standby bus or supervisor review,25,0.001
+252-202,252,252,Low,No operational action required,606,0.024
+252-202,252,252,Medium,Monitor route conditions,202,0.008
+252-202,252,252,Severe,Deploy standby bus or supervisor review,5,0.0002
+253-202,253,253,Low,No operational action required,642,0.0254
+253-202,253,253,Medium,Monitor route conditions,277,0.0109
+25B-202,25B,25B,Low,No operational action required,18775,0.7421
+25B-202,25B,25B,Medium,Monitor route conditions,6173,0.244
+25B-202,25B,25B,High,Adjust service headway,69,0.0027
+25B-202,25B,25B,Severe,Deploy standby bus or supervisor review,19,0.0008
+25L-202,25L,25L,Low,No operational action required,19964,0.7891
+25L-202,25L,25L,Medium,Monitor route conditions,5395,0.2132
+25L-202,25L,25L,High,Adjust service headway,68,0.0027
+25L-202,25L,25L,Severe,Deploy standby bus or supervisor review,111,0.0044
+27H-202,27H,27H,Low,No operational action required,9507,0.3758
+27H-202,27H,27H,Medium,Monitor route conditions,7578,0.2995
+27H-202,27H,27H,High,Adjust service headway,121,0.0048
+27H-202,27H,27H,Severe,Deploy standby bus or supervisor review,70,0.0028
+27T-202,27T,27T,Low,No operational action required,526,0.0208
+27T-202,27T,27T,Medium,Monitor route conditions,410,0.0162
+27T-202,27T,27T,High,Adjust service headway,25,0.001
+27W-202,27W,27W,Low,No operational action required,11091,0.4384
+27W-202,27W,27W,Medium,Monitor route conditions,5903,0.2333
+27W-202,27W,27W,High,Adjust service headway,132,0.0052
+27W-202,27W,27W,Severe,Deploy standby bus or supervisor review,32,0.0013
+295-202,295,295,Low,No operational action required,9130,0.3609
+295-202,295,295,Medium,Monitor route conditions,4518,0.1786
+295-202,295,295,High,Adjust service headway,779,0.0308
+295-202,295,295,Severe,Deploy standby bus or supervisor review,41,0.0016
+298-221,298,298,Low,No operational action required,9145,0.3615
+298-221,298,298,Medium,Monitor route conditions,1685,0.0666
+298-221,298,298,High,Adjust service headway,63,0.0025
+298-221,298,298,Severe,Deploy standby bus or supervisor review,21,0.0008
+30-202,30,30,Low,No operational action required,18290,0.7229
+30-202,30,30,Medium,Monitor route conditions,7210,0.285
+30-202,30,30,High,Adjust service headway,261,0.0103
+30-202,30,30,Severe,Deploy standby bus or supervisor review,13,0.0005
+309-203,309,309,Low,No operational action required,9642,0.3811
+309-203,309,309,Medium,Monitor route conditions,7452,0.2945
+309-203,309,309,High,Adjust service headway,1493,0.059
+309-203,309,309,Severe,Deploy standby bus or supervisor review,404,0.016
+309X-203,309X,309X,Low,No operational action required,185,0.0073
+309X-203,309X,309X,Medium,Monitor route conditions,269,0.0106
+309X-203,309X,309X,High,Adjust service headway,91,0.0036
+31-203,31,31,Low,No operational action required,15880,0.6277
+31-203,31,31,Medium,Monitor route conditions,5857,0.2315
+31-203,31,31,High,Adjust service headway,196,0.0077
+31-203,31,31,Severe,Deploy standby bus or supervisor review,26,0.001
+311-203,311,311,Low,No operational action required,2265,0.0895
+311-203,311,311,Medium,Monitor route conditions,5021,0.1985
+311-203,311,311,High,Adjust service headway,261,0.0103
+311-203,311,311,Severe,Deploy standby bus or supervisor review,26,0.001
+313-203,313,313,Low,No operational action required,5762,0.2277
+313-203,313,313,Medium,Monitor route conditions,2275,0.0899
+313-203,313,313,High,Adjust service headway,27,0.0011
+313-203,313,313,Severe,Deploy standby bus or supervisor review,34,0.0013
+314-203,314,314,Low,No operational action required,7233,0.2859
+314-203,314,314,Medium,Monitor route conditions,1715,0.0678
+314-203,314,314,High,Adjust service headway,154,0.0061
+314-203,314,314,Severe,Deploy standby bus or supervisor review,32,0.0013
+32-203,32,32,Low,No operational action required,15307,0.605
+32-203,32,32,Medium,Monitor route conditions,4040,0.1597
+32-203,32,32,High,Adjust service headway,405,0.016
+32-203,32,32,Severe,Deploy standby bus or supervisor review,195,0.0077
+321-202,321,321,Low,No operational action required,5597,0.2212
+321-202,321,321,Medium,Monitor route conditions,3312,0.1309
+321-202,321,321,High,Adjust service headway,250,0.0099
+321-202,321,321,Severe,Deploy standby bus or supervisor review,15,0.0006
+323-221,323,323,Low,No operational action required,10549,0.417
+323-221,323,323,Medium,Monitor route conditions,1868,0.0738
+323-221,323,323,High,Adjust service headway,30,0.0012
+323-221,323,323,Severe,Deploy standby bus or supervisor review,19,0.0008
+324-203,324,324,Low,No operational action required,4197,0.1659
+324-203,324,324,Medium,Monitor route conditions,1107,0.0438
+324-203,324,324,High,Adjust service headway,39,0.0015
+324-203,324,324,Severe,Deploy standby bus or supervisor review,17,0.0007
+325-203,325,325,Low,No operational action required,12818,0.5066
+325-203,325,325,Medium,Monitor route conditions,6385,0.2524
+325-203,325,325,High,Adjust service headway,481,0.019
+325-203,325,325,Severe,Deploy standby bus or supervisor review,88,0.0035
+326-203,326,326,Low,No operational action required,3930,0.1553
+326-203,326,326,Medium,Monitor route conditions,5891,0.2328
+326-203,326,326,High,Adjust service headway,38,0.0015
+326-203,326,326,Severe,Deploy standby bus or supervisor review,10,0.0004
+33-203,33,33,Low,No operational action required,21828,0.8628
+33-203,33,33,Medium,Monitor route conditions,7565,0.299
+33-203,33,33,High,Adjust service headway,534,0.0211
+33-203,33,33,Severe,Deploy standby bus or supervisor review,147,0.0058
+35-205,35,35,Low,No operational action required,14896,0.5888
+35-205,35,35,Medium,Monitor route conditions,4296,0.1698
+35-205,35,35,High,Adjust service headway,236,0.0093
+35-205,35,35,Severe,Deploy standby bus or supervisor review,77,0.003
+351-205,351,351,Low,No operational action required,4966,0.1963
+351-205,351,351,Medium,Monitor route conditions,1817,0.0718
+351-205,351,351,High,Adjust service headway,113,0.0045
+351-205,351,351,Severe,Deploy standby bus or supervisor review,37,0.0015
+352-205,352,352,Low,No operational action required,4509,0.1782
+352-205,352,352,Medium,Monitor route conditions,2619,0.1035
+352-205,352,352,High,Adjust service headway,376,0.0149
+352-205,352,352,Severe,Deploy standby bus or supervisor review,34,0.0013
+353-205,353,353,Low,No operational action required,8163,0.3227
+353-205,353,353,Medium,Monitor route conditions,1978,0.0782
+353-205,353,353,High,Adjust service headway,169,0.0067
+353-205,353,353,Severe,Deploy standby bus or supervisor review,65,0.0026
+355-205,355,355,Low,No operational action required,10276,0.4062
+355-205,355,355,Medium,Monitor route conditions,3176,0.1255
+355-205,355,355,High,Adjust service headway,235,0.0093
+355-205,355,355,Severe,Deploy standby bus or supervisor review,80,0.0032
+36-203,36,36,Low,No operational action required,15479,0.6118
+36-203,36,36,Medium,Monitor route conditions,5627,0.2224
+36-203,36,36,High,Adjust service headway,569,0.0225
+36-203,36,36,Severe,Deploy standby bus or supervisor review,187,0.0074
+362-203,362,362,Low,No operational action required,10131,0.4004
+362-203,362,362,Medium,Monitor route conditions,1576,0.0623
+362-203,362,362,High,Adjust service headway,136,0.0054
+362-203,362,362,Severe,Deploy standby bus or supervisor review,31,0.0012
+363-203,363,363,Low,No operational action required,4949,0.1956
+363-203,363,363,Medium,Monitor route conditions,419,0.0166
+363-203,363,363,High,Adjust service headway,9,0.0004
+363-203,363,363,Severe,Deploy standby bus or supervisor review,18,0.0007
+364-203,364,364,Low,No operational action required,9844,0.3891
+364-203,364,364,Medium,Monitor route conditions,1723,0.0681
+364-203,364,364,High,Adjust service headway,33,0.0013
+364-203,364,364,Severe,Deploy standby bus or supervisor review,45,0.0018
+365-203,365,365,Low,No operational action required,11299,0.4466
+365-203,365,365,Medium,Monitor route conditions,3460,0.1368
+365-203,365,365,High,Adjust service headway,352,0.0139
+365-203,365,365,Severe,Deploy standby bus or supervisor review,102,0.004
+366-203,366,366,Low,No operational action required,10637,0.4204
+366-203,366,366,Medium,Monitor route conditions,2473,0.0977
+366-203,366,366,High,Adjust service headway,141,0.0056
+366-203,366,366,Severe,Deploy standby bus or supervisor review,43,0.0017
+37-203,37,37,Low,No operational action required,19484,0.7701
+37-203,37,37,Medium,Monitor route conditions,2655,0.1049
+37-203,37,37,High,Adjust service headway,219,0.0087
+37-203,37,37,Severe,Deploy standby bus or supervisor review,91,0.0036
+372-203,372,372,Low,No operational action required,5141,0.2032
+372-203,372,372,Medium,Monitor route conditions,603,0.0238
+372-203,372,372,High,Adjust service headway,41,0.0016
+372-203,372,372,Severe,Deploy standby bus or supervisor review,7,0.0003
+373-203,373,373,Low,No operational action required,4075,0.1611
+373-203,373,373,Medium,Monitor route conditions,327,0.0129
+373-203,373,373,High,Adjust service headway,37,0.0015
+373-203,373,373,Severe,Deploy standby bus or supervisor review,29,0.0011
+376-203,376,376,Low,No operational action required,4928,0.1948
+376-203,376,376,Medium,Monitor route conditions,1621,0.0641
+376-203,376,376,High,Adjust service headway,100,0.004
+376-203,376,376,Severe,Deploy standby bus or supervisor review,55,0.0022
+377-203,377,377,Low,No operational action required,3440,0.136
+377-203,377,377,Medium,Monitor route conditions,3158,0.1248
+377-203,377,377,High,Adjust service headway,15,0.0006
+377-203,377,377,Severe,Deploy standby bus or supervisor review,26,0.001
+378-203,378,378,Low,No operational action required,3114,0.1231
+378-203,378,378,Medium,Monitor route conditions,736,0.0291
+378-203,378,378,High,Adjust service headway,52,0.0021
+378-203,378,378,Severe,Deploy standby bus or supervisor review,30,0.0012
+379-203,379,379,Low,No operational action required,4065,0.1607
+379-203,379,379,Medium,Monitor route conditions,2125,0.084
+379-203,379,379,High,Adjust service headway,60,0.0024
+379-203,379,379,Severe,Deploy standby bus or supervisor review,39,0.0015
+38-203,38,38,Low,No operational action required,18987,0.7505
+38-203,38,38,Medium,Monitor route conditions,4611,0.1823
+38-203,38,38,High,Adjust service headway,381,0.0151
+38-203,38,38,Severe,Deploy standby bus or supervisor review,102,0.004
+39-203,39,39,Low,No operational action required,17357,0.6861
+39-203,39,39,Medium,Monitor route conditions,5366,0.2121
+39-203,39,39,High,Adjust service headway,398,0.0157
+39-203,39,39,Severe,Deploy standby bus or supervisor review,111,0.0044
+391-203,391,391,Low,No operational action required,5931,0.2344
+391-203,391,391,Medium,Monitor route conditions,221,0.0087
+392-203,392,392,Low,No operational action required,5585,0.2208
+392-203,392,392,Medium,Monitor route conditions,1258,0.0497
+392-203,392,392,High,Adjust service headway,7,0.0003
+393-203,393,393,Low,No operational action required,5723,0.2262
+393-203,393,393,Medium,Monitor route conditions,279,0.011
+393-203,393,393,High,Adjust service headway,10,0.0004
+393-203,393,393,Severe,Deploy standby bus or supervisor review,14,0.0006
+394-203,394,394,Low,No operational action required,3614,0.1428
+394-203,394,394,Medium,Monitor route conditions,651,0.0257
+394-203,394,394,High,Adjust service headway,9,0.0004
+394-203,394,394,Severe,Deploy standby bus or supervisor review,1,0.0
+395-203,395,395,Low,No operational action required,511,0.0202
+395-203,395,395,Medium,Monitor route conditions,226,0.0089
+395-203,395,395,High,Adjust service headway,1,0.0
+395-203,395,395,Severe,Deploy standby bus or supervisor review,15,0.0006
+396-203,396,396,Low,No operational action required,2297,0.0908
+396-203,396,396,Medium,Monitor route conditions,975,0.0385
+396-203,396,396,High,Adjust service headway,21,0.0008
+396-203,396,396,Severe,Deploy standby bus or supervisor review,1,0.0
+501-217,501,501,Low,No operational action required,4304,0.1701
+501-217,501,501,Medium,Monitor route conditions,674,0.0266
+501-217,501,501,High,Adjust service headway,38,0.0015
+502-217,502,502,Low,No operational action required,8877,0.3509
+502-217,502,502,Medium,Monitor route conditions,1197,0.0473
+502-217,502,502,High,Adjust service headway,49,0.0019
+502-217,502,502,Severe,Deploy standby bus or supervisor review,33,0.0013
+50A-217,50A,50A,Low,No operational action required,8476,0.335
+50A-217,50A,50A,Medium,Monitor route conditions,1269,0.0502
+50A-217,50A,50A,High,Adjust service headway,1,0.0
+50A-217,50A,50A,Severe,Deploy standby bus or supervisor review,7,0.0003
+50B-217,50B,50B,Low,No operational action required,6448,0.2549
+50B-217,50B,50B,Medium,Monitor route conditions,587,0.0232
+50B-217,50B,50B,Severe,Deploy standby bus or supervisor review,27,0.0011
+64-202,64,64,Low,No operational action required,19345,0.7646
+64-202,64,64,Medium,Monitor route conditions,5257,0.2078
+64-202,64,64,High,Adjust service headway,26,0.001
+65-202,65,65,Low,No operational action required,18578,0.7343
+65-202,65,65,Medium,Monitor route conditions,7610,0.3008
+65-202,65,65,High,Adjust service headway,568,0.0225
+65-202,65,65,Severe,Deploy standby bus or supervisor review,60,0.0024
+66-203,66,66,Low,No operational action required,18422,0.7282
+66-203,66,66,Medium,Monitor route conditions,4717,0.1864
+66-203,66,66,High,Adjust service headway,194,0.0077
+66-203,66,66,Severe,Deploy standby bus or supervisor review,46,0.0018
+67A-202,67A,67A,Low,No operational action required,11973,0.4732
+67A-202,67A,67A,Medium,Monitor route conditions,5892,0.2329
+67A-202,67A,67A,High,Adjust service headway,507,0.02
+67A-202,67A,67A,Severe,Deploy standby bus or supervisor review,54,0.0021
+67B-202,67B,67B,Low,No operational action required,4878,0.1928
+67B-202,67B,67B,Medium,Monitor route conditions,1999,0.079
+67B-202,67B,67B,High,Adjust service headway,131,0.0052
+67B-202,67B,67B,Severe,Deploy standby bus or supervisor review,48,0.0019
+68-202,68,68,Low,No operational action required,10211,0.4036
+68-202,68,68,Medium,Monitor route conditions,7681,0.3036
+68-202,68,68,High,Adjust service headway,80,0.0032
+68-202,68,68,Severe,Deploy standby bus or supervisor review,85,0.0034
+70-205,70,70,Low,No operational action required,28936,1.1437
+70-205,70,70,Medium,Monitor route conditions,13557,0.5359
+70-205,70,70,High,Adjust service headway,1279,0.0506
+70-205,70,70,Severe,Deploy standby bus or supervisor review,216,0.0085
+70H-205,70H,70H,Low,No operational action required,190,0.0075
+711-221,711,711,Low,No operational action required,5081,0.2008
+711-221,711,711,Medium,Monitor route conditions,1161,0.0459
+711-221,711,711,High,Adjust service headway,130,0.0051
+711-221,711,711,Severe,Deploy standby bus or supervisor review,15,0.0006
+712-221,712,712,Low,No operational action required,5042,0.1993
+712-221,712,712,Medium,Monitor route conditions,2058,0.0813
+712-221,712,712,High,Adjust service headway,149,0.0059
+712-221,712,712,Severe,Deploy standby bus or supervisor review,58,0.0023
+72C-205,72C,72C,Low,No operational action required,10628,0.4201
+72C-205,72C,72C,Medium,Monitor route conditions,1900,0.0751
+72C-205,72C,72C,High,Adjust service headway,59,0.0023
+72C-205,72C,72C,Severe,Deploy standby bus or supervisor review,30,0.0012
+72M-205,72M,72M,Low,No operational action required,9357,0.3698
+72M-205,72M,72M,Medium,Monitor route conditions,1408,0.0557
+72M-205,72M,72M,High,Adjust service headway,71,0.0028
+72M-205,72M,72M,Severe,Deploy standby bus or supervisor review,6,0.0002
+72X-205,72X,72X,Low,No operational action required,2959,0.117
+72X-205,72X,72X,Medium,Monitor route conditions,2103,0.0831
+72X-205,72X,72X,High,Adjust service headway,361,0.0143
+72X-205,72X,72X,Severe,Deploy standby bus or supervisor review,44,0.0017
+733-221,733,733,Low,No operational action required,4586,0.1813
+733-221,733,733,Medium,Monitor route conditions,1376,0.0544
+733-221,733,733,High,Adjust service headway,41,0.0016
+733-221,733,733,Severe,Deploy standby bus or supervisor review,13,0.0005
+734-221,734,734,Low,No operational action required,5212,0.206
+734-221,734,734,Medium,Monitor route conditions,650,0.0257
+734-221,734,734,High,Adjust service headway,59,0.0023
+735-221,735,735,Low,No operational action required,5610,0.2217
+735-221,735,735,Medium,Monitor route conditions,1295,0.0512
+735-221,735,735,High,Adjust service headway,15,0.0006
+735-221,735,735,Severe,Deploy standby bus or supervisor review,17,0.0007
+738-221,738,738,Low,No operational action required,5548,0.2193
+738-221,738,738,Medium,Monitor route conditions,115,0.0045
+738-221,738,738,High,Adjust service headway,1,0.0
+738-221,738,738,Severe,Deploy standby bus or supervisor review,10,0.0004
+739-221,739,739,Low,No operational action required,4213,0.1665
+739-221,739,739,Medium,Monitor route conditions,799,0.0316
+739-221,739,739,High,Adjust service headway,1,0.0
+739-221,739,739,Severe,Deploy standby bus or supervisor review,29,0.0011
+74-221,74,74,Low,No operational action required,16733,0.6614
+74-221,74,74,Medium,Monitor route conditions,5854,0.2314
+74-221,74,74,High,Adjust service headway,162,0.0064
+74-221,74,74,Severe,Deploy standby bus or supervisor review,34,0.0013
+744-221,744,744,Low,No operational action required,9497,0.3754
+744-221,744,744,Medium,Monitor route conditions,576,0.0228
+744-221,744,744,High,Adjust service headway,10,0.0004
+744-221,744,744,Severe,Deploy standby bus or supervisor review,7,0.0003
+747-221,747,747,Low,No operational action required,10012,0.3957
+747-221,747,747,Medium,Monitor route conditions,618,0.0244
+747-221,747,747,High,Adjust service headway,56,0.0022
+747-221,747,747,Severe,Deploy standby bus or supervisor review,13,0.0005
+75-202,75,75,Low,No operational action required,21597,0.8536
+75-202,75,75,Medium,Monitor route conditions,9179,0.3628
+75-202,75,75,High,Adjust service headway,658,0.026
+75-202,75,75,Severe,Deploy standby bus or supervisor review,51,0.002
+751-202,751,751,Low,No operational action required,4978,0.1968
+751-202,751,751,Medium,Monitor route conditions,943,0.0373
+751-202,751,751,High,Adjust service headway,56,0.0022
+751-202,751,751,Severe,Deploy standby bus or supervisor review,5,0.0002
+755-202,755,755,Low,No operational action required,8607,0.3402
+755-202,755,755,Medium,Monitor route conditions,1472,0.0582
+755-202,755,755,High,Adjust service headway,40,0.0016
+755-202,755,755,Severe,Deploy standby bus or supervisor review,8,0.0003
+76-202,76,76,Low,No operational action required,18013,0.712
+76-202,76,76,Medium,Monitor route conditions,3944,0.1559
+76-202,76,76,High,Adjust service headway,144,0.0057
+76-202,76,76,Severe,Deploy standby bus or supervisor review,35,0.0014
+774-202,774,774,Low,No operational action required,2186,0.0864
+774-202,774,774,Medium,Monitor route conditions,502,0.0198
+774-202,774,774,High,Adjust service headway,13,0.0005
+775-202,775,775,Low,No operational action required,2590,0.1024
+775-202,775,775,Medium,Monitor route conditions,1013,0.04
+775-202,775,775,High,Adjust service headway,41,0.0016
+781-202,781,781,Low,No operational action required,6681,0.2641
+781-202,781,781,Medium,Monitor route conditions,2797,0.1106
+781-202,781,781,High,Adjust service headway,59,0.0023
+781-202,781,781,Severe,Deploy standby bus or supervisor review,99,0.0039
+782-221,782,782,Low,No operational action required,4532,0.1791
+782-221,782,782,Medium,Monitor route conditions,2281,0.0902
+782-221,782,782,High,Adjust service headway,27,0.0011
+782-221,782,782,Severe,Deploy standby bus or supervisor review,7,0.0003
+783-221,783,783,Low,No operational action required,3606,0.1425
+783-221,783,783,Medium,Monitor route conditions,1075,0.0425
+783-221,783,783,High,Adjust service headway,141,0.0056
+783-221,783,783,Severe,Deploy standby bus or supervisor review,8,0.0003
+801-202,801,801,Low,No operational action required,8922,0.3527
+801-202,801,801,Medium,Monitor route conditions,1118,0.0442
+801-202,801,801,High,Adjust service headway,27,0.0011
+801-202,801,801,Severe,Deploy standby bus or supervisor review,12,0.0005
+802-202,802,802,Low,No operational action required,869,0.0343
+802-202,802,802,Medium,Monitor route conditions,375,0.0148
+802-202,802,802,High,Adjust service headway,32,0.0013
+802-202,802,802,Severe,Deploy standby bus or supervisor review,1,0.0
+805-202,805,805,Low,No operational action required,644,0.0255
+805-202,805,805,Medium,Monitor route conditions,617,0.0244
+805-202,805,805,High,Adjust service headway,20,0.0008
+805-202,805,805,Severe,Deploy standby bus or supervisor review,10,0.0004
+806-202,806,806,Low,No operational action required,4245,0.1678
+806-202,806,806,Medium,Monitor route conditions,365,0.0144
+806-202,806,806,High,Adjust service headway,13,0.0005
+807-202,807,807,Low,No operational action required,3411,0.1348
+807-202,807,807,Medium,Monitor route conditions,1105,0.0437
+807-202,807,807,High,Adjust service headway,85,0.0034
+807-202,807,807,Severe,Deploy standby bus or supervisor review,10,0.0004
+814-202,814,814,Low,No operational action required,10647,0.4208
+814-202,814,814,Medium,Monitor route conditions,2235,0.0883
+814-202,814,814,High,Adjust service headway,199,0.0079
+814-202,814,814,Severe,Deploy standby bus or supervisor review,77,0.003
+82-202,82,82,Low,No operational action required,15881,0.6277
+82-202,82,82,Medium,Monitor route conditions,3924,0.1551
+82-202,82,82,High,Adjust service headway,90,0.0036
+82-202,82,82,Severe,Deploy standby bus or supervisor review,53,0.0021
+83-203,83,83,Low,No operational action required,20282,0.8017
+83-203,83,83,Medium,Monitor route conditions,6489,0.2565
+83-203,83,83,High,Adjust service headway,190,0.0075
+83-203,83,83,Severe,Deploy standby bus or supervisor review,12,0.0005
+842-202,842,842,Low,No operational action required,1493,0.059
+842-202,842,842,Medium,Monitor route conditions,180,0.0071
+842-202,842,842,High,Adjust service headway,1,0.0
+843-202,843,843,Low,No operational action required,8153,0.3223
+843-202,843,843,Medium,Monitor route conditions,992,0.0392
+843-202,843,843,High,Adjust service headway,16,0.0006
+843-202,843,843,Severe,Deploy standby bus or supervisor review,16,0.0006
+845-203,845,845,Low,No operational action required,2930,0.1158
+845-203,845,845,Medium,Monitor route conditions,617,0.0244
+845-203,845,845,High,Adjust service headway,3,0.0001
+856-203,856,856,Low,No operational action required,14178,0.5604
+856-203,856,856,Medium,Monitor route conditions,4827,0.1908
+856-203,856,856,High,Adjust service headway,293,0.0116
+856-203,856,856,Severe,Deploy standby bus or supervisor review,49,0.0019
+861-203,861,861,Low,No operational action required,11691,0.4621
+861-203,861,861,Medium,Monitor route conditions,2319,0.0917
+861-203,861,861,High,Adjust service headway,71,0.0028
+861-203,861,861,Severe,Deploy standby bus or supervisor review,19,0.0008
+865-203,865,865,Low,No operational action required,9624,0.3804
+865-203,865,865,Medium,Monitor route conditions,234,0.0092
+865-203,865,865,High,Adjust service headway,117,0.0046
+866-203,866,866,Low,No operational action required,8644,0.3417
+866-203,866,866,Medium,Monitor route conditions,2725,0.1077
+866-203,866,866,High,Adjust service headway,63,0.0025
+866-203,866,866,Severe,Deploy standby bus or supervisor review,22,0.0009
+871-202,871,871,Low,No operational action required,10458,0.4134
+871-202,871,871,Medium,Monitor route conditions,1832,0.0724
+871-202,871,871,High,Adjust service headway,56,0.0022
+871-202,871,871,Severe,Deploy standby bus or supervisor review,10,0.0004
+878-203,878,878,Low,No operational action required,11544,0.4563
+878-203,878,878,Medium,Monitor route conditions,1034,0.0409
+878-203,878,878,High,Adjust service headway,21,0.0008
+878-203,878,878,Severe,Deploy standby bus or supervisor review,12,0.0005
+883-203,883,883,Low,No operational action required,6503,0.257
+883-203,883,883,Medium,Monitor route conditions,795,0.0314
+884-203,884,884,Low,No operational action required,2220,0.0877
+884-203,884,884,Medium,Monitor route conditions,366,0.0145
+884-203,884,884,High,Adjust service headway,12,0.0005
+885-203,885,885,Low,No operational action required,2152,0.0851
+885-203,885,885,Medium,Monitor route conditions,390,0.0154
+885-203,885,885,High,Adjust service headway,11,0.0004
+888-203,888,888,Low,No operational action required,1947,0.077
+888-203,888,888,Medium,Monitor route conditions,1265,0.05
+889-203,889,889,Low,No operational action required,8149,0.3221
+889-203,889,889,Medium,Monitor route conditions,573,0.0226
+889-203,889,889,High,Adjust service headway,7,0.0003
+901-203,901,901,Low,No operational action required,8822,0.3487
+901-203,901,901,Medium,Monitor route conditions,1779,0.0703
+901-203,901,901,High,Adjust service headway,41,0.0016
+901-203,901,901,Severe,Deploy standby bus or supervisor review,3,0.0001
+902-203,902,902,Low,No operational action required,7565,0.299
+902-203,902,902,Medium,Monitor route conditions,746,0.0295
+902-203,902,902,High,Adjust service headway,20,0.0008
+906-203,906,906,Low,No operational action required,7607,0.3007
+906-203,906,906,Medium,Monitor route conditions,1527,0.0604
+906-203,906,906,High,Adjust service headway,36,0.0014
+906-203,906,906,Severe,Deploy standby bus or supervisor review,32,0.0013
+907-203,907,907,Low,No operational action required,7641,0.302
+907-203,907,907,Medium,Monitor route conditions,1109,0.0438
+907-203,907,907,High,Adjust service headway,1,0.0
+907-203,907,907,Severe,Deploy standby bus or supervisor review,7,0.0003
+917-203,917,917,Low,No operational action required,9833,0.3887
+917-203,917,917,Medium,Monitor route conditions,3090,0.1221
+917-203,917,917,High,Adjust service headway,143,0.0057
+917-203,917,917,Severe,Deploy standby bus or supervisor review,27,0.0011
+923-202,923,923,Low,No operational action required,10642,0.4206
+923-202,923,923,Medium,Monitor route conditions,3970,0.1569
+923-202,923,923,High,Adjust service headway,44,0.0017
+923-202,923,923,Severe,Deploy standby bus or supervisor review,3,0.0001
+924-202,924,924,Low,No operational action required,798,0.0315
+924-202,924,924,Medium,Monitor route conditions,907,0.0359
+924-202,924,924,High,Adjust service headway,35,0.0014
+926-203,926,926,Low,No operational action required,9253,0.3657
+926-203,926,926,Medium,Monitor route conditions,419,0.0166
+926-203,926,926,Severe,Deploy standby bus or supervisor review,7,0.0003
+928-203,928,928,Low,No operational action required,3649,0.1442
+928-203,928,928,Medium,Monitor route conditions,975,0.0385
+928-203,928,928,High,Adjust service headway,25,0.001
+931-203,931,931,Low,No operational action required,2649,0.1047
+931-203,931,931,Medium,Monitor route conditions,1034,0.0409
+931-203,931,931,High,Adjust service headway,41,0.0016
+933-203,933,933,Low,No operational action required,4853,0.1918
+933-203,933,933,Medium,Monitor route conditions,2052,0.0811
+933-203,933,933,High,Adjust service headway,91,0.0036
+933A-202,933,933A,Low,No operational action required,38,0.0015
+933A-202,933,933A,Medium,Monitor route conditions,30,0.0012
+939-203,939,939,Low,No operational action required,1061,0.0419
+939-203,939,939,Medium,Monitor route conditions,624,0.0247
+939-203,939,939,High,Adjust service headway,31,0.0012
+939-203,939,939,Severe,Deploy standby bus or supervisor review,8,0.0003
+94-203,94,94,Low,No operational action required,15075,0.5959
+94-203,94,94,Medium,Monitor route conditions,3269,0.1292
+94-203,94,94,High,Adjust service headway,107,0.0042
+94-203,94,94,Severe,Deploy standby bus or supervisor review,47,0.0019
+941-203,941,941,Low,No operational action required,9197,0.3635
+941-203,941,941,Medium,Monitor route conditions,2954,0.1168
+941-203,941,941,High,Adjust service headway,118,0.0047
+941-203,941,941,Severe,Deploy standby bus or supervisor review,68,0.0027
+95B-203,95B,95B,Low,No operational action required,10856,0.4291
+95B-203,95B,95B,Medium,Monitor route conditions,3360,0.1328
+95B-203,95B,95B,High,Adjust service headway,137,0.0054
+95B-203,95B,95B,Severe,Deploy standby bus or supervisor review,50,0.002
+95C-203,95C,95C,Low,No operational action required,8738,0.3454
+95C-203,95C,95C,Medium,Monitor route conditions,3625,0.1433
+95C-203,95C,95C,High,Adjust service headway,73,0.0029
+95C-203,95C,95C,Severe,Deploy standby bus or supervisor review,9,0.0004
+966-203,966,966,Low,No operational action required,4819,0.1905
+966-203,966,966,Medium,Monitor route conditions,3529,0.1395
+966-203,966,966,High,Adjust service headway,125,0.0049
+97B-203,97B,97B,Low,No operational action required,10182,0.4025
+97B-203,97B,97B,Medium,Monitor route conditions,2572,0.1017
+97B-203,97B,97B,High,Adjust service headway,68,0.0027
+97B-203,97B,97B,Severe,Deploy standby bus or supervisor review,51,0.002
+97R-203,97R,97R,Low,No operational action required,9780,0.3866
+97R-203,97R,97R,Medium,Monitor route conditions,2418,0.0956
+97R-203,97R,97R,High,Adjust service headway,63,0.0025
+97R-203,97R,97R,Severe,Deploy standby bus or supervisor review,38,0.0015
+981-221,981,981,Low,No operational action required,9175,0.3627
+981-221,981,981,Medium,Monitor route conditions,2436,0.0963
+981-221,981,981,High,Adjust service headway,192,0.0076
+981-221,981,981,Severe,Deploy standby bus or supervisor review,25,0.001
+982-221,982,982,Low,No operational action required,11664,0.461
+982-221,982,982,Medium,Monitor route conditions,1733,0.0685
+982-221,982,982,High,Adjust service headway,148,0.0058
+982-221,982,982,Severe,Deploy standby bus or supervisor review,41,0.0016
+983-221,983,983,Low,No operational action required,9840,0.3889
+983-221,983,983,Medium,Monitor route conditions,2184,0.0863
+983-221,983,983,High,Adjust service headway,118,0.0047
+983-221,983,983,Severe,Deploy standby bus or supervisor review,32,0.0013
+984-221,984,984,Low,No operational action required,2501,0.0989
+984-221,984,984,Medium,Monitor route conditions,298,0.0118
+984-221,984,984,High,Adjust service headway,59,0.0023
+984-221,984,984,Severe,Deploy standby bus or supervisor review,8,0.0003
+985-221,985,985,Low,No operational action required,8904,0.3519
+985-221,985,985,Medium,Monitor route conditions,883,0.0349
+985-221,985,985,High,Adjust service headway,68,0.0027
+986-221,986,986,Low,No operational action required,1980,0.0783
+986-221,986,986,Medium,Monitor route conditions,220,0.0087
+986-221,986,986,High,Adjust service headway,10,0.0004
+988-221,988,988,Low,No operational action required,1251,0.0494
+988-221,988,988,Medium,Monitor route conditions,617,0.0244
+988-221,988,988,High,Adjust service headway,2,0.0001
+989-218,989,989,Low,No operational action required,2062,0.0815
+989-218,989,989,Medium,Monitor route conditions,1468,0.058
+989-218,989,989,High,Adjust service headway,6,0.0002
+995-203,995,995,Low,No operational action required,5579,0.2205
+995-203,995,995,Medium,Monitor route conditions,388,0.0153
+995-203,995,995,High,Adjust service headway,34,0.0013
+995-203,995,995,Severe,Deploy standby bus or supervisor review,14,0.0006
+996-203,996,996,Low,No operational action required,920,0.0364
+996-203,996,996,Medium,Monitor route conditions,44,0.0017
+997-203,997,997,Low,No operational action required,664,0.0262
+997-203,997,997,Medium,Monitor route conditions,417,0.0165
+997-203,997,997,High,Adjust service headway,2,0.0001
+998-203,998,998,Low,No operational action required,3086,0.122
+998-203,998,998,Medium,Monitor route conditions,193,0.0076
+998-203,998,998,High,Adjust service headway,6,0.0002
+999-203,999,999,Low,No operational action required,3022,0.1194
+999-203,999,999,Medium,Monitor route conditions,640,0.0253
+999-203,999,999,High,Adjust service headway,16,0.0006
+999-203,999,999,Severe,Deploy standby bus or supervisor review,30,0.0012
+AIR-203,AIR,AIR,Low,No operational action required,16814,0.6646
+AIR-203,AIR,AIR,Medium,Monitor route conditions,3916,0.1548
+AIR-203,AIR,AIR,High,Adjust service headway,106,0.0042
+AIR-203,AIR,AIR,Severe,Deploy standby bus or supervisor review,60,0.0024
+BIRK-240,BIRK,BIRK,Low,No operational action required,86,0.0034
+CTY-202,CTY,CTY,Low,No operational action required,8470,0.3348
+CTY-202,CTY,CTY,Medium,Monitor route conditions,11403,0.4507
+CTY-202,CTY,CTY,High,Adjust service headway,2218,0.0877
+CTY-202,CTY,CTY,Severe,Deploy standby bus or supervisor review,5,0.0002
+DEV-209,DEV,DEV,Low,No operational action required,2361,0.0933
+DEV-209,DEV,DEV,Medium,Monitor route conditions,107,0.0042
+EAST-201,EAST,EAST,Low,No operational action required,83879,3.3154
+EAST-201,EAST,EAST,Medium,Monitor route conditions,421,0.0166
+EAST-201,EAST,EAST,High,Adjust service headway,119,0.0047
+EAST-201,EAST,EAST,Severe,Deploy standby bus or supervisor review,451,0.0178
+GULF-209,GULF,GULF,Low,No operational action required,971,0.0384
+GULF-209,GULF,GULF,Medium,Monitor route conditions,64,0.0025
+GULF-209,GULF,GULF,High,Adjust service headway,10,0.0004
+HMB-209,HMB,HMB,Low,No operational action required,1167,0.0461
+HMB-209,HMB,HMB,Medium,Monitor route conditions,92,0.0036
+HOBS-209,HOBS,HOBS,Low,No operational action required,252,0.01
+HOBS-209,HOBS,HOBS,Medium,Monitor route conditions,39,0.0015
+HUIA-404,HUIA,HUIA,Medium,Monitor route conditions,24,0.0009
+HUIA-404,HUIA,HUIA,High,Adjust service headway,6,0.0002
+HUIA-404,HUIA,HUIA,Severe,Deploy standby bus or supervisor review,34,0.0013
+INN-202,INN,INN,Low,No operational action required,23018,0.9098
+INN-202,INN,INN,Medium,Monitor route conditions,13026,0.5149
+INN-202,INN,INN,High,Adjust service headway,1095,0.0433
+INN-202,INN,INN,Severe,Deploy standby bus or supervisor review,21,0.0008
+MTIA-209,MTIA,MTIA,Low,No operational action required,2937,0.1161
+MTIA-209,MTIA,MTIA,Medium,Monitor route conditions,371,0.0147
+MTIA-209,MTIA,MTIA,Severe,Deploy standby bus or supervisor review,1,0.0
+MTID-241,MTID,MTID,Low,No operational action required,1304,0.0515
+MTID-241,MTID,MTID,Medium,Monitor route conditions,5,0.0002
+NX1-203,NX1,NX1,Low,No operational action required,48671,1.9238
+NX1-203,NX1,NX1,Medium,Monitor route conditions,3631,0.1435
+NX1-203,NX1,NX1,High,Adjust service headway,87,0.0034
+NX1-203,NX1,NX1,Severe,Deploy standby bus or supervisor review,113,0.0045
+NX2-207,NX2,NX2,Low,No operational action required,31412,1.2416
+NX2-207,NX2,NX2,Medium,Monitor route conditions,9234,0.365
+NX2-207,NX2,NX2,High,Adjust service headway,80,0.0032
+NX2-207,NX2,NX2,Severe,Deploy standby bus or supervisor review,103,0.0041
+ONE-201,ONE,ONE,Low,No operational action required,59462,2.3503
+ONE-201,ONE,ONE,Medium,Monitor route conditions,132,0.0052
+ONE-201,ONE,ONE,High,Adjust service headway,75,0.003
+ONE-201,ONE,ONE,Severe,Deploy standby bus or supervisor review,276,0.0109
+OUT-202,OUT,OUT,Low,No operational action required,19833,0.7839
+OUT-202,OUT,OUT,Medium,Monitor route conditions,13342,0.5274
+OUT-202,OUT,OUT,High,Adjust service headway,447,0.0177
+OUT-202,OUT,OUT,Severe,Deploy standby bus or supervisor review,88,0.0035
+PINE-210,PINE,PINE,Low,No operational action required,502,0.0198
+RAK-211,RAK,RAK,Low,No operational action required,50,0.002
+RANG-209,RANG,RANG,Low,No operational action required,824,0.0326
+RANG-209,RANG,RANG,Medium,Monitor route conditions,11,0.0004
+RBE-402,RBE,RBE,Low,No operational action required,190,0.0075
+RBE-402,RBE,RBE,Medium,Monitor route conditions,98,0.0039
+RBE-402,RBE,RBE,High,Adjust service headway,8,0.0003
+RBN-402,RBN,RBN,Low,No operational action required,188,0.0074
+RBN-402,RBN,RBN,Medium,Monitor route conditions,36,0.0014
+RBO-402,RBO,RBO,Low,No operational action required,197,0.0078
+RBO-402,RBO,RBO,Medium,Monitor route conditions,39,0.0015
+RBO-402,RBO,RBO,High,Adjust service headway,8,0.0003
+RBO-402,RBO,RBO,Severe,Deploy standby bus or supervisor review,6,0.0002
+RBS-402,RBS,RBS,Low,No operational action required,505,0.02
+RBS-402,RBS,RBS,Medium,Monitor route conditions,207,0.0082
+RBS-402,RBS,RBS,High,Adjust service headway,28,0.0011
+RBW-402,RBW,RBW,Low,No operational action required,3231,0.1277
+RBW-402,RBW,RBW,Medium,Monitor route conditions,630,0.0249
+RBW-402,RBW,RBW,High,Adjust service headway,44,0.0017
+RBW-402,RBW,RBW,Severe,Deploy standby bus or supervisor review,56,0.0022
+STH-201,STH,STH,Low,No operational action required,87779,3.4696
+STH-201,STH,STH,Medium,Monitor route conditions,1741,0.0688
+STH-201,STH,STH,High,Adjust service headway,198,0.0078
+STH-201,STH,STH,Severe,Deploy standby bus or supervisor review,446,0.0176
+TMK-202,TMK,TMK,Low,No operational action required,19074,0.7539
+TMK-202,TMK,TMK,Medium,Monitor route conditions,2694,0.1065
+TMK-202,TMK,TMK,High,Adjust service headway,218,0.0086
+TMK-202,TMK,TMK,Severe,Deploy standby bus or supervisor review,41,0.0016
+WEST-201,WEST,WEST,Low,No operational action required,76576,3.0268
+WEST-201,WEST,WEST,Medium,Monitor route conditions,1507,0.0596
+WEST-201,WEST,WEST,High,Adjust service headway,345,0.0136
+WEST-201,WEST,WEST,Severe,Deploy standby bus or supervisor review,846,0.0334
+WX1-207,WX1,WX1,Low,No operational action required,23349,0.9229
+WX1-207,WX1,WX1,Medium,Monitor route conditions,8167,0.3228
+WX1-207,WX1,WX1,High,Adjust service headway,192,0.0076
+WX1-207,WX1,WX1,Severe,Deploy standby bus or supervisor review,34,0.0013
