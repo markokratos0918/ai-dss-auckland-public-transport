@@ -36,6 +36,7 @@ __pycache__/
 data/raw/gtfs_realtime/*.json
 data/raw/gtfs_realtime/*.pb
 data/raw/gtfs_realtime/*.csv
+data/raw/gtfs_realtime/daily/*.csv
 
 
 # ============================================
@@ -43,6 +44,9 @@ data/raw/gtfs_realtime/*.csv
 # ============================================
 
 outputs/
+data/processed/*.parquet
+data/processed/*.duckdb
+data/processed/decision_engine_output.csv
 
 
 # ============================================
@@ -50,7 +54,13 @@ outputs/
 # ============================================
 
 !data/processed/
-!data/processed/decision_engine_output.csv
+!data/processed/.gitkeep.txt
+!data/processed/intervention_logic.csv
+!data/processed/sumo_kpis.csv
+!data/processed/sumo_scenarios.csv
+!data/processed/sumo_validation_results.csv
+!data/processed/summaries/
+!data/processed/summaries/*.csv
 
 
 # ============================================
@@ -74,3 +84,15 @@ data/raw/gtfs_static/*.zip
 
 # Anaconda local projects
 notebooks/data/
+
+# ============================================
+# Internal documentation kept local only
+# ============================================
+
+docs/ai_modeling_results_summary.md
+docs/project_roadmap.md
+docs/module_specs.md
+docs/test_outputs_checklist.md
+docs/file_inventory.md
+docs/*_internal.md
+docs/internal/
