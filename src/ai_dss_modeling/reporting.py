@@ -8,6 +8,7 @@ from ai_dss_modeling.config import (
     FEATURES,
     IMPORTANCE_CSV,
     INPUT_CSV,
+    INPUT_PARQUET,
     MANIFEST_MD,
     METRICS_CSV,
     NUMERIC_FEATURES,
@@ -109,9 +110,10 @@ This is an AI-layer checkpoint only. It does not modify Notebook 09, the Decisio
 
 Required local input:
 
-- `{rel(INPUT_CSV)}`
+- `{rel(INPUT_PARQUET)}` preferred
+- `{rel(INPUT_CSV)}` fallback/export source
 
-This input is a large generated artifact and should not be committed to GitHub.
+These inputs are large generated artifacts and should not be committed to GitHub.
 
 Rows in local input: {full_rows:,}
 Rows used in compact modeling checkpoint: {model_rows:,}
@@ -211,6 +213,7 @@ Safe to commit after review:
 Do not commit:
 
 - `{rel(INPUT_CSV)}`
+- `{rel(INPUT_PARQUET)}`
 - `data/processed/gtfs_realtime_cleaned.parquet`
 - raw GTFS-Realtime daily CSV files
 - large model artifacts or cache folders

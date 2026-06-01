@@ -5,6 +5,7 @@ import pandas as pd
 from ai_dss_modeling.config import (
     CATEGORICAL_FEATURES,
     INPUT_CSV,
+    INPUT_PARQUET,
     MAX_MODEL_ROWS,
     NUMERIC_FEATURES,
     RANDOM_STATE,
@@ -23,12 +24,21 @@ def abort(message: str) -> None:
 
 
 def read_input() -> pd.DataFrame:
-    if not INPUT_CSV.exists():
-        abort(f"`{rel(INPUT_CSV)}` is missing. Run Notebook 09 export first.")
+    if not INPUT_PARQUET.exists() and not INPUT_CSV.exists():
+        abort(
+            f"`{rel(INPUT_PARQUET)}` or `{rel(INPUT_CSV)}` is missing. "
+            "Run Notebook 09 export first."
+        )
     try:
-        df = pd.read_csv(INPUT_CSV, usecols=USE_COLUMNS)
+        if INPUT_PARQUET.exists():
+            df = pd.read_parquet(INPUT_PARQUET, columns=USE_COLUMNS)
+        else:
+            df = pd.read_csv(INPUT_CSV, usecols=USE_COLUMNS)
     except ValueError:
-        columns = pd.read_csv(INPUT_CSV, nrows=0).columns
+        if INPUT_PARQUET.exists():
+            columns = pd.read_parquet(INPUT_PARQUET).columns
+        else:
+            columns = pd.read_csv(INPUT_CSV, nrows=0).columns
         missing = sorted(set(USE_COLUMNS) - set(columns))
         abort(f"required modeling columns are missing: {missing}")
 
@@ -67,4 +77,3 @@ def time_split(df: pd.DataFrame):
     if train_df.empty or test_df.empty:
         abort("time-based split produced an empty train or test set.")
     return train_df, test_df, train_dates, test_dates
-

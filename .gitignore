@@ -30,6 +30,17 @@ __pycache__/
 
 
 # ============================================
+# Local assessment, archive, and research evidence
+# ============================================
+
+Assessment_1/
+archive/
+presentation/
+source_papers/
+*.lnk
+
+
+# ============================================
 # Realtime GTFS raw collection files
 # ============================================
 
@@ -90,6 +101,8 @@ notebooks/data/
 # ============================================
 
 docs/ai_modeling_results_summary.md
+docs/ai_modeling_manifest.md
+docs/decision_engine_manifest.md
 docs/project_roadmap.md
 docs/module_specs.md
 docs/test_outputs_checklist.md

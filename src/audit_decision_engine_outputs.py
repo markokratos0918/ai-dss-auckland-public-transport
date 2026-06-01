@@ -6,11 +6,13 @@ Run from the project root:
 
 Required local input:
 
-    data/processed/decision_engine_output.csv
+    data/processed/decision_engine_output.parquet
+    or data/processed/decision_engine_output.csv
 
 That input is a large generated Notebook 09 artifact and should stay out of
-GitHub. The script writes the GitHub-safe manifest and small summary CSVs
-used by the project audit trail and downstream presentation layers.
+GitHub. Parquet is preferred for scalable local use; CSV is kept only as a
+fallback/export format. The script writes small summary CSVs used by the
+project audit trail and downstream presentation layers.
 """
 
 from pathlib import Path
@@ -20,6 +22,7 @@ import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
 DECISION_CSV = ROOT / "data" / "processed" / "decision_engine_output.csv"
+DECISION_PARQUET = ROOT / "data" / "processed" / "decision_engine_output.parquet"
 INTERVENTION_CSV = ROOT / "data" / "processed" / "intervention_logic.csv"
 SUMMARY_DIR = ROOT / "data" / "processed" / "summaries"
 MANIFEST_MD = ROOT / "docs" / "decision_engine_manifest.md"
@@ -64,22 +67,40 @@ def md_table(headers, rows) -> str:
 
 
 def require_inputs() -> None:
-    if not DECISION_CSV.exists():
+    if not DECISION_PARQUET.exists() and not DECISION_CSV.exists():
         abort(
-            f"`{rel(DECISION_CSV)}` is missing. Place the local Notebook 09 "
-            "decision output at this path before running the audit."
+            f"`{rel(DECISION_PARQUET)}` or `{rel(DECISION_CSV)}` is missing. "
+            "Place the local Notebook 09 decision output at one of these paths "
+            "before running the audit."
         )
     if not INTERVENTION_CSV.exists():
         abort(f"`{rel(INTERVENTION_CSV)}` is missing.")
 
 
 def read_decision_output() -> pd.DataFrame:
+    if DECISION_PARQUET.exists():
+        try:
+            return pd.read_parquet(DECISION_PARQUET, columns=USE_COLUMNS)
+        except ValueError:
+            columns = pd.read_parquet(DECISION_PARQUET).columns
+            missing = sorted(set(USE_COLUMNS) - set(columns))
+            abort(f"required decision output columns are missing: {missing}")
+
     try:
         return pd.read_csv(DECISION_CSV, usecols=USE_COLUMNS)
     except ValueError:
         columns = pd.read_csv(DECISION_CSV, nrows=0).columns
         missing = sorted(set(USE_COLUMNS) - set(columns))
         abort(f"required decision output columns are missing: {missing}")
+
+
+def create_parquet_from_csv_if_needed() -> None:
+    if DECISION_PARQUET.exists() or not DECISION_CSV.exists():
+        return
+
+    print(f"Creating scalable local Parquet copy: {rel(DECISION_PARQUET)}")
+    df = pd.read_csv(DECISION_CSV)
+    df.to_parquet(DECISION_PARQUET, index=False)
 
 
 def ordered_risk(series: pd.Series) -> pd.Series:
@@ -147,7 +168,8 @@ def build_outputs(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]:
 
 def manifest(total, missing_risk, missing_action, recommendation, route_recommendation) -> str:
     source_rows = [
-        [f"`{rel(DECISION_CSV)}`", f"{total:,}", "Full row-level real Auckland decision output", "Local artifact; do not commit"],
+        [f"`{rel(DECISION_PARQUET)}`", f"{total:,}", "Preferred full row-level real Auckland decision output", "Local artifact; do not commit"],
+        [f"`{rel(DECISION_CSV)}`", f"{csv_rows(DECISION_CSV):,}", "Legacy/export row-level decision output", "Local artifact; do not commit"],
         [f"`{rel(INTERVENTION_CSV)}`", csv_rows(INTERVENTION_CSV), "Risk-to-action rule mapping", "Small output"],
         ["`data/processed/summaries/gtfs_realtime_daily_summary.csv`", csv_rows(SUMMARY_DIR / "gtfs_realtime_daily_summary.csv"), "Daily operational summary", "Small output"],
         ["`data/processed/summaries/gtfs_realtime_route_daily_summary.csv`", f"{csv_rows(SUMMARY_DIR / 'gtfs_realtime_route_daily_summary.csv'):,}", "Route-day operational summary", "Small output"],
@@ -198,7 +220,8 @@ python src/audit_decision_engine_outputs.py
 
 Local input required:
 
-- `{rel(DECISION_CSV)}` must exist locally. It is a large Notebook 09 output and should not be committed to GitHub.
+- `{rel(DECISION_PARQUET)}` should exist locally. It is the preferred large Notebook 09 decision output and should not be committed to GitHub.
+- `{rel(DECISION_CSV)}` can be used as a fallback/export source when Parquet is not available.
 
 Outputs created:
 
@@ -232,10 +255,11 @@ The current decision-engine output is valid enough for downstream decision-suppo
 - Use `decision_route_recommendation_counts.csv` for route-level action counts.
 - Use `gtfs_realtime_daily_summary.csv`, `gtfs_realtime_route_daily_summary.csv`, and `gtfs_realtime_top_delayed_routes.csv` for operational overview pages.
 - Avoid loading `decision_engine_output.csv` by default because it is a large local artifact.
+- Prefer `decision_engine_output.parquet` for row-level local analysis when detailed records are required.
 
 ## GitHub Reproducibility
 
-Commit the audit script, this manifest, and the small summary CSVs. Do not commit `{rel(DECISION_CSV)}`. A future examiner can place the local decision output at the expected path and run the replication command above to create the same audit evidence.
+Commit the audit script, this manifest, and the small summary CSVs. Do not commit `{rel(DECISION_PARQUET)}` or `{rel(DECISION_CSV)}`. A future examiner can place or regenerate the local decision output at the expected path and run the replication command above to create the same audit evidence.
 
 ## Remaining Risks
 
@@ -249,9 +273,11 @@ def main() -> None:
     require_inputs()
     SUMMARY_DIR.mkdir(parents=True, exist_ok=True)
     MANIFEST_MD.parent.mkdir(parents=True, exist_ok=True)
+    create_parquet_from_csv_if_needed()
 
     print("Decision Engine audit")
-    print(f"Input: {rel(DECISION_CSV)}")
+    input_path = DECISION_PARQUET if DECISION_PARQUET.exists() else DECISION_CSV
+    print(f"Input: {rel(input_path)}")
 
     decision = read_decision_output()
     missing_risk, missing_action, _ = validate_decisions(decision)
@@ -271,7 +297,7 @@ def main() -> None:
     print(f"Wrote: {rel(RECOMMENDATION_CSV)} ({len(recommendation):,} rows)")
     print(f"Wrote: {rel(ROUTE_RECOMMENDATION_CSV)} ({len(route_recommendation):,} rows)")
     print(f"Wrote: {rel(MANIFEST_MD)}")
-    print("GitHub note: commit the script, manifest, and small summaries; do not commit the full row-level CSV.")
+    print("GitHub note: commit the script and small summaries; do not commit full row-level CSV or Parquet outputs.")
 
 
 if __name__ == "__main__":

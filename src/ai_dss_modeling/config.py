@@ -5,6 +5,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 INPUT_CSV = ROOT / "data" / "processed" / "decision_engine_output.csv"
+INPUT_PARQUET = ROOT / "data" / "processed" / "decision_engine_output.parquet"
 SUMMARY_DIR = ROOT / "data" / "processed" / "summaries"
 METRICS_CSV = SUMMARY_DIR / "ai_model_metrics.csv"
 IMPORTANCE_CSV = SUMMARY_DIR / "ai_feature_importance.csv"
@@ -49,4 +50,3 @@ NUMERIC_FEATURES = [
     "wind_speed_10m",
 ]
 FEATURES = CATEGORICAL_FEATURES + NUMERIC_FEATURES
-

@@ -6,7 +6,8 @@ Run from the project root:
 
 Required local input:
 
-    data/processed/decision_engine_output.csv
+    data/processed/decision_engine_output.parquet
+    or data/processed/decision_engine_output.csv
 
 The input is a large Notebook 09 artifact and should stay out of GitHub. This
 script writes small evidence outputs for Assessment 1 reproducibility.
