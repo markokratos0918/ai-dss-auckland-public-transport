@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="osm_stop_kaipara_medical" name="Kaipara Medical Centre" lane="-243689702#6_0" startPos="8.0" endPos="35.0" friendlyPos="true"/>
+    <busStop id="osm_stop_commercial_mid" name="Commercial Road intermediate stop" lane="-243689702#3_0" startPos="4.0" endPos="22.0" friendlyPos="true"/>
+    <busStop id="osm_stop_commercial_north" name="Commercial Road north stop" lane="-243689702#0_0" startPos="4.0" endPos="24.0" friendlyPos="true"/>
+
+    <busStop id="osm_stop_commercial_north_return" name="Commercial Road north stop" lane="243689702#0_0" startPos="4.0" endPos="24.0" friendlyPos="true"/>
+    <busStop id="osm_stop_commercial_mid_return" name="Commercial Road intermediate stop" lane="243689702#3_0" startPos="4.0" endPos="22.0" friendlyPos="true"/>
+    <busStop id="osm_stop_kaipara_medical_return" name="Kaipara Medical Centre" lane="243689702#6_0" startPos="8.0" endPos="35.0" friendlyPos="true"/>
+</additional>

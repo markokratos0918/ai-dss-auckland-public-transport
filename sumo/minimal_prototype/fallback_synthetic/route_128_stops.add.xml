@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="stop_hibiscus_coast" name="Stop B Hibiscus Coast" lane="hc_to_j1_0" startPos="20.0" endPos="80.0" friendlyPos="true"/>
+    <busStop id="stop_junction_1" name="Route 128 intermediate stop 1" lane="j1_to_j2_0" startPos="150.0" endPos="210.0" friendlyPos="true"/>
+    <busStop id="stop_junction_2" name="Route 128 intermediate stop 2" lane="j2_to_j3_0" startPos="180.0" endPos="240.0" friendlyPos="true"/>
+    <busStop id="stop_kaipara_medical" name="Kaipara Medical Centre" lane="j3_to_kmc_0" startPos="360.0" endPos="430.0" friendlyPos="true"/>
+
+    <busStop id="stop_kaipara_medical_return" name="Kaipara Medical Centre" lane="kmc_to_j3_0" startPos="20.0" endPos="90.0" friendlyPos="true"/>
+    <busStop id="stop_junction_2_return" name="Route 128 intermediate stop 2" lane="j3_to_j2_0" startPos="180.0" endPos="240.0" friendlyPos="true"/>
+    <busStop id="stop_junction_1_return" name="Route 128 intermediate stop 1" lane="j2_to_j1_0" startPos="150.0" endPos="210.0" friendlyPos="true"/>
+    <busStop id="stop_hibiscus_coast_return" name="Stop B Hibiscus Coast" lane="j1_to_hc_0" startPos="360.0" endPos="430.0" friendlyPos="true"/>
+</additional>

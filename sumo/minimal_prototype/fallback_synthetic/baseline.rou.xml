@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="bus_route_128" vClass="bus" length="12.0" accel="1.0" decel="4.0" sigma="0.5" maxSpeed="13.9" color="0,96,170"/>
+    <vType id="background_car" vClass="passenger" length="5.0" accel="2.6" decel="4.5" sigma="0.5" maxSpeed="13.9" color="160,160,160"/>
+
+    <route id="route_128_hc_to_kmc" edges="hc_to_j1 j1_to_j2 j2_to_j3 j3_to_kmc"/>
+    <route id="route_128_kmc_to_hc" edges="kmc_to_j3 j3_to_j2 j2_to_j1 j1_to_hc"/>
+
+    <flow id="baseline_cars_hc_to_kmc" type="background_car" route="route_128_hc_to_kmc" begin="0" end="3600" period="55"/>
+    <flow id="baseline_cars_kmc_to_hc" type="background_car" route="route_128_kmc_to_hc" begin="0" end="3600" period="65"/>
+
+    <flow id="baseline_bus_hc_to_kmc" type="bus_route_128" route="route_128_hc_to_kmc" begin="0" end="3600" period="300" departLane="best"/>
+    <flow id="baseline_bus_kmc_to_hc" type="bus_route_128" route="route_128_kmc_to_hc" begin="150" end="3600" period="300" departLane="best"/>
+</routes>

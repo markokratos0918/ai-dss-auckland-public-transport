@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+    <input>
+        <net-file value="helensville_route128_visual.net.xml"/>
+        <route-files value="osm_disruption.rou.xml"/>
+        <additional-files value="osm_route128_stops.add.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="1800"/>
+        <step-length value="1"/>
+    </time>
+    <output>
+        <summary-output value="outputs/osm_disruption_summary.xml"/>
+        <tripinfo-output value="outputs/osm_disruption_tripinfo.xml"/>
+    </output>
+    <report>
+        <verbose value="false"/>
+        <duration-log.disable value="true"/>
+        <no-step-log value="true"/>
+    </report>
+</configuration>

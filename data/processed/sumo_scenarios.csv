@@ -1,4 +1,4 @@
 scenario_name,description,selected_route,avg_delay_min,traffic_congestion_index,recommended_action
-Baseline Operations,Normal transport operations without disruption,Route_12,5.0,35.0,None
-Disruption Scenario,High congestion and severe delay conditions on Route_12,Route_12,21.47,53.02,Monitor conditions
-Intervention Scenario,Operational intervention using AI recommendations,Route_12,12.0,40.0,Adjust service headway
+Baseline Operations,"OSM-based Helensville visual scenario for Route 128 bus context under normal traffic pressure; 78 completed trips in finalized command-line SUMO run. Baseline is a comparison condition, not the observed disruption date.",128-202,0.08,35.00,No operational action required
+Disruption Scenario,"OSM-based Helensville visual scenario for Route 128 bus context with intentionally heavier traffic pressure informed by Route 128 evidence on 2026-05-20: avg delay 9.57 min, max delay 39.97 min, and 95 severe records; 238 completed trips in finalized command-line SUMO run.",128-202,0.17,66.11,Deploy standby bus or supervisor review
+Intervention Scenario,"OSM-based Helensville visual scenario for Route 128 bus context with reduced road pressure, adjusted service headway, and supervisor-managed response based on the Decision Engine recommendation; 123 completed trips in finalized command-line SUMO run.",128-202,0.09,41.31,Adjust service headway / deploy standby bus or supervisor review

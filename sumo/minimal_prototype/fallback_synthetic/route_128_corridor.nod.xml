@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<nodes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/nodes_file.xsd">
+    <node id="hc_terminal" x="0.0" y="0.0" type="priority"/>
+    <node id="j1" x="420.0" y="170.0" type="priority"/>
+    <node id="j2" x="880.0" y="40.0" type="priority"/>
+    <node id="j3" x="1320.0" y="240.0" type="priority"/>
+    <node id="kmc_terminal" x="1800.0" y="110.0" type="priority"/>
+</nodes>

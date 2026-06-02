@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<edges xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/edges_file.xsd">
+    <edge id="hc_to_j1" from="hc_terminal" to="j1" priority="1" numLanes="1" speed="13.9" allow="passenger bus" shape="0.0,0.0 180.0,80.0 420.0,170.0"/>
+    <edge id="j1_to_j2" from="j1" to="j2" priority="1" numLanes="1" speed="13.9" allow="passenger bus" shape="420.0,170.0 640.0,120.0 880.0,40.0"/>
+    <edge id="j2_to_j3" from="j2" to="j3" priority="1" numLanes="1" speed="13.9" allow="passenger bus" shape="880.0,40.0 1100.0,130.0 1320.0,240.0"/>
+    <edge id="j3_to_kmc" from="j3" to="kmc_terminal" priority="1" numLanes="1" speed="13.9" allow="passenger bus" shape="1320.0,240.0 1560.0,180.0 1800.0,110.0"/>
+
+    <edge id="kmc_to_j3" from="kmc_terminal" to="j3" priority="1" numLanes="1" speed="13.9" allow="passenger bus" shape="1800.0,95.0 1560.0,165.0 1320.0,225.0"/>
+    <edge id="j3_to_j2" from="j3" to="j2" priority="1" numLanes="1" speed="13.9" allow="passenger bus" shape="1320.0,225.0 1100.0,115.0 880.0,25.0"/>
+    <edge id="j2_to_j1" from="j2" to="j1" priority="1" numLanes="1" speed="13.9" allow="passenger bus" shape="880.0,25.0 640.0,105.0 420.0,155.0"/>
+    <edge id="j1_to_hc" from="j1" to="hc_terminal" priority="1" numLanes="1" speed="13.9" allow="passenger bus" shape="420.0,155.0 180.0,65.0 0.0,-15.0"/>
+</edges>

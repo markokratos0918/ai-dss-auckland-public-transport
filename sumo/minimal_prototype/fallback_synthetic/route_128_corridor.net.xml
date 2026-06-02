@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-06-02T13:37:24.287170+12:00 by Eclipse SUMO netconvert 1.26.0
+<netconvertConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <node-files value="route_128_corridor.nod.xml"/>
+        <edge-files value="route_128_corridor.edg.xml"/>
+    </input>
+
+    <output>
+        <output-file value="route_128_corridor.net.xml"/>
+    </output>
+
+</netconvertConfiguration>
+-->
+
+<net version="1.20" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="0.00,15.00" convBoundary="0.00,0.00,1800.00,255.00" origBoundary="0.00,-15.00,1800.00,240.00" projParameter="!"/>
+
+    <edge id=":hc_terminal_0" function="internal">
+        <lane id=":hc_terminal_0_0" index="0" allow="passenger bus" speed="5.81" length="15.34" shape="4.92,3.94 7.45,7.94 7.58,10.87 5.32,12.74 0.65,13.54"/>
+    </edge>
+    <edge id=":j1_0" function="internal">
+        <lane id=":j1_0_0" index="0" allow="passenger bus" speed="9.94" length="5.50" shape="418.05,172.08 423.47,173.01"/>
+    </edge>
+    <edge id=":j1_1" function="internal">
+        <lane id=":j1_1_0" index="0" allow="passenger bus" speed="13.90" length="0.94" shape="419.66,183.17 419.93,183.26 420.12,183.29 420.31,183.28 420.58,183.23"/>
+    </edge>
+    <edge id=":j2_0" function="internal">
+        <lane id=":j2_0_0" index="0" allow="passenger bus" speed="8.70" length="5.81" shape="884.65,43.63 883.11,42.79 882.04,42.04 880.95,41.65 879.38,41.89"/>
+    </edge>
+    <edge id=":j2_1" function="internal">
+        <lane id=":j2_1_0" index="0" allow="passenger bus" speed="5.97" length="2.54" shape="882.87,52.36 880.61,53.52"/>
+    </edge>
+    <edge id=":j3_0" function="internal">
+        <lane id=":j3_0_0" index="0" allow="passenger bus" speed="9.16" length="6.46" shape="1318.01,242.15 1324.23,243.90"/>
+    </edge>
+    <edge id=":j3_1" function="internal">
+        <lane id=":j3_1_0" index="0" allow="passenger bus" speed="4.31" length="1.15" shape="1319.66,253.04 1319.96,253.18 1320.19,253.24 1320.43,253.23 1320.76,253.16"/>
+    </edge>
+    <edge id=":kmc_terminal_0" function="internal">
+        <lane id=":kmc_terminal_0_0" index="0" allow="passenger bus" speed="5.97" length="16.36" shape="1799.55,123.46 1794.74,121.95 1792.61,119.66 1793.17,116.58 1796.42,112.71"/>
+    </edge>
+
+    <edge id="hc_to_j1" from="hc_terminal" to="j1" priority="1" shape="0.00,15.00 180.00,95.00 420.00,185.00">
+        <lane id="hc_to_j1_0" index="0" allow="passenger bus" speed="13.90" length="452.24" shape="0.65,13.54 180.61,93.52 419.66,183.17"/>
+    </edge>
+    <edge id="j1_to_hc" from="j1" to="hc_terminal" priority="1" shape="420.00,170.00 180.00,80.00 0.00,0.00">
+        <lane id="j1_to_hc_0" index="0" allow="passenger bus" speed="13.90" length="451.61" shape="423.47,173.01 179.39,81.48 4.92,3.94"/>
+    </edge>
+    <edge id="j1_to_j2" from="j1" to="j2" priority="1" shape="420.00,185.00 640.00,135.00 880.00,55.00">
+        <lane id="j1_to_j2_0" index="0" allow="passenger bus" speed="13.90" length="481.03" shape="420.58,183.23 639.57,133.46 882.87,52.36"/>
+    </edge>
+    <edge id="j2_to_j1" from="j2" to="j1" priority="1" shape="880.00,40.00 640.00,120.00 420.00,170.00">
+        <lane id="j2_to_j1_0" index="0" allow="passenger bus" speed="13.90" length="479.93" shape="879.38,41.89 640.43,121.54 418.05,172.08"/>
+    </edge>
+    <edge id="j2_to_j3" from="j2" to="j3" priority="1" shape="880.00,55.00 1100.00,145.00 1320.00,255.00">
+        <lane id="j2_to_j3_0" index="0" allow="passenger bus" speed="13.90" length="482.60" shape="880.61,53.52 1100.66,143.54 1319.66,253.04"/>
+    </edge>
+    <edge id="j3_to_j2" from="j3" to="j2" priority="1" shape="1320.00,240.00 1100.00,130.00 880.00,40.00">
+        <lane id="j3_to_j2_0" index="0" allow="passenger bus" speed="13.90" length="483.39" shape="1324.23,243.90 1099.34,131.46 884.65,43.63"/>
+    </edge>
+    <edge id="j3_to_kmc" from="j3" to="kmc_terminal" priority="1" shape="1320.00,255.00 1560.00,195.00 1800.00,125.00">
+        <lane id="j3_to_kmc_0" index="0" allow="passenger bus" speed="13.90" length="496.14" shape="1320.76,253.16 1559.58,193.46 1799.55,123.46"/>
+    </edge>
+    <edge id="kmc_to_j3" from="kmc_terminal" to="j3" priority="1" shape="1800.00,110.00 1560.00,180.00 1320.00,240.00">
+        <lane id="kmc_to_j3_0" index="0" allow="passenger bus" speed="13.90" length="495.70" shape="1796.42,112.71 1560.42,181.54 1318.01,242.15"/>
+    </edge>
+
+    <junction id="hc_terminal" type="priority" x="0.00" y="15.00" incLanes="j1_to_hc_0" intLanes=":hc_terminal_0_0" shape="-0.00,15.00 4.27,5.40 5.57,2.47">
+        <request index="0" response="0" foes="0" cont="0"/>
+    </junction>
+    <junction id="j1" type="priority" x="420.00" y="185.00" incLanes="j2_to_j1_0 hc_to_j1_0" intLanes=":j1_0_0 :j1_1_0" shape="418.40,173.64 420.23,181.67 422.91,174.51">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+    <junction id="j2" type="priority" x="880.00" y="55.00" incLanes="j3_to_j2_0 j1_to_j2_0" intLanes=":j2_0_0 :j2_1_0" shape="884.05,45.11 881.21,52.04 882.36,50.84 879.89,43.41 881.45,43.35 881.99,43.68 882.52,44.14 883.16,44.64">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+    <junction id="j3" type="priority" x="1320.00" y="255.00" incLanes="kmc_to_j3_0 j2_to_j3_0" intLanes=":j3_0_0 :j3_1_0" shape="1318.40,243.70 1320.37,251.61 1323.51,245.33">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+    <junction id="kmc_terminal" type="priority" x="1800.00" y="125.00" incLanes="j3_to_kmc_0" intLanes=":kmc_terminal_0_0" shape="1795.97,111.18 1799.10,121.93 1800.00,125.00">
+        <request index="0" response="0" foes="0" cont="0"/>
+    </junction>
+
+    <connection from="hc_to_j1" to="j1_to_j2" fromLane="0" toLane="0" via=":j1_1_0" dir="s" state="M"/>
+    <connection from="j1_to_hc" to="hc_to_j1" fromLane="0" toLane="0" via=":hc_terminal_0_0" dir="t" state="M"/>
+    <connection from="j1_to_j2" to="j2_to_j3" fromLane="0" toLane="0" via=":j2_1_0" dir="s" state="M"/>
+    <connection from="j2_to_j1" to="j1_to_hc" fromLane="0" toLane="0" via=":j1_0_0" dir="s" state="M"/>
+    <connection from="j2_to_j3" to="j3_to_kmc" fromLane="0" toLane="0" via=":j3_1_0" dir="s" state="M"/>
+    <connection from="j3_to_j2" to="j2_to_j1" fromLane="0" toLane="0" via=":j2_0_0" dir="s" state="M"/>
+    <connection from="j3_to_kmc" to="kmc_to_j3" fromLane="0" toLane="0" via=":kmc_terminal_0_0" dir="t" state="M"/>
+    <connection from="kmc_to_j3" to="j3_to_j2" fromLane="0" toLane="0" via=":j3_0_0" dir="s" state="M"/>
+
+    <connection from=":hc_terminal_0" to="hc_to_j1" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":j1_0" to="j1_to_hc" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":j1_1" to="j1_to_j2" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":j2_0" to="j2_to_j1" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":j2_1" to="j2_to_j3" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":j3_0" to="j3_to_j2" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":j3_1" to="j3_to_kmc" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":kmc_terminal_0" to="kmc_to_j3" fromLane="0" toLane="0" dir="t" state="M"/>
+
+</net>
