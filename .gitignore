@@ -57,6 +57,8 @@ data/raw/gtfs_realtime/daily/*.csv
 outputs/
 data/processed/*.parquet
 data/processed/*.duckdb
+data/processed/parquet/*.parquet
+data/processed/duckdb/*.duckdb
 data/processed/decision_engine_output.csv
 
 
@@ -109,3 +111,11 @@ docs/test_outputs_checklist.md
 docs/file_inventory.md
 docs/*_internal.md
 docs/internal/
+
+
+# ============================================
+# Local dashboard/internal transfer artifacts
+# ============================================
+
+data/processed/summaries.zip
+docs/streamlit_dashboard_overview_handoff_to_general_project_controller.txt

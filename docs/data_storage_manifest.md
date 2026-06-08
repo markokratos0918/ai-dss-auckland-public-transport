@@ -26,9 +26,10 @@ These files should not be deleted or rewritten during normal analysis. They are 
 
 Cleaned daily GTFS-Realtime records are written to:
 
-- `data/processed/gtfs_realtime_cleaned.parquet`
+- `data/processed/parquet/gtfs_realtime_cleaned.parquet`
+- `data/processed/parquet/gtfs_realtime_model_baseline.parquet`
 
-This file is the preferred local input for analytics, validation work, and dashboard loading when detailed row-level GTFS-Realtime records are needed.
+The all-file cleaned Parquet is the preferred local input for descriptive analytics and dashboard coverage. The model-baseline Parquet contains only quality-controlled complete days and is the preferred input for AI modelling and evaluation.
 
 Current validation result:
 
@@ -66,8 +67,8 @@ The following are large generated or raw data artifacts and should stay out of G
 - `data/raw/gtfs_realtime/*.csv`
 - `data/raw/gtfs_realtime/*.json`
 - `data/raw/gtfs_realtime/daily/*.csv`
-- `data/processed/*.parquet`
-- `data/processed/*.duckdb`
+- `data/processed/parquet/*.parquet`
+- `data/processed/duckdb/*.duckdb`
 - `data/processed/decision_engine_output.csv`
 - `outputs/`
 
@@ -95,7 +96,15 @@ Current storage-specific summary outputs:
 
 DuckDB is not required immediately. The current priority is to establish one reliable cleaned Parquet dataset and validate row counts, schema, and datatypes.
 
-DuckDB should be added later if:
+DuckDB is implemented as a separate local query-layer script:
+
+- `src/create_realtime_duckdb.py`
+
+Expected local DuckDB output:
+
+- `data/processed/duckdb/gtfs_realtime.duckdb`
+
+DuckDB should be generated when the `duckdb` Python package is available and if:
 
 - Streamlit becomes slow when filtering Parquet directly.
 - Multiple processed tables need SQL joins.
