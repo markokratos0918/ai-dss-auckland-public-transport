@@ -5,7 +5,6 @@ import pandas as pd
 from ai_dss_modeling.config import (
     CATEGORICAL_FEATURES,
     INPUT_CSV,
-    INPUT_PARQUET,
     MAX_MODEL_ROWS,
     NUMERIC_FEATURES,
     RANDOM_STATE,
@@ -24,21 +23,12 @@ def abort(message: str) -> None:
 
 
 def read_input() -> pd.DataFrame:
-    if not INPUT_PARQUET.exists() and not INPUT_CSV.exists():
-        abort(
-            f"`{rel(INPUT_PARQUET)}` or `{rel(INPUT_CSV)}` is missing. "
-            "Run Notebook 09 export first."
-        )
+    if not INPUT_CSV.exists():
+        abort(f"`{rel(INPUT_CSV)}` is missing. Run the Notebook 09 model-baseline export first.")
     try:
-        if INPUT_PARQUET.exists():
-            df = pd.read_parquet(INPUT_PARQUET, columns=USE_COLUMNS)
-        else:
-            df = pd.read_csv(INPUT_CSV, usecols=USE_COLUMNS)
+        df = pd.read_csv(INPUT_CSV, usecols=USE_COLUMNS)
     except ValueError:
-        if INPUT_PARQUET.exists():
-            columns = pd.read_parquet(INPUT_PARQUET).columns
-        else:
-            columns = pd.read_csv(INPUT_CSV, nrows=0).columns
+        columns = pd.read_csv(INPUT_CSV, nrows=0).columns
         missing = sorted(set(USE_COLUMNS) - set(columns))
         abort(f"required modeling columns are missing: {missing}")
 
@@ -46,7 +36,7 @@ def read_input() -> pd.DataFrame:
     df["collection_date"] = pd.to_datetime(df["collection_date"], errors="coerce").dt.date.astype(str)
     for column in NUMERIC_FEATURES + ["delay_minutes"]:
         df[column] = pd.to_numeric(df[column], errors="coerce")
-    for column in CATEGORICAL_FEATURES + ["delay_risk", "recommended_action"]:
+    for column in CATEGORICAL_FEATURES + ["route_short_name", "delay_risk", "recommended_action"]:
         df[column] = df[column].astype("string").fillna("missing")
 
     df = df.dropna(subset=["collection_time_utc", "collection_date", "delay_minutes", "delay_risk"]).copy()

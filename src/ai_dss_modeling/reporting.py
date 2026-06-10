@@ -8,7 +8,6 @@ from ai_dss_modeling.config import (
     FEATURES,
     IMPORTANCE_CSV,
     INPUT_CSV,
-    INPUT_PARQUET,
     MANIFEST_MD,
     METRICS_CSV,
     NUMERIC_FEATURES,
@@ -90,11 +89,11 @@ def build_manifest(
 
     return f"""# AI-DSS Modeling Manifest
 
-Last reviewed: 2026-05-28
+Last reviewed: 2026-06-10
 
 ## Scope
 
-This manifest records the real Auckland AI-DSS modeling checkpoint for the capstone project. It uses the local Notebook 09 decision output as the prepared feature table, then writes small evidence files that are safe to review and commit.
+This manifest records the real Auckland AI-DSS modeling checkpoint for the capstone project. It uses the official current Notebook 09 model-baseline output as the prepared feature table, then writes small evidence files that are safe to review and commit.
 
 This is an AI-layer checkpoint only. It does not modify Notebook 09, the Decision Engine, SUMO, or Streamlit.
 
@@ -110,10 +109,9 @@ This is an AI-layer checkpoint only. It does not modify Notebook 09, the Decisio
 
 Required local input:
 
-- `{rel(INPUT_PARQUET)}` preferred
-- `{rel(INPUT_CSV)}` fallback/export source
+- `{rel(INPUT_CSV)}`
 
-These inputs are large generated artifacts and should not be committed to GitHub.
+This input is a large local generated output and should not be committed to GitHub.
 
 Rows in local input: {full_rows:,}
 Rows used in compact modeling checkpoint: {model_rows:,}
@@ -124,7 +122,7 @@ Primary target:
 
 - `actionable_delay_risk`: 1 when `delay_risk` is Medium, High, or Severe; 0 when Low.
 
-This is more defensible than using four risk classes as the main target because High and Severe are rare in the current 22-day baseline. It also connects directly to downstream decision recommendations.
+This is more defensible than using four risk classes as the main target because High and Severe remain rare in the current model-baseline dataset. It also connects directly to downstream decision recommendations.
 
 Secondary targets:
 
@@ -146,6 +144,8 @@ Excluded leakage fields:
 - `delay_minutes` is excluded from classification features.
 - `delay_risk` and `recommended_action` are excluded from all model features.
 - `trip_id` and raw identifiers that do not support general decision rules are excluded.
+
+Special-route records are included by default. They are preserved through `is_special_route` and related route fields so their effect can be reviewed, but the model should not overclaim performance for special services.
 
 ## Split
 
@@ -213,7 +213,6 @@ Safe to commit after review:
 Do not commit:
 
 - `{rel(INPUT_CSV)}`
-- `{rel(INPUT_PARQUET)}`
 - `data/processed/gtfs_realtime_cleaned.parquet`
 - raw GTFS-Realtime daily CSV files
 - large model artifacts or cache folders
@@ -230,9 +229,11 @@ Do not commit:
 
 ## Limitations
 
-- The current baseline covers 22 daily files, not the final 30-day collection.
+- The model-baseline folder is the official current AI input. Older duplicate root-level decision outputs should not be used.
 - The model predicts risk from observed route, time, and weather patterns. It should not be described as a deployment-ready live predictor.
 - High and Severe classes are rare, so the main classification target is binary actionable risk.
+- Weather was included and validated, but route and temporal features may be stronger predictors in the current dataset. Do not overclaim weather impact.
+- Ferry records are a small part of the model-baseline data, so avoid strong ferry-weather conclusions.
 - SHAP is sampled to keep the checkpoint reproducible and lightweight.
 - Model outputs support Decision Engine prioritisation evidence; they do not automate transport operations.
 """

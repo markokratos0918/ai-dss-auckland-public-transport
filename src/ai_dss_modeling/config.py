@@ -4,8 +4,8 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[2]
-INPUT_CSV = ROOT / "data" / "processed" / "decision_engine_output.csv"
-INPUT_PARQUET = ROOT / "data" / "processed" / "decision_engine_output.parquet"
+MODEL_BASELINE_DIR = ROOT / "data" / "processed" / "outputs" / "model_baseline"
+INPUT_CSV = MODEL_BASELINE_DIR / "decision_engine_output.csv"
 SUMMARY_DIR = ROOT / "data" / "processed" / "summaries"
 METRICS_CSV = SUMMARY_DIR / "ai_model_metrics.csv"
 IMPORTANCE_CSV = SUMMARY_DIR / "ai_feature_importance.csv"
@@ -24,6 +24,10 @@ USE_COLUMNS = [
     "route_id",
     "route_short_name",
     "route_type",
+    "service_type",
+    "route_display_name",
+    "route_corridor_name",
+    "is_special_route",
     "direction_id",
     "delay_minutes",
     "delay_risk",
@@ -38,7 +42,15 @@ USE_COLUMNS = [
     "wind_speed_10m",
 ]
 
-CATEGORICAL_FEATURES = ["route_id", "route_short_name", "route_type", "direction_id"]
+CATEGORICAL_FEATURES = [
+    "route_id",
+    "route_display_name",
+    "route_corridor_name",
+    "service_type",
+    "route_type",
+    "direction_id",
+    "is_special_route",
+]
 NUMERIC_FEATURES = [
     "trip_hour",
     "weekday",

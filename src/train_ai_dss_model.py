@@ -6,18 +6,17 @@ Run from the project root:
 
 Required local input:
 
-    data/processed/decision_engine_output.parquet
-    or data/processed/decision_engine_output.csv
+    data/processed/outputs/model_baseline/decision_engine_output.csv
 
-The input is a large Notebook 09 artifact and should stay out of GitHub. This
-script writes small evidence outputs for Assessment 1 reproducibility.
+The input is the official current model-baseline output from Notebook 09. It is
+a large local generated output and should stay out of GitHub.
 """
 
 import argparse
 
 import pandas as pd
 
-from ai_dss_modeling.config import IMPORTANCE_CSV, MANIFEST_MD, METRICS_CSV, PREDICTION_SAMPLE_CSV, SUMMARY_DIR
+from ai_dss_modeling.config import IMPORTANCE_CSV, INPUT_CSV, MANIFEST_MD, METRICS_CSV, PREDICTION_SAMPLE_CSV, SUMMARY_DIR
 from ai_dss_modeling.data import read_input, rel, sample_for_modeling, time_split
 from ai_dss_modeling.explainability import shap_importance, xgb_importance
 from ai_dss_modeling.metrics import add_metric
@@ -44,8 +43,15 @@ def main() -> None:
     print("AI-DSS modeling checkpoint")
     if args.dry_run:
         print("Mode: dry run - no output files will be written")
+    print(f"Input: {rel(INPUT_CSV)}")
 
     full_df = read_input()
+    print("Target distribution:")
+    for risk, count in full_df["delay_risk"].value_counts().sort_index().items():
+        print(f"- {risk}: {count:,}")
+    special_count = int(full_df["is_special_route"].astype("string").str.lower().eq("true").sum())
+    print(f"Special-route records included: {special_count:,}")
+
     model_df = sample_for_modeling(full_df)
     train_df, test_df, train_dates, test_dates = time_split(model_df)
 
