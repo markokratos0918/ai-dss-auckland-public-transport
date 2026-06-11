@@ -1,5 +1,5 @@
 delay_risk,recommended_action,records,share_pct
-Low,No operational action required,1965777,77.7
-Medium,Monitor route conditions,525781,20.78
-High,Adjust service headway,28826,1.14
-Severe,Deploy standby bus or supervisor review,9588,0.38
+Low,No operational action required,2594207,77.71
+Medium,Monitor route conditions,695732,20.84
+High,Adjust service headway,36169,1.08
+Severe,Deploy standby bus or supervisor review,12275,0.37
