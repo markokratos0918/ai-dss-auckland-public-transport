@@ -77,6 +77,15 @@ data/processed/summaries/ai_feature_importance.csv
 data/processed/summaries/ai_prediction_sample.csv
 ```
 
+## Local Dashboard Parquet Outputs
+
+```text
+data/processed/parquet/ai_predictions_model_baseline.parquet
+data/processed/parquet/ai_predictions_test_set.parquet
+```
+
+These files contain row-level AI prediction evidence for local dashboard and DuckDB use. They are generated artifacts and should not be committed to GitHub.
+
 ## Assessment 1 Alignment
 
 This layer supports:

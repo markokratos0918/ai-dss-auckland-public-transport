@@ -5,6 +5,8 @@ import pandas as pd
 
 from ai_dss_modeling.config import (
     CATEGORICAL_FEATURES,
+    AI_PREDICTIONS_MODEL_BASELINE_PARQUET,
+    AI_PREDICTIONS_TEST_SET_PARQUET,
     FEATURES,
     IMPORTANCE_CSV,
     INPUT_CSV,
@@ -12,6 +14,7 @@ from ai_dss_modeling.config import (
     MANIFEST_MD,
     METRICS_CSV,
     NUMERIC_FEATURES,
+    PREDICTION_CONTEXT_COLUMNS,
     PREDICTION_SAMPLE_CSV,
     PREDICTION_SAMPLE_ROWS,
 )
@@ -41,6 +44,38 @@ def write_prediction_sample(test_df, classification_pred, classification_prob, r
     sample["predicted_actionable_probability"] = classification_prob.round(6)
     sample["predicted_delay_minutes"] = np.round(regression_pred, 6)
     sample.sort_values("collection_time_utc").head(PREDICTION_SAMPLE_ROWS).to_csv(PREDICTION_SAMPLE_CSV, index=False)
+
+
+def prediction_frame(df, classification_pred, classification_prob, regression_pred) -> pd.DataFrame:
+    columns = [column for column in PREDICTION_CONTEXT_COLUMNS if column in df.columns]
+    output = df[columns].copy()
+    output["actual_actionable_delay_risk"] = df["actionable_delay_risk"].to_numpy()
+    output["predicted_actionable_delay_risk"] = classification_pred
+    output["predicted_actionable_probability"] = np.round(classification_prob, 6)
+    output["predicted_delay_minutes"] = np.round(regression_pred, 6)
+    return output
+
+
+def write_prediction_parquets(
+    full_df,
+    test_df,
+    classifier,
+    regressor,
+    test_class_pred,
+    test_class_prob,
+    test_reg_pred,
+) -> tuple[int, int]:
+    full_class_pred = classifier.predict(full_df[FEATURES])
+    full_class_prob = classifier.predict_proba(full_df[FEATURES])[:, 1]
+    full_reg_pred = regressor.predict(full_df[FEATURES])
+
+    full_predictions = prediction_frame(full_df, full_class_pred, full_class_prob, full_reg_pred)
+    test_predictions = prediction_frame(test_df, test_class_pred, test_class_prob, test_reg_pred)
+
+    AI_PREDICTIONS_MODEL_BASELINE_PARQUET.parent.mkdir(parents=True, exist_ok=True)
+    full_predictions.to_parquet(AI_PREDICTIONS_MODEL_BASELINE_PARQUET, index=False)
+    test_predictions.to_parquet(AI_PREDICTIONS_TEST_SET_PARQUET, index=False)
+    return len(full_predictions), len(test_predictions)
 
 
 def write_importance(importance_rows: list[dict]) -> None:
@@ -185,6 +220,8 @@ ARIMA is used only as a time-series baseline on hourly average delay. It is not 
 - `{rel(METRICS_CSV)}`
 - `{rel(IMPORTANCE_CSV)}`
 - `{rel(PREDICTION_SAMPLE_CSV)}`
+- `{rel(AI_PREDICTIONS_MODEL_BASELINE_PARQUET)}`
+- `{rel(AI_PREDICTIONS_TEST_SET_PARQUET)}`
 - `{rel(MANIFEST_MD)}`
 
 ## Reproduction Command
@@ -216,6 +253,8 @@ Do not commit:
 
 - `{rel(INPUT_CSV)}`
 - `{rel(INPUT_PARQUET)}`
+- `{rel(AI_PREDICTIONS_MODEL_BASELINE_PARQUET)}`
+- `{rel(AI_PREDICTIONS_TEST_SET_PARQUET)}`
 - `data/processed/gtfs_realtime_cleaned.parquet`
 - raw GTFS-Realtime daily CSV files
 - large model artifacts or cache folders

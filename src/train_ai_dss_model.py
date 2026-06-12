@@ -18,12 +18,20 @@ import argparse
 
 import pandas as pd
 
-from ai_dss_modeling.config import IMPORTANCE_CSV, MANIFEST_MD, METRICS_CSV, PREDICTION_SAMPLE_CSV, SUMMARY_DIR
+from ai_dss_modeling.config import (
+    AI_PREDICTIONS_MODEL_BASELINE_PARQUET,
+    AI_PREDICTIONS_TEST_SET_PARQUET,
+    IMPORTANCE_CSV,
+    MANIFEST_MD,
+    METRICS_CSV,
+    PREDICTION_SAMPLE_CSV,
+    SUMMARY_DIR,
+)
 from ai_dss_modeling.data import input_path, read_input, rel, sample_for_modeling, time_split
 from ai_dss_modeling.explainability import shap_importance, xgb_importance
 from ai_dss_modeling.metrics import add_metric
 from ai_dss_modeling.models import arima_baseline, train_classification, train_regression
-from ai_dss_modeling.reporting import build_manifest, write_importance, write_prediction_sample
+from ai_dss_modeling.reporting import build_manifest, write_importance, write_prediction_parquets, write_prediction_sample
 
 
 def parse_args() -> argparse.Namespace:
@@ -77,25 +85,49 @@ def main() -> None:
     shap_note = shap_importance(classifier, test_df, importance_rows)
 
     metric_frame = pd.DataFrame(metrics)
+    write_warnings = []
+    written_labels = []
     if not args.dry_run:
-        write_importance(importance_rows)
-        write_prediction_sample(test_df, class_pred, class_prob, reg_pred)
-        MANIFEST_MD.write_text(
-            build_manifest(
-                full_rows=len(full_df),
-                model_rows=len(model_df),
-                train_rows=len(train_df),
-                test_rows=len(test_df),
-                train_dates=train_dates,
-                test_dates=test_dates,
-                metrics=metric_frame,
-                importance_rows=importance_rows,
-                arima_note=arima_note,
-                shap_note=shap_note,
-            ),
-            encoding="utf-8",
+        full_prediction_rows, test_prediction_rows = write_prediction_parquets(
+            full_df,
+            test_df,
+            classifier,
+            regressor,
+            class_pred,
+            class_prob,
+            reg_pred,
         )
-        metric_frame.to_csv(METRICS_CSV, index=False)
+        for label, writer in [
+            ("feature importance", lambda: write_importance(importance_rows)),
+            ("prediction sample", lambda: write_prediction_sample(test_df, class_pred, class_prob, reg_pred)),
+            (
+                "modeling manifest",
+                lambda: MANIFEST_MD.write_text(
+                    build_manifest(
+                        full_rows=len(full_df),
+                        model_rows=len(model_df),
+                        train_rows=len(train_df),
+                        test_rows=len(test_df),
+                        train_dates=train_dates,
+                        test_dates=test_dates,
+                        metrics=metric_frame,
+                        importance_rows=importance_rows,
+                        arima_note=arima_note,
+                        shap_note=shap_note,
+                    ),
+                    encoding="utf-8",
+                ),
+            ),
+            ("model metrics", lambda: metric_frame.to_csv(METRICS_CSV, index=False)),
+        ]:
+            try:
+                writer()
+                written_labels.append(label)
+            except PermissionError as error:
+                write_warnings.append(f"Could not write {label}: {error}")
+    else:
+        full_prediction_rows = len(full_df)
+        test_prediction_rows = len(test_df)
 
     print(f"Full input rows: {len(full_df):,}")
     print(f"Modeling rows: {len(model_df):,}")
@@ -107,15 +139,25 @@ def main() -> None:
     for row in key_metrics.itertuples(index=False):
         print(f"- {row.model} | {row.target} | {row.metric}: {row.value}")
     print(f"Explainability rows generated in memory: {len(importance_rows):,}")
+    print(f"Full prediction rows prepared: {full_prediction_rows:,}")
+    print(f"Test-set prediction rows prepared: {test_prediction_rows:,}")
     print(shap_note)
     print(arima_note)
     if args.dry_run:
         print("Dry run complete: no output files written.")
     else:
-        print(f"Wrote: {rel(METRICS_CSV)}")
-        print(f"Wrote: {rel(IMPORTANCE_CSV)}")
-        print(f"Wrote: {rel(PREDICTION_SAMPLE_CSV)}")
-        print(f"Wrote: {rel(MANIFEST_MD)}")
+        print(f"Wrote: {rel(AI_PREDICTIONS_MODEL_BASELINE_PARQUET)}")
+        print(f"Wrote: {rel(AI_PREDICTIONS_TEST_SET_PARQUET)}")
+        optional_outputs = {
+            "feature importance": IMPORTANCE_CSV,
+            "prediction sample": PREDICTION_SAMPLE_CSV,
+            "modeling manifest": MANIFEST_MD,
+            "model metrics": METRICS_CSV,
+        }
+        for label in written_labels:
+            print(f"Wrote: {rel(optional_outputs[label])}")
+        for warning in write_warnings:
+            print(f"Warning: {warning}")
         print("GitHub note: commit only the AI module, manifest, and small summary CSVs after manual review.")
 
 
