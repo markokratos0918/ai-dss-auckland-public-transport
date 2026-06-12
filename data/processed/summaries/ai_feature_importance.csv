@@ -78,7 +78,7 @@ XGBoost classifier,mean_abs_shap,rain,0.07025260478258133,"Mean absolute SHAP va
 XGBoost classifier,mean_abs_shap,route_display_name_924,0.0695025846362114,"Mean absolute SHAP value on 1,000 test rows."
 XGBoost classifier,mean_abs_shap,route_id_INN-202,0.06846767663955688,"Mean absolute SHAP value on 1,000 test rows."
 XGBoost classifier,mean_abs_shap,route_display_name_65,0.06662841141223907,"Mean absolute SHAP value on 1,000 test rows."
-XGBoost classifier,mean_abs_shap,route_type_2.0,0.0665709599852562,"Mean absolute SHAP value on 1,000 test rows."
+XGBoost classifier,mean_abs_shap,route_type_2,0.0665709599852562,"Mean absolute SHAP value on 1,000 test rows."
 XGBoost classifier,mean_abs_shap,route_display_name_926,0.06406047940254211,"Mean absolute SHAP value on 1,000 test rows."
 XGBoost classifier,mean_abs_shap,route_display_name_27H,0.0637383684515953,"Mean absolute SHAP value on 1,000 test rows."
 XGBoost classifier,mean_abs_shap,service_type_Ferry,0.06203964352607727,"Mean absolute SHAP value on 1,000 test rows."
@@ -123,7 +123,7 @@ XGBoost classifier,mean_abs_shap,route_display_name_814,0.025582382455468178,"Me
 XGBoost classifier,mean_abs_shap,route_corridor_name_NX1 - Britomart (Lower Albert St) / Albany Station,0.025395864620804787,"Mean absolute SHAP value on 1,000 test rows."
 XGBoost classifier,mean_abs_shap,route_corridor_name_50B - Onetangi (Fourth Ave) / Matiatia Wharf,0.025135168805718422,"Mean absolute SHAP value on 1,000 test rows."
 XGBoost classifier,mean_abs_shap,route_display_name_309,0.02504102699458599,"Mean absolute SHAP value on 1,000 test rows."
-XGBoost classifier,mean_abs_shap,route_type_4.0,0.02493857964873314,"Mean absolute SHAP value on 1,000 test rows."
+XGBoost classifier,mean_abs_shap,route_type_4,0.02493857964873314,"Mean absolute SHAP value on 1,000 test rows."
 XGBoost classifier,mean_abs_shap,route_id_106-202,0.024333741515874863,"Mean absolute SHAP value on 1,000 test rows."
 XGBoost classifier,mean_abs_shap,route_display_name_S071-203,0.023812606930732727,"Mean absolute SHAP value on 1,000 test rows."
 XGBoost classifier,mean_abs_shap,route_id_DEV-209,0.023771969601511955,"Mean absolute SHAP value on 1,000 test rows."
@@ -188,7 +188,7 @@ XGBoost classifier,mean_abs_shap,route_display_name_781,0.003032729495316744,"Me
 XGBoost classifier,mean_abs_shap,route_id_S006C-203,0.0025707052554935217,"Mean absolute SHAP value on 1,000 test rows."
 XGBoost classifier,mean_abs_shap,route_display_name_S547-202,0.0024870329070836306,"Mean absolute SHAP value on 1,000 test rows."
 XGBoost classifier,mean_abs_shap,route_display_name_EAST,0.0022656258661299944,"Mean absolute SHAP value on 1,000 test rows."
-XGBoost classifier,mean_abs_shap,route_type_3.0,0.0019849464297294617,"Mean absolute SHAP value on 1,000 test rows."
+XGBoost classifier,mean_abs_shap,route_type_3,0.0019849464297294617,"Mean absolute SHAP value on 1,000 test rows."
 XGBoost classifier,mean_abs_shap,route_id_148-203,0.001930723781697452,"Mean absolute SHAP value on 1,000 test rows."
 XGBoost classifier,mean_abs_shap,route_display_name_STH,0.0019175847992300987,"Mean absolute SHAP value on 1,000 test rows."
 XGBoost classifier,mean_abs_shap,route_display_name_ONE,0.0017991625936701894,"Mean absolute SHAP value on 1,000 test rows."
@@ -731,8 +731,8 @@ XGBoost classifier,mean_abs_shap,route_corridor_name_WX1 - City Centre / Northwe
 XGBoost classifier,mean_abs_shap,route_corridor_name_infrequent_sklearn,0.0,"Mean absolute SHAP value on 1,000 test rows."
 XGBoost classifier,mean_abs_shap,is_special_route_True,0.0,"Mean absolute SHAP value on 1,000 test rows."
 XGBoost classifier,xgboost_feature_importance,service_type_Train / Rail,0.10294223576784134,Model-native feature importance from the fitted XGBoost model.
-XGBoost classifier,xgboost_feature_importance,route_type_2.0,0.09274019300937653,Model-native feature importance from the fitted XGBoost model.
-XGBoost classifier,xgboost_feature_importance,route_type_3.0,0.04572940990328789,Model-native feature importance from the fitted XGBoost model.
+XGBoost classifier,xgboost_feature_importance,route_type_2,0.09274019300937653,Model-native feature importance from the fitted XGBoost model.
+XGBoost classifier,xgboost_feature_importance,route_type_3,0.04572940990328789,Model-native feature importance from the fitted XGBoost model.
 XGBoost classifier,xgboost_feature_importance,route_id_NX1-203,0.018398646265268326,Model-native feature importance from the fitted XGBoost model.
 XGBoost classifier,xgboost_feature_importance,route_corridor_name_CTY - Wynyard Quarter / Karangahape Rd via Queen St,0.017087426036596298,Model-native feature importance from the fitted XGBoost model.
 XGBoost classifier,xgboost_feature_importance,route_display_name_CTY,0.015080899931490421,Model-native feature importance from the fitted XGBoost model.
@@ -750,7 +750,7 @@ XGBoost classifier,xgboost_feature_importance,route_id_311-203,0.009705159813165
 XGBoost classifier,xgboost_feature_importance,route_display_name_143,0.009637519717216492,Model-native feature importance from the fitted XGBoost model.
 XGBoost classifier,xgboost_feature_importance,route_display_name_14,0.009517384693026543,Model-native feature importance from the fitted XGBoost model.
 XGBoost classifier,xgboost_feature_importance,route_corridor_name_68 - New Lynn / Onehunga Station,0.008504164405167103,Model-native feature importance from the fitted XGBoost model.
-XGBoost classifier,xgboost_feature_importance,route_type_4.0,0.007950065657496452,Model-native feature importance from the fitted XGBoost model.
+XGBoost classifier,xgboost_feature_importance,route_type_4,0.007950065657496452,Model-native feature importance from the fitted XGBoost model.
 XGBoost classifier,xgboost_feature_importance,route_id_INN-202,0.007653549779206514,Model-native feature importance from the fitted XGBoost model.
 XGBoost classifier,xgboost_feature_importance,route_id_OUT-202,0.007561785168945789,Model-native feature importance from the fitted XGBoost model.
 XGBoost classifier,xgboost_feature_importance,route_id_326-203,0.007080306764692068,Model-native feature importance from the fitted XGBoost model.
@@ -2186,9 +2186,9 @@ XGBoost regressor,xgboost_feature_importance,route_corridor_name_S546-202,0.0,Mo
 XGBoost regressor,xgboost_feature_importance,route_corridor_name_S547-202,0.0,Model-native feature importance from the fitted XGBoost model.
 XGBoost regressor,xgboost_feature_importance,"route_corridor_name_STH - Brit 4 / Pukekohe 1 Via NKT 4, OHU 3, Papakura 1",0.0,Model-native feature importance from the fitted XGBoost model.
 XGBoost regressor,xgboost_feature_importance,route_corridor_name_infrequent_sklearn,0.0,Model-native feature importance from the fitted XGBoost model.
-XGBoost regressor,xgboost_feature_importance,route_type_2.0,0.0,Model-native feature importance from the fitted XGBoost model.
-XGBoost regressor,xgboost_feature_importance,route_type_3.0,0.0,Model-native feature importance from the fitted XGBoost model.
-XGBoost regressor,xgboost_feature_importance,route_type_4.0,0.0,Model-native feature importance from the fitted XGBoost model.
+XGBoost regressor,xgboost_feature_importance,route_type_2,0.0,Model-native feature importance from the fitted XGBoost model.
+XGBoost regressor,xgboost_feature_importance,route_type_3,0.0,Model-native feature importance from the fitted XGBoost model.
+XGBoost regressor,xgboost_feature_importance,route_type_4,0.0,Model-native feature importance from the fitted XGBoost model.
 XGBoost regressor,xgboost_feature_importance,route_type_missing,0.0,Model-native feature importance from the fitted XGBoost model.
 XGBoost regressor,xgboost_feature_importance,is_special_route_False,0.0,Model-native feature importance from the fitted XGBoost model.
 XGBoost regressor,xgboost_feature_importance,is_special_route_True,0.0,Model-native feature importance from the fitted XGBoost model.

@@ -4,7 +4,9 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[2]
+PARQUET_DIR = ROOT / "data" / "processed" / "parquet"
 MODEL_BASELINE_DIR = ROOT / "data" / "processed" / "outputs" / "model_baseline"
+INPUT_PARQUET = PARQUET_DIR / "decision_engine_model_baseline.parquet"
 INPUT_CSV = MODEL_BASELINE_DIR / "decision_engine_output.csv"
 SUMMARY_DIR = ROOT / "data" / "processed" / "summaries"
 METRICS_CSV = SUMMARY_DIR / "ai_model_metrics.csv"

@@ -6,18 +6,20 @@ Run from the project root:
 
 Required local input:
 
-    data/processed/outputs/model_baseline/decision_engine_output.csv
+    data/processed/parquet/decision_engine_model_baseline.parquet
+    or fallback data/processed/outputs/model_baseline/decision_engine_output.csv
 
-The input is the official current model-baseline output from Notebook 09. It is
-a large local generated output and should stay out of GitHub.
+The preferred input is the final model-baseline Parquet output. The CSV remains
+fallback/export evidence. Both are local generated outputs and should stay out
+of GitHub.
 """
 
 import argparse
 
 import pandas as pd
 
-from ai_dss_modeling.config import IMPORTANCE_CSV, INPUT_CSV, MANIFEST_MD, METRICS_CSV, PREDICTION_SAMPLE_CSV, SUMMARY_DIR
-from ai_dss_modeling.data import read_input, rel, sample_for_modeling, time_split
+from ai_dss_modeling.config import IMPORTANCE_CSV, MANIFEST_MD, METRICS_CSV, PREDICTION_SAMPLE_CSV, SUMMARY_DIR
+from ai_dss_modeling.data import input_path, read_input, rel, sample_for_modeling, time_split
 from ai_dss_modeling.explainability import shap_importance, xgb_importance
 from ai_dss_modeling.metrics import add_metric
 from ai_dss_modeling.models import arima_baseline, train_classification, train_regression
@@ -43,7 +45,9 @@ def main() -> None:
     print("AI-DSS modeling checkpoint")
     if args.dry_run:
         print("Mode: dry run - no output files will be written")
-    print(f"Input: {rel(INPUT_CSV)}")
+    active_input, input_source = input_path()
+    print(f"Input source: {input_source}")
+    print(f"Input: {rel(active_input)}")
 
     full_df = read_input()
     print("Target distribution:")

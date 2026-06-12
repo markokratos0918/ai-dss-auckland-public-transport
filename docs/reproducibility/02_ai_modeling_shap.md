@@ -49,10 +49,11 @@ Notebook 04 was a prototype demonstration using a small Kaggle dataset. The curr
 ## Required Local Input
 
 ```text
-data/processed/outputs/model_baseline/decision_engine_output.csv
+Preferred: data/processed/parquet/decision_engine_model_baseline.parquet
+Fallback:  data/processed/outputs/model_baseline/decision_engine_output.csv
 ```
 
-This is a large local generated output and should not be committed.
+These are large local generated outputs and should not be committed.
 
 ## Commands
 

@@ -5,6 +5,7 @@ import pandas as pd
 from ai_dss_modeling.config import (
     CATEGORICAL_FEATURES,
     INPUT_CSV,
+    INPUT_PARQUET,
     MAX_MODEL_ROWS,
     NUMERIC_FEATURES,
     RANDOM_STATE,
@@ -22,13 +23,29 @@ def abort(message: str) -> None:
     raise SystemExit(f"AI-DSS modeling failed: {message}")
 
 
+def input_path():
+    if INPUT_PARQUET.exists():
+        return INPUT_PARQUET, "parquet"
+    if INPUT_CSV.exists():
+        return INPUT_CSV, "csv_fallback"
+    abort(
+        f"`{rel(INPUT_PARQUET)}` is missing, and fallback `{rel(INPUT_CSV)}` is also missing. "
+        "Run the Notebook 09 model-baseline export and M1 Parquet conversion first."
+    )
+
+
 def read_input() -> pd.DataFrame:
-    if not INPUT_CSV.exists():
-        abort(f"`{rel(INPUT_CSV)}` is missing. Run the Notebook 09 model-baseline export first.")
+    path, source = input_path()
     try:
-        df = pd.read_csv(INPUT_CSV, usecols=USE_COLUMNS)
+        if source == "parquet":
+            df = pd.read_parquet(path, columns=USE_COLUMNS)
+        else:
+            df = pd.read_csv(path, usecols=USE_COLUMNS)
     except ValueError:
-        columns = pd.read_csv(INPUT_CSV, nrows=0).columns
+        if source == "parquet":
+            columns = pd.read_parquet(path).columns
+        else:
+            columns = pd.read_csv(path, nrows=0).columns
         missing = sorted(set(USE_COLUMNS) - set(columns))
         abort(f"required modeling columns are missing: {missing}")
 
