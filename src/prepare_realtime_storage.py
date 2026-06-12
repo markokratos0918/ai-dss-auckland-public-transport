@@ -18,6 +18,7 @@ import argparse
 from realtime_storage.cleaning import load_daily_frames
 from realtime_storage.completeness import build_completeness_manifest
 from realtime_storage.config import DAILY_DIR, PARQUET_DIR, SUMMARY_DIR
+from realtime_storage.decision_engine_outputs import convert_decision_engine_outputs
 from realtime_storage.legacy_split import split_legacy_csv
 from realtime_storage.parquet_outputs import write_parquet_outputs
 from realtime_storage.route_metadata import enrich_with_hybrid_fields
@@ -57,7 +58,14 @@ def build_hybrid_storage() -> dict[str, object]:
         expected_complete_days=counters["complete_days"],
         expected_partial_days=counters["partial_days"],
     )
-    return {"counters": counters, "validation": validation}
+    print("Writing Decision Engine Parquet outputs")
+    decision_engine_validation = convert_decision_engine_outputs()
+
+    return {
+        "counters": counters,
+        "validation": validation,
+        "decision_engine_validation": decision_engine_validation,
+    }
 
 
 def print_validation_report(counters: dict[str, int], validation: dict[str, object]) -> None:
@@ -89,6 +97,20 @@ def print_validation_report(counters: dict[str, int], validation: dict[str, obje
     print("DuckDB query layer is handled separately by src/create_realtime_duckdb.py")
 
 
+def print_decision_engine_report(results: dict[str, dict[str, object]]) -> None:
+    """Print row-count and dashboard schema checks for Decision Engine Parquet outputs."""
+    print("Decision Engine Parquet validation:")
+    for label, validation in results.items():
+        print(f"- {label} CSV rows: {validation['csv_rows']:,}")
+        print(f"- {label} Parquet rows: {validation['parquet_rows']:,}")
+        print(f"- {label} row count matches: {validation['row_count_matches']}")
+        print(f"- {label} missing required fields: {validation['missing_required_fields']}")
+        print(f"- {label} delay_risk missing: {validation['delay_risk_missing']}")
+        print(f"- {label} recommended_action missing: {validation['recommended_action_missing']}")
+        print(f"- {label} special-route rows: {validation['special_route_rows']:,}")
+        print(f"- {label} Parquet size MB: {validation['parquet_size_mb']}")
+
+
 def parse_args() -> argparse.Namespace:
     """Parse command-line options."""
     parser = argparse.ArgumentParser(description=__doc__)
@@ -112,6 +134,7 @@ def main() -> None:
 
     result = build_hybrid_storage()
     print_validation_report(result["counters"], result["validation"])
+    print_decision_engine_report(result["decision_engine_validation"])
 
 
 if __name__ == "__main__":

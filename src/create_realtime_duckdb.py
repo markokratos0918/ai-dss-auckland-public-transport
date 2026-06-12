@@ -26,9 +26,29 @@ SUMMARY_DIR = PROCESSED_DIR / "summaries"
 
 ALL_PARQUET_PATH = PARQUET_DIR / "gtfs_realtime_cleaned.parquet"
 MODEL_BASELINE_PARQUET_PATH = PARQUET_DIR / "gtfs_realtime_model_baseline.parquet"
+DECISION_ENGINE_MODEL_BASELINE_PARQUET = PARQUET_DIR / "decision_engine_model_baseline.parquet"
+DECISION_ENGINE_ALL_FILE_PARQUET = PARQUET_DIR / "decision_engine_all_file.parquet"
 DUCKDB_PATH = DUCKDB_DIR / "gtfs_realtime.duckdb"
 ROUTE_SUMMARY_PATH = SUMMARY_DIR / "gtfs_realtime_storage_route_daily_summary.csv"
 COMPLETENESS_PATH = SUMMARY_DIR / "gtfs_realtime_collection_completeness.csv"
+
+REQUIRED_DECISION_ENGINE_FIELDS = [
+    "delay_risk",
+    "recommended_action",
+    "route_corridor_name",
+    "service_type",
+    "route_display_name",
+    "is_special_route",
+    "temperature_2m",
+    "precipitation",
+    "rain",
+    "relative_humidity_2m",
+    "wind_speed_10m",
+    "collection_day_status",
+    "collection_coverage_hours",
+    "is_partial_day",
+    "is_model_baseline_day",
+]
 
 
 def require_input(path: Path) -> None:
@@ -50,6 +70,8 @@ def create_duckdb_layer() -> None:
     for path in [
         ALL_PARQUET_PATH,
         MODEL_BASELINE_PARQUET_PATH,
+        DECISION_ENGINE_MODEL_BASELINE_PARQUET,
+        DECISION_ENGINE_ALL_FILE_PARQUET,
         ROUTE_SUMMARY_PATH,
         COMPLETENESS_PATH,
     ]:
@@ -61,11 +83,15 @@ def create_duckdb_layer() -> None:
     try:
         all_parquet = ALL_PARQUET_PATH.as_posix()
         model_parquet = MODEL_BASELINE_PARQUET_PATH.as_posix()
+        decision_model_parquet = DECISION_ENGINE_MODEL_BASELINE_PARQUET.as_posix()
+        decision_all_parquet = DECISION_ENGINE_ALL_FILE_PARQUET.as_posix()
         route_summary_csv = ROUTE_SUMMARY_PATH.as_posix()
         completeness_csv = COMPLETENESS_PATH.as_posix()
 
         connection.execute("DROP VIEW IF EXISTS realtime_all")
         connection.execute("DROP VIEW IF EXISTS realtime_model_baseline")
+        connection.execute("DROP VIEW IF EXISTS decision_engine_model_baseline")
+        connection.execute("DROP VIEW IF EXISTS decision_engine_all_file")
         connection.execute("DROP VIEW IF EXISTS route_daily_summary")
         connection.execute("DROP VIEW IF EXISTS collection_completeness")
 
@@ -79,6 +105,18 @@ def create_duckdb_layer() -> None:
             f"""
             CREATE VIEW realtime_model_baseline AS
             SELECT * FROM read_parquet('{model_parquet}')
+            """
+        )
+        connection.execute(
+            f"""
+            CREATE VIEW decision_engine_model_baseline AS
+            SELECT * FROM read_parquet('{decision_model_parquet}')
+            """
+        )
+        connection.execute(
+            f"""
+            CREATE VIEW decision_engine_all_file AS
+            SELECT * FROM read_parquet('{decision_all_parquet}')
             """
         )
         connection.execute(
@@ -109,6 +147,8 @@ def validate_duckdb_layer() -> dict[str, object]:
 
     all_rows = len(pd.read_parquet(ALL_PARQUET_PATH))
     model_rows = len(pd.read_parquet(MODEL_BASELINE_PARQUET_PATH))
+    decision_model_df = pd.read_parquet(DECISION_ENGINE_MODEL_BASELINE_PARQUET)
+    decision_all_df = pd.read_parquet(DECISION_ENGINE_ALL_FILE_PARQUET)
     route_summary_rows = len(pd.read_csv(ROUTE_SUMMARY_PATH))
     completeness_rows = len(pd.read_csv(COMPLETENESS_PATH))
 
@@ -118,12 +158,29 @@ def validate_duckdb_layer() -> dict[str, object]:
         duckdb_model_rows = connection.execute(
             "SELECT COUNT(*) FROM realtime_model_baseline"
         ).fetchone()[0]
+        duckdb_decision_model_rows = connection.execute(
+            "SELECT COUNT(*) FROM decision_engine_model_baseline"
+        ).fetchone()[0]
+        duckdb_decision_all_rows = connection.execute(
+            "SELECT COUNT(*) FROM decision_engine_all_file"
+        ).fetchone()[0]
         duckdb_route_summary_rows = connection.execute(
             "SELECT COUNT(*) FROM route_daily_summary"
         ).fetchone()[0]
         duckdb_completeness_rows = connection.execute(
             "SELECT COUNT(*) FROM collection_completeness"
         ).fetchone()[0]
+        decision_model_sample = connection.execute(
+            """
+            SELECT delay_risk, recommended_action, service_type, route_display_name,
+                   route_corridor_name, temperature_2m, rain, wind_speed_10m
+            FROM decision_engine_model_baseline
+            LIMIT 5
+            """
+        ).fetchall()
+        decision_all_required_columns = connection.execute(
+            "DESCRIBE decision_engine_all_file"
+        ).fetchdf()["column_name"].tolist()
     finally:
         connection.close()
 
@@ -137,6 +194,19 @@ def validate_duckdb_layer() -> dict[str, object]:
         "model_parquet_rows": model_rows,
         "duckdb_model_rows": duckdb_model_rows,
         "model_row_count_matches": duckdb_model_rows == model_rows,
+        "decision_model_parquet_rows": len(decision_model_df),
+        "duckdb_decision_model_rows": duckdb_decision_model_rows,
+        "decision_model_row_count_matches": duckdb_decision_model_rows == len(decision_model_df),
+        "decision_all_parquet_rows": len(decision_all_df),
+        "duckdb_decision_all_rows": duckdb_decision_all_rows,
+        "decision_all_row_count_matches": duckdb_decision_all_rows == len(decision_all_df),
+        "decision_required_fields_present": [
+            column for column in REQUIRED_DECISION_ENGINE_FIELDS if column in decision_all_required_columns
+        ],
+        "decision_required_fields_missing": [
+            column for column in REQUIRED_DECISION_ENGINE_FIELDS if column not in decision_all_required_columns
+        ],
+        "decision_model_sample_query_rows": len(decision_model_sample),
         "route_summary_csv_rows": route_summary_rows,
         "duckdb_route_summary_rows": duckdb_route_summary_rows,
         "route_summary_row_count_matches": duckdb_route_summary_rows == route_summary_rows,
@@ -161,6 +231,26 @@ def main() -> None:
     print(f"- Model-baseline Parquet rows: {validation['model_parquet_rows']:,}")
     print(f"- DuckDB model rows: {validation['duckdb_model_rows']:,}")
     print(f"- Model row count matches: {validation['model_row_count_matches']}")
+    print(f"- Decision Engine model Parquet rows: {validation['decision_model_parquet_rows']:,}")
+    print(f"- DuckDB Decision Engine model rows: {validation['duckdb_decision_model_rows']:,}")
+    print(
+        "- Decision Engine model row count matches: "
+        f"{validation['decision_model_row_count_matches']}"
+    )
+    print(f"- Decision Engine all-file Parquet rows: {validation['decision_all_parquet_rows']:,}")
+    print(f"- DuckDB Decision Engine all-file rows: {validation['duckdb_decision_all_rows']:,}")
+    print(
+        "- Decision Engine all-file row count matches: "
+        f"{validation['decision_all_row_count_matches']}"
+    )
+    print(
+        "- Decision Engine required fields missing: "
+        f"{validation['decision_required_fields_missing']}"
+    )
+    print(
+        "- Decision Engine sample dashboard query rows: "
+        f"{validation['decision_model_sample_query_rows']}"
+    )
     print(f"- Route summary CSV rows: {validation['route_summary_csv_rows']:,}")
     print(f"- DuckDB route summary rows: {validation['duckdb_route_summary_rows']:,}")
     print(

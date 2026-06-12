@@ -16,6 +16,16 @@ SUMMARY_DIR = PROCESSED_DIR / "summaries"
 
 ALL_PARQUET_PATH = PARQUET_DIR / "gtfs_realtime_cleaned.parquet"
 MODEL_BASELINE_PARQUET_PATH = PARQUET_DIR / "gtfs_realtime_model_baseline.parquet"
+DECISION_ENGINE_MODEL_BASELINE_CSV = (
+    PROCESSED_DIR / "outputs" / "model_baseline" / "decision_engine_output.csv"
+)
+DECISION_ENGINE_ALL_FILE_CSV = (
+    PROCESSED_DIR / "outputs" / "all_file" / "decision_engine_output.csv"
+)
+DECISION_ENGINE_MODEL_BASELINE_PARQUET = (
+    PARQUET_DIR / "decision_engine_model_baseline.parquet"
+)
+DECISION_ENGINE_ALL_FILE_PARQUET = PARQUET_DIR / "decision_engine_all_file.parquet"
 COMPLETENESS_PATH = SUMMARY_DIR / "gtfs_realtime_collection_completeness.csv"
 STORAGE_SUMMARY_PREFIX = "gtfs_realtime_storage"
 
@@ -105,3 +115,20 @@ DERIVED_COLUMNS = [
 
 PARQUET_COLUMNS = EXPECTED_RAW_COLUMNS + DERIVED_COLUMNS
 
+REQUIRED_DECISION_ENGINE_DASHBOARD_FIELDS = [
+    "delay_risk",
+    "recommended_action",
+    "route_corridor_name",
+    "service_type",
+    "route_display_name",
+    "is_special_route",
+    "temperature_2m",
+    "precipitation",
+    "rain",
+    "relative_humidity_2m",
+    "wind_speed_10m",
+    "collection_day_status",
+    "collection_coverage_hours",
+    "is_partial_day",
+    "is_model_baseline_day",
+]
