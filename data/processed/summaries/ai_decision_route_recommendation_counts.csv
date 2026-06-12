@@ -1,0 +1,424 @@
+route_id,route_short_name,route_display_name,route_corridor_name,service_type,is_special_route,ai_delay_risk,ai_recommended_action,ai_confidence_band,records,share_pct
+101-202,101,101,101 - Pt Chevalier / Auckland University Via Jervois Rd,Bus,False,Low,No operational action required,Low action probability,274,0.0082
+101-202,101,101,101 - Pt Chevalier / Auckland University Via Jervois Rd,Bus,False,Medium,Monitor route conditions,Moderate action probability,2446,0.0733
+105-202,105,105,105 - Westmere / Britomart Via Richmond Rd,Bus,False,Low,No operational action required,Low action probability,7609,0.2279
+105-202,105,105,105 - Westmere / Britomart Via Richmond Rd,Bus,False,Medium,Monitor route conditions,Moderate action probability,15334,0.4593
+106-202,106,106,106 - Freemans Bay Loop,Bus,False,Low,No operational action required,Low action probability,1486,0.0445
+106-202,106,106,106 - Freemans Bay Loop,Bus,False,Medium,Monitor route conditions,Moderate action probability,5858,0.1755
+111-203,111,111,111 - Royal Heights Loop,Bus,False,Low,No operational action required,Low action probability,1904,0.057
+111-203,111,111,111 - Royal Heights Loop,Bus,False,Medium,Monitor route conditions,Moderate action probability,3600,0.1078
+112-203,112,112,112 - Hob Pt Wharf / Northwest Via W Harbour,Bus,False,Low,No operational action required,Low action probability,11066,0.3315
+112-203,112,112,112 - Hob Pt Wharf / Northwest Via W Harbour,Bus,False,Medium,Monitor route conditions,Moderate action probability,1338,0.0401
+114-203,114,114,114 - Hob Pt Wharf / Northwest Via Whenuapai,Bus,False,Low,No operational action required,Low action probability,2322,0.0696
+114-203,114,114,114 - Hob Pt Wharf / Northwest Via Whenuapai,Bus,False,Medium,Monitor route conditions,Moderate action probability,4973,0.149
+116-203,116,116,116 - West Hills Loop,Bus,False,Low,No operational action required,Low action probability,3988,0.1195
+116-203,116,116,116 - West Hills Loop,Bus,False,Medium,Monitor route conditions,Moderate action probability,110,0.0033
+11T-207,11T,11T,11T - Northwest / City Centre Via Triangle Rd,Bus,False,Low,No operational action required,Low action probability,8607,0.2578
+11T-207,11T,11T,11T - Northwest / City Centre Via Triangle Rd,Bus,False,Medium,Monitor route conditions,Moderate action probability,14441,0.4326
+11W-207,11W,11W,11W - Northwest / City Centre Via Waimumu Rd,Bus,False,Low,No operational action required,Low action probability,8549,0.2561
+11W-207,11W,11W,11W - Northwest / City Centre Via Waimumu Rd,Bus,False,Medium,Monitor route conditions,Moderate action probability,15082,0.4518
+12-207,12,12,12 - Henderson / Constellation Station,Bus,False,Low,No operational action required,Low action probability,11518,0.345
+12-207,12,12,12 - Henderson / Constellation Station,Bus,False,Medium,Monitor route conditions,Moderate action probability,21272,0.6372
+122-202,122,122,122 - Huapai North / Westgate Via Kumeu,Bus,False,Low,No operational action required,Low action probability,1437,0.043
+122-202,122,122,122 - Huapai North / Westgate Via Kumeu,Bus,False,Medium,Monitor route conditions,Moderate action probability,3321,0.0995
+123-202,123,123,123 - Huapai Triangle / Westgate Via Kumeu,Bus,False,Low,No operational action required,Low action probability,1464,0.0439
+123-202,123,123,123 - Huapai Triangle / Westgate Via Kumeu,Bus,False,Medium,Monitor route conditions,Moderate action probability,3355,0.1005
+125-202,125,125,125 - Helensville / Westgate Via Kumeu,Bus,False,Low,No operational action required,Low action probability,3706,0.111
+125-202,125,125,125 - Helensville / Westgate Via Kumeu,Bus,False,Medium,Monitor route conditions,Moderate action probability,6890,0.2064
+126-203,126,126,126 - Albany / Westgate Via Riverhead,Bus,False,Low,No operational action required,Low action probability,80,0.0024
+126-203,126,126,126 - Albany / Westgate Via Riverhead,Bus,False,Medium,Monitor route conditions,Moderate action probability,6555,0.1964
+128-202,128,128,128 - Hibiscus Coast Station / Helensville,Bus,False,Low,No operational action required,Low action probability,186,0.0056
+128-202,128,128,128 - Hibiscus Coast Station / Helensville,Bus,False,Medium,Monitor route conditions,Moderate action probability,5203,0.1559
+128-202,128,128,128 - Hibiscus Coast Station / Helensville,Bus,False,High,Adjust service headway,High action probability,569,0.017
+13-203,13,13,13 - Te Atatu Peninsula Loop / Henderson,Bus,False,Low,No operational action required,Low action probability,1589,0.0476
+13-203,13,13,13 - Te Atatu Peninsula Loop / Henderson,Bus,False,Medium,Monitor route conditions,Moderate action probability,25162,0.7537
+13-203,13,13,13 - Te Atatu Peninsula Loop / Henderson,Bus,False,High,Adjust service headway,High action probability,2403,0.072
+135-203,135,135,135 - Te Atatu (Totara Rd) / Henderson,Bus,False,Low,No operational action required,Low action probability,6190,0.1854
+135-203,135,135,135 - Te Atatu (Totara Rd) / Henderson,Bus,False,Medium,Monitor route conditions,Moderate action probability,11124,0.3332
+14-202,14,14,14 - New Lynn / Lincoln Rd via Henderson,Bus,False,Low,No operational action required,Low action probability,520,0.0156
+14-202,14,14,14 - New Lynn / Lincoln Rd via Henderson,Bus,False,Medium,Monitor route conditions,Moderate action probability,26967,0.8078
+14-202,14,14,14 - New Lynn / Lincoln Rd via Henderson,Bus,False,High,Adjust service headway,High action probability,853,0.0256
+143-203,143,143,143 - Ranui / Henderson via Sturges Rd,Bus,False,Low,No operational action required,Low action probability,10001,0.2996
+143-203,143,143,143 - Ranui / Henderson via Sturges Rd,Bus,False,Medium,Monitor route conditions,Moderate action probability,34,0.001
+145-203,145,145,145 - Lincoln Rd / Henderson Via Western H,Bus,False,Low,No operational action required,Low action probability,5915,0.1772
+145-203,145,145,145 - Lincoln Rd / Henderson Via Western H,Bus,False,Medium,Monitor route conditions,Moderate action probability,8887,0.2662
+147-203,147,147,147 - Waitakere Township / Henderson,Bus,False,Low,No operational action required,Low action probability,11195,0.3353
+147-203,147,147,147 - Waitakere Township / Henderson,Bus,False,Medium,Monitor route conditions,Moderate action probability,2691,0.0806
+148-203,148,148,148 - Ranui / Lincoln Rd,Bus,False,Low,No operational action required,Low action probability,2373,0.0711
+148-203,148,148,148 - Ranui / Lincoln Rd,Bus,False,Medium,Monitor route conditions,Moderate action probability,1954,0.0585
+149-203,149,149,149 - Ranui / New Lynn Via Rosebank,Bus,False,Low,No operational action required,Low action probability,2461,0.0737
+149-203,149,149,149 - Ranui / New Lynn Via Rosebank,Bus,False,Medium,Monitor route conditions,Moderate action probability,8212,0.246
+152-203,152,152,152 - Henderson / New Lynn via Sunnyvale and Glen Eden,Bus,False,Low,No operational action required,Low action probability,8813,0.264
+152-203,152,152,152 - Henderson / New Lynn via Sunnyvale and Glen Eden,Bus,False,Medium,Monitor route conditions,Moderate action probability,2241,0.0671
+154-203,154,154,154 - New Lynn / Henderson via Glen Eden,Bus,False,Low,No operational action required,Low action probability,5384,0.1613
+154-203,154,154,154 - New Lynn / Henderson via Glen Eden,Bus,False,Medium,Monitor route conditions,Moderate action probability,9093,0.2724
+161-203,161,161,161 - Brains Park / New Lynn,Bus,False,Low,No operational action required,Low action probability,4345,0.1302
+161-203,161,161,161 - Brains Park / New Lynn,Bus,False,Medium,Monitor route conditions,Moderate action probability,1354,0.0406
+162-202,162,162,162 - Henderson / New Lynn via Glendene,Bus,False,Low,No operational action required,Low action probability,8114,0.2431
+162-202,162,162,162 - Henderson / New Lynn via Glendene,Bus,False,Medium,Monitor route conditions,Moderate action probability,6567,0.1967
+170-203,170,170,170 - Titirangi South / New Lynn,Bus,False,Low,No operational action required,Low action probability,5844,0.1751
+170-203,170,170,170 - Titirangi South / New Lynn,Bus,False,Medium,Monitor route conditions,Moderate action probability,184,0.0055
+171-203,171,171,171 - Laingholm / New Lynn,Bus,False,Low,No operational action required,Low action probability,968,0.029
+171-203,171,171,171 - Laingholm / New Lynn,Bus,False,Medium,Monitor route conditions,Moderate action probability,2973,0.0891
+172-203,172,172,172 - Glen Eden / New Lynn via Titirangi,Bus,False,Low,No operational action required,Low action probability,10344,0.3099
+172-203,172,172,172 - Glen Eden / New Lynn via Titirangi,Bus,False,Medium,Monitor route conditions,Moderate action probability,1459,0.0437
+18-202,18,18,18 - City Centre / New Lynn Via Great North Rd,Bus,False,Low,No operational action required,Low action probability,15358,0.46
+18-202,18,18,18 - City Centre / New Lynn Via Great North Rd,Bus,False,Medium,Monitor route conditions,Moderate action probability,28609,0.857
+186-203,186,186,186 - South Lynn Loop,Bus,False,Low,No operational action required,Low action probability,5029,0.1506
+186-203,186,186,186 - South Lynn Loop,Bus,False,Medium,Monitor route conditions,Moderate action probability,813,0.0244
+191-203,191,191,191 - Lynfield / New Lynn Via Blockhouse Bay And Avondale,Bus,False,Low,No operational action required,Low action probability,2352,0.0705
+191-203,191,191,191 - Lynfield / New Lynn Via Blockhouse Bay And Avondale,Bus,False,Medium,Monitor route conditions,Moderate action probability,4651,0.1393
+195-203,195,195,195 - New Lynn / City Centre Via Green Bay,Bus,False,Low,No operational action required,Low action probability,1785,0.0535
+195-203,195,195,195 - New Lynn / City Centre Via Green Bay,Bus,False,Medium,Monitor route conditions,Moderate action probability,19620,0.5877
+20-202,20,20,20 - St Lukes / Wynyard Quarter Via Kingsland,Bus,False,Low,No operational action required,Low action probability,17476,0.5235
+20-202,20,20,20 - St Lukes / Wynyard Quarter Via Kingsland,Bus,False,Medium,Monitor route conditions,Moderate action probability,5745,0.1721
+209-203,209,209,209 - City Centre / Titirangi via New North Rd and Green Bay,Bus,False,Low,No operational action required,Low action probability,386,0.0116
+209-203,209,209,209 - City Centre / Titirangi via New North Rd and Green Bay,Bus,False,Medium,Monitor route conditions,Moderate action probability,2383,0.0714
+22N-202,22N,22N,22N - New Lynn / City Centre Via New North Rd,Bus,False,Low,No operational action required,Low action probability,1784,0.0534
+22N-202,22N,22N,22N - New Lynn / City Centre Via New North Rd,Bus,False,Medium,Monitor route conditions,Moderate action probability,18319,0.5487
+22N-202,22N,22N,22N - New Lynn / City Centre Via New North Rd,Bus,False,High,Adjust service headway,High action probability,952,0.0285
+22R-202,22R,22R,22R - Rosebank Rd / City Centre Via New North Rd,Bus,False,Low,No operational action required,Low action probability,191,0.0057
+22R-202,22R,22R,22R - Rosebank Rd / City Centre Via New North Rd,Bus,False,Medium,Monitor route conditions,Moderate action probability,21413,0.6414
+22R-202,22R,22R,22R - Rosebank Rd / City Centre Via New North Rd,Bus,False,High,Adjust service headway,High action probability,788,0.0236
+24B-202,24B,24B,24B - New Lynn And Blockhouse Bay / City Centre Via Sandringham R,Bus,False,Low,No operational action required,Low action probability,258,0.0077
+24B-202,24B,24B,24B - New Lynn And Blockhouse Bay / City Centre Via Sandringham R,Bus,False,Medium,Monitor route conditions,Moderate action probability,25601,0.7669
+24B-202,24B,24B,24B - New Lynn And Blockhouse Bay / City Centre Via Sandringham R,Bus,False,High,Adjust service headway,High action probability,632,0.0189
+24R-202,24R,24R,24R - New Lynn / City Centre Via Sandingham Rd,Bus,False,Low,No operational action required,Low action probability,1114,0.0334
+24R-202,24R,24R,24R - New Lynn / City Centre Via Sandingham Rd,Bus,False,Medium,Monitor route conditions,Moderate action probability,22354,0.6696
+252-202,252,252,252 - Lynfield / Civic Centre Via Dominion Rd,Bus,False,Low,No operational action required,Low action probability,243,0.0073
+252-202,252,252,252 - Lynfield / Civic Centre Via Dominion Rd,Bus,False,Medium,Monitor route conditions,Moderate action probability,928,0.0278
+253-202,253,253,253 - Blockhouse Bay / Civic Centre Via Dominion Rd,Bus,False,Low,No operational action required,Low action probability,208,0.0062
+253-202,253,253,253 - Blockhouse Bay / Civic Centre Via Dominion Rd,Bus,False,Medium,Monitor route conditions,Moderate action probability,1083,0.0324
+25B-202,25B,25B,25B - Blockhouse Bay / City Centre Via Dominion Rd,Bus,False,Low,No operational action required,Low action probability,9981,0.299
+25B-202,25B,25B,25B - Blockhouse Bay / City Centre Via Dominion Rd,Bus,False,Medium,Monitor route conditions,Moderate action probability,22935,0.687
+25L-202,25L,25L,25L - Lynfield / City Centre Via Dominion Rd,Bus,False,Low,No operational action required,Low action probability,10711,0.3208
+25L-202,25L,25L,25L - Lynfield / City Centre Via Dominion Rd,Bus,False,Medium,Monitor route conditions,Moderate action probability,22934,0.687
+27H-202,27H,27H,27H - Britomart / Waikowhai Via Mt Eden Rd And Hillsborough Rd,Bus,False,Low,No operational action required,Low action probability,853,0.0256
+27H-202,27H,27H,27H - Britomart / Waikowhai Via Mt Eden Rd And Hillsborough Rd,Bus,False,Medium,Monitor route conditions,Moderate action probability,15964,0.4782
+27H-202,27H,27H,27H - Britomart / Waikowhai Via Mt Eden Rd And Hillsborough Rd,Bus,False,High,Adjust service headway,High action probability,5772,0.1729
+27T-202,27T,27T,27T - Britomart / Three Kings Via Mt Eden Rd,Bus,False,Low,No operational action required,Low action probability,243,0.0073
+27T-202,27T,27T,27T - Britomart / Three Kings Via Mt Eden Rd,Bus,False,Medium,Monitor route conditions,Moderate action probability,1058,0.0317
+27W-202,27W,27W,27W - Britomart / Waikowhai Via Mt Eden Rd,Bus,False,Low,No operational action required,Low action probability,2968,0.0889
+27W-202,27W,27W,27W - Britomart / Waikowhai Via Mt Eden Rd,Bus,False,Medium,Monitor route conditions,Moderate action probability,19686,0.5897
+295-202,295,295,295 - Ellerslie Station / City Centre Via Royal Oak,Bus,False,Low,No operational action required,Low action probability,2685,0.0804
+295-202,295,295,295 - Ellerslie Station / City Centre Via Royal Oak,Bus,False,Medium,Monitor route conditions,Moderate action probability,15943,0.4776
+298-221,298,298,298 - Onehunga / Sylvia Park Via Ellerslie,Bus,False,Low,No operational action required,Low action probability,9239,0.2768
+298-221,298,298,298 - Onehunga / Sylvia Park Via Ellerslie,Bus,False,Medium,Monitor route conditions,Moderate action probability,4961,0.1486
+30-202,30,30,30 - Onehunga / City Centre Via Manukau Rd,Bus,False,Low,No operational action required,Low action probability,12926,0.3872
+30-202,30,30,30 - Onehunga / City Centre Via Manukau Rd,Bus,False,Medium,Monitor route conditions,Moderate action probability,21414,0.6414
+309-203,309,309,309 - Mangere Town Centre / City Centre,Bus,False,Low,No operational action required,Low action probability,374,0.0112
+309-203,309,309,309 - Mangere Town Centre / City Centre,Bus,False,Medium,Monitor route conditions,Moderate action probability,10873,0.3257
+309-203,309,309,309 - Mangere Town Centre / City Centre,Bus,False,High,Adjust service headway,High action probability,14015,0.4198
+309X-203,309X,309X,309X - Stop E The Civic / Mangere,Bus,False,Low,No operational action required,Low action probability,157,0.0047
+309X-203,309X,309X,309X - Stop E The Civic / Mangere,Bus,False,Medium,Monitor route conditions,Moderate action probability,601,0.018
+31-203,31,31,31 - Mangere Town Centre / Botany Town Centre Via Otara,Bus,False,Low,No operational action required,Low action probability,10387,0.3111
+31-203,31,31,31 - Mangere Town Centre / Botany Town Centre Via Otara,Bus,False,Medium,Monitor route conditions,Moderate action probability,19056,0.5708
+311-203,311,311,311 - Otahuhu Station / Otahuhu Station via Mangere Bridge,Bus,False,Low,No operational action required,Low action probability,152,0.0046
+311-203,311,311,311 - Otahuhu Station / Otahuhu Station via Mangere Bridge,Bus,False,Medium,Monitor route conditions,Moderate action probability,1182,0.0354
+311-203,311,311,311 - Otahuhu Station / Otahuhu Station via Mangere Bridge,Bus,False,High,Adjust service headway,High action probability,5555,0.1664
+311-203,311,311,311 - Otahuhu Station / Otahuhu Station via Mangere Bridge,Bus,False,Severe,Deploy standby bus or supervisor review,Severe action probability,3274,0.0981
+313-203,313,313,313 - Mangere / Manukau Bus Station Via Papatoetoe,Bus,False,Low,No operational action required,Low action probability,3785,0.1134
+313-203,313,313,313 - Mangere / Manukau Bus Station Via Papatoetoe,Bus,False,Medium,Monitor route conditions,Moderate action probability,6711,0.201
+314-203,314,314,314 - Ormiston / Middlemore Station Via Otara,Bus,False,Low,No operational action required,Low action probability,3735,0.1119
+314-203,314,314,314 - Ormiston / Middlemore Station Via Otara,Bus,False,Medium,Monitor route conditions,Moderate action probability,8644,0.2589
+32-203,32,32,32 - Mangere Town Centre / Sylvia Park via Otahuhu,Bus,False,Low,No operational action required,Low action probability,9019,0.2702
+32-203,32,32,32 - Mangere Town Centre / Sylvia Park via Otahuhu,Bus,False,Medium,Monitor route conditions,Moderate action probability,17565,0.5262
+321-202,321,321,321 - Middlemore Station / Britomart Via Greenlane Hospital,Bus,False,Low,No operational action required,Low action probability,355,0.0106
+321-202,321,321,321 - Middlemore Station / Britomart Via Greenlane Hospital,Bus,False,Medium,Monitor route conditions,Moderate action probability,11354,0.3401
+321-202,321,321,321 - Middlemore Station / Britomart Via Greenlane Hospital,Bus,False,High,Adjust service headway,High action probability,48,0.0014
+323-221,323,323,323 - Otahuhu Station / Panmure Via Panama Rd,Bus,False,Low,No operational action required,Low action probability,11972,0.3586
+323-221,323,323,323 - Otahuhu Station / Panmure Via Panama Rd,Bus,False,Medium,Monitor route conditions,Moderate action probability,4567,0.1368
+324-203,324,324,324 - Mangere Town Centre / Seaside Park Via Otahuhu,Bus,False,Low,No operational action required,Low action probability,3527,0.1056
+324-203,324,324,324 - Mangere Town Centre / Seaside Park Via Otahuhu,Bus,False,Medium,Monitor route conditions,Moderate action probability,7015,0.2101
+325-203,325,325,325 - Mangere Town Ctr / Manukau Station Via Otahuhu & Otara,Bus,False,Low,No operational action required,Low action probability,5046,0.1512
+325-203,325,325,325 - Mangere Town Ctr / Manukau Station Via Otahuhu & Otara,Bus,False,Medium,Monitor route conditions,Moderate action probability,21015,0.6295
+326-203,326,326,326 - Mangere Town Centre / Middlemore via Earlsworth Rd (C),Bus,False,Low,No operational action required,Low action probability,1928,0.0578
+326-203,326,326,326 - Mangere Town Centre / Middlemore via Earlsworth Rd (C),Bus,False,Medium,Monitor route conditions,Moderate action probability,2842,0.0851
+326-203,326,326,326 - Mangere Town Centre / Middlemore via Earlsworth Rd (C),Bus,False,High,Adjust service headway,High action probability,8150,0.2441
+326-203,326,326,326 - Mangere Town Centre / Middlemore via Earlsworth Rd (C),Bus,False,Severe,Deploy standby bus or supervisor review,Severe action probability,297,0.0089
+327-203,missing,327-203,327-203,Unknown / unmatched route,False,Low,No operational action required,Low action probability,611,0.0183
+327-203,missing,327-203,327-203,Unknown / unmatched route,False,Medium,Monitor route conditions,Moderate action probability,1752,0.0525
+33-203,33,33,33 - Papakura Interchange / Otahuhu Station Via Great South Rd,Bus,False,Low,No operational action required,Low action probability,15373,0.4605
+33-203,33,33,33 - Papakura Interchange / Otahuhu Station Via Great South Rd,Bus,False,Medium,Monitor route conditions,Moderate action probability,24585,0.7364
+35-205,35,35,35 - Ormiston / Botany Via Chapel Rd,Bus,False,Low,No operational action required,Low action probability,9655,0.2892
+35-205,35,35,35 - Ormiston / Botany Via Chapel Rd,Bus,False,Medium,Monitor route conditions,Moderate action probability,16568,0.4963
+351-205,351,351,351 - Botany / Otahuhu Station Via Highbrook,Bus,False,Low,No operational action required,Low action probability,2021,0.0605
+351-205,351,351,351 - Botany / Otahuhu Station Via Highbrook,Bus,False,Medium,Monitor route conditions,Moderate action probability,7064,0.2116
+352-205,352,352,352 - Manukau Bus Station / Panmure Via Flat Bush,Bus,False,Low,No operational action required,Low action probability,935,0.028
+352-205,352,352,352 - Manukau Bus Station / Panmure Via Flat Bush,Bus,False,Medium,Monitor route conditions,Moderate action probability,8637,0.2587
+353-205,353,353,353 - Manukau Bus Station / Botany Town Centre Via Preston Rd,Bus,False,Low,No operational action required,Low action probability,5384,0.1613
+353-205,353,353,353 - Manukau Bus Station / Botany Town Centre Via Preston Rd,Bus,False,Medium,Monitor route conditions,Moderate action probability,8476,0.2539
+355-205,355,355,355 - Botany / Manukau Bus Station Via Mission Heights & Ormiston,Bus,False,Low,No operational action required,Low action probability,7335,0.2197
+355-205,355,355,355 - Botany / Manukau Bus Station Via Mission Heights & Ormiston,Bus,False,Medium,Monitor route conditions,Moderate action probability,11134,0.3335
+36-203,36,36,36 - Manukau / Onehunga via Mangere Town Centre,Bus,False,Low,No operational action required,Low action probability,10042,0.3008
+36-203,36,36,36 - Manukau / Onehunga via Mangere Town Centre,Bus,False,Medium,Monitor route conditions,Moderate action probability,19373,0.5803
+362-203,362,362,362 - Manukau Bus Station / Weymouth Via Great South Rd,Bus,False,Low,No operational action required,Low action probability,12882,0.3859
+362-203,362,362,362 - Manukau Bus Station / Weymouth Via Great South Rd,Bus,False,Medium,Monitor route conditions,Moderate action probability,2870,0.086
+363-203,363,363,363 - Manurewa Interchange / Wattle Downs Loop,Bus,False,Low,No operational action required,Low action probability,6531,0.1956
+363-203,363,363,363 - Manurewa Interchange / Wattle Downs Loop,Bus,False,Medium,Monitor route conditions,Moderate action probability,756,0.0226
+364-203,364,364,364 - Papakura Station / Manurewa Station via Takaanini,Bus,False,Low,No operational action required,Low action probability,11243,0.3368
+364-203,364,364,364 - Papakura Station / Manurewa Station via Takaanini,Bus,False,Medium,Monitor route conditions,Moderate action probability,4387,0.1314
+365-203,365,365,365 - Papakura Interchange / Manukau Bus Station Via Porchester,Bus,False,Low,No operational action required,Low action probability,7397,0.2216
+365-203,365,365,365 - Papakura Interchange / Manukau Bus Station Via Porchester,Bus,False,Medium,Monitor route conditions,Moderate action probability,12888,0.3861
+366-203,366,366,366 - Manurewa Interchange / Manukau Bus Station Via The Gardens,Bus,False,Low,No operational action required,Low action probability,6247,0.1871
+366-203,366,366,366 - Manurewa Interchange / Manukau Bus Station Via The Gardens,Bus,False,Medium,Monitor route conditions,Moderate action probability,11366,0.3405
+37-203,37,37,"37 - Manurewa / Highbrook via Roscommon, Puhinui and Preston Rd",Bus,False,Low,No operational action required,Low action probability,23477,0.7032
+37-203,37,37,"37 - Manurewa / Highbrook via Roscommon, Puhinui and Preston Rd",Bus,False,Medium,Monitor route conditions,Moderate action probability,6712,0.2011
+372-203,372,372,372 - Papakura Shops / Keri Hill Loop,Bus,False,Low,No operational action required,Low action probability,6925,0.2074
+372-203,372,372,372 - Papakura Shops / Keri Hill Loop,Bus,False,Medium,Monitor route conditions,Moderate action probability,826,0.0247
+373-203,373,373,373 - Red Hill / Papakura Shops,Bus,False,Low,No operational action required,Low action probability,5867,0.1757
+373-203,373,373,373 - Red Hill / Papakura Shops,Bus,False,Medium,Monitor route conditions,Moderate action probability,64,0.0019
+376-203,376,376,376 - Papakura Shops / Auranga Dr Via Drury,Bus,False,Low,No operational action required,Low action probability,3305,0.099
+376-203,376,376,376 - Papakura Shops / Auranga Dr Via Drury,Bus,False,Medium,Monitor route conditions,Moderate action probability,5577,0.1671
+377-203,377,377,377 - Papakura Interchange / Park Estate Loop,Bus,False,Low,No operational action required,Low action probability,78,0.0023
+377-203,377,377,377 - Papakura Interchange / Park Estate Loop,Bus,False,Medium,Monitor route conditions,Moderate action probability,6008,0.18
+377-203,377,377,377 - Papakura Interchange / Park Estate Loop,Bus,False,High,Adjust service headway,High action probability,2760,0.0827
+378-203,378,378,378 - Papakura Shops / Karaka Harbourside Loop And Karaka Lakes,Bus,False,Low,No operational action required,Low action probability,1751,0.0525
+378-203,378,378,378 - Papakura Shops / Karaka Harbourside Loop And Karaka Lakes,Bus,False,Medium,Monitor route conditions,Moderate action probability,3443,0.1031
+379-203,379,379,379 - Clarks Beach / Papakura,Bus,False,Low,No operational action required,Low action probability,2752,0.0824
+379-203,379,379,379 - Clarks Beach / Papakura,Bus,False,Medium,Monitor route conditions,Moderate action probability,5597,0.1677
+38-203,38,38,38 - Airport / Onehunga via Mangere Town Centre,Bus,False,Low,No operational action required,Low action probability,12873,0.3856
+38-203,38,38,38 - Airport / Onehunga via Mangere Town Centre,Bus,False,Medium,Monitor route conditions,Moderate action probability,19209,0.5754
+39-203,39,39,39 - Manurewa Interchange / Otara / MIT Via Mahia Rd,Bus,False,Low,No operational action required,Low action probability,10607,0.3177
+39-203,39,39,39 - Manurewa Interchange / Otara / MIT Via Mahia Rd,Bus,False,Medium,Monitor route conditions,Moderate action probability,20619,0.6176
+391-203,391,391,391 - Pukekohe Northeast Loop / Pukekohe Northeast loop,Bus,False,Low,No operational action required,Low action probability,8153,0.2442
+391-203,391,391,391 - Pukekohe Northeast Loop / Pukekohe Northeast loop,Bus,False,Medium,Monitor route conditions,Moderate action probability,24,0.0007
+392-203,392,392,392 - Pukekohe Station,Bus,False,Low,No operational action required,Low action probability,3046,0.0912
+392-203,392,392,392 - Pukekohe Station,Bus,False,Medium,Monitor route conditions,Moderate action probability,6019,0.1803
+393-203,393,393,393 - Pukekohe South Loop,Bus,False,Low,No operational action required,Low action probability,8040,0.2408
+393-203,393,393,393 - Pukekohe South Loop,Bus,False,Medium,Monitor route conditions,Moderate action probability,27,0.0008
+394-203,394,394,394 - Pukekohe Interchange / Paerata Rise Loop,Bus,False,Low,No operational action required,Low action probability,1796,0.0538
+394-203,394,394,394 - Pukekohe Interchange / Paerata Rise Loop,Bus,False,Medium,Monitor route conditions,Moderate action probability,3822,0.1145
+395-203,395,395,395 - Waiuku / Papakura Interchange,Bus,False,Low,No operational action required,Low action probability,435,0.013
+395-203,395,395,395 - Waiuku / Papakura Interchange,Bus,False,Medium,Monitor route conditions,Moderate action probability,553,0.0166
+396-203,396,396,396 - Waiuku / Pukekohe Interchange Via Kitchener Rd And Patumaho,Bus,False,Low,No operational action required,Low action probability,1643,0.0492
+396-203,396,396,396 - Waiuku / Pukekohe Interchange Via Kitchener Rd And Patumaho,Bus,False,Medium,Monitor route conditions,Moderate action probability,2842,0.0851
+501-217,501,501,501 - Kennedy Point / Matiatia Wharf,Bus,False,Low,No operational action required,Low action probability,2490,0.0746
+501-217,501,501,501 - Kennedy Point / Matiatia Wharf,Bus,False,Medium,Monitor route conditions,Moderate action probability,4210,0.1261
+502-217,502,502,502 - Rocky Bay / Matiatia Wharf,Bus,False,Low,No operational action required,Low action probability,11745,0.3518
+502-217,502,502,502 - Rocky Bay / Matiatia Wharf,Bus,False,Medium,Monitor route conditions,Moderate action probability,1725,0.0517
+50A-217,50A,50A,50A - Onetangi (Seventh Ave) / Matiatia Wharf,Bus,False,Low,No operational action required,Low action probability,11163,0.3344
+50A-217,50A,50A,50A - Onetangi (Seventh Ave) / Matiatia Wharf,Bus,False,Medium,Monitor route conditions,Moderate action probability,1810,0.0542
+50B-217,50B,50B,50B - Onetangi (Fourth Ave) / Matiatia Wharf,Bus,False,Low,No operational action required,Low action probability,9612,0.2879
+64-202,64,64,64 - St Lukes / Newmarket Via Mt Eden,Bus,False,Low,No operational action required,Low action probability,12589,0.3771
+64-202,64,64,64 - St Lukes / Newmarket Via Mt Eden,Bus,False,Medium,Monitor route conditions,Moderate action probability,20109,0.6024
+65-202,65,65,65 - Walker Park / Glen Innes,Bus,False,Low,No operational action required,Low action probability,8534,0.2556
+65-202,65,65,65 - Walker Park / Glen Innes,Bus,False,Medium,Monitor route conditions,Moderate action probability,26325,0.7886
+65-202,65,65,65 - Walker Park / Glen Innes,Bus,False,High,Adjust service headway,High action probability,720,0.0216
+66-203,66,66,66 - Pt Chevalier Beach / Sylvia Park Via Mt Albert Rd,Bus,False,Low,No operational action required,Low action probability,11589,0.3471
+66-203,66,66,66 - Pt Chevalier Beach / Sylvia Park Via Mt Albert Rd,Bus,False,Medium,Monitor route conditions,Moderate action probability,19897,0.596
+67A-202,67A,67A,67A - New Lynn / Otahuhu Via Onehunga,Bus,False,Low,No operational action required,Low action probability,2418,0.0724
+67A-202,67A,67A,67A - New Lynn / Otahuhu Via Onehunga,Bus,False,Medium,Monitor route conditions,Moderate action probability,21635,0.6481
+67B-202,67B,67B,67B - New Lynn / Onehunga Only,Bus,False,Low,No operational action required,Low action probability,1939,0.0581
+67B-202,67B,67B,67B - New Lynn / Onehunga Only,Bus,False,Medium,Monitor route conditions,Moderate action probability,7582,0.2271
+68-202,68,68,68 - New Lynn / Onehunga Station,Bus,False,Low,No operational action required,Low action probability,2270,0.068
+68-202,68,68,68 - New Lynn / Onehunga Station,Bus,False,Medium,Monitor route conditions,Moderate action probability,19664,0.589
+68-202,68,68,68 - New Lynn / Onehunga Station,Bus,False,High,Adjust service headway,High action probability,2339,0.0701
+70-205,70,70,70 - Botany / Britomart Via Panmure,Bus,False,Low,No operational action required,Low action probability,10239,0.3067
+70-205,70,70,70 - Botany / Britomart Via Panmure,Bus,False,Medium,Monitor route conditions,Moderate action probability,44170,1.3231
+70-205,70,70,70 - Botany / Britomart Via Panmure,Bus,False,High,Adjust service headway,High action probability,4346,0.1302
+70H-205,70H,70H,70H - Britomart / Howick And Botany Via Ellerslie And Panmure,Bus,False,Low,No operational action required,Low action probability,241,0.0072
+711-221,711,711,711 - Howick / Panmure Via Cascades Road,Bus,False,Low,No operational action required,Low action probability,2734,0.0819
+711-221,711,711,711 - Howick / Panmure Via Cascades Road,Bus,False,Medium,Monitor route conditions,Moderate action probability,5870,0.1758
+712-221,712,712,712 - Bucklands Beach / Panmure,Bus,False,Low,No operational action required,Low action probability,3543,0.1061
+712-221,712,712,712 - Bucklands Beach / Panmure,Bus,False,Medium,Monitor route conditions,Moderate action probability,6237,0.1868
+72C-205,72C,72C,"72C - Botany And Howick / Panmure Via Chapel Rd, Cook St, And Pak",Bus,False,Low,No operational action required,Low action probability,15605,0.4674
+72C-205,72C,72C,"72C - Botany And Howick / Panmure Via Chapel Rd, Cook St, And Pak",Bus,False,Medium,Monitor route conditions,Moderate action probability,1288,0.0386
+72M-205,72M,72M,"72M - Botany and Howick / Panmure via Millhouse Dr, Meadowland Dr",Bus,False,Low,No operational action required,Low action probability,12524,0.3752
+72M-205,72M,72M,"72M - Botany and Howick / Panmure via Millhouse Dr, Meadowland Dr",Bus,False,Medium,Monitor route conditions,Moderate action probability,1827,0.0547
+72X-205,72X,72X,72X - Botany And Howick / Britomart Express Via Panmure And Motor,Bus,False,Low,No operational action required,Low action probability,1028,0.0308
+72X-205,72X,72X,72X - Botany And Howick / Britomart Express Via Panmure And Motor,Bus,False,Medium,Monitor route conditions,Moderate action probability,6452,0.1933
+733-221,733,733,733 - Botany / The Parade Via Highland Park,Bus,False,Low,No operational action required,Low action probability,2553,0.0765
+733-221,733,733,733 - Botany / The Parade Via Highland Park,Bus,False,Medium,Monitor route conditions,Moderate action probability,5381,0.1612
+734-221,734,734,734 - Botany / Half Moon Bay Via Highland Park,Bus,False,Low,No operational action required,Low action probability,6137,0.1838
+734-221,734,734,734 - Botany / Half Moon Bay Via Highland Park,Bus,False,Medium,Monitor route conditions,Moderate action probability,1622,0.0486
+735-221,735,735,735 - Botany / Half Moon Bay Via Cockle Bay And Howick,Bus,False,Low,No operational action required,Low action probability,2855,0.0855
+735-221,735,735,735 - Botany / Half Moon Bay Via Cockle Bay And Howick,Bus,False,Medium,Monitor route conditions,Moderate action probability,6343,0.19
+738-221,738,738,738 - Maraetai / Pine Harbour via Beachlands,Bus,False,Low,No operational action required,Low action probability,7341,0.2199
+738-221,738,738,738 - Maraetai / Pine Harbour via Beachlands,Bus,False,Medium,Monitor route conditions,Moderate action probability,33,0.001
+739-221,739,739,739 - Maraetai And Beachlands / Botany Via Whitford And Ormiston,Bus,False,Low,No operational action required,Low action probability,2308,0.0691
+739-221,739,739,739 - Maraetai And Beachlands / Botany Via Whitford And Ormiston,Bus,False,Medium,Monitor route conditions,Moderate action probability,4539,0.136
+74-221,74,74,74 - Onehunga / Glen Innes Via Panmure,Bus,False,Low,No operational action required,Low action probability,11094,0.3323
+74-221,74,74,74 - Onehunga / Glen Innes Via Panmure,Bus,False,Medium,Monitor route conditions,Moderate action probability,19462,0.583
+744-221,744,744,744 - Panmure / St Heliers Via Glen Innes,Bus,False,Low,No operational action required,Low action probability,13433,0.4024
+744-221,744,744,744 - Panmure / St Heliers Via Glen Innes,Bus,False,Medium,Monitor route conditions,Moderate action probability,10,0.0003
+747-221,747,747,747 - Panmure / Glen Innes Via Stonefields,Bus,False,Low,No operational action required,Low action probability,14260,0.4272
+75-202,75,75,75 - Glen Innes / Wynyard Quarter Via Remuera Rd,Bus,False,Low,No operational action required,Low action probability,2390,0.0716
+75-202,75,75,75 - Glen Innes / Wynyard Quarter Via Remuera Rd,Bus,False,Medium,Monitor route conditions,Moderate action probability,37595,1.1261
+751-202,751,751,751 - Panmure / Newmarket Via Marua Rd And Remuera Rd,Bus,False,Low,No operational action required,Low action probability,2557,0.0766
+751-202,751,751,751 - Panmure / Newmarket Via Marua Rd And Remuera Rd,Bus,False,Medium,Monitor route conditions,Moderate action probability,5269,0.1578
+755-202,755,755,755 - Benson Rd / Britomart Via Portland Rd,Bus,False,Low,No operational action required,Low action probability,7345,0.22
+755-202,755,755,755 - Benson Rd / Britomart Via Portland Rd,Bus,False,Medium,Monitor route conditions,Moderate action probability,6207,0.1859
+76-202,76,76,76 - Britomart / Glen Innes Via Orakei,Bus,False,Low,No operational action required,Low action probability,15953,0.4779
+76-202,76,76,76 - Britomart / Glen Innes Via Orakei,Bus,False,Medium,Monitor route conditions,Moderate action probability,13441,0.4026
+774-202,774,774,774 - West Tamaki Rd / Britomart Via Long Dr And Tamaki Dr,Bus,False,Low,No operational action required,Low action probability,708,0.0212
+774-202,774,774,774 - West Tamaki Rd / Britomart Via Long Dr And Tamaki Dr,Bus,False,Medium,Monitor route conditions,Moderate action probability,2914,0.0873
+775-202,775,775,775 - Glendowie / Britomart Via Tamaki Dr,Bus,False,Low,No operational action required,Low action probability,765,0.0229
+775-202,775,775,775 - Glendowie / Britomart Via Tamaki Dr,Bus,False,Medium,Monitor route conditions,Moderate action probability,4068,0.1219
+781-202,781,781,781 - Mission Bay / Museum Via Orakei,Bus,False,Low,No operational action required,Low action probability,2416,0.0724
+781-202,781,781,781 - Mission Bay / Museum Via Orakei,Bus,False,Medium,Monitor route conditions,Moderate action probability,10362,0.3104
+782-221,782,782,782 - Sylvia Park / Mission Bay Via Ellerslie And Meadowbank,Bus,False,Low,No operational action required,Low action probability,2747,0.0823
+782-221,782,782,782 - Sylvia Park / Mission Bay Via Ellerslie And Meadowbank,Bus,False,Medium,Monitor route conditions,Moderate action probability,6436,0.1928
+783-221,783,783,783 - Eastern Bays Circuit Anticlockwise / Eastern Bays Circuit Clockwise,Bus,False,Low,No operational action required,Low action probability,2309,0.0692
+783-221,783,783,783 - Eastern Bays Circuit Anticlockwise / Eastern Bays Circuit Clockwise,Bus,False,Medium,Monitor route conditions,Moderate action probability,4220,0.1264
+801-202,801,801,801 - Bayswater Wharf / Akoranga Station Via Takapuna,Bus,False,Low,No operational action required,Low action probability,11373,0.3407
+801-202,801,801,801 - Bayswater Wharf / Akoranga Station Via Takapuna,Bus,False,Medium,Monitor route conditions,Moderate action probability,1926,0.0577
+802-202,802,802,802 - Bayswater / City (Mayoral Dr),Bus,False,Low,No operational action required,Low action probability,276,0.0083
+802-202,802,802,802 - Bayswater / City (Mayoral Dr),Bus,False,Medium,Monitor route conditions,Moderate action probability,1483,0.0444
+805-202,805,805,805 - Devonport Wharf / Belmont Shops Via Ngataringa Rd,Bus,False,Low,No operational action required,Low action probability,142,0.0043
+805-202,805,805,805 - Devonport Wharf / Belmont Shops Via Ngataringa Rd,Bus,False,Medium,Monitor route conditions,Moderate action probability,1504,0.0451
+806-202,806,806,806 - Devonport Wharf / Stanley Pt Loop,Bus,False,Low,No operational action required,Low action probability,4849,0.1452
+806-202,806,806,806 - Devonport Wharf / Stanley Pt Loop,Bus,False,Medium,Monitor route conditions,Moderate action probability,1294,0.0388
+807-202,807,807,807 - Devonport Wharf / Cheltenham Loop,Bus,False,Low,No operational action required,Low action probability,2085,0.0625
+807-202,807,807,807 - Devonport Wharf / Cheltenham Loop,Bus,False,Medium,Monitor route conditions,Moderate action probability,4030,0.1207
+814-202,814,814,814 - Akoranga Station / Devonport Wharf Via Takapuna,Bus,False,Low,No operational action required,Low action probability,8436,0.2527
+814-202,814,814,814 - Akoranga Station / Devonport Wharf Via Takapuna,Bus,False,Medium,Monitor route conditions,Moderate action probability,9098,0.2725
+82-202,82,82,82 - Milford / Mayoral Dr Via Takapuna,Bus,False,Low,No operational action required,Low action probability,9686,0.2901
+82-202,82,82,82 - Milford / Mayoral Dr Via Takapuna,Bus,False,Medium,Monitor route conditions,Moderate action probability,17209,0.5155
+83-203,83,83,83 - Massey University / Takapuna Via Browns Bay,Bus,False,Low,No operational action required,Low action probability,12847,0.3848
+83-203,83,83,83 - Massey University / Takapuna Via Browns Bay,Bus,False,Medium,Monitor route conditions,Moderate action probability,22083,0.6615
+842-202,842,842,842 - Crown Hill / Smales Farm Station Via East Coast Rd,Bus,False,Low,No operational action required,Low action probability,818,0.0245
+842-202,842,842,842 - Crown Hill / Smales Farm Station Via East Coast Rd,Bus,False,Medium,Monitor route conditions,Moderate action probability,1322,0.0396
+843-202,843,843,843 - Akoranga Station / Constellation Station Via Takapuna,Bus,False,Low,No operational action required,Low action probability,10569,0.3166
+843-202,843,843,843 - Akoranga Station / Constellation Station Via Takapuna,Bus,False,Medium,Monitor route conditions,Moderate action probability,1819,0.0545
+845-203,845,845,845 - Milford / Takapuna Via North Shore Hospital,Bus,False,Low,No operational action required,Low action probability,1349,0.0404
+845-203,845,845,845 - Milford / Takapuna Via North Shore Hospital,Bus,False,Medium,Monitor route conditions,Moderate action probability,3406,0.102
+856-203,856,856,856 - Albany Station / Browns Bay,Bus,False,Low,No operational action required,Low action probability,8910,0.2669
+856-203,856,856,856 - Albany Station / Browns Bay,Bus,False,Medium,Monitor route conditions,Moderate action probability,15765,0.4722
+861-203,861,861,861 - Long Bay / Constellation Station Via Bush Rd,Bus,False,Low,No operational action required,Low action probability,7053,0.2113
+861-203,861,861,861 - Long Bay / Constellation Station Via Bush Rd,Bus,False,Medium,Monitor route conditions,Moderate action probability,11675,0.3497
+865-203,865,865,865 - Browns Bay / Albany Station Via Oaktree Ave,Bus,False,Low,No operational action required,Low action probability,13100,0.3924
+865-203,865,865,865 - Browns Bay / Albany Station Via Oaktree Ave,Bus,False,Medium,Monitor route conditions,Moderate action probability,36,0.0011
+866-203,866,866,866 - Albany Stn / Newmarket Via Ponsonby And Auckland Hospital,Bus,False,Low,No operational action required,Low action probability,2767,0.0829
+866-203,866,866,866 - Albany Stn / Newmarket Via Ponsonby And Auckland Hospital,Bus,False,Medium,Monitor route conditions,Moderate action probability,11288,0.3381
+871-202,871,871,871 - Constellation Station / Takapuna Via Forrest Hill Rd,Bus,False,Low,No operational action required,Low action probability,12785,0.383
+871-202,871,871,871 - Constellation Station / Takapuna Via Forrest Hill Rd,Bus,False,Medium,Monitor route conditions,Moderate action probability,3712,0.1112
+878-203,878,878,878 - Browns Bay / Constellation Station Via and East Coast Rd,Bus,False,Low,No operational action required,Low action probability,15942,0.4775
+878-203,878,878,878 - Browns Bay / Constellation Station Via and East Coast Rd,Bus,False,Medium,Monitor route conditions,Moderate action probability,334,0.01
+883-203,883,883,883 - Schnapper Rock / Constellation Station,Bus,False,Low,No operational action required,Low action probability,8679,0.26
+883-203,883,883,883 - Schnapper Rock / Constellation Station,Bus,False,Medium,Monitor route conditions,Moderate action probability,1184,0.0355
+884-203,884,884,884 - Constellation Station / NHIE Loop Anticlockwise,Bus,False,Low,No operational action required,Low action probability,725,0.0217
+884-203,884,884,884 - Constellation Station / NHIE Loop Anticlockwise,Bus,False,Medium,Monitor route conditions,Moderate action probability,2590,0.0776
+885-203,885,885,885 - Constellation Station / NHIE Loop Clockwise,Bus,False,Low,No operational action required,Low action probability,649,0.0194
+885-203,885,885,885 - Constellation Station / NHIE Loop Clockwise,Bus,False,Medium,Monitor route conditions,Moderate action probability,2673,0.0801
+888-203,888,888,888 - Albany Heights Loop,Bus,False,Low,No operational action required,Low action probability,1531,0.0459
+888-203,888,888,888 - Albany Heights Loop,Bus,False,Medium,Monitor route conditions,Moderate action probability,2912,0.0872
+889-203,889,889,889 - Albany Station / Constellation Station Via Hugh Green Dr,Bus,False,Low,No operational action required,Low action probability,11779,0.3528
+901-203,901,901,901 - Smales Farm / Constellation Station Via Wairau Rd,Bus,False,Low,No operational action required,Low action probability,10331,0.3095
+901-203,901,901,901 - Smales Farm / Constellation Station Via Wairau Rd,Bus,False,Medium,Monitor route conditions,Moderate action probability,3794,0.1136
+902-203,902,902,902 - Kyle Road / Constellation Station,Bus,False,Low,No operational action required,Low action probability,10431,0.3125
+902-203,902,902,902 - Kyle Road / Constellation Station,Bus,False,Medium,Monitor route conditions,Moderate action probability,647,0.0194
+902-203,902,902,902 - Kyle Road / Constellation Station,Bus,False,High,Adjust service headway,High action probability,75,0.0022
+906-203,906,906,906 - Constellation / Smales Farm Via Windy Ridge And Archers Rd,Bus,False,Low,No operational action required,Low action probability,8901,0.2666
+906-203,906,906,906 - Constellation / Smales Farm Via Windy Ridge And Archers Rd,Bus,False,Medium,Monitor route conditions,Moderate action probability,3074,0.0921
+907-203,907,907,907 - Campbells Bay / Constellation Station Via Sunnynook Station,Bus,False,Low,No operational action required,Low action probability,9380,0.281
+907-203,907,907,907 - Campbells Bay / Constellation Station Via Sunnynook Station,Bus,False,Medium,Monitor route conditions,Moderate action probability,2044,0.0612
+917-203,917,917,917 - Birkenhead Wharf / Albany Station Via Glenfield Rd,Bus,False,Low,No operational action required,Low action probability,5326,0.1595
+917-203,917,917,917 - Birkenhead Wharf / Albany Station Via Glenfield Rd,Bus,False,Medium,Monitor route conditions,Moderate action probability,11986,0.359
+923-202,923,923,923 - Akoranga Station / City (Mayoral Dr) Via Hillcrest,Bus,False,Low,No operational action required,Low action probability,6019,0.1803
+923-202,923,923,923 - Akoranga Station / City (Mayoral Dr) Via Hillcrest,Bus,False,Medium,Monitor route conditions,Moderate action probability,13273,0.3976
+924-202,924,924,924 - Hillcrest / City (Mayoral Dr),Bus,False,Low,No operational action required,Low action probability,134,0.004
+924-202,924,924,924 - Hillcrest / City (Mayoral Dr),Bus,False,Medium,Monitor route conditions,Moderate action probability,2515,0.0753
+926-203,926,926,926 - Glenfield / Akoranga Station Via Hillcrest West,Bus,False,Low,No operational action required,Low action probability,12896,0.3863
+928-203,928,928,928 - Northcote Point / Smales Farm Stn Via North Shore Hospital,Bus,False,Low,No operational action required,Low action probability,1885,0.0565
+928-203,928,928,928 - Northcote Point / Smales Farm Stn Via North Shore Hospital,Bus,False,Medium,Monitor route conditions,Moderate action probability,4425,0.1325
+931-203,931,931,931 - Chatswood / University of Auckland Via Customs St,Bus,False,Low,No operational action required,Low action probability,578,0.0173
+931-203,931,931,931 - Chatswood / University of Auckland Via Customs St,Bus,False,Medium,Monitor route conditions,Moderate action probability,4303,0.1289
+933-203,933,933,933 - Beach Haven Wharf / University of Auckland Via Customs St,Bus,False,Low,No operational action required,Low action probability,1429,0.0428
+933-203,933,933,933 - Beach Haven Wharf / University of Auckland Via Customs St,Bus,False,Medium,Monitor route conditions,Moderate action probability,7654,0.2293
+933A-202,933,933 - 933A,933 - Beach Haven Wharf / University of Auckland Via Customs St,Bus,False,Low,No operational action required,Low action probability,12,0.0004
+933A-202,933,933 - 933A,933 - Beach Haven Wharf / University of Auckland Via Customs St,Bus,False,Medium,Monitor route conditions,Moderate action probability,116,0.0035
+939-203,939,939,939 - University of Auckland / Windy Ridge Via Customs St,Bus,False,Low,No operational action required,Low action probability,387,0.0116
+939-203,939,939,939 - University of Auckland / Windy Ridge Via Customs St,Bus,False,Medium,Monitor route conditions,Moderate action probability,1885,0.0565
+94-203,94,94,94 - Beach Haven / Takapuna via Highbury And Northcote Shops,Bus,False,Low,No operational action required,Low action probability,15047,0.4507
+94-203,94,94,94 - Beach Haven / Takapuna via Highbury And Northcote Shops,Bus,False,Medium,Monitor route conditions,Moderate action probability,9756,0.2922
+941-203,941,941,941 - Beach Haven / Takapuna Via Glenfield And Smales Farm Stn,Bus,False,Low,No operational action required,Low action probability,5648,0.1692
+941-203,941,941,941 - Beach Haven / Takapuna Via Glenfield And Smales Farm Stn,Bus,False,Medium,Monitor route conditions,Moderate action probability,10751,0.322
+95B-203,95B,95B,95B - Bayview / Britomart (Lower Albert St),Bus,False,Low,No operational action required,Low action probability,6120,0.1833
+95B-203,95B,95B,95B - Bayview / Britomart (Lower Albert St),Bus,False,Medium,Monitor route conditions,Moderate action probability,12817,0.3839
+95C-203,95C,95C,95C - Constellation Station / Britomart (Albert St) Via Glenfield,Bus,False,Low,No operational action required,Low action probability,5953,0.1783
+95C-203,95C,95C,95C - Constellation Station / Britomart (Albert St) Via Glenfield,Bus,False,Medium,Monitor route conditions,Moderate action probability,10463,0.3134
+966-203,966,966,966 - Beach Haven / Newmarket Via Ponsonby And Auckland Hospital,Bus,False,Low,No operational action required,Low action probability,937,0.0281
+966-203,966,966,966 - Beach Haven / Newmarket Via Ponsonby And Auckland Hospital,Bus,False,Medium,Monitor route conditions,Moderate action probability,9135,0.2736
+966-203,966,966,966 - Beach Haven / Newmarket Via Ponsonby And Auckland Hospital,Bus,False,High,Adjust service headway,High action probability,404,0.0121
+97B-203,97B,97B,97B - Beach Haven / Britomart (Lower Albert St),Bus,False,Low,No operational action required,Low action probability,6206,0.1859
+97B-203,97B,97B,97B - Beach Haven / Britomart (Lower Albert St),Bus,False,Medium,Monitor route conditions,Moderate action probability,10711,0.3208
+97R-203,97R,97R,97R - Beach Haven / Britomart (Lower Albert St),Bus,False,Low,No operational action required,Low action probability,5924,0.1775
+97R-203,97R,97R,97R - Beach Haven / Britomart (Lower Albert St),Bus,False,Medium,Monitor route conditions,Moderate action probability,10334,0.3096
+981-221,981,981,981 - Waiwera / Hibiscus Coast Station,Bus,False,Low,No operational action required,Low action probability,5744,0.1721
+981-221,981,981,981 - Waiwera / Hibiscus Coast Station,Bus,False,Medium,Monitor route conditions,Moderate action probability,9791,0.2933
+982-221,982,982,982 - Gulf Harbour / Hibiscus Coast Station,Bus,False,Low,No operational action required,Low action probability,14043,0.4207
+982-221,982,982,982 - Gulf Harbour / Hibiscus Coast Station,Bus,False,Medium,Monitor route conditions,Moderate action probability,3965,0.1188
+983-221,983,983,983 - Gulf Harbour / Hibiscus Coast Station Via Vipond Rd,Bus,False,Low,No operational action required,Low action probability,5708,0.171
+983-221,983,983,983 - Gulf Harbour / Hibiscus Coast Station Via Vipond Rd,Bus,False,Medium,Monitor route conditions,Moderate action probability,10409,0.3118
+984-221,984,984,984 - Orewa / Hibiscus Coast Station Via Maygrove,Bus,False,Low,No operational action required,Low action probability,902,0.027
+984-221,984,984,984 - Orewa / Hibiscus Coast Station Via Maygrove,Bus,False,Medium,Monitor route conditions,Moderate action probability,2985,0.0894
+985-221,985,985,985 - Orewa / Hibiscus Coast Station Via Millwater,Bus,False,Low,No operational action required,Low action probability,13069,0.3915
+985-221,985,985,985 - Orewa / Hibiscus Coast Station Via Millwater,Bus,False,Medium,Monitor route conditions,Moderate action probability,178,0.0053
+986-221,986,986,986 - Hibiscus Coast Station / Albany Station Via Dairy Flat,Bus,False,Low,No operational action required,Low action probability,422,0.0126
+986-221,986,986,986 - Hibiscus Coast Station / Albany Station Via Dairy Flat,Bus,False,Medium,Monitor route conditions,Moderate action probability,2384,0.0714
+988-221,988,988,988 - The Plaza / Gulf Harbour Ferry Via Army Bay,Bus,False,Low,No operational action required,Low action probability,572,0.0171
+988-221,988,988,988 - The Plaza / Gulf Harbour Ferry Via Army Bay,Bus,False,Medium,Monitor route conditions,Moderate action probability,1854,0.0555
+989-218,989,989,989 - Hibiscus Coast Station / Milldale Loop,Bus,False,Low,No operational action required,Low action probability,226,0.0068
+989-218,989,989,989 - Hibiscus Coast Station / Milldale Loop,Bus,False,Medium,Monitor route conditions,Moderate action probability,4538,0.1359
+995-203,995,995,995 - Warkworth / Hibiscus Coast Station,Bus,False,Low,No operational action required,Low action probability,7620,0.2283
+995-203,995,995,995 - Warkworth / Hibiscus Coast Station,Bus,False,Medium,Monitor route conditions,Moderate action probability,356,0.0107
+996-203,996,996,996 - Algies Bay / Warkworth Via Snells Beach,Bus,False,Low,No operational action required,Low action probability,400,0.012
+996-203,996,996,996 - Algies Bay / Warkworth Via Snells Beach,Bus,False,Medium,Monitor route conditions,Moderate action probability,913,0.0273
+997-203,997,997,997 - Warkworth / Omaha Via Matakana And Pt Wells,Bus,False,Low,No operational action required,Low action probability,333,0.01
+997-203,997,997,997 - Warkworth / Omaha Via Matakana And Pt Wells,Bus,False,Medium,Monitor route conditions,Moderate action probability,1132,0.0339
+998-203,998,998,998 - Wellsford / Warkworth,Bus,False,Low,No operational action required,Low action probability,4471,0.1339
+998-203,998,998,998 - Wellsford / Warkworth,Bus,False,Medium,Monitor route conditions,Moderate action probability,22,0.0007
+999-203,999,999,999 - Warkworth Loop,Bus,False,Low,No operational action required,Low action probability,1942,0.0582
+999-203,999,999,999 - Warkworth Loop,Bus,False,Medium,Monitor route conditions,Moderate action probability,3204,0.096
+AIR-203,AIR,AIR,AIR - Airport Link via Puhinui Station,Bus,False,Low,No operational action required,Low action probability,12663,0.3793
+AIR-203,AIR,AIR,AIR - Airport Link via Puhinui Station,Bus,False,Medium,Monitor route conditions,Moderate action probability,15679,0.4697
+BIRK-240,BIRK,BIRK,BIRK - Birkenhead / Downtown Via Northcote Point,Ferry,False,Low,No operational action required,Low action probability,86,0.0026
+CTY-202,CTY,CTY,CTY - Wynyard Quarter / Karangahape Rd via Queen St,Bus,False,Medium,Monitor route conditions,Moderate action probability,1861,0.0557
+CTY-202,CTY,CTY,CTY - Wynyard Quarter / Karangahape Rd via Queen St,Bus,False,High,Adjust service headway,High action probability,25544,0.7652
+CTY-202,CTY,CTY,CTY - Wynyard Quarter / Karangahape Rd via Queen St,Bus,False,Severe,Deploy standby bus or supervisor review,Severe action probability,1808,0.0542
+DEV-209,DEV,DEV,DEV - Devonport / Downtown,Ferry,False,Low,No operational action required,Low action probability,2992,0.0896
+DEV-209,DEV,DEV,DEV - Devonport / Downtown,Ferry,False,Medium,Monitor route conditions,Moderate action probability,121,0.0036
+EAST-201,EAST,EAST,EAST - Manukau 1 / Brit 1 Via Panmure,Train / Rail,False,Low,No operational action required,Low action probability,103790,3.109
+GULF-209,GULF,GULF,GULF - Gulf Harbour / Downtown,Ferry,False,Low,No operational action required,Low action probability,1692,0.0507
+GULF-209,GULF,GULF,GULF - Gulf Harbour / Downtown,Ferry,False,Medium,Monitor route conditions,Moderate action probability,153,0.0046
+HMB-209,HMB,HMB,HMB - Half Moon Bay / Downtown Pier 5,Ferry,False,Low,No operational action required,Low action probability,2080,0.0623
+HMB-209,HMB,HMB,HMB - Half Moon Bay / Downtown Pier 5,Ferry,False,Medium,Monitor route conditions,Moderate action probability,113,0.0034
+HOBS-209,HOBS,HOBS,HOBS - Beach Haven / Downtown Via Hobsonville Point,Ferry,False,Low,No operational action required,Low action probability,278,0.0083
+HOBS-209,HOBS,HOBS,HOBS - Beach Haven / Downtown Via Hobsonville Point,Ferry,False,Medium,Monitor route conditions,Moderate action probability,40,0.0012
+HUIA-404,HUIA,HUIA,HUIA - Hamilton / The Strand Auckland Via Pukekohe,Train / Rail,False,Low,No operational action required,Low action probability,1,0.0
+HUIA-404,HUIA,HUIA,HUIA - Hamilton / The Strand Auckland Via Pukekohe,Train / Rail,False,Medium,Monitor route conditions,Moderate action probability,76,0.0023
+HUIA-404,HUIA,HUIA,HUIA - Hamilton / The Strand Auckland Via Pukekohe,Train / Rail,False,High,Adjust service headway,High action probability,41,0.0012
+INN-202,INN,INN,INN - Inner Link Anticlockwise / Inner Link Anticlockwise (VP),Bus,False,Low,No operational action required,Low action probability,600,0.018
+INN-202,INN,INN,INN - Inner Link Anticlockwise / Inner Link Anticlockwise (VP),Bus,False,Medium,Monitor route conditions,Moderate action probability,40959,1.2269
+INN-202,INN,INN,INN - Inner Link Anticlockwise / Inner Link Anticlockwise (VP),Bus,False,High,Adjust service headway,High action probability,7869,0.2357
+MTIA-209,MTIA,MTIA,MTIA - Waiheke Island 1 / Downtown Pier 11,Ferry,False,Low,No operational action required,Low action probability,3507,0.1051
+MTIA-209,MTIA,MTIA,MTIA - Waiheke Island 1 / Downtown Pier 11,Ferry,False,Medium,Monitor route conditions,Moderate action probability,418,0.0125
+MTID-241,MTID,MTID,MTID - Downtown Pier 13 / Waiheke Pier 3,Ferry,False,Low,No operational action required,Low action probability,235,0.007
+NX1-203,NX1,NX1,NX1 - Britomart (Lower Albert St) / Albany Station,Bus,False,Low,No operational action required,Low action probability,69337,2.077
+NX1-203,NX1,NX1,NX1 - Britomart (Lower Albert St) / Albany Station,Bus,False,Medium,Monitor route conditions,Moderate action probability,129,0.0039
+NX2-207,NX2,NX2,NX2 - Hibiscus Coast Station / Auckland Universities,Bus,False,Low,No operational action required,Low action probability,20865,0.625
+NX2-207,NX2,NX2,NX2 - Hibiscus Coast Station / Auckland Universities,Bus,False,Medium,Monitor route conditions,Moderate action probability,33273,0.9967
+ONE-201,ONE,ONE,ONE - Newmarket 4 / Onehunga,Train / Rail,False,Low,No operational action required,Low action probability,74583,2.2341
+OUT-202,OUT,OUT,OUT - St Lukes / Newmarket Via Wellesley St,Bus,False,Low,No operational action required,Low action probability,140,0.0042
+OUT-202,OUT,OUT,OUT - St Lukes / Newmarket Via Wellesley St,Bus,False,Medium,Monitor route conditions,Moderate action probability,32308,0.9678
+OUT-202,OUT,OUT,OUT - St Lukes / Newmarket Via Wellesley St,Bus,False,High,Adjust service headway,High action probability,12393,0.3712
+PINE-210,PINE,PINE,PINE - Pine Harbour / Downtown,Ferry,False,Low,No operational action required,Low action probability,424,0.0127
+RANG-209,RANG,RANG,RANG - Rangitoto Island / Downtown Pier 14,Ferry,False,Low,No operational action required,Low action probability,1404,0.0421
+RANG-209,RANG,RANG,RANG - Rangitoto Island / Downtown Pier 14,Ferry,False,Medium,Monitor route conditions,Moderate action probability,63,0.0019
+RBE-402,RBE,RBE,RBE - Manukau / Britomart Eastern Rail Bus (New),Bus,False,Low,No operational action required,Low action probability,3325,0.0996
+RBE-402,RBE,RBE,RBE - Manukau / Britomart Eastern Rail Bus (New),Bus,False,Medium,Monitor route conditions,Moderate action probability,1023,0.0306
+RBN-402,RBN,RBN,RBN - Westfield Newmarket / Britomart Rail Bus,Bus,False,Low,No operational action required,Low action probability,96,0.0029
+RBN-402,RBN,RBN,RBN - Westfield Newmarket / Britomart Rail Bus,Bus,False,Medium,Monitor route conditions,Moderate action probability,128,0.0038
+RBO-402,RBO,RBO,RBO - Newmarket / Onehunga Onehunga Rail Bus,Bus,False,Low,No operational action required,Low action probability,1400,0.0419
+RBO-402,RBO,RBO,RBO - Newmarket / Onehunga Onehunga Rail Bus,Bus,False,Medium,Monitor route conditions,Moderate action probability,682,0.0204
+RBS-402,RBS,RBS,RBS - Britomart / Pukekohe Southern Rail Bus,Bus,False,Low,No operational action required,Low action probability,4095,0.1227
+RBS-402,RBS,RBS,RBS - Britomart / Pukekohe Southern Rail Bus,Bus,False,Medium,Monitor route conditions,Moderate action probability,1762,0.0528
+RBW-402,RBW,RBW,RBW - Britomart / Swanson Western Rail Bus,Bus,False,Low,No operational action required,Low action probability,5557,0.1665
+RBW-402,RBW,RBW,RBW - Britomart / Swanson Western Rail Bus,Bus,False,Medium,Monitor route conditions,Moderate action probability,2859,0.0856
+TIRI-240,TIRI,TIRI,TIRI - Gulf Harbour / Tiritiri Matangi Island,Ferry,False,Low,No operational action required,Low action probability,64,0.0019
+TMK-202,TMK,TMK,TMK - Glen Innes / Britomart Via St Heliers And Tamaki Dr,Bus,False,Low,No operational action required,Low action probability,23514,0.7044
+TMK-202,TMK,TMK,TMK - Glen Innes / Britomart Via St Heliers And Tamaki Dr,Bus,False,Medium,Monitor route conditions,Moderate action probability,5764,0.1727
+WEST-201,WEST,WEST,WEST - Brit 2 / Swanson 1 Via Newmarket 1,Train / Rail,False,Low,No operational action required,Low action probability,94824,2.8404
+WX1-207,WX1,WX1,WX1 - City Centre / Northwest Via Motorway,Bus,False,Low,No operational action required,Low action probability,16010,0.4796
+WX1-207,WX1,WX1,WX1 - City Centre / Northwest Via Motorway,Bus,False,Medium,Monitor route conditions,Moderate action probability,26297,0.7877

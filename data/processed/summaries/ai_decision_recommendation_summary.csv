@@ -1,0 +1,5 @@
+ai_delay_risk,ai_recommended_action,ai_confidence_band,records,share_pct
+Low,No operational action required,Low action probability,1573398,47.13
+Medium,Monitor route conditions,Moderate action probability,1663378,49.83
+High,Adjust service headway,High action probability,96228,2.88
+Severe,Deploy standby bus or supervisor review,Severe action probability,5379,0.16
