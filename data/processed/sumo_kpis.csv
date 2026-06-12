@@ -1,7 +1,7 @@
 metric,description,baseline_target,intervention_goal
-Average Delay,"Average SUMO time-loss converted to minutes for completed trips in the finalized command-line Route 128 OSM visual scenario.",Lower than disruption,Reduce compared with disruption
-Maximum Delay,"Maximum SUMO time-loss converted to minutes for completed trips in the finalized command-line Route 128 OSM visual scenario.",Lower than disruption,Reduce peak time-loss compared with disruption
-Congestion Index,"Scenario-level congestion proxy derived from average trip duration relative to the baseline scenario using finalized command-line SUMO outputs.",Baseline reference around 35,Reduce compared with disruption
+Average Delay,"Average SUMO time-loss converted to minutes for completed trips in the finalized command-line Route 128 OSM visual scenario, contextualized with final model-baseline evidence from 2026-05-09 to 2026-06-04.",Lower than disruption,Reduce compared with disruption
+Maximum Delay,"Maximum SUMO time-loss converted to minutes for completed trips in the finalized command-line Route 128 OSM visual scenario, contextualized with final model-baseline evidence from 2026-05-09 to 2026-06-04.",Lower than disruption,Reduce peak time-loss compared with disruption
+Congestion Index,Scenario-level congestion proxy derived from average trip duration relative to the baseline scenario using finalized command-line SUMO outputs.,Baseline reference around 35,Reduce compared with disruption
 Queue Impact,"Qualitative interpretation of scenario traffic pressure, completed trips, and halting behaviour.",Low,Reduce queue or pressure impact compared with disruption
 Service Reliability,"Qualitative interpretation of whether the scenario appears stable, degraded, or improved based on SUMO summary and tripinfo outputs.",Stable,Improve compared with disruption
-Intervention Effectiveness,"Estimated scenario improvement calculated as (disruption average time-loss - intervention average time-loss) / disruption average time-loss * 100.",N/A,Show positive scenario-level improvement without claiming real-world operational proof
+Intervention Effectiveness,Estimated scenario improvement calculated as (disruption average time-loss - intervention average time-loss) / disruption average time-loss * 100.,N/A,Show positive scenario-level improvement without claiming real-world operational proof

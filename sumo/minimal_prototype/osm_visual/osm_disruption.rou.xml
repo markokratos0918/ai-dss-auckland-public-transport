@@ -3,12 +3,12 @@
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
     <!--
         Data-informed Route 128 disruption context:
-        route_id=128-202, service_mode=Bus, evidence_date=2026-05-20.
-        Evidence: 367 records, 30 unique trips, avg delay 9.57 min,
-        avg absolute delay 11.80 min, max delay 39.97 min,
-        95 Severe records, and severe recommendation:
+        route_id=128-202, service_mode=Bus.
+        Final model-baseline evidence period: 2026-05-09 to 2026-06-04.
+        Evidence: 5958 records, 42 unique trips, avg delay 8.55 min,
+        avg absolute delay 11.44 min, max delay 40.57 min,
+        1429 Severe records, and severe recommendation:
         Deploy standby bus or supervisor review.
-        Weather context: light rain/precipitation and moderate wind.
         These values inform the disruption pressure but do not calibrate real traffic volumes.
     -->
     <vType id="osm_bus_route_128" vClass="bus" length="12.0" accel="0.75" decel="4.0" sigma="0.85" maxSpeed="6.5" color="220,80,40"/>

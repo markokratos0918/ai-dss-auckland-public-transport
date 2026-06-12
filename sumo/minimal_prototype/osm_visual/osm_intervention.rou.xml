@@ -3,7 +3,8 @@
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
     <!--
         Data-informed Route 128 intervention context:
-        route_id=128-202, service_mode=Bus, evidence_date=2026-05-20.
+        route_id=128-202, service_mode=Bus.
+        Final model-baseline evidence period: 2026-05-09 to 2026-06-04.
         Intervention is based on Decision Engine severe recommendation:
         Deploy standby bus or supervisor review, with supporting actions:
         monitor route conditions and adjust service headway.
