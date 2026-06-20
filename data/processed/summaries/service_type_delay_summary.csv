@@ -1,0 +1,25 @@
+service_type,delay_risk,recommended_action,is_special_route,records,unique_trips,avg_delay_minutes,max_delay_minutes
+Bus,Low,No operational action required,false,2504618,31970,-0.365,5.0
+Bus,Medium,Monitor route conditions,false,782642,24806,-2.132,15.0
+Bus,High,Adjust service headway,false,40949,3852,4.652,25.0
+Bus,Severe,Deploy standby bus or supervisor review,false,11507,1170,32.906,119.8
+Ferry,Low,No operational action required,false,16592,176,0.083,5.0
+Ferry,Medium,Monitor route conditions,false,788,57,11.28,15.0
+Ferry,High,Adjust service headway,false,10,2,20.0,20.0
+Ferry,Severe,Deploy standby bus or supervisor review,false,1,1,30.0,30.0
+Train / Rail,Low,No operational action required,false,308628,1238,0.103,5.0
+Train / Rail,Low,No operational action required,true,123191,435,-0.004,5.0
+Train / Rail,Medium,Monitor route conditions,false,3555,375,8.021,15.0
+Train / Rail,Medium,Monitor route conditions,true,2551,236,3.897,15.0
+Train / Rail,Severe,Deploy standby bus or supervisor review,false,2474,239,50.661,119.95
+Train / Rail,High,Adjust service headway,false,948,123,19.157,24.95
+Train / Rail,Severe,Deploy standby bus or supervisor review,true,593,74,40.725,85.617
+Train / Rail,High,Adjust service headway,true,314,78,16.732,25.0
+Unknown / unmatched route,Low,No operational action required,true,67958,574,-0.045,5.0
+Unknown / unmatched route,Medium,Monitor route conditions,true,29372,531,-0.775,14.983
+Unknown / unmatched route,High,Adjust service headway,true,3159,167,-5.06,24.9
+Unknown / unmatched route,Low,No operational action required,false,1743,95,-2.026,4.867
+Unknown / unmatched route,Medium,Monitor route conditions,false,888,72,-6.032,11.15
+Unknown / unmatched route,Severe,Deploy standby bus or supervisor review,true,780,52,8.748,91.317
+Unknown / unmatched route,Severe,Deploy standby bus or supervisor review,false,15,2,41.217,58.017
+Unknown / unmatched route,High,Adjust service headway,false,14,2,24.061,24.867

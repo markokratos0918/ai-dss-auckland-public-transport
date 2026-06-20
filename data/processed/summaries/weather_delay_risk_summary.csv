@@ -1,0 +1,42 @@
+service_type,weather_context,weather_rule,delay_risk,recommended_action,records,unique_trips,avg_delay_minutes,max_delay_minutes,avg_precipitation,avg_rain,avg_wind_speed_10m
+Bus,Adverse weather context,Rain / precipitation,Low,No operational action required,599534,30226,-0.378,5.0,0.538,0.538,19.313
+Bus,Adverse weather context,Rain / precipitation,Medium,Monitor route conditions,185223,18016,-1.728,15.0,0.555,0.555,19.132
+Bus,Adverse weather context,High wind,Low,No operational action required,30393,7728,-0.649,5.0,0.0,0.0,31.341
+Bus,Adverse weather context,Rain / precipitation,High,Adjust service headway,10522,1853,8.102,25.0,0.693,0.693,19.303
+Bus,Adverse weather context,High wind,Medium,Monitor route conditions,9055,2671,-3.691,14.983,0.0,0.0,31.453
+Bus,Adverse weather context,Rain / precipitation,Severe,Deploy standby bus or supervisor review,3412,550,34.693,119.75,0.703,0.703,19.33
+Bus,Adverse weather context,High wind,High,Adjust service headway,421,141,3.761,24.783,0.0,0.0,31.219
+Bus,Adverse weather context,High wind,Severe,Deploy standby bus or supervisor review,178,56,29.555,88.583,0.0,0.0,31.22
+Ferry,Adverse weather context,Rain / precipitation,Low,No operational action required,4192,111,0.047,5.0,0.841,0.841,23.352
+Ferry,Adverse weather context,High wind,Low,No operational action required,245,37,-0.009,0.0,0.0,0.0,30.925
+Ferry,Adverse weather context,Rain / precipitation,Medium,Monitor route conditions,149,18,11.772,15.0,0.264,0.264,18.572
+Ferry,Adverse weather context,Rain / precipitation,Severe,Deploy standby bus or supervisor review,1,1,30.0,30.0,0.1,0.1,15.7
+Train / Rail,Adverse weather context,Rain / precipitation,Low,No operational action required,83938,1108,0.113,5.0,0.621,0.621,17.457
+Train / Rail,Adverse weather context,High wind,Low,No operational action required,2319,442,0.019,4.95,0.0,0.0,30.369
+Train / Rail,Adverse weather context,Rain / precipitation,Medium,Monitor route conditions,1212,231,6.671,14.85,0.679,0.679,15.005
+Train / Rail,Adverse weather context,Rain / precipitation,Severe,Deploy standby bus or supervisor review,518,85,47.18,105.1,0.5,0.5,15.602
+Train / Rail,Adverse weather context,Rain / precipitation,High,Adjust service headway,271,60,18.762,24.733,0.589,0.589,13.991
+Train / Rail,Adverse weather context,High wind,Medium,Monitor route conditions,15,6,-2.723,9.95,0.0,0.0,30.22
+Train / Rail,Adverse weather context,High wind,Severe,Deploy standby bus or supervisor review,3,1,78.667,78.667,0.0,0.0,30.0
+Unknown / unmatched route,Adverse weather context,Rain / precipitation,Low,No operational action required,14989,650,-0.021,5.0,0.575,0.575,17.695
+Unknown / unmatched route,Adverse weather context,Rain / precipitation,Medium,Monitor route conditions,7563,513,0.254,14.95,0.594,0.594,18.532
+Unknown / unmatched route,Adverse weather context,Rain / precipitation,High,Adjust service headway,756,95,1.796,24.9,0.513,0.513,18.245
+Unknown / unmatched route,Adverse weather context,Rain / precipitation,Severe,Deploy standby bus or supervisor review,265,29,18.621,91.317,0.468,0.468,19.145
+Unknown / unmatched route,Adverse weather context,High wind,Medium,Monitor route conditions,68,19,-5.847,12.4,0.0,0.0,31.844
+Unknown / unmatched route,Adverse weather context,High wind,Low,No operational action required,30,14,-2.422,0.533,0.0,0.0,32.023
+Unknown / unmatched route,Adverse weather context,High wind,Severe,Deploy standby bus or supervisor review,4,2,42.438,58.017,0.0,0.0,31.9
+Bus,Normal / no adverse weather flag,No adverse weather flag,Low,No operational action required,1874691,31836,-0.357,5.0,0.0,0.0,11.703
+Bus,Normal / no adverse weather flag,No adverse weather flag,Medium,Monitor route conditions,588364,23063,-2.236,15.0,0.0,0.0,11.409
+Bus,Normal / no adverse weather flag,No adverse weather flag,High,Adjust service headway,30006,3169,3.455,25.0,0.0,0.0,10.883
+Bus,Normal / no adverse weather flag,No adverse weather flag,Severe,Deploy standby bus or supervisor review,7917,887,32.212,119.8,0.0,0.0,10.905
+Ferry,Normal / no adverse weather flag,No adverse weather flag,Low,No operational action required,12155,159,0.098,5.0,0.0,0.0,11.833
+Ferry,Normal / no adverse weather flag,No adverse weather flag,Medium,Monitor route conditions,639,47,11.165,15.0,0.0,0.0,11.955
+Ferry,Normal / no adverse weather flag,No adverse weather flag,High,Adjust service headway,10,2,20.0,20.0,0.0,0.0,16.04
+Train / Rail,Normal / no adverse weather flag,No adverse weather flag,Low,No operational action required,345562,1661,0.063,5.0,0.0,0.0,11.6
+Train / Rail,Normal / no adverse weather flag,No adverse weather flag,Medium,Monitor route conditions,4879,573,6.233,15.0,0.0,0.0,11.448
+Train / Rail,Normal / no adverse weather flag,No adverse weather flag,Severe,Deploy standby bus or supervisor review,2546,288,49.022,119.95,0.0,0.0,10.044
+Train / Rail,Normal / no adverse weather flag,No adverse weather flag,High,Adjust service headway,991,180,18.496,25.0,0.0,0.0,9.874
+Unknown / unmatched route,Normal / no adverse weather flag,No adverse weather flag,Low,No operational action required,54682,644,-0.113,5.0,0.0,0.0,11.05
+Unknown / unmatched route,Normal / no adverse weather flag,No adverse weather flag,Medium,Monitor route conditions,22629,566,-1.31,14.983,0.0,0.0,11.297
+Unknown / unmatched route,Normal / no adverse weather flag,No adverse weather flag,High,Adjust service headway,2417,140,-7.036,24.8,0.0,0.0,10.694
+Unknown / unmatched route,Normal / no adverse weather flag,No adverse weather flag,Severe,Deploy standby bus or supervisor review,526,41,4.444,91.317,0.0,0.0,10.978

@@ -1,0 +1,1562 @@
+service_type,route_display_name,route_corridor_name,route_id,is_special_route,delay_risk,recommended_action,records,unique_trips,avg_delay_minutes,max_delay_minutes
+Train / Rail,STH,"STH - Brit 4 / Pukekohe 1 Via NKT 4, OHU 3, Papakura 1",STH-201,true,Low,No operational action required,123191,435,-0.004,5.0
+Train / Rail,EAST,EAST - Manukau 1 / Brit 1 Via Panmure,EAST-201,false,Low,No operational action required,118441,397,0.018,5.0
+Train / Rail,WEST,WEST - Brit 2 / Swanson 1 Via Newmarket 1,WEST-201,false,Low,No operational action required,105532,621,0.253,5.0
+Train / Rail,ONE,ONE - Newmarket 4 / Onehunga,ONE-201,false,Low,No operational action required,84655,220,0.034,4.933
+Bus,NX1,NX1 - Britomart (Lower Albert St) / Albany Station,NX1-203,false,Low,No operational action required,76019,572,0.358,5.0
+Bus,NX2,NX2 - Hibiscus Coast Station / Auckland Universities,NX2-207,false,Low,No operational action required,48676,438,-0.882,5.0
+Bus,70,70 - Botany / Britomart Via Panmure,70-205,false,Low,No operational action required,45012,594,-0.032,5.0
+Bus,18,18 - City Centre / New Lynn Via Great North Rd,18-202,false,Low,No operational action required,39217,505,-0.767,5.0
+Bus,WX1,WX1 - City Centre / Northwest Via Motorway,WX1-207,false,Low,No operational action required,36702,393,-1.206,5.0
+Bus,INN,INN - Inner Link Anticlockwise / Inner Link Anticlockwise (VP),INN-202,false,Low,No operational action required,35812,618,-0.646,5.0
+Bus,33,33 - Papakura Interchange / Otahuhu Station Via Great South Rd,33-203,false,Low,No operational action required,33843,422,0.14,5.0
+Bus,75,75 - Glen Innes / Wynyard Quarter Via Remuera Rd,75-202,false,Low,No operational action required,33197,480,-0.328,5.0
+Bus,83,83 - Massey University / Takapuna Via Browns Bay,83-203,false,Low,No operational action required,31057,471,0.92,5.0
+Bus,25L,25L - Lynfield / City Centre Via Dominion Rd,25L-202,false,Low,No operational action required,30925,387,-0.345,5.0
+Bus,37,"37 - Manurewa / Highbrook via Roscommon, Puhinui and Preston Rd",37-203,false,Low,No operational action required,30060,611,-0.415,5.0
+Bus,64,64 - St Lukes / Newmarket Via Mt Eden,64-202,false,Low,No operational action required,29948,346,-0.909,5.0
+Bus,OUT,OUT - St Lukes / Newmarket Via Wellesley St,OUT-202,false,Low,No operational action required,29948,464,-1.25,5.0
+Bus,TMK,TMK - Glen Innes / Britomart Via St Heliers And Tamaki Dr,TMK-202,false,Low,No operational action required,29738,428,0.049,5.0
+Bus,38,38 - Airport / Onehunga via Mangere Town Centre,38-203,false,Low,No operational action required,29521,371,0.089,5.0
+Bus,25B,25B - Blockhouse Bay / City Centre Via Dominion Rd,25B-202,false,Low,No operational action required,29179,357,-0.751,5.0
+Bus,65,65 - Walker Park / Glen Innes,65-202,false,Low,No operational action required,28791,340,-0.154,5.0
+Bus,30,30 - Onehunga / City Centre Via Manukau Rd,30-202,false,Low,No operational action required,28615,438,-0.42,5.0
+Bus,66,66 - Pt Chevalier Beach / Sylvia Park Via Mt Albert Rd,66-203,false,Low,No operational action required,28510,259,-0.614,5.0
+Bus,76,76 - Britomart / Glen Innes Via Orakei,76-202,false,Low,No operational action required,28148,248,-0.785,5.0
+Bus,12,12 - Henderson / Constellation Station,12-207,false,Low,No operational action required,27144,252,-0.567,5.0
+Bus,AIR,AIR - Airport Link via Puhinui Station,AIR-203,false,Low,No operational action required,26565,248,-0.573,5.0
+Bus,74,74 - Onehunga / Glen Innes Via Panmure,74-221,false,Low,No operational action required,26068,244,-0.675,5.0
+Bus,39,39 - Manurewa Interchange / Otara / MIT Via Mahia Rd,39-203,false,Low,No operational action required,26061,405,-0.176,5.0
+Bus,82,82 - Milford / Mayoral Dr Via Takapuna,82-202,false,Low,No operational action required,24867,303,-0.44,5.0
+Bus,31,31 - Mangere Town Centre / Botany Town Centre Via Otara,31-203,false,Low,No operational action required,24420,249,-0.725,5.0
+Bus,36,36 - Manukau / Onehunga via Mangere Town Centre,36-203,false,Low,No operational action required,24117,298,-0.186,5.0
+Bus,94,94 - Beach Haven / Takapuna via Highbury And Northcote Shops,94-203,false,Low,No operational action required,23638,237,0.171,5.0
+Bus,32,32 - Mangere Town Centre / Sylvia Park via Otahuhu,32-203,false,Low,No operational action required,23487,355,0.006,5.0
+Bus,35,35 - Ormiston / Botany Via Chapel Rd,35-205,false,Low,No operational action required,23019,246,-0.728,5.0
+Bus,20,20 - St Lukes / Wynyard Quarter Via Kingsland,20-202,false,Low,No operational action required,22691,244,-0.884,4.967
+Bus,856,856 - Albany Station / Browns Bay,856-203,false,Low,No operational action required,21780,298,0.711,5.0
+Bus,OUT,OUT - St Lukes / Newmarket Via Wellesley St,OUT-202,false,Medium,Monitor route conditions,21494,436,-6.977,15.0
+Bus,13,13 - Te Atatu Peninsula Loop / Henderson,13-203,false,Low,No operational action required,21341,234,0.173,5.0
+Bus,70,70 - Botany / Britomart Via Panmure,70-205,false,Medium,Monitor route conditions,20934,535,-0.687,15.0
+Bus,325,325 - Mangere Town Ctr / Manukau Station Via Otahuhu & Otara,325-203,false,Low,No operational action required,20515,246,-0.232,5.0
+Bus,11W,11W - Northwest / City Centre Via Waimumu Rd,11W-207,false,Low,No operational action required,20297,176,-0.077,5.0
+Bus,INN,INN - Inner Link Anticlockwise / Inner Link Anticlockwise (VP),INN-202,false,Medium,Monitor route conditions,20097,589,-6.215,15.0
+Bus,11T,11T - Northwest / City Centre Via Triangle Rd,11T-207,false,Low,No operational action required,19785,178,-0.361,5.0
+Bus,105,105 - Westmere / Britomart Via Richmond Rd,105-202,false,Low,No operational action required,19551,303,-1.11,5.0
+Bus,24B,24B - New Lynn And Blockhouse Bay / City Centre Via Sandringham R,24B-202,false,Low,No operational action required,19521,270,-0.523,5.0
+Bus,14,14 - New Lynn / Lincoln Rd via Henderson,14-202,false,Low,No operational action required,19327,457,-0.578,5.0
+Bus,24R,24R - New Lynn / City Centre Via Sandingham Rd,24R-202,false,Low,No operational action required,18725,252,-0.311,5.0
+Bus,67A,67A - New Lynn / Otahuhu Via Onehunga,67A-202,false,Low,No operational action required,18292,205,-0.091,5.0
+Bus,861,861 - Long Bay / Constellation Station Via Bush Rd,861-203,false,Low,No operational action required,18216,259,0.248,5.0
+Bus,982,982 - Gulf Harbour / Hibiscus Coast Station,982-221,false,Low,No operational action required,18168,161,-0.464,5.0
+Bus,878,878 - Browns Bay / Constellation Station Via and East Coast Rd,878-203,false,Low,No operational action required,17717,186,-0.185,5.0
+Bus,365,365 - Papakura Interchange / Manukau Bus Station Via Porchester,365-203,false,Low,No operational action required,17714,266,0.199,5.0
+Bus,CTY,CTY - Wynyard Quarter / Karangahape Rd via Queen St,CTY-202,false,Medium,Monitor route conditions,17456,271,-8.82,14.917
+Bus,27W,27W - Britomart / Waikowhai Via Mt Eden Rd,27W-202,false,Low,No operational action required,17287,218,-0.401,5.0
+Bus,195,195 - New Lynn / City Centre Via Green Bay,195-203,false,Low,No operational action required,16969,281,-0.033,5.0
+Bus,95B,95B - Bayview / Britomart (Lower Albert St),95B-203,false,Low,No operational action required,16940,165,-0.75,5.0
+Bus,72C,"72C - Botany And Howick / Panmure Via Chapel Rd, Cook St, And Pak",72C-205,false,Low,No operational action required,16933,164,0.044,5.0
+Bus,814,814 - Akoranga Station / Devonport Wharf Via Takapuna,814-202,false,Low,No operational action required,16577,212,-0.358,5.0
+Bus,366,366 - Manurewa Interchange / Manukau Bus Station Via The Gardens,366-203,false,Low,No operational action required,16540,258,-0.171,5.0
+Bus,923,923 - Akoranga Station / City (Mayoral Dr) Via Hillcrest,923-202,false,Low,No operational action required,16514,191,-0.837,5.0
+Bus,323,323 - Otahuhu Station / Panmure Via Panama Rd,323-221,false,Low,No operational action required,16354,138,-0.695,5.0
+Bus,871,871 - Constellation Station / Takapuna Via Forrest Hill Rd,871-202,false,Low,No operational action required,16261,170,-0.264,5.0
+Bus,355,355 - Botany / Manukau Bus Station Via Mission Heights & Ormiston,355-205,false,Low,No operational action required,16101,182,-0.256,5.0
+Bus,68,68 - New Lynn / Onehunga Station,68-202,false,Low,No operational action required,16009,270,-1.107,5.0
+Bus,97B,97B - Beach Haven / Britomart (Lower Albert St),97B-203,false,Low,No operational action required,15881,226,-0.679,5.0
+Bus,22R,22R - Rosebank Rd / City Centre Via New North Rd,22R-202,false,Low,No operational action required,15757,356,-0.537,5.0
+Bus,747,747 - Panmure / Glen Innes Via Stonefields,747-221,false,Low,No operational action required,15712,96,-0.804,5.0
+Bus,362,362 - Manukau Bus Station / Weymouth Via Great South Rd,362-203,false,Low,No operational action required,15598,298,0.71,5.0
+Bus,917,917 - Birkenhead Wharf / Albany Station Via Glenfield Rd,917-203,false,Low,No operational action required,15561,141,-0.367,5.0
+Bus,364,364 - Papakura Station / Manurewa Station via Takaanini,364-203,false,Low,No operational action required,15416,320,-0.847,5.0
+Bus,97R,97R - Beach Haven / Britomart (Lower Albert St),97R-203,false,Low,No operational action required,15194,158,-0.708,5.0
+Bus,309,309 - Mangere Town Centre / City Centre,309-203,false,Low,No operational action required,15119,160,-0.668,5.0
+Bus,983,983 - Gulf Harbour / Hibiscus Coast Station Via Vipond Rd,983-221,false,Low,No operational action required,15051,137,-0.511,5.0
+Bus,865,865 - Browns Bay / Albany Station Via Oaktree Ave,865-203,false,Low,No operational action required,14806,131,-0.182,5.0
+Bus,744,744 - Panmure / St Heliers Via Glen Innes,744-221,false,Low,No operational action required,14770,78,-0.792,5.0
+Bus,22N,22N - New Lynn / City Centre Via New North Rd,22N-202,false,Low,No operational action required,14761,263,-0.561,5.0
+Bus,27H,27H - Britomart / Waikowhai Via Mt Eden Rd And Hillsborough Rd,27H-202,false,Low,No operational action required,14706,223,-0.788,5.0
+Bus,NX2,NX2 - Hibiscus Coast Station / Auckland Universities,NX2-207,false,Medium,Monitor route conditions,14663,372,-6.316,14.983
+Bus,72M,"72M - Botany and Howick / Panmure via Millhouse Dr, Meadowland Dr",72M-205,false,Low,No operational action required,14506,142,0.038,5.0
+Bus,162,162 - Henderson / New Lynn via Glendene,162-202,false,Low,No operational action required,14504,325,-0.406,5.0
+Bus,941,941 - Beach Haven / Takapuna Via Glenfield And Smales Farm Stn,941-203,false,Low,No operational action required,14445,175,-0.127,5.0
+Bus,981,981 - Waiwera / Hibiscus Coast Station,981-221,false,Low,No operational action required,14325,159,0.797,5.0
+Bus,298,298 - Onehunga / Sylvia Park Via Ellerslie,298-221,false,Low,No operational action required,14312,97,-0.756,4.967
+Bus,926,926 - Glenfield / Akoranga Station Via Hillcrest West,926-203,false,Low,No operational action required,14285,149,-0.315,5.0
+Bus,135,135 - Te Atatu (Totara Rd) / Henderson,135-203,false,Low,No operational action required,14198,160,-0.506,5.0
+Bus,985,985 - Orewa / Hibiscus Coast Station Via Millwater,985-221,false,Low,No operational action required,14009,118,-0.717,5.0
+Bus,75,75 - Glen Innes / Wynyard Quarter Via Remuera Rd,75-202,false,Medium,Monitor route conditions,13981,416,-3.4,15.0
+Bus,295,295 - Ellerslie Station / City Centre Via Royal Oak,295-202,false,Low,No operational action required,13917,236,-0.733,5.0
+Bus,147,147 - Waitakere Township / Henderson,147-203,false,Low,No operational action required,13750,139,0.827,5.0
+Bus,901,901 - Smales Farm / Constellation Station Via Wairau Rd,901-203,false,Low,No operational action required,13743,146,-0.983,4.983
+Bus,502,502 - Rocky Bay / Matiatia Wharf,502-217,false,Low,No operational action required,13650,79,0.484,5.0
+Bus,801,801 - Bayswater Wharf / Akoranga Station Via Takapuna,801-202,false,Low,No operational action required,13554,176,-0.766,5.0
+Bus,95C,95C - Constellation Station / Britomart (Albert St) Via Glenfield,95C-203,false,Low,No operational action required,13474,159,-0.752,5.0
+Bus,154,154 - New Lynn / Henderson via Glen Eden,154-203,false,Low,No operational action required,13430,358,-0.205,5.0
+Bus,755,755 - Benson Rd / Britomart Via Portland Rd,755-202,false,Low,No operational action required,13362,145,-0.805,5.0
+Bus,50A,50A - Onetangi (Seventh Ave) / Matiatia Wharf,50A-217,false,Low,No operational action required,13105,91,-1.175,5.0
+Bus,CTY,CTY - Wynyard Quarter / Karangahape Rd via Queen St,CTY-202,false,Low,No operational action required,13089,271,-1.23,5.0
+Bus,14,14 - New Lynn / Lincoln Rd via Henderson,14-202,false,Medium,Monitor route conditions,13002,438,-4.226,15.0
+Bus,353,353 - Manukau Bus Station / Botany Town Centre Via Preston Rd,353-205,false,Low,No operational action required,12729,185,-1.029,5.0
+Bus,889,889 - Albany Station / Constellation Station Via Hugh Green Dr,889-203,false,Low,No operational action required,12716,133,-1.051,5.0
+Bus,112,112 - Hob Pt Wharf / Northwest Via W Harbour,112-203,false,Low,No operational action required,12687,231,-0.185,5.0
+Bus,145,145 - Lincoln Rd / Henderson Via Western H,145-203,false,Low,No operational action required,12630,118,-0.668,5.0
+Bus,866,866 - Albany Stn / Newmarket Via Ponsonby And Auckland Hospital,866-203,false,Low,No operational action required,12606,95,0.398,5.0
+Bus,843,843 - Akoranga Station / Constellation Station Via Takapuna,843-202,false,Low,No operational action required,12527,134,0.297,5.0
+Bus,13,13 - Te Atatu Peninsula Loop / Henderson,13-203,false,Medium,Monitor route conditions,12307,223,-1.529,14.95
+Bus,WX1,WX1 - City Centre / Northwest Via Motorway,WX1-207,false,Medium,Monitor route conditions,12190,362,-5.463,14.933
+Bus,18,18 - City Centre / New Lynn Via Great North Rd,18-202,false,Medium,Monitor route conditions,12147,426,-4.12,14.983
+Bus,907,907 - Campbells Bay / Constellation Station Via Sunnynook Station,907-203,false,Low,No operational action required,12090,117,-1.443,5.0
+Bus,172,172 - Glen Eden / New Lynn via Titirangi,172-203,false,Low,No operational action required,12001,168,0.128,5.0
+Bus,65,65 - Walker Park / Glen Innes,65-202,false,Medium,Monitor route conditions,11993,317,-0.321,15.0
+Bus,33,33 - Papakura Interchange / Otahuhu Station Via Great South Rd,33-203,false,Medium,Monitor route conditions,11879,346,3.335,15.0
+Bus,27H,27H - Britomart / Waikowhai Via Mt Eden Rd And Hillsborough Rd,27H-202,false,Medium,Monitor route conditions,11861,219,-5.569,14.567
+Bus,906,906 - Constellation / Smales Farm Via Windy Ridge And Archers Rd,906-203,false,Low,No operational action required,11846,104,-0.201,5.0
+Bus,902,902 - Kyle Road / Constellation Station,902-203,false,Low,No operational action required,11787,128,-1.654,4.967
+Bus,68,68 - New Lynn / Onehunga Station,68-202,false,Medium,Monitor route conditions,11699,245,-6.539,14.7
+Bus,309,309 - Mangere Town Centre / City Centre,309-203,false,Medium,Monitor route conditions,11553,160,-6.156,14.85
+Bus,24B,24B - New Lynn And Blockhouse Bay / City Centre Via Sandringham R,24B-202,false,Medium,Monitor route conditions,11357,263,-4.257,15.0
+Bus,314,314 - Ormiston / Middlemore Station Via Otara,314-203,false,Low,No operational action required,11214,233,0.462,5.0
+Bus,30,30 - Onehunga / City Centre Via Manukau Rd,30-202,false,Medium,Monitor route conditions,11126,389,-2.881,14.967
+Bus,152,152 - Henderson / New Lynn via Sunnyvale and Glen Eden,152-203,false,Low,No operational action required,11063,247,-0.201,5.0
+Bus,143,143 - Ranui / Henderson via Sturges Rd,143-203,false,Low,No operational action required,10614,311,-0.641,4.967
+Bus,22R,22R - Rosebank Rd / City Centre Via New North Rd,22R-202,false,Medium,Monitor route conditions,10388,338,-4.941,14.95
+Bus,781,781 - Mission Bay / Museum Via Orakei,781-202,false,Low,No operational action required,10276,124,-0.743,5.0
+Bus,12,12 - Henderson / Constellation Station,12-207,false,Medium,Monitor route conditions,10274,233,-2.562,14.983
+Bus,883,883 - Schnapper Rock / Constellation Station,883-203,false,Low,No operational action required,10141,123,-0.041,5.0
+Bus,50B,50B - Onetangi (Fourth Ave) / Matiatia Wharf,50B-217,false,Low,No operational action required,10047,50,-1.324,5.0
+Bus,25B,25B - Blockhouse Bay / City Centre Via Dominion Rd,25B-202,false,Medium,Monitor route conditions,9740,326,-3.761,14.95
+Bus,125,125 - Helensville / Westgate Via Kumeu,125-202,false,Low,No operational action required,9579,95,-0.047,5.0
+Bus,22N,22N - New Lynn / City Centre Via New North Rd,22N-202,false,Medium,Monitor route conditions,9510,256,-4.569,14.967
+Bus,326,326 - Mangere Town Centre / Middlemore via Earlsworth Rd (C),326-203,false,Medium,Monitor route conditions,9408,128,-8.715,14.833
+Bus,83,83 - Massey University / Takapuna Via Browns Bay,83-203,false,Medium,Monitor route conditions,9397,385,5.728,14.983
+Bus,325,325 - Mangere Town Ctr / Manukau Station Via Otahuhu & Otara,325-203,false,Medium,Monitor route conditions,9383,230,-0.611,15.0
+Bus,31,31 - Mangere Town Centre / Botany Town Centre Via Otara,31-203,false,Medium,Monitor route conditions,9327,236,-2.609,15.0
+Bus,27W,27W - Britomart / Waikowhai Via Mt Eden Rd,27W-202,false,Medium,Monitor route conditions,9321,214,-3.828,14.967
+Bus,391,391 - Pukekohe Northeast Loop / Pukekohe Northeast loop,391-203,false,Low,No operational action required,9157,114,-0.313,4.983
+Bus,74,74 - Onehunga / Glen Innes Via Panmure,74-221,false,Medium,Monitor route conditions,9136,213,-3.223,15.0
+Bus,36,36 - Manukau / Onehunga via Mangere Town Centre,36-203,false,Medium,Monitor route conditions,9045,277,-0.461,15.0
+Bus,67A,67A - New Lynn / Otahuhu Via Onehunga,67A-202,false,Medium,Monitor route conditions,8983,193,-2.984,14.967
+Bus,324,324 - Mangere Town Centre / Seaside Park Via Otahuhu,324-203,false,Low,No operational action required,8968,271,0.184,5.0
+Bus,393,393 - Pukekohe South Loop,393-203,false,Low,No operational action required,8963,102,0.26,4.983
+Bus,313,313 - Mangere / Manukau Bus Station Via Papatoetoe,313-203,false,Low,No operational action required,8800,127,-0.927,5.0
+Bus,24R,24R - New Lynn / City Centre Via Sandingham Rd,24R-202,false,Medium,Monitor route conditions,8795,238,-3.261,14.983
+Bus,392,392 - Pukekohe Station,392-203,false,Low,No operational action required,8773,122,1.567,5.0
+Bus,149,149 - Ranui / New Lynn Via Rosebank,149-203,false,Low,No operational action required,8718,86,-0.306,5.0
+Bus,995,995 - Warkworth / Hibiscus Coast Station,995-203,false,Low,No operational action required,8714,64,0.548,5.0
+Bus,39,39 - Manurewa Interchange / Otara / MIT Via Mahia Rd,39-203,false,Medium,Monitor route conditions,8711,325,2.099,14.983
+Bus,321,321 - Middlemore Station / Britomart Via Greenlane Hospital,321-202,false,Low,No operational action required,8669,60,-0.434,5.0
+Bus,735,735 - Botany / Half Moon Bay Via Cockle Bay And Howick,735-221,false,Low,No operational action required,8654,104,-0.937,5.0
+Bus,25L,25L - Lynfield / City Centre Via Dominion Rd,25L-202,false,Medium,Monitor route conditions,8639,325,-2.532,14.95
+Bus,738,738 - Maraetai / Pine Harbour via Beachlands,738-221,false,Low,No operational action required,8596,77,-1.935,4.95
+Bus,734,734 - Botany / Half Moon Bay Via Highland Park,734-221,false,Low,No operational action required,8220,94,-0.197,4.983
+Bus,372,372 - Papakura Shops / Keri Hill Loop,372-203,false,Low,No operational action required,8149,94,0.165,5.0
+Bus,64,64 - St Lukes / Newmarket Via Mt Eden,64-202,false,Medium,Monitor route conditions,8032,308,-2.169,14.817
+Bus,712,712 - Bucklands Beach / Panmure,712-221,false,Low,No operational action required,8014,69,-0.111,5.0
+Bus,711,711 - Howick / Panmure Via Cascades Road,711-221,false,Low,No operational action required,7982,101,0.354,5.0
+Bus,751,751 - Panmure / Newmarket Via Marua Rd And Remuera Rd,751-202,false,Low,No operational action required,7664,110,-0.119,4.983
+Bus,351,351 - Botany / Otahuhu Station Via Highbrook,351-205,false,Low,No operational action required,7659,64,-0.744,4.967
+Bus,195,195 - New Lynn / City Centre Via Green Bay,195-203,false,Medium,Monitor route conditions,7648,252,-1.996,14.967
+Bus,311,311 - Otahuhu Station / Otahuhu Station via Mangere Bridge,311-203,false,Medium,Monitor route conditions,7619,85,-8.822,14.783
+Bus,363,363 - Manurewa Interchange / Wattle Downs Loop,363-203,false,Low,No operational action required,7602,172,-0.117,5.0
+Bus,66,66 - Pt Chevalier Beach / Sylvia Park Via Mt Albert Rd,66-203,false,Medium,Monitor route conditions,7602,236,-2.803,14.883
+Bus,933,933 - Beach Haven Wharf / University of Auckland Via Customs St,933-203,false,Low,No operational action required,7521,58,-0.279,5.0
+Bus,376,376 - Papakura Shops / Auranga Dr Via Drury,376-203,false,Low,No operational action required,7506,191,1.256,5.0
+Bus,11W,11W - Northwest / City Centre Via Waimumu Rd,11W-207,false,Medium,Monitor route conditions,7295,173,-2.805,14.967
+Bus,733,733 - Botany / The Parade Via Highland Park,733-221,false,Low,No operational action required,7253,80,-0.089,5.0
+Bus,RBW,RBW - Britomart / Swanson Western Rail Bus,RBW-402,false,Low,No operational action required,7244,223,-0.195,5.0
+Bus,67B,67B - New Lynn / Onehunga Only,67B-202,false,Low,No operational action required,7232,111,-0.044,5.0
+Bus,966,966 - Beach Haven / Newmarket Via Ponsonby And Auckland Hospital,966-203,false,Low,No operational action required,7219,73,-0.966,5.0
+Bus,38,38 - Airport / Onehunga via Mangere Town Centre,38-203,false,Medium,Monitor route conditions,7199,276,1.675,15.0
+Bus,11T,11T - Northwest / City Centre Via Triangle Rd,11T-207,false,Medium,Monitor route conditions,7124,173,-3.574,15.0
+Bus,782,782 - Sylvia Park / Mission Bay Via Ellerslie And Meadowbank,782-221,false,Low,No operational action required,7115,64,-0.648,5.0
+Bus,105,105 - Westmere / Britomart Via Richmond Rd,105-202,false,Medium,Monitor route conditions,7091,235,-6.106,14.5
+Bus,295,295 - Ellerslie Station / City Centre Via Royal Oak,295-202,false,Medium,Monitor route conditions,6997,214,-4.161,15.0
+Bus,352,352 - Manukau Bus Station / Panmure Via Flat Bush,352-205,false,Low,No operational action required,6901,54,-0.151,5.0
+Bus,856,856 - Albany Station / Browns Bay,856-203,false,Medium,Monitor route conditions,6894,246,5.595,15.0
+Bus,35,35 - Ormiston / Botany Via Chapel Rd,35-205,false,Medium,Monitor route conditions,6759,223,-2.928,15.0
+Bus,501,501 - Kennedy Point / Matiatia Wharf,501-217,false,Low,No operational action required,6647,59,2.122,5.0
+Bus,806,806 - Devonport Wharf / Stanley Pt Loop,806-202,false,Low,No operational action required,6641,95,0.577,5.0
+Bus,170,170 - Titirangi South / New Lynn,170-203,false,Low,No operational action required,6612,145,-0.684,4.95
+Bus,32,32 - Mangere Town Centre / Sylvia Park via Otahuhu,32-203,false,Medium,Monitor route conditions,6611,299,2.079,15.0
+Bus,379,379 - Clarks Beach / Papakura,379-203,false,Low,No operational action required,6592,171,-0.573,5.0
+Bus,114,114 - Hob Pt Wharf / Northwest Via Whenuapai,114-203,false,Low,No operational action required,6582,132,0.11,5.0
+Bus,739,739 - Maraetai And Beachlands / Botany Via Whitford And Ormiston,739-221,false,Low,No operational action required,6547,88,0.33,5.0
+Bus,373,373 - Red Hill / Papakura Shops,373-203,false,Low,No operational action required,6412,138,-0.535,4.933
+Bus,923,923 - Akoranga Station / City (Mayoral Dr) Via Hillcrest,923-202,false,Medium,Monitor route conditions,6245,168,-5.442,14.95
+Bus,161,161 - Brains Park / New Lynn,161-203,false,Low,No operational action required,6197,131,-1.727,4.783
+Bus,AIR,AIR - Airport Link via Puhinui Station,AIR-203,false,Medium,Monitor route conditions,6159,220,-2.287,14.967
+Bus,186,186 - South Lynn Loop,186-203,false,Low,No operational action required,6037,106,-0.656,4.967
+Bus,82,82 - Milford / Mayoral Dr Via Takapuna,82-202,false,Medium,Monitor route conditions,6008,255,-1.554,14.967
+Bus,76,76 - Britomart / Glen Innes Via Orakei,76-202,false,Medium,Monitor route conditions,5938,232,-0.913,14.917
+Bus,326,326 - Mangere Town Centre / Middlemore via Earlsworth Rd (C),326-203,false,Low,No operational action required,5895,152,-1.723,5.0
+Bus,191,191 - Lynfield / New Lynn Via Blockhouse Bay And Avondale,191-203,false,Low,No operational action required,5774,113,-0.123,5.0
+Bus,95C,95C - Constellation Station / Britomart (Albert St) Via Glenfield,95C-203,false,Medium,Monitor route conditions,5712,151,-4.007,14.817
+Bus,135,135 - Te Atatu (Totara Rd) / Henderson,135-203,false,Medium,Monitor route conditions,5703,156,-0.267,14.967
+Bus,NX1,NX1 - Britomart (Lower Albert St) / Albany Station,NX1-203,false,Medium,Monitor route conditions,5673,420,5.141,14.967
+Bus,928,928 - Northcote Point / Smales Farm Stn Via North Shore Hospital,928-203,false,Low,No operational action required,5607,64,-1.178,4.983
+Bus,783,783 - Eastern Bays Circuit Anticlockwise / Eastern Bays Circuit Clockwise,783-221,false,Low,No operational action required,5592,58,-0.541,5.0
+Bus,394,394 - Pukekohe Interchange / Paerata Rise Loop,394-203,false,Low,No operational action required,5576,62,-0.698,4.967
+Bus,111,111 - Royal Heights Loop,111-203,false,Low,No operational action required,5466,43,0.496,5.0
+Bus,106,106 - Freemans Bay Loop,106-202,false,Low,No operational action required,5451,83,-2.283,4.933
+Bus,365,365 - Papakura Interchange / Manukau Bus Station Via Porchester,365-203,false,Medium,Monitor route conditions,5285,206,3.913,14.983
+Bus,377,377 - Papakura Interchange / Park Estate Loop,377-203,false,Low,No operational action required,5243,83,-1.638,5.0
+Bus,95B,95B - Bayview / Britomart (Lower Albert St),95B-203,false,Medium,Monitor route conditions,5216,144,-2.968,15.0
+Bus,807,807 - Devonport Wharf / Cheltenham Loop,807-202,false,Low,No operational action required,5169,56,1.803,5.0
+Bus,377,377 - Papakura Interchange / Park Estate Loop,377-203,false,Medium,Monitor route conditions,5066,81,-7.137,14.7
+Bus,321,321 - Middlemore Station / Britomart Via Greenlane Hospital,321-202,false,Medium,Monitor route conditions,5049,59,-4.663,15.0
+Bus,966,966 - Beach Haven / Newmarket Via Ponsonby And Auckland Hospital,966-203,false,Medium,Monitor route conditions,5042,73,-6.679,14.95
+Bus,355,355 - Botany / Manukau Bus Station Via Mission Heights & Ormiston,355-205,false,Medium,Monitor route conditions,4943,153,-0.721,14.967
+Bus,378,378 - Papakura Shops / Karaka Harbourside Loop And Karaka Lakes,378-203,false,Low,No operational action required,4927,93,-0.256,5.0
+Bus,998,998 - Wellsford / Warkworth,998-203,false,Low,No operational action required,4830,50,-0.739,4.967
+Bus,94,94 - Beach Haven / Takapuna via Highbury And Northcote Shops,94-203,false,Medium,Monitor route conditions,4755,187,2.505,14.983
+Bus,72X,72X - Botany And Howick / Britomart Express Via Panmure And Motor,72X-205,false,Low,No operational action required,4738,36,0.021,5.0
+Bus,999,999 - Warkworth Loop,999-203,false,Low,No operational action required,4726,58,-0.88,4.917
+Bus,123,123 - Huapai Triangle / Westgate Via Kumeu,123-202,false,Low,No operational action required,4656,47,-0.062,5.0
+Bus,116,116 - West Hills Loop,116-203,false,Low,No operational action required,4627,34,0.114,5.0
+Bus,845,845 - Milford / Takapuna Via North Shore Hospital,845-203,false,Low,No operational action required,4594,46,-0.636,4.95
+Bus,126,126 - Albany / Westgate Via Riverhead,126-203,false,Low,No operational action required,4563,107,1.197,5.0
+Bus,122,122 - Huapai North / Westgate Via Kumeu,122-202,false,Low,No operational action required,4553,44,-0.572,5.0
+Bus,941,941 - Beach Haven / Takapuna Via Glenfield And Smales Farm Stn,941-203,false,Medium,Monitor route conditions,4487,143,0.727,14.983
+Bus,917,917 - Birkenhead Wharf / Albany Station Via Glenfield Rd,917-203,false,Medium,Monitor route conditions,4483,121,-0.431,14.983
+Bus,866,866 - Albany Stn / Newmarket Via Ponsonby And Auckland Hospital,866-203,false,Medium,Monitor route conditions,4362,92,-0.269,14.9
+Bus,781,781 - Mission Bay / Museum Via Orakei,781-202,false,Medium,Monitor route conditions,4360,111,-3.982,14.967
+Bus,931,931 - Chatswood / University of Auckland Via Customs St,931-203,false,Low,No operational action required,4253,33,-0.508,5.0
+Bus,37,"37 - Manurewa / Highbrook via Roscommon, Puhinui and Preston Rd",37-203,false,Medium,Monitor route conditions,4233,248,2.42,14.983
+Bus,148,148 - Ranui / Lincoln Rd,148-203,false,Low,No operational action required,4210,69,-0.681,5.0
+Bus,20,20 - St Lukes / Wynyard Quarter Via Kingsland,20-202,false,Medium,Monitor route conditions,4170,203,-2.997,14.933
+Ferry,MTIA,MTIA - Waiheke Island 1 / Downtown Pier 11,MTIA-209,false,Low,No operational action required,4143,27,0.205,5.0
+Bus,352,352 - Manukau Bus Station / Panmure Via Flat Bush,352-205,false,Medium,Monitor route conditions,4139,52,-3.106,14.967
+Bus,145,145 - Lincoln Rd / Henderson Via Western H,145-203,false,Medium,Monitor route conditions,4092,97,-1.509,14.95
+Bus,775,775 - Glendowie / Britomart Via Tamaki Dr,775-202,false,Low,No operational action required,4063,30,0.302,5.0
+Bus,TMK,TMK - Glen Innes / Britomart Via St Heliers And Tamaki Dr,TMK-202,false,Medium,Monitor route conditions,4038,293,3.716,14.983
+Bus,128,128 - Hibiscus Coast Station / Helensville,128-202,false,Low,No operational action required,3903,42,-0.78,5.0
+Bus,97B,97B - Beach Haven / Britomart (Lower Albert St),97B-203,false,Medium,Monitor route conditions,3903,159,-1.987,15.0
+Bus,311,311 - Otahuhu Station / Otahuhu Station via Mangere Bridge,311-203,false,Low,No operational action required,3866,85,-1.559,5.0
+Bus,RBS,RBS - Britomart / Pukekohe Southern Rail Bus,RBS-402,false,Low,No operational action required,3866,136,0.497,4.983
+Bus,149,149 - Ranui / New Lynn Via Rosebank,149-203,false,Medium,Monitor route conditions,3853,82,-2.492,14.917
+Bus,366,366 - Manurewa Interchange / Manukau Bus Station Via The Gardens,366-203,false,Medium,Monitor route conditions,3851,154,1.822,15.0
+Bus,984,984 - Orewa / Hibiscus Coast Station Via Maygrove,984-221,false,Low,No operational action required,3840,38,-0.199,5.0
+Bus,97R,97R - Beach Haven / Britomart (Lower Albert St),97R-203,false,Medium,Monitor route conditions,3779,131,-1.437,14.95
+Bus,981,981 - Waiwera / Hibiscus Coast Station,981-221,false,Medium,Monitor route conditions,3701,90,7.956,15.0
+Bus,396,396 - Waiuku / Pukekohe Interchange Via Kitchener Rd And Patumaho,396-203,false,Low,No operational action required,3682,33,0.208,5.0
+Bus,861,861 - Long Bay / Constellation Station Via Bush Rd,861-203,false,Medium,Monitor route conditions,3626,197,3.303,15.0
+Bus,983,983 - Gulf Harbour / Hibiscus Coast Station Via Vipond Rd,983-221,false,Medium,Monitor route conditions,3589,113,-1.063,14.967
+Bus,782,782 - Sylvia Park / Mission Bay Via Ellerslie And Meadowbank,782-221,false,Medium,Monitor route conditions,3568,60,-4.664,14.133
+Bus,CTY,CTY - Wynyard Quarter / Karangahape Rd via Queen St,CTY-202,false,High,Adjust service headway,3545,164,-16.841,24.35
+Ferry,DEV,DEV - Devonport / Downtown,DEV-209,false,Low,No operational action required,3467,46,0.012,5.0
+Bus,774,774 - West Tamaki Rd / Britomart Via Long Dr And Tamaki Dr,774-202,false,Low,No operational action required,3455,25,-0.118,4.967
+Bus,72X,72X - Botany And Howick / Britomart Express Via Panmure And Motor,72X-205,false,Medium,Monitor route conditions,3431,36,-1.267,15.0
+Bus,884,884 - Constellation Station / NHIE Loop Anticlockwise,884-203,false,Low,No operational action required,3413,27,-0.526,4.967
+Bus,814,814 - Akoranga Station / Devonport Wharf Via Takapuna,814-202,false,Medium,Monitor route conditions,3407,145,1.393,15.0
+Bus,885,885 - Constellation Station / NHIE Loop Clockwise,885-203,false,Low,No operational action required,3403,27,-0.669,4.983
+Bus,RBE,RBE - Manukau / Britomart Eastern Rail Bus (New),RBE-402,false,Low,No operational action required,3402,118,-0.003,5.0
+Bus,313,313 - Mangere / Manukau Bus Station Via Papatoetoe,313-203,false,Medium,Monitor route conditions,3399,102,-3.133,14.983
+Bus,171,171 - Laingholm / New Lynn,171-203,false,Low,No operational action required,3294,25,-0.835,5.0
+Bus,933,933 - Beach Haven Wharf / University of Auckland Via Customs St,933-203,false,Medium,Monitor route conditions,3180,58,-2.413,14.383
+Bus,712,712 - Bucklands Beach / Panmure,712-221,false,Medium,Monitor route conditions,3155,65,0.399,14.967
+Bus,353,353 - Manukau Bus Station / Botany Town Centre Via Preston Rd,353-205,false,Medium,Monitor route conditions,3138,129,-3.101,14.833
+Bus,379,379 - Clarks Beach / Papakura,379-203,false,Medium,Monitor route conditions,3122,137,-5.432,14.85
+Bus,154,154 - New Lynn / Henderson via Glen Eden,154-203,false,Medium,Monitor route conditions,3108,211,0.313,14.783
+Bus,106,106 - Freemans Bay Loop,106-202,false,Medium,Monitor route conditions,3099,76,-6.65,11.817
+Bus,986,986 - Hibiscus Coast Station / Albany Station Via Dairy Flat,986-221,false,Low,No operational action required,3062,30,0.143,4.967
+Bus,888,888 - Albany Heights Loop,888-203,false,Low,No operational action required,3052,33,-2.436,4.917
+Bus,989,989 - Hibiscus Coast Station / Milldale Loop,989-218,false,Low,No operational action required,3010,46,-2.103,4.65
+Bus,323,323 - Otahuhu Station / Panmure Via Panama Rd,323-221,false,Medium,Monitor route conditions,2973,106,-1.109,14.9
+Bus,67B,67B - New Lynn / Onehunga Only,67B-202,false,Medium,Monitor route conditions,2954,98,-3.384,14.883
+Bus,351,351 - Botany / Otahuhu Station Via Highbrook,351-205,false,Medium,Monitor route conditions,2872,60,-1.682,14.967
+Bus,871,871 - Constellation Station / Takapuna Via Forrest Hill Rd,871-202,false,Medium,Monitor route conditions,2856,107,-1.163,14.933
+Bus,314,314 - Ormiston / Middlemore Station Via Otara,314-203,false,Medium,Monitor route conditions,2803,129,4.634,14.967
+Bus,324,324 - Mangere Town Centre / Seaside Park Via Otahuhu,324-203,false,Medium,Monitor route conditions,2793,199,1.483,14.833
+Bus,126,126 - Albany / Westgate Via Riverhead,126-203,false,Medium,Monitor route conditions,2777,100,6.302,15.0
+Bus,982,982 - Gulf Harbour / Hibiscus Coast Station,982-221,false,Medium,Monitor route conditions,2762,116,1.435,15.0
+Bus,901,901 - Smales Farm / Constellation Station Via Wairau Rd,901-203,false,Medium,Monitor route conditions,2724,90,-0.165,14.7
+Bus,72C,"72C - Botany And Howick / Panmure Via Chapel Rd, Cook St, And Pak",72C-205,false,Medium,Monitor route conditions,2692,115,2.225,15.0
+Bus,364,364 - Papakura Station / Manurewa Station via Takaanini,364-203,false,Medium,Monitor route conditions,2623,186,-0.412,15.0
+Bus,376,376 - Papakura Shops / Auranga Dr Via Drury,376-203,false,Medium,Monitor route conditions,2613,151,7.221,14.95
+Bus,362,362 - Manukau Bus Station / Weymouth Via Great South Rd,362-203,false,Medium,Monitor route conditions,2601,151,6.845,15.0
+Bus,298,298 - Onehunga / Sylvia Park Via Ellerslie,298-221,false,Medium,Monitor route conditions,2563,76,0.89,14.867
+Bus,125,125 - Helensville / Westgate Via Kumeu,125-202,false,Medium,Monitor route conditions,2560,85,1.211,14.9
+Train / Rail,STH,"STH - Brit 4 / Pukekohe 1 Via NKT 4, OHU 3, Papakura 1",STH-201,true,Medium,Monitor route conditions,2551,236,3.897,15.0
+Bus,162,162 - Henderson / New Lynn via Glendene,162-202,false,Medium,Monitor route conditions,2497,190,-1.305,14.517
+Bus,989,989 - Hibiscus Coast Station / Milldale Loop,989-218,false,Medium,Monitor route conditions,2417,45,-6.203,14.95
+Train / Rail,WEST,WEST - Brit 2 / Swanson 1 Via Newmarket 1,WEST-201,false,Medium,Monitor route conditions,2382,227,7.788,15.0
+Bus,906,906 - Constellation / Smales Farm Via Windy Ridge And Archers Rd,906-203,false,Medium,Monitor route conditions,2370,83,0.714,14.783
+Bus,309,309 - Mangere Town Centre / City Centre,309-203,false,High,Adjust service headway,2349,83,-14.339,24.05
+Bus,842,842 - Crown Hill / Smales Farm Station Via East Coast Rd,842-202,false,Low,No operational action required,2346,19,0.145,4.85
+Bus,755,755 - Benson Rd / Britomart Via Portland Rd,755-202,false,Medium,Monitor route conditions,2324,94,-3.209,14.867
+Ferry,GULF,GULF - Gulf Harbour / Downtown,GULF-209,false,Low,No operational action required,2319,25,0.041,5.0
+Bus,147,147 - Waitakere Township / Henderson,147-203,false,Medium,Monitor route conditions,2316,121,4.283,14.933
+Ferry,HMB,HMB - Half Moon Bay / Downtown Pier 5,HMB-209,false,Low,No operational action required,2143,25,0.06,5.0
+Bus,72M,"72M - Botany and Howick / Panmure via Millhouse Dr, Meadowland Dr",72M-205,false,Medium,Monitor route conditions,2139,100,2.613,14.967
+Bus,70,70 - Botany / Britomart Via Panmure,70-205,false,High,Adjust service headway,2121,146,2.727,24.9
+Bus,735,735 - Botany / Half Moon Bay Via Cockle Bay And Howick,735-221,false,Medium,Monitor route conditions,2106,83,-2.074,14.967
+Bus,801,801 - Bayswater Wharf / Akoranga Station Via Takapuna,801-202,false,Medium,Monitor route conditions,2030,118,-0.948,14.733
+Bus,733,733 - Botany / The Parade Via Highland Park,733-221,false,Medium,Monitor route conditions,2003,54,3.432,14.967
+Bus,191,191 - Lynfield / New Lynn Via Blockhouse Bay And Avondale,191-203,false,Medium,Monitor route conditions,1997,91,-0.754,14.95
+Bus,988,988 - The Plaza / Gulf Harbour Ferry Via Army Bay,988-221,false,Low,No operational action required,1974,18,-0.95,5.0
+Bus,209,209 - City Centre / Titirangi via New North Rd and Green Bay,209-203,false,Low,No operational action required,1965,14,0.271,4.983
+Bus,50A,50A - Onetangi (Seventh Ave) / Matiatia Wharf,50A-217,false,Medium,Monitor route conditions,1955,75,-2.078,14.683
+Bus,888,888 - Albany Heights Loop,888-203,false,Medium,Monitor route conditions,1936,32,-6.131,7.217
+Bus,RBO,RBO - Newmarket / Onehunga Onehunga Rail Bus,RBO-402,false,Low,No operational action required,1918,80,0.382,4.9
+Bus,502,502 - Rocky Bay / Matiatia Wharf,502-217,false,Medium,Monitor route conditions,1916,75,7.137,15.0
+Bus,711,711 - Howick / Panmure Via Cascades Road,711-221,false,Medium,Monitor route conditions,1876,71,2.943,14.8
+Ferry,RANG,RANG - Rangitoto Island / Downtown Pier 14,RANG-209,false,Low,No operational action required,1848,7,0.051,4.517
+Bus,807,807 - Devonport Wharf / Cheltenham Loop,807-202,false,Medium,Monitor route conditions,1806,55,7.495,14.8
+Bus,392,392 - Pukekohe Station,392-203,false,Medium,Monitor route conditions,1799,92,7.096,14.233
+Bus,152,152 - Henderson / New Lynn via Sunnyvale and Glen Eden,152-203,false,Medium,Monitor route conditions,1793,146,1.451,14.967
+Bus,RBS,RBS - Britomart / Pukekohe Southern Rail Bus,RBS-402,false,Medium,Monitor route conditions,1754,114,2.742,14.983
+Unknown / unmatched route,327-203,327-203,327-203,false,Low,No operational action required,1743,95,-2.026,4.867
+Bus,114,114 - Hob Pt Wharf / Northwest Via Whenuapai,114-203,false,Medium,Monitor route conditions,1739,96,4.19,15.0
+Bus,783,783 - Eastern Bays Circuit Anticlockwise / Eastern Bays Circuit Clockwise,783-221,false,Medium,Monitor route conditions,1687,50,-2.045,14.517
+Bus,939,939 - University of Auckland / Windy Ridge Via Customs St,939-203,false,Low,No operational action required,1684,14,-0.487,5.0
+Bus,843,843 - Akoranga Station / Constellation Station Via Takapuna,843-202,false,Medium,Monitor route conditions,1679,103,3.941,14.617
+Bus,112,112 - Hob Pt Wharf / Northwest Via W Harbour,112-203,false,Medium,Monitor route conditions,1677,137,2.821,14.983
+Bus,101,101 - Pt Chevalier / Auckland University Via Jervois Rd,101-202,false,Low,No operational action required,1664,18,-0.644,4.933
+Bus,128,128 - Hibiscus Coast Station / Helensville,128-202,false,Severe,Deploy standby bus or supervisor review,1655,18,34.318,40.567
+Bus,907,907 - Campbells Bay / Constellation Station Via Sunnynook Station,907-203,false,Medium,Monitor route conditions,1636,61,-4.408,14.25
+Bus,878,878 - Browns Bay / Constellation Station Via and East Coast Rd,878-203,false,Medium,Monitor route conditions,1614,74,2.286,14.483
+Bus,928,928 - Northcote Point / Smales Farm Stn Via North Shore Hospital,928-203,false,Medium,Monitor route conditions,1608,45,-2.196,14.583
+Bus,INN,INN - Inner Link Anticlockwise / Inner Link Anticlockwise (VP),INN-202,false,High,Adjust service headway,1596,117,-13.282,25.0
+Bus,775,775 - Glendowie / Britomart Via Tamaki Dr,775-202,false,Medium,Monitor route conditions,1581,30,3.207,14.8
+Bus,751,751 - Panmure / Newmarket Via Marua Rd And Remuera Rd,751-202,false,Medium,Monitor route conditions,1550,60,1.802,14.867
+Bus,172,172 - Glen Eden / New Lynn via Titirangi,172-203,false,Medium,Monitor route conditions,1544,88,6.979,14.933
+Bus,931,931 - Chatswood / University of Auckland Via Customs St,931-203,false,Medium,Monitor route conditions,1499,33,-3.522,14.783
+Bus,396,396 - Waiuku / Pukekohe Interchange Via Kitchener Rd And Patumaho,396-203,false,Medium,Monitor route conditions,1439,32,2.086,15.0
+Bus,996,996 - Algies Bay / Warkworth Via Snells Beach,996-203,false,Low,No operational action required,1434,12,0.323,4.817
+Bus,171,171 - Laingholm / New Lynn,171-203,false,Medium,Monitor route conditions,1433,25,-3.28,14.883
+Bus,924,924 - Hillcrest / City (Mayoral Dr),924-202,false,Medium,Monitor route conditions,1411,36,-7.488,14.883
+Bus,101,101 - Pt Chevalier / Auckland University Via Jervois Rd,101-202,false,Medium,Monitor route conditions,1406,18,-6.34,14.967
+Bus,802,802 - Bayswater / City (Mayoral Dr),802-202,false,Low,No operational action required,1340,11,-1.218,5.0
+Bus,RBW,RBW - Britomart / Swanson Western Rail Bus,RBW-402,false,Medium,Monitor route conditions,1328,133,0.016,14.683
+Ferry,MTID,MTID - Downtown Pier 13 / Waiheke Pier 3,MTID-241,false,Low,No operational action required,1304,17,0.013,4.183
+Bus,985,985 - Orewa / Hibiscus Coast Station Via Millwater,985-221,false,Medium,Monitor route conditions,1303,61,4.194,14.767
+Bus,924,924 - Hillcrest / City (Mayoral Dr),924-202,false,Low,No operational action required,1302,36,-0.311,4.983
+Bus,209,209 - City Centre / Titirangi via New North Rd and Green Bay,209-203,false,Medium,Monitor route conditions,1251,14,0.19,14.9
+Bus,739,739 - Maraetai And Beachlands / Botany Via Whitford And Ormiston,739-221,false,Medium,Monitor route conditions,1234,67,2.709,14.667
+Bus,883,883 - Schnapper Rock / Constellation Station,883-203,false,Medium,Monitor route conditions,1211,55,3.188,14.083
+Bus,128,128 - Hibiscus Coast Station / Helensville,128-202,false,Medium,Monitor route conditions,1187,41,-0.023,15.0
+Train / Rail,WEST,WEST - Brit 2 / Swanson 1 Via Newmarket 1,WEST-201,false,Severe,Deploy standby bus or supervisor review,1170,110,46.924,117.467
+Bus,253,253 - Blockhouse Bay / Civic Centre Via Dominion Rd,253-202,false,Low,No operational action required,1130,8,-0.223,4.933
+Bus,902,902 - Kyle Road / Constellation Station,902-203,false,Medium,Monitor route conditions,1113,43,-4.884,14.1
+Bus,501,501 - Kennedy Point / Matiatia Wharf,501-217,false,Medium,Monitor route conditions,1097,46,7.448,14.917
+Bus,394,394 - Pukekohe Interchange / Paerata Rise Loop,394-203,false,Medium,Monitor route conditions,1074,40,-4.835,14.667
+Bus,997,997 - Warkworth / Omaha Via Matakana And Pt Wells,997-203,false,Low,No operational action required,1060,11,-1.071,4.917
+Bus,999,999 - Warkworth Loop,999-203,false,Medium,Monitor route conditions,1051,55,-2.217,11.917
+Bus,295,295 - Ellerslie Station / City Centre Via Royal Oak,295-202,false,High,Adjust service headway,1046,49,-9.069,24.283
+Bus,378,378 - Papakura Shops / Karaka Harbourside Loop And Karaka Lakes,378-203,false,Medium,Monitor route conditions,1041,70,3.055,14.733
+Bus,111,111 - Royal Heights Loop,111-203,false,Medium,Monitor route conditions,1031,38,6.165,14.7
+Bus,252,252 - Lynfield / Civic Centre Via Dominion Rd,252-202,false,Low,No operational action required,1006,7,-0.582,4.967
+Bus,75,75 - Glen Innes / Wynyard Quarter Via Remuera Rd,75-202,false,High,Adjust service headway,997,84,-3.09,24.933
+Bus,805,805 - Devonport Wharf / Belmont Shops Via Ngataringa Rd,805-202,false,Low,No operational action required,979,14,-2.165,4.917
+Bus,123,123 - Huapai Triangle / Westgate Via Kumeu,123-202,false,Medium,Monitor route conditions,967,44,2.599,14.833
+Bus,805,805 - Devonport Wharf / Belmont Shops Via Ngataringa Rd,805-202,false,Medium,Monitor route conditions,960,14,-5.62,14.117
+Bus,988,988 - The Plaza / Gulf Harbour Ferry Via Army Bay,988-221,false,Medium,Monitor route conditions,957,18,-5.825,10.817
+Bus,122,122 - Huapai North / Westgate Via Kumeu,122-202,false,Medium,Monitor route conditions,948,39,0.578,14.983
+Bus,889,889 - Albany Station / Constellation Station Via Hugh Green Dr,889-203,false,Medium,Monitor route conditions,924,39,-2.375,13.367
+Bus,939,939 - University of Auckland / Windy Ridge Via Customs St,939-203,false,Medium,Monitor route conditions,917,14,-3.742,14.467
+Bus,747,747 - Panmure / Glen Innes Via Stonefields,747-221,false,Medium,Monitor route conditions,909,56,5.992,14.933
+Bus,33,33 - Papakura Interchange / Otahuhu Station Via Great South Rd,33-203,false,High,Adjust service headway,893,77,18.69,24.8
+Unknown / unmatched route,327-203,327-203,327-203,false,Medium,Monitor route conditions,888,72,-6.032,11.15
+Bus,845,845 - Milford / Takapuna Via North Shore Hospital,845-203,false,Medium,Monitor route conditions,882,38,-0.949,14.8
+Bus,734,734 - Botany / Half Moon Bay Via Highland Park,734-221,false,Medium,Monitor route conditions,870,49,4.091,14.583
+Bus,39,39 - Manurewa Interchange / Otara / MIT Via Mahia Rd,39-203,false,High,Adjust service headway,867,85,17.941,24.95
+Bus,372,372 - Papakura Shops / Keri Hill Loop,372-203,false,Medium,Monitor route conditions,863,53,5.65,14.767
+Ferry,PINE,PINE - Pine Harbour / Downtown,PINE-210,false,Low,No operational action required,862,10,-0.086,0.0
+Bus,744,744 - Panmure / St Heliers Via Glen Innes,744-221,false,Medium,Monitor route conditions,842,43,4.149,14.3
+Bus,50B,50B - Onetangi (Fourth Ave) / Matiatia Wharf,50B-217,false,Medium,Monitor route conditions,838,43,-3.7,13.75
+Bus,27T,27T - Britomart / Three Kings Via Mt Eden Rd,27T-202,false,Low,No operational action required,834,9,-0.898,4.983
+Bus,395,395 - Waiuku / Papakura Interchange,395-203,false,Low,No operational action required,829,12,0.677,4.95
+Bus,RBE,RBE - Manukau / Britomart Eastern Rail Bus (New),RBE-402,false,Medium,Monitor route conditions,819,76,6.336,14.733
+Bus,143,143 - Ranui / Henderson via Sturges Rd,143-203,false,Medium,Monitor route conditions,814,71,4.709,14.933
+Bus,65,65 - Walker Park / Glen Innes,65-202,false,High,Adjust service headway,779,69,6.938,24.833
+Unknown / unmatched route,S547-202,S547-202,S547-202,true,Low,No operational action required,771,5,0.511,4.983
+Bus,774,774 - West Tamaki Rd / Britomart Via Long Dr And Tamaki Dr,774-202,false,Medium,Monitor route conditions,771,23,-1.991,14.117
+Bus,36,36 - Manukau / Onehunga via Mangere Town Centre,36-203,false,High,Adjust service headway,769,48,7.527,24.917
+Bus,926,926 - Glenfield / Akoranga Station Via Hillcrest West,926-203,false,Medium,Monitor route conditions,766,63,1.129,14.983
+Bus,363,363 - Manurewa Interchange / Wattle Downs Loop,363-203,false,Medium,Monitor route conditions,765,51,5.872,14.717
+Bus,OUT,OUT - St Lukes / Newmarket Via Wellesley St,OUT-202,false,High,Adjust service headway,764,68,-10.987,24.633
+Bus,67A,67A - New Lynn / Otahuhu Via Onehunga,67A-202,false,High,Adjust service headway,760,60,-4.962,24.567
+Train / Rail,EAST,EAST - Manukau 1 / Brit 1 Via Panmure,EAST-201,false,Medium,Monitor route conditions,724,94,8.326,15.0
+Bus,186,186 - South Lynn Loop,186-203,false,Medium,Monitor route conditions,718,42,-2.162,14.767
+Bus,148,148 - Ranui / Lincoln Rd,148-203,false,Medium,Monitor route conditions,693,36,-4.705,9.217
+Bus,309,309 - Mangere Town Centre / City Centre,309-203,false,Severe,Deploy standby bus or supervisor review,688,23,-26.198,40.617
+Train / Rail,ONE,ONE - Newmarket 4 / Onehunga,ONE-201,false,Severe,Deploy standby bus or supervisor review,666,69,57.03,117.983
+Bus,38,38 - Airport / Onehunga via Mangere Town Centre,38-203,false,High,Adjust service headway,659,58,16.799,24.883
+Bus,352,352 - Manukau Bus Station / Panmure Via Flat Bush,352-205,false,High,Adjust service headway,653,30,-2.838,24.767
+Unknown / unmatched route,S542-202,S542-202,S542-202,true,Low,No operational action required,644,4,-1.179,4.833
+Bus,325,325 - Mangere Town Ctr / Manukau Station Via Otahuhu & Otara,325-203,false,High,Adjust service headway,642,50,12.036,25.0
+Bus,13,13 - Te Atatu Peninsula Loop / Henderson,13-203,false,High,Adjust service headway,636,67,2.13,25.0
+Unknown / unmatched route,S417-202,S417-202,S417-202,true,Low,No operational action required,636,4,0.837,4.95
+Bus,27T,27T - Britomart / Three Kings Via Mt Eden Rd,27T-202,false,Medium,Monitor route conditions,634,9,-8.111,7.65
+Bus,802,802 - Bayswater / City (Mayoral Dr),802-202,false,Medium,Monitor route conditions,630,11,-5.704,14.833
+Bus,365,365 - Papakura Interchange / Manukau Bus Station Via Porchester,365-203,false,High,Adjust service headway,614,48,17.857,25.0
+Bus,997,997 - Warkworth / Omaha Via Matakana And Pt Wells,997-203,false,Medium,Monitor route conditions,599,11,-6.389,14.0
+Bus,885,885 - Constellation Station / NHIE Loop Clockwise,885-203,false,Medium,Monitor route conditions,599,15,-1.623,14.633
+Train / Rail,STH,"STH - Brit 4 / Pukekohe 1 Via NKT 4, OHU 3, Papakura 1",STH-201,true,Severe,Deploy standby bus or supervisor review,593,74,40.725,85.617
+Train / Rail,EAST,EAST - Manukau 1 / Brit 1 Via Panmure,EAST-201,false,Severe,Deploy standby bus or supervisor review,582,57,48.626,107.2
+Unknown / unmatched route,S544-202,S544-202,S544-202,true,Low,No operational action required,579,4,-0.475,4.883
+Unknown / unmatched route,S012-218,S012-218,S012-218,true,Low,No operational action required,576,2,0.027,4.817
+Bus,884,884 - Constellation Station / NHIE Loop Anticlockwise,884-203,false,Medium,Monitor route conditions,572,18,-0.072,13.8
+Bus,995,995 - Warkworth / Hibiscus Coast Station,995-203,false,Medium,Monitor route conditions,570,36,5.085,14.2
+Unknown / unmatched route,S007F-203,S007F-203,S007F-203,true,Low,No operational action required,568,8,1.029,4.817
+Unknown / unmatched route,S017F-203,S017F-203,S017F-203,true,Low,No operational action required,546,6,-0.445,5.0
+Bus,72X,72X - Botany And Howick / Britomart Express Via Panmure And Motor,72X-205,false,High,Adjust service headway,542,24,1.423,24.917
+Bus,39,39 - Manurewa Interchange / Otara / MIT Via Mahia Rd,39-203,false,Severe,Deploy standby bus or supervisor review,539,36,42.581,88.35
+Unknown / unmatched route,S009A-218,S009A-218,S009A-218,true,Low,No operational action required,533,2,0.497,4.8
+Unknown / unmatched route,S028-202,S028-202,S028-202,true,Low,No operational action required,531,4,0.793,4.533
+Bus,32,32 - Mangere Town Centre / Sylvia Park via Otahuhu,32-203,false,High,Adjust service headway,524,78,18.53,24.967
+Unknown / unmatched route,S010-218,S010-218,S010-218,true,Low,No operational action required,522,3,-0.455,4.95
+Unknown / unmatched route,S510-202,S510-202,S510-202,true,Medium,Monitor route conditions,517,5,-4.591,13.583
+Bus,806,806 - Devonport Wharf / Stanley Pt Loop,806-202,false,Medium,Monitor route conditions,517,43,6.493,14.6
+Bus,12,12 - Henderson / Constellation Station,12-207,false,High,Adjust service headway,515,47,10.502,24.983
+Unknown / unmatched route,S006C-203,S006C-203,S006C-203,true,Low,No operational action required,504,4,-0.504,4.95
+Bus,14,14 - New Lynn / Lincoln Rd via Henderson,14-202,false,High,Adjust service headway,491,54,15.914,24.817
+Unknown / unmatched route,S434-221,S434-221,S434-221,true,Low,No operational action required,491,4,-0.018,4.767
+Unknown / unmatched route,S021-218,S021-218,S021-218,true,Low,No operational action required,487,2,-0.443,4.283
+Unknown / unmatched route,S018-218,S018-218,S018-218,true,Low,No operational action required,487,2,-0.318,4.867
+Train / Rail,WEST,WEST - Brit 2 / Swanson 1 Via Newmarket 1,WEST-201,false,High,Adjust service headway,486,58,19.654,24.833
+Bus,856,856 - Albany Station / Browns Bay,856-203,false,High,Adjust service headway,484,45,17.26,24.85
+Unknown / unmatched route,S005B-203,S005B-203,S005B-203,true,Low,No operational action required,482,8,0.327,4.85
+Unknown / unmatched route,S013A-218,S013A-218,S013A-218,true,Low,No operational action required,482,2,-0.228,4.883
+Unknown / unmatched route,S008-218,S008-218,S008-218,true,Low,No operational action required,480,2,0.786,5.0
+Bus,984,984 - Orewa / Hibiscus Coast Station Via Maygrove,984-221,false,Medium,Monitor route conditions,479,26,4.597,14.7
+Unknown / unmatched route,S510-202,S510-202,S510-202,true,Low,No operational action required,478,5,-0.291,4.9
+Unknown / unmatched route,S017B-218,S017B-218,S017B-218,true,Low,No operational action required,472,2,-0.39,4.867
+Unknown / unmatched route,S413-202,S413-202,S413-202,true,Low,No operational action required,470,4,-0.891,4.95
+Unknown / unmatched route,S515-202,S515-202,S515-202,true,Low,No operational action required,469,3,-0.222,4.883
+Bus,170,170 - Titirangi South / New Lynn,170-203,false,Medium,Monitor route conditions,468,58,1.498,13.133
+Unknown / unmatched route,S501-202,S501-202,S501-202,true,Low,No operational action required,465,4,-2.1,4.05
+Unknown / unmatched route,S418-202,S418-202,S418-202,true,Low,No operational action required,463,3,0.156,5.0
+Unknown / unmatched route,S019-218,S019-218,S019-218,true,Low,No operational action required,462,2,-0.135,5.0
+Bus,373,373 - Red Hill / Papakura Shops,373-203,false,Medium,Monitor route conditions,461,43,5.616,15.0
+Bus,37,"37 - Manurewa / Highbrook via Roscommon, Puhinui and Preston Rd",37-203,false,High,Adjust service headway,458,48,18.111,24.883
+Unknown / unmatched route,S514-202,S514-202,S514-202,true,Low,No operational action required,457,3,0.78,4.9
+Unknown / unmatched route,S011A-218,S011A-218,S011A-218,true,Low,No operational action required,454,3,-0.01,4.25
+Unknown / unmatched route,S071-203,S071-203,S071-203,true,Low,No operational action required,454,4,-1.116,4.617
+Unknown / unmatched route,S438-218,S438-218,S438-218,true,Low,No operational action required,448,2,-0.929,4.3
+Unknown / unmatched route,S005-218,S005-218,S005-218,true,Low,No operational action required,444,2,0.358,4.933
+Unknown / unmatched route,S014A-218,S014A-218,S014A-218,true,Low,No operational action required,432,2,0.862,4.5
+Bus,309X,309X - Stop E The Civic / Mangere,309X-203,false,Medium,Monitor route conditions,427,4,-4.496,13.883
+Unknown / unmatched route,S020A-218,S020A-218,S020A-218,true,Low,No operational action required,426,2,-0.131,4.617
+Bus,321,321 - Middlemore Station / Britomart Via Greenlane Hospital,321-202,false,High,Adjust service headway,424,22,-4.935,24.883
+Unknown / unmatched route,S050B-203,S050B-203,S050B-203,true,Medium,Monitor route conditions,422,5,-5.59,12.2
+Unknown / unmatched route,S015C-202,S015C-202,S015C-202,true,Low,No operational action required,415,5,-0.147,4.933
+Ferry,MTIA,MTIA - Waiheke Island 1 / Downtown Pier 11,MTIA-209,false,Medium,Monitor route conditions,414,14,11.991,15.0
+Unknown / unmatched route,S040-221,S040-221,S040-221,true,Low,No operational action required,414,3,1.242,4.967
+Unknown / unmatched route,S050B-203,S050B-203,S050B-203,true,Low,No operational action required,414,5,-1.125,4.967
+Bus,161,161 - Brains Park / New Lynn,161-203,false,Medium,Monitor route conditions,413,39,-3.37,10.867
+Unknown / unmatched route,S006-218,S006-218,S006-218,true,Low,No operational action required,412,2,0.201,4.95
+Bus,393,393 - Pukekohe South Loop,393-203,false,Medium,Monitor route conditions,406,39,6.769,14.9
+Bus,814,814 - Akoranga Station / Devonport Wharf Via Takapuna,814-202,false,High,Adjust service headway,406,30,18.121,24.983
+Bus,30,30 - Onehunga / City Centre Via Manukau Rd,30-202,false,High,Adjust service headway,405,39,-3.858,23.0
+Unknown / unmatched route,S002-218,S002-218,S002-218,true,Low,No operational action required,403,2,-0.163,4.85
+Unknown / unmatched route,S016E-203,S016E-203,S016E-203,true,Low,No operational action required,402,4,-0.823,4.683
+Unknown / unmatched route,S017F-203,S017F-203,S017F-203,true,Medium,Monitor route conditions,400,6,-5.191,14.117
+Bus,145,145 - Lincoln Rd / Henderson Via Western H,145-203,false,High,Adjust service headway,396,21,18.286,24.883
+Unknown / unmatched route,S053A-203,S053A-203,S053A-203,true,Low,No operational action required,396,3,-1.396,4.6
+Bus,70,70 - Botany / Britomart Via Panmure,70-205,false,Severe,Deploy standby bus or supervisor review,395,49,35.537,104.217
+Unknown / unmatched route,S546-202,S546-202,S546-202,true,Low,No operational action required,393,3,-0.145,4.867
+Unknown / unmatched route,S007-218,S007-218,S007-218,true,Low,No operational action required,392,2,-0.67,3.433
+Unknown / unmatched route,S061-203,S061-203,S061-203,true,Medium,Monitor route conditions,390,3,-5.505,14.85
+Bus,865,865 - Browns Bay / Albany Station Via Oaktree Ave,865-203,false,Medium,Monitor route conditions,386,42,7.498,14.95
+Train / Rail,ONE,ONE - Newmarket 4 / Onehunga,ONE-201,false,Medium,Monitor route conditions,377,48,8.884,14.3
+Bus,391,391 - Pukekohe Northeast Loop / Pukekohe Northeast loop,391-203,false,Medium,Monitor route conditions,376,35,6.441,13.867
+Unknown / unmatched route,S022A-218,S022A-218,S022A-218,true,Low,No operational action required,375,3,-1.658,4.617
+Unknown / unmatched route,S413-202,S413-202,S413-202,true,Medium,Monitor route conditions,373,4,-1.992,10.617
+Unknown / unmatched route,S019A-218,S019A-218,S019A-218,true,Low,No operational action required,364,2,0.916,4.5
+Unknown / unmatched route,S013-203,S013-203,S013-203,true,Low,No operational action required,363,3,0.934,4.983
+Unknown / unmatched route,S031B-203,S031B-203,S031B-203,true,Low,No operational action required,362,2,-0.661,4.983
+Bus,986,986 - Hibiscus Coast Station / Albany Station Via Dairy Flat,986-221,false,Medium,Monitor route conditions,359,22,2.506,14.933
+Bus,311,311 - Otahuhu Station / Otahuhu Station via Mangere Bridge,311-203,false,High,Adjust service headway,358,26,-6.986,24.983
+Unknown / unmatched route,S427-221,S427-221,S427-221,true,Low,No operational action required,356,2,0.126,4.85
+Unknown / unmatched route,S412-202,S412-202,S412-202,true,Low,No operational action required,351,2,-0.328,4.95
+Unknown / unmatched route,S813-202,S813-202,S813-202,true,Low,No operational action required,349,3,-0.997,4.8
+Unknown / unmatched route,S072D-203,S072D-203,S072D-203,true,Low,No operational action required,349,3,0.742,4.967
+Unknown / unmatched route,S060-203,S060-203,S060-203,true,Low,No operational action required,348,3,-1.524,4.7
+Unknown / unmatched route,S012A-203,S012A-203,S012A-203,true,Low,No operational action required,348,2,-1.542,4.617
+Unknown / unmatched route,S441-205,S441-205,S441-205,true,Low,No operational action required,344,2,-0.438,4.6
+Bus,395,395 - Waiuku / Papakura Interchange,395-203,false,Medium,Monitor route conditions,342,10,2.533,14.967
+Bus,135,135 - Te Atatu (Totara Rd) / Henderson,135-203,false,High,Adjust service headway,341,47,13.981,24.917
+Unknown / unmatched route,S076A-203,S076A-203,S076A-203,true,Low,No operational action required,334,5,-0.16,4.767
+Unknown / unmatched route,S079-203,S079-203,S079-203,true,Low,No operational action required,332,2,-1.329,4.9
+Unknown / unmatched route,S025E-218,S025E-218,S025E-218,true,Low,No operational action required,332,2,-0.129,4.967
+Unknown / unmatched route,S426-221,S426-221,S426-221,true,Low,No operational action required,326,2,1.347,5.0
+Unknown / unmatched route,S087-202,S087-202,S087-202,true,Low,No operational action required,325,2,0.055,4.95
+Bus,253,253 - Blockhouse Bay / Civic Centre Via Dominion Rd,253-202,false,Medium,Monitor route conditions,325,8,-4.236,12.917
+Bus,355,355 - Botany / Manukau Bus Station Via Mission Heights & Ormiston,355-205,false,High,Adjust service headway,324,33,15.438,23.75
+Unknown / unmatched route,S093-217,S093-217,S093-217,true,Low,No operational action required,324,1,0.226,3.6
+Unknown / unmatched route,S540-202,S540-202,S540-202,true,High,Adjust service headway,323,2,-17.397,-15.267
+Unknown / unmatched route,S414-202,S414-202,S414-202,true,Low,No operational action required,322,2,-0.589,4.933
+Bus,309X,309X - Stop E The Civic / Mangere,309X-203,false,Low,No operational action required,322,4,0.151,4.9
+Unknown / unmatched route,S006B-203,S006B-203,S006B-203,true,Medium,Monitor route conditions,319,2,-6.104,14.65
+Unknown / unmatched route,S032A-203,S032A-203,S032A-203,true,Low,No operational action required,318,2,0.793,4.917
+Unknown / unmatched route,S401-205,S401-205,S401-205,true,Low,No operational action required,316,2,0.045,4.933
+Unknown / unmatched route,S017-202,S017-202,S017-202,true,Low,No operational action required,314,3,0.401,5.0
+Train / Rail,STH,"STH - Brit 4 / Pukekohe 1 Via NKT 4, OHU 3, Papakura 1",STH-201,true,High,Adjust service headway,314,78,16.732,25.0
+Unknown / unmatched route,S433-221,S433-221,S433-221,true,Low,No operational action required,313,2,-1.011,5.0
+Unknown / unmatched route,S411-202,S411-202,S411-202,true,Low,No operational action required,312,2,-0.802,4.95
+Unknown / unmatched route,S407-202,S407-202,S407-202,true,Low,No operational action required,310,2,-0.298,4.983
+Bus,35,35 - Ormiston / Botany Via Chapel Rd,35-205,false,High,Adjust service headway,310,36,15.681,24.883
+Unknown / unmatched route,S435-221,S435-221,S435-221,true,Low,No operational action required,309,2,-0.22,4.267
+Bus,195,195 - New Lynn / City Centre Via Green Bay,195-203,false,High,Adjust service headway,308,33,4.306,24.033
+Ferry,HOBS,HOBS - Beach Haven / Downtown Via Hobsonville Point,HOBS-209,false,Low,No operational action required,306,15,0.848,5.0
+Bus,83,83 - Massey University / Takapuna Via Browns Bay,83-203,false,High,Adjust service headway,303,54,17.382,24.783
+Bus,252,252 - Lynfield / Civic Centre Via Dominion Rd,252-202,false,Medium,Monitor route conditions,301,5,-5.647,10.167
+Bus,31,31 - Mangere Town Centre / Botany Town Centre Via Otara,31-203,false,High,Adjust service headway,298,40,17.239,24.7
+Unknown / unmatched route,S550-202,S550-202,S550-202,true,Low,No operational action required,295,2,-1.125,4.383
+Unknown / unmatched route,S430-221,S430-221,S430-221,true,Low,No operational action required,294,2,-0.564,4.817
+Unknown / unmatched route,S013-203,S013-203,S013-203,true,Medium,Monitor route conditions,294,3,1.393,14.0
+Unknown / unmatched route,S520-202,S520-202,S520-202,true,Low,No operational action required,292,2,-0.053,4.967
+Unknown / unmatched route,S060-203,S060-203,S060-203,true,Medium,Monitor route conditions,291,3,-8.132,10.133
+Unknown / unmatched route,S082-202,S082-202,S082-202,true,Low,No operational action required,290,2,-3.074,2.567
+Unknown / unmatched route,S054-202,S054-202,S054-202,true,Low,No operational action required,288,2,-0.745,5.0
+Bus,981,981 - Waiwera / Hibiscus Coast Station,981-221,false,High,Adjust service headway,287,30,17.915,24.567
+Bus,324,324 - Mangere Town Centre / Seaside Park Via Otahuhu,324-203,false,High,Adjust service headway,286,35,17.803,24.95
+Unknown / unmatched route,S513-202,S513-202,S513-202,true,Low,No operational action required,285,2,0.888,4.483
+Unknown / unmatched route,S026D-218,S026D-218,S026D-218,true,Low,No operational action required,285,3,0.983,4.95
+Unknown / unmatched route,S511-202,S511-202,S511-202,true,Low,No operational action required,284,2,-0.942,3.8
+Unknown / unmatched route,S440-205,S440-205,S440-205,true,Low,No operational action required,283,2,-0.85,4.9
+Unknown / unmatched route,S419-202,S419-202,S419-202,true,Low,No operational action required,282,2,0.81,4.917
+Unknown / unmatched route,S421-221,S421-221,S421-221,true,Low,No operational action required,280,2,0.831,4.983
+Bus,998,998 - Wellsford / Warkworth,998-203,false,Medium,Monitor route conditions,280,28,3.744,14.417
+Unknown / unmatched route,S025A-203,S025A-203,S025A-203,true,Medium,Monitor route conditions,278,4,-9.109,7.483
+Unknown / unmatched route,S521-202,S521-202,S521-202,true,Low,No operational action required,278,2,-0.425,5.0
+Bus,70H,70H - Britomart / Howick And Botany Via Ellerslie And Panmure,70H-205,false,Low,No operational action required,278,3,-1.361,4.717
+Unknown / unmatched route,S442-205,S442-205,S442-205,true,Low,No operational action required,276,2,-0.109,5.0
+Unknown / unmatched route,S056E-203,S056E-203,S056E-203,true,Medium,Monitor route conditions,276,4,-4.822,14.983
+Unknown / unmatched route,S006A-203,S006A-203,S006A-203,true,Low,No operational action required,275,4,1.914,5.0
+Unknown / unmatched route,S008C-203,S008C-203,S008C-203,true,Low,No operational action required,274,2,-0.101,4.65
+Unknown / unmatched route,S402-202,S402-202,S402-202,true,Low,No operational action required,274,2,-0.311,4.883
+Bus,22R,22R - Rosebank Rd / City Centre Via New North Rd,22R-202,false,High,Adjust service headway,273,39,-10.96,24.85
+Unknown / unmatched route,S027-202,S027-202,S027-202,true,Low,No operational action required,272,2,-0.916,3.5
+Unknown / unmatched route,S017-202,S017-202,S017-202,true,Medium,Monitor route conditions,272,3,0.967,13.317
+Unknown / unmatched route,S006C-203,S006C-203,S006C-203,true,Medium,Monitor route conditions,271,4,-2.843,12.783
+Bus,TMK,TMK - Glen Innes / Britomart Via St Heliers And Tamaki Dr,TMK-202,false,High,Adjust service headway,271,39,18.729,24.983
+Unknown / unmatched route,S081A-202,S081A-202,S081A-202,true,Low,No operational action required,271,2,-0.128,4.85
+Unknown / unmatched route,S060K-202,S060K-202,S060K-202,true,Low,No operational action required,269,2,0.876,4.983
+Unknown / unmatched route,S022C-203,S022C-203,S022C-203,true,Low,No operational action required,268,3,-1.56,4.517
+Bus,128,128 - Hibiscus Coast Station / Helensville,128-202,false,High,Adjust service headway,267,23,20.311,24.95
+Bus,842,842 - Crown Hill / Smales Farm Station Via East Coast Rd,842-202,false,Medium,Monitor route conditions,266,9,-3.043,14.9
+Train / Rail,EAST,EAST - Manukau 1 / Brit 1 Via Panmure,EAST-201,false,High,Adjust service headway,266,33,17.206,24.7
+Unknown / unmatched route,S462-203,S462-203,S462-203,true,Low,No operational action required,266,2,1.318,4.85
+Unknown / unmatched route,S523-202,S523-202,S523-202,true,Low,No operational action required,265,2,0.936,4.95
+Unknown / unmatched route,S428-221,S428-221,S428-221,true,Low,No operational action required,263,2,0.257,4.767
+Unknown / unmatched route,S028E-207,S028E-207,S028E-207,true,Medium,Monitor route conditions,261,2,-7.556,11.167
+Unknown / unmatched route,S424-221,S424-221,S424-221,true,Low,No operational action required,261,2,1.737,4.767
+Bus,67B,67B - New Lynn / Onehunga Only,67B-202,false,High,Adjust service headway,260,18,6.769,24.917
+Unknown / unmatched route,S094-217,S094-217,S094-217,true,Low,No operational action required,259,2,1.561,4.883
+Unknown / unmatched route,S073B-203,S073B-203,S073B-203,true,Low,No operational action required,258,2,1.303,4.967
+Bus,22N,22N - New Lynn / City Centre Via New North Rd,22N-202,false,High,Adjust service headway,256,32,-6.309,23.65
+Unknown / unmatched route,S431-221,S431-221,S431-221,true,Low,No operational action required,256,2,1.184,5.0
+Bus,362,362 - Manukau Bus Station / Weymouth Via Great South Rd,362-203,false,High,Adjust service headway,255,33,18.553,24.917
+Unknown / unmatched route,S405-203,S405-203,S405-203,true,Low,No operational action required,254,2,1.13,4.967
+Bus,66,66 - Pt Chevalier Beach / Sylvia Park Via Mt Albert Rd,66-203,false,High,Adjust service headway,253,20,-7.059,24.5
+Unknown / unmatched route,S074-203,S074-203,S074-203,true,Medium,Monitor route conditions,253,2,-8.649,9.3
+Unknown / unmatched route,S078-203,S078-203,S078-203,true,Low,No operational action required,252,2,0.199,4.95
+Unknown / unmatched route,S516-202,S516-202,S516-202,true,Low,No operational action required,252,2,-0.595,4.983
+Bus,WX1,WX1 - City Centre / Northwest Via Motorway,WX1-207,false,High,Adjust service headway,252,35,4.085,24.417
+Unknown / unmatched route,S088-217,S088-217,S088-217,true,Low,No operational action required,251,1,0.381,4.833
+Unknown / unmatched route,S409-202,S409-202,S409-202,true,Low,No operational action required,250,2,0.375,4.967
+Unknown / unmatched route,S029G-207,S029G-207,S029G-207,true,Low,No operational action required,245,3,2.58,5.0
+Unknown / unmatched route,S525-202,S525-202,S525-202,true,Low,No operational action required,244,2,-0.406,4.45
+Unknown / unmatched route,S027E-218,S027E-218,S027E-218,true,Low,No operational action required,243,5,0.303,4.983
+Unknown / unmatched route,S505-202,S505-202,S505-202,true,Low,No operational action required,242,2,2.226,4.933
+Unknown / unmatched route,S010B-202,S010B-202,S010B-202,true,Low,No operational action required,241,2,-0.416,4.883
+Unknown / unmatched route,S415-205,S415-205,S415-205,true,Low,No operational action required,239,4,-1.453,4.817
+Bus,966,966 - Beach Haven / Newmarket Via Ponsonby And Auckland Hospital,966-203,false,High,Adjust service headway,238,18,-7.496,23.983
+Unknown / unmatched route,S061-203,S061-203,S061-203,true,Low,No operational action required,237,3,-0.963,4.95
+Unknown / unmatched route,S031G-207,S031G-207,S031G-207,true,Low,No operational action required,237,2,-1.06,4.85
+Unknown / unmatched route,S070-203,S070-203,S070-203,true,Medium,Monitor route conditions,236,2,-6.503,-5.117
+Unknown / unmatched route,S033-203,S033-203,S033-203,true,Low,No operational action required,235,1,0.427,4.867
+Unknown / unmatched route,S444-205,S444-205,S444-205,true,Low,No operational action required,235,2,0.565,4.983
+Bus,36,36 - Manukau / Onehunga via Mangere Town Centre,36-203,false,Severe,Deploy standby bus or supervisor review,234,24,36.71,111.2
+Unknown / unmatched route,S443-205,S443-205,S443-205,true,Low,No operational action required,234,2,-1.639,4.3
+Unknown / unmatched route,S423-221,S423-221,S423-221,true,Low,No operational action required,233,2,-1.081,4.717
+Unknown / unmatched route,S456-203,S456-203,S456-203,true,Low,No operational action required,233,4,1.226,4.633
+Unknown / unmatched route,S436-221,S436-221,S436-221,true,Low,No operational action required,231,2,-0.354,3.6
+Unknown / unmatched route,S028A-218,S028A-218,S028A-218,true,Low,No operational action required,230,2,-0.417,4.767
+Unknown / unmatched route,S545-202,S545-202,S545-202,true,Low,No operational action required,230,2,-0.183,4.383
+Unknown / unmatched route,S524-202,S524-202,S524-202,true,Low,No operational action required,229,2,-0.172,4.933
+Unknown / unmatched route,S048-203,S048-203,S048-203,true,Low,No operational action required,229,2,0.155,4.25
+Unknown / unmatched route,S516-202,S516-202,S516-202,true,Medium,Monitor route conditions,228,2,1.707,13.75
+Unknown / unmatched route,S053F-203,S053F-203,S053F-203,true,Low,No operational action required,228,4,-0.448,4.833
+Unknown / unmatched route,S400-205,S400-205,S400-205,true,Low,No operational action required,228,2,-1.181,4.483
+Unknown / unmatched route,S500-202,S500-202,S500-202,true,Medium,Monitor route conditions,224,2,-6.919,5.283
+Unknown / unmatched route,S042-203,S042-203,S042-203,true,Low,No operational action required,223,2,0.175,5.0
+Bus,712,712 - Bucklands Beach / Panmure,712-221,false,High,Adjust service headway,222,17,18.257,24.7
+Unknown / unmatched route,S027E-218,S027E-218,S027E-218,true,Medium,Monitor route conditions,221,5,-7.678,14.967
+Bus,982,982 - Gulf Harbour / Hibiscus Coast Station,982-221,false,High,Adjust service headway,221,26,18.59,24.15
+Bus,95B,95B - Bayview / Britomart (Lower Albert St),95B-203,false,High,Adjust service headway,220,21,17.371,23.95
+Unknown / unmatched route,S046X-221,S046X-221,S046X-221,true,Low,No operational action required,219,1,-0.532,4.283
+Unknown / unmatched route,S523-202,S523-202,S523-202,true,Medium,Monitor route conditions,219,2,-0.411,13.617
+Bus,351,351 - Botany / Otahuhu Station Via Highbrook,351-205,false,High,Adjust service headway,218,20,17.312,24.767
+Bus,116,116 - West Hills Loop,116-203,false,Medium,Monitor route conditions,218,15,7.409,13.3
+Unknown / unmatched route,S073H-203,S073H-203,S073H-203,true,Low,No operational action required,217,2,0.74,4.967
+Unknown / unmatched route,S410-205,S410-205,S410-205,true,Low,No operational action required,217,2,-1.395,3.683
+Unknown / unmatched route,S009-203,S009-203,S009-203,true,Medium,Monitor route conditions,215,2,-4.769,14.267
+Unknown / unmatched route,S074D-203,S074D-203,S074D-203,true,Severe,Deploy standby bus or supervisor review,215,2,-29.704,-26.567
+Bus,74,74 - Onehunga / Glen Innes Via Panmure,74-221,false,High,Adjust service headway,215,28,17.916,24.633
+Unknown / unmatched route,S549-202,S549-202,S549-202,true,Low,No operational action required,213,2,0.685,4.083
+Unknown / unmatched route,S403-203,S403-203,S403-203,true,Medium,Monitor route conditions,210,4,-9.25,10.633
+Bus,AIR,AIR - Airport Link via Puhinui Station,AIR-203,false,High,Adjust service headway,209,44,14.376,25.0
+Unknown / unmatched route,S406-203,S406-203,S406-203,true,Low,No operational action required,209,2,-0.166,4.7
+Unknown / unmatched route,S047C-221,S047C-221,S047C-221,true,Low,No operational action required,208,1,-0.48,4.7
+Unknown / unmatched route,S032-203,S032-203,S032-203,true,Low,No operational action required,208,1,0.097,3.817
+Unknown / unmatched route,S002A-203,S002A-203,S002A-203,true,Low,No operational action required,207,1,-2.408,3.917
+Unknown / unmatched route,S006-218,S006-218,S006-218,true,Medium,Monitor route conditions,207,2,9.342,14.7
+Unknown / unmatched route,S425-221,S425-221,S425-221,true,Medium,Monitor route conditions,205,2,7.073,14.067
+Unknown / unmatched route,S522N-202,S522N-202,S522N-202,true,Low,No operational action required,205,2,0.106,4.85
+Unknown / unmatched route,S522N-202,S522N-202,S522N-202,true,Medium,Monitor route conditions,204,2,1.517,14.45
+Unknown / unmatched route,S416-205,S416-205,S416-205,true,Low,No operational action required,204,3,-1.107,4.483
+Unknown / unmatched route,S522G-221,S522G-221,S522G-221,true,Low,No operational action required,204,2,-1.319,4.85
+Unknown / unmatched route,S083-202,S083-202,S083-202,true,Low,No operational action required,202,2,-0.01,4.883
+Bus,32,32 - Mangere Town Centre / Sylvia Park via Otahuhu,32-203,false,Severe,Deploy standby bus or supervisor review,202,22,36.046,78.533
+Unknown / unmatched route,S010A-203,S010A-203,S010A-203,true,Low,No operational action required,202,1,1.739,4.817
+Unknown / unmatched route,S008A-203,S008A-203,S008A-203,true,Low,No operational action required,201,2,-1.492,4.083
+Unknown / unmatched route,S408-202,S408-202,S408-202,true,Medium,Monitor route conditions,200,2,8.443,14.367
+Unknown / unmatched route,S064-203,S064-203,S064-203,true,Medium,Monitor route conditions,200,2,-4.842,14.95
+Unknown / unmatched route,S062-203,S062-203,S062-203,true,Low,No operational action required,199,2,2.464,4.967
+Bus,353,353 - Manukau Bus Station / Botany Town Centre Via Preston Rd,353-205,false,High,Adjust service headway,199,16,5.758,24.567
+Bus,783,783 - Eastern Bays Circuit Anticlockwise / Eastern Bays Circuit Clockwise,783-221,false,High,Adjust service headway,198,8,17.532,21.867
+Unknown / unmatched route,S008A-203,S008A-203,S008A-203,true,Medium,Monitor route conditions,198,2,-7.609,11.483
+Unknown / unmatched route,S481-202,S481-202,S481-202,true,Low,No operational action required,198,1,1.697,4.75
+Unknown / unmatched route,S404-203,S404-203,S404-203,true,Low,No operational action required,197,3,-0.032,4.967
+Bus,11W,11W - Northwest / City Centre Via Waimumu Rd,11W-207,false,High,Adjust service headway,197,26,4.974,22.183
+Unknown / unmatched route,S006B-203,S006B-203,S006B-203,true,Low,No operational action required,196,2,-0.913,4.983
+Unknown / unmatched route,S047A-221,S047A-221,S047A-221,true,Low,No operational action required,196,1,-0.862,4.917
+Unknown / unmatched route,S013D-203,S013D-203,S013D-203,true,Medium,Monitor route conditions,195,2,-4.223,12.433
+Unknown / unmatched route,S522G-221,S522G-221,S522G-221,true,Medium,Monitor route conditions,195,2,-5.384,12.5
+Unknown / unmatched route,S458-203,S458-203,S458-203,true,Low,No operational action required,194,2,1.557,4.967
+Unknown / unmatched route,S543-202,S543-202,S543-202,true,Low,No operational action required,191,1,0.174,3.967
+Bus,11T,11T - Northwest / City Centre Via Triangle Rd,11T-207,false,High,Adjust service headway,191,17,6.634,23.733
+Bus,314,314 - Ormiston / Middlemore Station Via Otara,314-203,false,High,Adjust service headway,191,20,15.023,24.817
+Unknown / unmatched route,S547-202,S547-202,S547-202,true,Medium,Monitor route conditions,191,4,-2.117,8.983
+Bus,94,94 - Beach Haven / Takapuna via Highbury And Northcote Shops,94-203,false,High,Adjust service headway,190,24,17.686,23.9
+Bus,126,126 - Albany / Westgate Via Riverhead,126-203,false,High,Adjust service headway,189,29,18.998,24.7
+Bus,983,983 - Gulf Harbour / Hibiscus Coast Station Via Vipond Rd,983-221,false,High,Adjust service headway,189,16,17.769,24.417
+Bus,376,376 - Papakura Shops / Auranga Dr Via Drury,376-203,false,High,Adjust service headway,189,26,19.249,24.983
+Unknown / unmatched route,S429-221,S429-221,S429-221,true,Medium,Monitor route conditions,189,1,10.1,14.8
+Bus,RBN,RBN - Westfield Newmarket / Britomart Rail Bus,RBN-402,false,Low,No operational action required,188,32,1.809,4.917
+Unknown / unmatched route,S073A-202,S073A-202,S073A-202,true,Low,No operational action required,188,1,0.288,4.6
+Bus,33,33 - Papakura Interchange / Otahuhu Station Via Great South Rd,33-203,false,Severe,Deploy standby bus or supervisor review,188,27,31.867,85.767
+Bus,RBS,RBS - Britomart / Pukekohe Southern Rail Bus,RBS-402,false,High,Adjust service headway,188,23,15.771,24.833
+Unknown / unmatched route,S070-203,S070-203,S070-203,true,Low,No operational action required,187,2,-2.151,2.65
+Bus,933,933 - Beach Haven Wharf / University of Auckland Via Customs St,933-203,false,High,Adjust service headway,186,16,2.377,23.483
+Unknown / unmatched route,S454-203,S454-203,S454-203,true,Medium,Monitor route conditions,186,2,-0.533,11.467
+Unknown / unmatched route,S029E-203,S029E-203,S029E-203,true,Low,No operational action required,185,1,0.005,4.533
+Unknown / unmatched route,S420-221,S420-221,S420-221,true,Medium,Monitor route conditions,185,2,-3.672,10.483
+Unknown / unmatched route,S512-202,S512-202,S512-202,true,Low,No operational action required,184,1,0.837,4.967
+Unknown / unmatched route,S469-203,S469-203,S469-203,true,Medium,Monitor route conditions,184,2,3.057,14.933
+Bus,24B,24B - New Lynn And Blockhouse Bay / City Centre Via Sandringham R,24B-202,false,High,Adjust service headway,184,28,10.534,24.433
+Unknown / unmatched route,S404-203,S404-203,S404-203,true,Medium,Monitor route conditions,184,3,-4.178,14.4
+Bus,366,366 - Manurewa Interchange / Manukau Bus Station Via The Gardens,366-203,false,High,Adjust service headway,184,31,17.865,24.783
+Unknown / unmatched route,S403-203,S403-203,S403-203,true,Low,No operational action required,183,4,-0.639,5.0
+Unknown / unmatched route,S001N-203,S001N-203,S001N-203,true,Low,No operational action required,183,2,1.52,4.617
+Unknown / unmatched route,S072-202,S072-202,S072-202,true,Low,No operational action required,183,1,-1.028,4.267
+Unknown / unmatched route,S548-202,S548-202,S548-202,true,Low,No operational action required,183,1,-2.29,1.567
+Bus,NX1,NX1 - Britomart (Lower Albert St) / Albany Station,NX1-203,false,High,Adjust service headway,182,40,19.106,24.367
+Unknown / unmatched route,S009-203,S009-203,S009-203,true,Low,No operational action required,182,2,0.114,4.917
+Unknown / unmatched route,S070A-203,S070A-203,S070A-203,true,Low,No operational action required,181,1,-2.117,1.7
+Unknown / unmatched route,S080-202,S080-202,S080-202,true,Low,No operational action required,181,1,0.23,4.45
+Bus,814,814 - Akoranga Station / Devonport Wharf Via Takapuna,814-202,false,Severe,Deploy standby bus or supervisor review,181,16,36.923,65.85
+Bus,NX1,NX1 - Britomart (Lower Albert St) / Albany Station,NX1-203,false,Severe,Deploy standby bus or supervisor review,180,20,36.624,68.333
+Unknown / unmatched route,S025-203,S025-203,S025-203,true,Low,No operational action required,179,1,0.477,4.967
+Unknown / unmatched route,S034-202,S034-202,S034-202,true,Low,No operational action required,178,1,0.537,4.933
+Train / Rail,ONE,ONE - Newmarket 4 / Onehunga,ONE-201,false,High,Adjust service headway,178,29,20.45,24.95
+Unknown / unmatched route,S081-202,S081-202,S081-202,true,Medium,Monitor route conditions,178,2,-2.599,13.983
+Unknown / unmatched route,S071-203,S071-203,S071-203,true,Medium,Monitor route conditions,178,4,-9.82,-5.133
+Unknown / unmatched route,S090-217,S090-217,S090-217,true,Low,No operational action required,178,1,-0.787,2.233
+Unknown / unmatched route,S420-221,S420-221,S420-221,true,Low,No operational action required,177,2,0.262,4.35
+Unknown / unmatched route,S463-203,S463-203,S463-203,true,Low,No operational action required,177,2,1.674,4.867
+Bus,149,149 - Ranui / New Lynn Via Rosebank,149-203,false,High,Adjust service headway,177,18,17.709,24.517
+Unknown / unmatched route,S009C-203,S009C-203,S009C-203,true,Low,No operational action required,176,1,1.681,4.733
+Unknown / unmatched route,S050-221,S050-221,S050-221,true,Low,No operational action required,176,1,-2.357,2.967
+Bus,917,917 - Birkenhead Wharf / Albany Station Via Glenfield Rd,917-203,false,High,Adjust service headway,176,21,12.411,24.883
+Bus,27W,27W - Britomart / Waikowhai Via Mt Eden Rd,27W-202,false,High,Adjust service headway,175,33,0.445,24.283
+Unknown / unmatched route,S461-203,S461-203,S461-203,true,Low,No operational action required,175,4,-0.139,4.767
+Unknown / unmatched route,S061E-203,S061E-203,S061E-203,true,Low,No operational action required,175,2,3.132,4.917
+Unknown / unmatched route,S028F-203,S028F-203,S028F-203,true,Low,No operational action required,174,1,2.322,5.0
+Bus,76,76 - Britomart / Glen Innes Via Orakei,76-202,false,High,Adjust service headway,174,17,16.729,23.7
+Unknown / unmatched route,S061G-203,S061G-203,S061G-203,true,Low,No operational action required,174,1,-0.58,3.75
+Unknown / unmatched route,S064-203,S064-203,S064-203,true,High,Adjust service headway,174,2,-17.339,20.65
+Unknown / unmatched route,S049A-203,S049A-203,S049A-203,true,Low,No operational action required,174,2,-3.557,0.6
+Bus,866,866 - Albany Stn / Newmarket Via Ponsonby And Auckland Hospital,866-203,false,High,Adjust service headway,174,22,7.237,24.933
+Unknown / unmatched route,S087C-217,S087C-217,S087C-217,true,Low,No operational action required,174,1,-0.096,4.4
+Unknown / unmatched route,S096-217,S096-217,S096-217,true,Low,No operational action required,173,1,-0.439,0.0
+Unknown / unmatched route,S062C-203,S062C-203,S062C-203,true,Medium,Monitor route conditions,173,2,-7.49,9.4
+Unknown / unmatched route,S056-203,S056-203,S056-203,true,Low,No operational action required,172,1,1.282,4.967
+Unknown / unmatched route,S546-202,S546-202,S546-202,true,Medium,Monitor route conditions,172,3,3.994,14.333
+Bus,37,"37 - Manurewa / Highbrook via Roscommon, Puhinui and Preston Rd",37-203,false,Severe,Deploy standby bus or supervisor review,172,24,41.119,61.567
+Unknown / unmatched route,S049C-221,S049C-221,S049C-221,true,Medium,Monitor route conditions,172,1,-8.583,6.517
+Unknown / unmatched route,S013D-203,S013D-203,S013D-203,true,Low,No operational action required,171,2,-0.303,4.967
+Bus,865,865 - Browns Bay / Albany Station Via Oaktree Ave,865-203,false,High,Adjust service headway,171,15,17.731,23.05
+Unknown / unmatched route,S469-203,S469-203,S469-203,true,Low,No operational action required,171,2,0.326,4.933
+Unknown / unmatched route,S029G-207,S029G-207,S029G-207,true,Medium,Monitor route conditions,171,3,7.875,13.667
+Unknown / unmatched route,S001-203,S001-203,S001-203,true,Low,No operational action required,170,1,1.201,3.817
+Bus,38,38 - Airport / Onehunga via Mangere Town Centre,38-203,false,Severe,Deploy standby bus or supervisor review,169,19,36.851,62.95
+Unknown / unmatched route,S068-203,S068-203,S068-203,true,Low,No operational action required,168,1,0.883,4.683
+Unknown / unmatched route,S065-202,S065-202,S065-202,true,Low,No operational action required,167,1,-1.269,4.183
+Bus,125,125 - Helensville / Westgate Via Kumeu,125-202,false,High,Adjust service headway,167,20,18.438,25.0
+Unknown / unmatched route,S069-203,S069-203,S069-203,true,Medium,Monitor route conditions,167,1,-3.633,14.417
+Unknown / unmatched route,S044A-221,S044A-221,S044A-221,true,Low,No operational action required,166,1,-0.551,3.217
+Unknown / unmatched route,S062C-203,S062C-203,S062C-203,true,Low,No operational action required,166,2,-1.908,4.583
+Unknown / unmatched route,S024B-218,S024B-218,S024B-218,true,Low,No operational action required,166,1,0.648,4.85
+Unknown / unmatched route,S066-202,S066-202,S066-202,true,Low,No operational action required,165,1,-1.288,4.017
+Unknown / unmatched route,S072D-203,S072D-203,S072D-203,true,Medium,Monitor route conditions,165,3,-0.372,8.983
+Unknown / unmatched route,S062A-203,S062A-203,S062A-203,true,Low,No operational action required,164,1,1.162,4.767
+Unknown / unmatched route,S091-217,S091-217,S091-217,true,Low,No operational action required,164,1,-0.406,3.333
+Unknown / unmatched route,S043-218,S043-218,S043-218,true,Low,No operational action required,164,2,-2.076,3.65
+Unknown / unmatched route,S074-203,S074-203,S074-203,true,Low,No operational action required,163,2,-1.938,4.967
+Unknown / unmatched route,S014I-203,S014I-203,S014I-203,true,Low,No operational action required,163,1,2.48,4.933
+Unknown / unmatched route,S530-202,S530-202,S530-202,true,Low,No operational action required,163,1,2.371,4.767
+Unknown / unmatched route,S007A-203,S007A-203,S007A-203,true,Low,No operational action required,162,1,0.802,4.683
+Bus,711,711 - Howick / Panmure Via Cascades Road,711-221,false,High,Adjust service headway,161,13,17.783,24.3
+Unknown / unmatched route,S053E-202,S053E-202,S053E-202,true,Low,No operational action required,161,1,-0.364,5.0
+Unknown / unmatched route,S075B-203,S075B-203,S075B-203,true,Medium,Monitor route conditions,160,3,-5.607,13.35
+Unknown / unmatched route,S045D-221,S045D-221,S045D-221,true,Medium,Monitor route conditions,159,2,-2.927,13.667
+Unknown / unmatched route,S042B-202,S042B-202,S042B-202,true,Low,No operational action required,159,1,-0.923,4.133
+Unknown / unmatched route,S005C-203,S005C-203,S005C-203,true,Low,No operational action required,158,1,0.659,4.65
+Unknown / unmatched route,S055-203,S055-203,S055-203,true,Low,No operational action required,158,1,1.901,4.983
+Unknown / unmatched route,S010B-202,S010B-202,S010B-202,true,Medium,Monitor route conditions,158,2,-4.782,8.817
+Unknown / unmatched route,S454-203,S454-203,S454-203,true,Low,No operational action required,157,2,0.563,4.9
+Unknown / unmatched route,S076-203,S076-203,S076-203,true,Low,No operational action required,157,1,1.236,4.733
+Unknown / unmatched route,S097-217,S097-217,S097-217,true,Low,No operational action required,156,1,-1.148,3.133
+Bus,195,195 - New Lynn / City Centre Via Green Bay,195-203,false,Severe,Deploy standby bus or supervisor review,156,14,56.148,110.967
+Bus,355,355 - Botany / Manukau Bus Station Via Mission Heights & Ormiston,355-205,false,Severe,Deploy standby bus or supervisor review,156,23,48.179,112.367
+Unknown / unmatched route,S459-203,S459-203,S459-203,true,Medium,Monitor route conditions,156,3,8.645,14.633
+Unknown / unmatched route,S042-203,S042-203,S042-203,true,Medium,Monitor route conditions,155,2,-1.516,11.95
+Unknown / unmatched route,S028E-207,S028E-207,S028E-207,true,Low,No operational action required,155,2,1.199,4.933
+Unknown / unmatched route,S417-202,S417-202,S417-202,true,Medium,Monitor route conditions,155,4,5.531,12.25
+Unknown / unmatched route,S477-203,S477-203,S477-203,true,Low,No operational action required,155,2,0.617,4.833
+Unknown / unmatched route,S036A-203,S036A-203,S036A-203,true,Low,No operational action required,154,1,1.368,4.583
+Unknown / unmatched route,S032A-203,S032A-203,S032A-203,true,Medium,Monitor route conditions,154,2,6.343,13.3
+Unknown / unmatched route,S220-217,S220-217,S220-217,true,Low,No operational action required,154,1,0.0,0.0
+Bus,309X,309X - Stop E The Civic / Mangere,309X-203,false,High,Adjust service headway,153,3,-14.835,22.483
+Unknown / unmatched route,S062-203,S062-203,S062-203,true,Medium,Monitor route conditions,153,2,6.979,9.717
+Unknown / unmatched route,S076B-218,S076B-218,S076B-218,true,Low,No operational action required,152,1,1.218,4.717
+Bus,25L,25L - Lynfield / City Centre Via Dominion Rd,25L-202,false,Severe,Deploy standby bus or supervisor review,152,15,51.447,89.15
+Unknown / unmatched route,S054-202,S054-202,S054-202,true,Medium,Monitor route conditions,152,2,-5.633,11.667
+Unknown / unmatched route,S015B-203,S015B-203,S015B-203,true,Low,No operational action required,151,1,2.116,5.0
+Unknown / unmatched route,S046-202,S046-202,S046-202,true,Low,No operational action required,151,1,-0.639,4.917
+Bus,738,738 - Maraetai / Pine Harbour via Beachlands,738-221,false,Medium,Monitor route conditions,151,30,1.634,11.6
+Unknown / unmatched route,S425-221,S425-221,S425-221,true,Low,No operational action required,151,2,2.441,4.967
+Unknown / unmatched route,S418-202,S418-202,S418-202,true,Medium,Monitor route conditions,150,3,5.374,11.35
+Unknown / unmatched route,S549-202,S549-202,S549-202,true,Medium,Monitor route conditions,149,2,-8.431,-5.033
+Unknown / unmatched route,S084-202,S084-202,S084-202,true,Low,No operational action required,149,1,2.218,4.683
+Unknown / unmatched route,S529-218,S529-218,S529-218,true,Low,No operational action required,149,4,-1.384,4.217
+Unknown / unmatched route,S459-203,S459-203,S459-203,true,Low,No operational action required,148,3,1.238,4.833
+Unknown / unmatched route,S467-202,S467-202,S467-202,true,Low,No operational action required,148,1,-1.258,3.867
+Unknown / unmatched route,S041-203,S041-203,S041-203,true,Low,No operational action required,148,1,-0.113,4.867
+Bus,145,145 - Lincoln Rd / Henderson Via Western H,145-203,false,Severe,Deploy standby bus or supervisor review,148,13,31.127,61.067
+Unknown / unmatched route,S089D-217,S089D-217,S089D-217,true,Low,No operational action required,147,1,-2.984,1.067
+Unknown / unmatched route,S075-203,S075-203,S075-203,true,Medium,Monitor route conditions,147,1,6.876,14.833
+Unknown / unmatched route,S031B-203,S031B-203,S031B-203,true,Medium,Monitor route conditions,146,2,-2.843,12.083
+Bus,114,114 - Hob Pt Wharf / Northwest Via Whenuapai,114-203,false,High,Adjust service headway,146,19,18.091,23.217
+Bus,18,18 - City Centre / New Lynn Via Great North Rd,18-202,false,High,Adjust service headway,146,24,8.971,24.733
+Unknown / unmatched route,S406-203,S406-203,S406-203,true,Medium,Monitor route conditions,146,2,-0.406,14.55
+Unknown / unmatched route,S049-203,S049-203,S049-203,true,Low,No operational action required,145,1,1.092,4.85
+Unknown / unmatched route,S033D-203,S033D-203,S033D-203,true,Low,No operational action required,145,1,0.802,4.967
+Unknown / unmatched route,S062B-202,S062B-202,S062B-202,true,Low,No operational action required,144,1,-0.397,4.267
+Unknown / unmatched route,S084C-203,S084C-203,S084C-203,true,Low,No operational action required,144,1,-0.694,4.9
+Unknown / unmatched route,S213-202,S213-202,S213-202,true,Medium,Monitor route conditions,144,1,-5.913,14.05
+Unknown / unmatched route,S026D-218,S026D-218,S026D-218,true,Medium,Monitor route conditions,144,3,5.781,14.467
+Unknown / unmatched route,S053F-203,S053F-203,S053F-203,true,Medium,Monitor route conditions,144,4,-1.294,14.95
+Unknown / unmatched route,S020J-203,S020J-203,S020J-203,true,Low,No operational action required,143,1,-1.03,4.783
+Unknown / unmatched route,S029-202,S029-202,S029-202,true,Medium,Monitor route conditions,143,1,-9.29,-5.1
+Unknown / unmatched route,S002F-203,S002F-203,S002F-203,true,Low,No operational action required,143,1,1.888,4.867
+Unknown / unmatched route,S003-203,S003-203,S003-203,true,Low,No operational action required,143,1,-2.126,4.967
+Unknown / unmatched route,S003C-203,S003C-203,S003C-203,true,Low,No operational action required,142,1,1.686,4.617
+Unknown / unmatched route,S531-202,S531-202,S531-202,true,Low,No operational action required,142,1,1.692,4.55
+Bus,325,325 - Mangere Town Ctr / Manukau Station Via Otahuhu & Otara,325-203,false,Severe,Deploy standby bus or supervisor review,142,19,25.159,60.85
+Unknown / unmatched route,S060K-202,S060K-202,S060K-202,true,Medium,Monitor route conditions,142,2,7.458,10.0
+Unknown / unmatched route,S063-203,S063-203,S063-203,true,Low,No operational action required,141,1,-1.53,4.567
+Unknown / unmatched route,S026-203,S026-203,S026-203,true,Low,No operational action required,141,1,-0.859,4.567
+Unknown / unmatched route,S022-202,S022-202,S022-202,true,Low,No operational action required,141,1,0.12,4.383
+Unknown / unmatched route,S082-202,S082-202,S082-202,true,Medium,Monitor route conditions,141,2,-7.715,5.883
+Bus,INN,INN - Inner Link Anticlockwise / Inner Link Anticlockwise (VP),INN-202,false,Severe,Deploy standby bus or supervisor review,141,19,27.546,65.917
+Unknown / unmatched route,S049C-221,S049C-221,S049C-221,true,Low,No operational action required,140,1,-0.248,4.633
+Unknown / unmatched route,S437-221,S437-221,S437-221,true,Low,No operational action required,140,1,-0.712,4.883
+Unknown / unmatched route,S416-205,S416-205,S416-205,true,Medium,Monitor route conditions,140,3,-2.185,14.733
+Unknown / unmatched route,S449-202,S449-202,S449-202,true,High,Adjust service headway,140,1,-19.241,-15.333
+Unknown / unmatched route,S081-202,S081-202,S081-202,true,Low,No operational action required,139,2,0.404,4.85
+Unknown / unmatched route,S054A-202,S054A-202,S054A-202,true,Low,No operational action required,139,1,-2.439,2.0
+Unknown / unmatched route,S521-202,S521-202,S521-202,true,Medium,Monitor route conditions,139,2,1.578,14.933
+Unknown / unmatched route,S031G-207,S031G-207,S031G-207,true,Medium,Monitor route conditions,139,2,-7.381,7.85
+Unknown / unmatched route,S058-203,S058-203,S058-203,true,Low,No operational action required,139,2,-2.691,3.083
+Unknown / unmatched route,S036-203,S036-203,S036-203,true,Low,No operational action required,139,1,-1.125,4.933
+Unknown / unmatched route,S015C-202,S015C-202,S015C-202,true,Medium,Monitor route conditions,138,3,5.767,12.833
+Unknown / unmatched route,S025B-203,S025B-203,S025B-203,true,Low,No operational action required,138,1,0.84,4.1
+Unknown / unmatched route,S439-221,S439-221,S439-221,true,Low,No operational action required,137,1,-0.549,4.7
+Unknown / unmatched route,S059-203,S059-203,S059-203,true,Low,No operational action required,136,1,2.401,4.967
+Bus,941,941 - Beach Haven / Takapuna Via Glenfield And Smales Farm Stn,941-203,false,High,Adjust service headway,135,15,18.901,24.917
+Bus,191,191 - Lynfield / New Lynn Via Blockhouse Bay And Avondale,191-203,false,High,Adjust service headway,135,16,13.048,22.833
+Unknown / unmatched route,S025A-203,S025A-203,S025A-203,true,Low,No operational action required,135,4,-2.125,3.783
+Bus,27H,27H - Britomart / Waikowhai Via Mt Eden Rd And Hillsborough Rd,27H-202,false,High,Adjust service headway,134,24,6.762,24.417
+Unknown / unmatched route,S012B-203,S012B-203,S012B-203,true,Low,No operational action required,134,1,0.108,4.667
+Ferry,DEV,DEV - Devonport / Downtown,DEV-209,false,Medium,Monitor route conditions,133,18,9.619,10.0
+Unknown / unmatched route,S436-221,S436-221,S436-221,true,Medium,Monitor route conditions,133,1,-7.016,-5.4
+Unknown / unmatched route,S463-203,S463-203,S463-203,true,Medium,Monitor route conditions,133,2,8.939,14.517
+Unknown / unmatched route,S434-221,S434-221,S434-221,true,Medium,Monitor route conditions,132,4,0.223,8.033
+Unknown / unmatched route,S017A-202,S017A-202,S017A-202,true,Low,No operational action required,132,1,-1.535,4.95
+Unknown / unmatched route,S048-203,S048-203,S048-203,true,Medium,Monitor route conditions,132,2,-3.737,9.683
+Unknown / unmatched route,S015-203,S015-203,S015-203,true,Medium,Monitor route conditions,132,1,-6.333,-5.15
+Bus,775,775 - Glendowie / Britomart Via Tamaki Dr,775-202,false,High,Adjust service headway,132,15,17.75,22.917
+Bus,365,365 - Papakura Interchange / Manukau Bus Station Via Porchester,365-203,false,Severe,Deploy standby bus or supervisor review,132,17,33.799,75.4
+Unknown / unmatched route,S053B-202,S053B-202,S053B-202,true,Low,No operational action required,132,1,1.019,4.95
+Bus,NX2,NX2 - Hibiscus Coast Station / Auckland Universities,NX2-207,false,High,Adjust service headway,131,24,17.821,24.0
+Unknown / unmatched route,S040-221,S040-221,S040-221,true,Medium,Monitor route conditions,131,3,7.002,14.867
+Unknown / unmatched route,S073B-203,S073B-203,S073B-203,true,Medium,Monitor route conditions,131,1,7.484,11.233
+Unknown / unmatched route,S002D-203,S002D-203,S002D-203,true,Low,No operational action required,131,1,-1.436,4.117
+Bus,NX2,NX2 - Hibiscus Coast Station / Auckland Universities,NX2-207,false,Severe,Deploy standby bus or supervisor review,131,13,61.946,119.783
+Unknown / unmatched route,S046G-221,S046G-221,S046G-221,true,Low,No operational action required,131,2,0.45,4.75
+Unknown / unmatched route,S014H-203,S014H-203,S014H-203,true,Low,No operational action required,131,1,-0.311,4.367
+Unknown / unmatched route,S541-202,S541-202,S541-202,true,Low,No operational action required,129,1,-0.032,4.433
+Unknown / unmatched route,S445-205,S445-205,S445-205,true,Low,No operational action required,129,1,1.454,4.617
+Unknown / unmatched route,S020-203,S020-203,S020-203,true,Medium,Monitor route conditions,129,1,-10.332,10.8
+Unknown / unmatched route,S012G-203,S012G-203,S012G-203,true,Low,No operational action required,129,1,-1.083,4.15
+Unknown / unmatched route,S023A-202,S023A-202,S023A-202,true,Low,No operational action required,129,1,-1.443,4.767
+Unknown / unmatched route,S045-203,S045-203,S045-203,true,Low,No operational action required,129,1,-3.208,2.0
+Unknown / unmatched route,S008-218,S008-218,S008-218,true,Medium,Monitor route conditions,129,2,7.71,12.917
+Unknown / unmatched route,S025E-218,S025E-218,S025E-218,true,Medium,Monitor route conditions,129,2,-0.005,14.067
+Unknown / unmatched route,S058A-203,S058A-203,S058A-203,true,Low,No operational action required,128,1,0.649,5.0
+Bus,AIR,AIR - Airport Link via Puhinui Station,AIR-203,false,Severe,Deploy standby bus or supervisor review,128,18,34.159,63.067
+Unknown / unmatched route,S016E-203,S016E-203,S016E-203,true,Medium,Monitor route conditions,128,4,-4.59,9.383
+Bus,82,82 - Milford / Mayoral Dr Via Takapuna,82-202,false,High,Adjust service headway,127,21,17.53,23.033
+Bus,OUT,OUT - St Lukes / Newmarket Via Wellesley St,OUT-202,false,Severe,Deploy standby bus or supervisor review,127,14,31.256,81.667
+Unknown / unmatched route,S042C-202,S042C-202,S042C-202,true,Low,No operational action required,127,1,1.023,4.9
+Unknown / unmatched route,S014-202,S014-202,S014-202,true,Low,No operational action required,127,1,-0.83,4.733
+Unknown / unmatched route,S049A-203,S049A-203,S049A-203,true,Medium,Monitor route conditions,126,2,-6.375,-5.05
+Unknown / unmatched route,S064-203,S064-203,S064-203,true,Low,No operational action required,126,2,-1.139,4.55
+Bus,781,781 - Mission Bay / Museum Via Orakei,781-202,false,Severe,Deploy standby bus or supervisor review,126,8,64.555,86.35
+Unknown / unmatched route,S035-203,S035-203,S035-203,true,Low,No operational action required,125,1,-1.726,2.883
+Unknown / unmatched route,S525-202,S525-202,S525-202,true,Medium,Monitor route conditions,125,2,-1.926,11.733
+Unknown / unmatched route,S455-203,S455-203,S455-203,true,Low,No operational action required,124,1,2.125,4.95
+Bus,TMK,TMK - Glen Innes / Britomart Via St Heliers And Tamaki Dr,TMK-202,false,Severe,Deploy standby bus or supervisor review,124,15,38.651,55.417
+Bus,14,14 - New Lynn / Lincoln Rd via Henderson,14-202,false,Severe,Deploy standby bus or supervisor review,123,14,33.545,52.2
+Bus,324,324 - Mangere Town Centre / Seaside Park Via Otahuhu,324-203,false,Severe,Deploy standby bus or supervisor review,123,14,31.045,63.5
+Bus,68,68 - New Lynn / Onehunga Station,68-202,false,High,Adjust service headway,123,23,8.852,24.967
+Bus,95C,95C - Constellation Station / Britomart (Albert St) Via Glenfield,95C-203,false,High,Adjust service headway,123,17,21.002,24.083
+Unknown / unmatched route,S444-205,S444-205,S444-205,true,Medium,Monitor route conditions,123,2,-2.611,11.133
+Unknown / unmatched route,S007F-203,S007F-203,S007F-203,true,Medium,Monitor route conditions,123,7,7.061,10.217
+Bus,807,807 - Devonport Wharf / Cheltenham Loop,807-202,false,High,Adjust service headway,123,15,17.67,20.25
+Unknown / unmatched route,S061E-203,S061E-203,S061E-203,true,Medium,Monitor route conditions,122,2,7.331,11.75
+Unknown / unmatched route,S047B-221,S047B-221,S047B-221,true,Medium,Monitor route conditions,122,1,1.611,14.883
+Unknown / unmatched route,S001F-203,S001F-203,S001F-203,true,Low,No operational action required,121,1,1.48,4.767
+Unknown / unmatched route,S037-203,S037-203,S037-203,true,Medium,Monitor route conditions,121,1,-7.535,-5.117
+Bus,RBW,RBW - Britomart / Swanson Western Rail Bus,RBW-402,false,Severe,Deploy standby bus or supervisor review,121,18,35.634,67.8
+Unknown / unmatched route,S047B-221,S047B-221,S047B-221,true,Low,No operational action required,121,1,-1.226,4.8
+Bus,97B,97B - Beach Haven / Britomart (Lower Albert St),97B-203,false,High,Adjust service headway,120,17,19.456,24.883
+Unknown / unmatched route,S431-221,S431-221,S431-221,true,Medium,Monitor route conditions,120,2,6.742,10.75
+Unknown / unmatched route,S001E-203,S001E-203,S001E-203,true,Low,No operational action required,120,1,-0.262,4.367
+Unknown / unmatched route,S052A-202,S052A-202,S052A-202,true,Low,No operational action required,120,1,0.174,4.167
+Unknown / unmatched route,S027H-203,S027H-203,S027H-203,true,Low,No operational action required,120,1,-0.105,4.983
+Unknown / unmatched route,S045D-221,S045D-221,S045D-221,true,Low,No operational action required,119,2,-0.429,5.0
+Unknown / unmatched route,S057-202,S057-202,S057-202,true,Low,No operational action required,119,1,1.792,5.0
+Unknown / unmatched route,S014D-203,S014D-203,S014D-203,true,Low,No operational action required,119,1,0.218,4.817
+Unknown / unmatched route,S466-202,S466-202,S466-202,true,Low,No operational action required,118,1,2.06,4.867
+Unknown / unmatched route,S027H-203,S027H-203,S027H-203,true,Medium,Monitor route conditions,117,1,6.892,14.583
+Unknown / unmatched route,S461-203,S461-203,S461-203,true,Medium,Monitor route conditions,116,4,7.998,14.967
+Unknown / unmatched route,S092-217,S092-217,S092-217,true,Low,No operational action required,116,1,1.829,4.933
+Unknown / unmatched route,S028B-207,S028B-207,S028B-207,true,Medium,Monitor route conditions,116,2,-11.236,5.217
+Unknown / unmatched route,S410-205,S410-205,S410-205,true,Medium,Monitor route conditions,115,2,-4.388,10.133
+Unknown / unmatched route,S061J-203,S061J-203,S061J-203,true,Low,No operational action required,115,1,1.324,4.75
+Unknown / unmatched route,S419-202,S419-202,S419-202,true,Medium,Monitor route conditions,114,2,8.55,12.7
+Unknown / unmatched route,S500-202,S500-202,S500-202,true,Low,No operational action required,114,2,-2.471,4.733
+Unknown / unmatched route,S020I-203,S020I-203,S020I-203,true,Low,No operational action required,114,1,0.98,4.85
+Unknown / unmatched route,S043-218,S043-218,S043-218,true,Medium,Monitor route conditions,113,2,-7.024,9.567
+Unknown / unmatched route,S061A-203,S061A-203,S061A-203,true,Medium,Monitor route conditions,113,1,8.584,14.883
+Unknown / unmatched route,S031A-203,S031A-203,S031A-203,true,Low,No operational action required,113,1,0.861,4.85
+Unknown / unmatched route,S025-203,S025-203,S025-203,true,Medium,Monitor route conditions,113,1,2.168,12.783
+Unknown / unmatched route,S524-202,S524-202,S524-202,true,Medium,Monitor route conditions,112,2,-0.526,11.233
+Unknown / unmatched route,S073C-202,S073C-202,S073C-202,true,Low,No operational action required,112,1,-1.67,3.433
+Unknown / unmatched route,S059B-203,S059B-203,S059B-203,true,Low,No operational action required,112,1,2.541,4.917
+Unknown / unmatched route,S023B-203,S023B-203,S023B-203,true,Medium,Monitor route conditions,111,1,-6.608,-5.05
+Unknown / unmatched route,S813-202,S813-202,S813-202,true,Medium,Monitor route conditions,111,3,-2.342,12.85
+Unknown / unmatched route,S077B-203,S077B-203,S077B-203,true,Low,No operational action required,111,1,1.274,4.383
+Unknown / unmatched route,S458-203,S458-203,S458-203,true,Medium,Monitor route conditions,111,2,7.079,13.683
+Unknown / unmatched route,S074D-203,S074D-203,S074D-203,true,Medium,Monitor route conditions,110,3,-8.075,-5.033
+Unknown / unmatched route,S440-205,S440-205,S440-205,true,Medium,Monitor route conditions,110,2,-0.253,12.817
+Unknown / unmatched route,S015A-203,S015A-203,S015A-203,true,Medium,Monitor route conditions,109,1,-8.756,-5.067
+Unknown / unmatched route,S049-203,S049-203,S049-203,true,Medium,Monitor route conditions,109,1,6.257,12.533
+Unknown / unmatched route,S067A-202,S067A-202,S067A-202,true,Medium,Monitor route conditions,109,1,-6.614,6.383
+Bus,13,13 - Te Atatu Peninsula Loop / Henderson,13-203,false,Severe,Deploy standby bus or supervisor review,109,19,28.72,119.533
+Unknown / unmatched route,S015E-203,S015E-203,S015E-203,true,Low,No operational action required,108,1,2.371,4.967
+Unknown / unmatched route,S520-202,S520-202,S520-202,true,Medium,Monitor route conditions,108,2,1.924,13.383
+Bus,RBO,RBO - Newmarket / Onehunga Onehunga Rail Bus,RBO-402,false,Medium,Monitor route conditions,108,12,4.779,14.417
+Bus,298,298 - Onehunga / Sylvia Park Via Ellerslie,298-221,false,High,Adjust service headway,108,11,18.163,24.983
+Unknown / unmatched route,S047D-221,S047D-221,S047D-221,true,Medium,Monitor route conditions,108,1,-4.942,14.133
+Unknown / unmatched route,S023-202,S023-202,S023-202,true,Low,No operational action required,107,1,1.415,4.85
+Unknown / unmatched route,S012D-203,S012D-203,S012D-203,true,Low,No operational action required,107,1,-0.959,4.4
+Unknown / unmatched route,S056E-203,S056E-203,S056E-203,true,Low,No operational action required,107,4,-0.238,4.95
+Unknown / unmatched route,S089-202,S089-202,S089-202,true,Low,No operational action required,107,1,-0.588,4.95
+Unknown / unmatched route,S004F-203,S004F-203,S004F-203,true,Low,No operational action required,107,1,1.355,4.8
+Bus,135,135 - Te Atatu (Totara Rd) / Henderson,135-203,false,Severe,Deploy standby bus or supervisor review,106,15,42.422,71.9
+Unknown / unmatched route,S003-203,S003-203,S003-203,true,Medium,Monitor route conditions,106,1,-6.884,8.233
+Bus,25L,25L - Lynfield / City Centre Via Dominion Rd,25L-202,false,High,Adjust service headway,106,19,17.381,24.233
+Unknown / unmatched route,S051-202,S051-202,S051-202,true,Low,No operational action required,105,1,0.484,4.833
+Unknown / unmatched route,S464-203,S464-203,S464-203,true,Low,No operational action required,105,1,2.277,4.717
+Unknown / unmatched route,S046G-221,S046G-221,S046G-221,true,Medium,Monitor route conditions,105,2,8.309,14.4
+Unknown / unmatched route,S016-202,S016-202,S016-202,true,Low,No operational action required,105,1,-0.883,5.0
+Unknown / unmatched route,S038-203,S038-203,S038-203,true,Low,No operational action required,105,1,1.916,4.617
+Ferry,HMB,HMB - Half Moon Bay / Downtown Pier 5,HMB-209,false,Medium,Monitor route conditions,104,12,10.939,15.0
+Unknown / unmatched route,S459-203,S459-203,S459-203,true,Severe,Deploy standby bus or supervisor review,104,3,35.301,68.067
+Unknown / unmatched route,S044-203,S044-203,S044-203,true,Low,No operational action required,104,1,0.637,4.95
+Bus,35,35 - Ormiston / Botany Via Chapel Rd,35-205,false,Severe,Deploy standby bus or supervisor review,104,14,52.713,72.5
+Unknown / unmatched route,S011-203,S011-203,S011-203,true,Medium,Monitor route conditions,103,1,-9.407,13.05
+Unknown / unmatched route,S423-221,S423-221,S423-221,true,Medium,Monitor route conditions,103,2,0.823,12.75
+Unknown / unmatched route,S407-202,S407-202,S407-202,true,Medium,Monitor route conditions,103,2,2.818,9.783
+Unknown / unmatched route,S087-202,S087-202,S087-202,true,Medium,Monitor route conditions,103,2,-0.13,13.45
+Unknown / unmatched route,S046D-221,S046D-221,S046D-221,true,Medium,Monitor route conditions,103,1,9.821,14.033
+Unknown / unmatched route,S073-202,S073-202,S073-202,true,Medium,Monitor route conditions,102,1,-5.569,14.833
+Unknown / unmatched route,S039-218,S039-218,S039-218,true,Low,No operational action required,102,1,0.097,3.233
+Bus,101,101 - Pt Chevalier / Auckland University Via Jervois Rd,101-202,false,High,Adjust service headway,102,10,-13.856,18.583
+Unknown / unmatched route,S051B-202,S051B-202,S051B-202,true,Low,No operational action required,102,1,-2.194,4.183
+Unknown / unmatched route,S081A-202,S081A-202,S081A-202,true,Medium,Monitor route conditions,102,2,9.192,13.383
+Unknown / unmatched route,S096-217,S096-217,S096-217,true,Medium,Monitor route conditions,102,1,-6.863,12.7
+Bus,353,353 - Manukau Bus Station / Botany Town Centre Via Preston Rd,353-205,false,Severe,Deploy standby bus or supervisor review,101,9,35.716,63.85
+Bus,147,147 - Waitakere Township / Henderson,147-203,false,High,Adjust service headway,101,19,17.877,24.817
+Unknown / unmatched route,S015G-203,S015G-203,S015G-203,true,Low,No operational action required,100,1,2.818,4.95
+Unknown / unmatched route,S083-202,S083-202,S083-202,true,Medium,Monitor route conditions,100,2,7.341,14.15
+Unknown / unmatched route,S465-203,S465-203,S465-203,true,Medium,Monitor route conditions,100,1,9.829,14.817
+Unknown / unmatched route,S409-202,S409-202,S409-202,true,Medium,Monitor route conditions,100,2,6.367,11.183
+Bus,65,65 - Walker Park / Glen Innes,65-202,false,Severe,Deploy standby bus or supervisor review,100,14,40.137,80.35
+Bus,378,378 - Papakura Shops / Karaka Harbourside Loop And Karaka Lakes,378-203,false,High,Adjust service headway,100,13,18.0,23.683
+Unknown / unmatched route,S213-202,S213-202,S213-202,true,Low,No operational action required,99,1,0.314,4.983
+Unknown / unmatched route,S010-218,S010-218,S010-218,true,Medium,Monitor route conditions,99,3,-4.491,9.7
+Unknown / unmatched route,S430-221,S430-221,S430-221,true,Medium,Monitor route conditions,99,2,-5.545,10.8
+Unknown / unmatched route,S075-203,S075-203,S075-203,true,Low,No operational action required,99,1,2.835,4.933
+Unknown / unmatched route,S015G-203,S015G-203,S015G-203,true,Medium,Monitor route conditions,98,1,7.903,11.567
+Unknown / unmatched route,S047A-221,S047A-221,S047A-221,true,Medium,Monitor route conditions,98,1,-5.576,14.283
+Unknown / unmatched route,S045-203,S045-203,S045-203,true,Medium,Monitor route conditions,98,1,-6.178,-5.017
+Unknown / unmatched route,S529-218,S529-218,S529-218,true,High,Adjust service headway,98,2,-17.633,-15.75
+Unknown / unmatched route,S052-202,S052-202,S052-202,true,Low,No operational action required,97,1,1.951,4.833
+Unknown / unmatched route,S076A-203,S076A-203,S076A-203,true,Medium,Monitor route conditions,97,4,1.569,13.983
+Unknown / unmatched route,S046B-203,S046B-203,S046B-203,true,Medium,Monitor route conditions,97,1,8.257,14.967
+Bus,295,295 - Ellerslie Station / City Centre Via Royal Oak,295-202,false,Severe,Deploy standby bus or supervisor review,97,10,13.509,104.983
+Unknown / unmatched route,S053-203,S053-203,S053-203,true,High,Adjust service headway,96,1,-19.695,-15.2
+Unknown / unmatched route,S545-202,S545-202,S545-202,true,Medium,Monitor route conditions,96,2,1.003,11.35
+Bus,97R,97R - Beach Haven / Britomart (Lower Albert St),97R-203,false,High,Adjust service headway,96,12,13.943,20.683
+Unknown / unmatched route,S060A-203,S060A-203,S060A-203,true,Medium,Monitor route conditions,96,1,5.847,12.867
+Unknown / unmatched route,S009B-203,S009B-203,S009B-203,true,Medium,Monitor route conditions,96,1,-7.102,12.6
+Unknown / unmatched route,S003D-203,S003D-203,S003D-203,true,Low,No operational action required,96,1,3.171,4.967
+Unknown / unmatched route,S023A-202,S023A-202,S023A-202,true,Medium,Monitor route conditions,95,1,-5.913,9.233
+Unknown / unmatched route,S029-202,S029-202,S029-202,true,Low,No operational action required,95,1,-1.842,4.6
+Unknown / unmatched route,S006A-203,S006A-203,S006A-203,true,Medium,Monitor route conditions,95,3,7.208,10.95
+Unknown / unmatched route,S095-217,S095-217,S095-217,true,Low,No operational action required,95,1,-0.398,4.1
+Unknown / unmatched route,S050A-221,S050A-221,S050A-221,true,Low,No operational action required,94,1,-2.073,1.55
+Unknown / unmatched route,S220-217,S220-217,S220-217,true,High,Adjust service headway,94,1,-18.0,-15.017
+Unknown / unmatched route,S078-203,S078-203,S078-203,true,Medium,Monitor route conditions,94,2,6.249,13.183
+Unknown / unmatched route,S457-203,S457-203,S457-203,true,Medium,Monitor route conditions,93,1,-10.137,9.067
+Unknown / unmatched route,S408-202,S408-202,S408-202,true,Low,No operational action required,93,2,2.405,4.933
+Unknown / unmatched route,S073-202,S073-202,S073-202,true,Low,No operational action required,93,1,-0.311,4.8
+Unknown / unmatched route,S046B-203,S046B-203,S046B-203,true,Low,No operational action required,93,1,1.19,4.717
+Bus,RBW,RBW - Britomart / Swanson Western Rail Bus,RBW-402,false,High,Adjust service headway,93,18,0.054,24.833
+Unknown / unmatched route,S529-218,S529-218,S529-218,true,Medium,Monitor route conditions,92,3,-11.909,-5.033
+Unknown / unmatched route,S031-203,S031-203,S031-203,true,Medium,Monitor route conditions,92,1,-9.293,-5.567
+Unknown / unmatched route,S412-202,S412-202,S412-202,true,Medium,Monitor route conditions,92,2,3.624,8.633
+Unknown / unmatched route,S036-203,S036-203,S036-203,true,Medium,Monitor route conditions,92,1,1.084,12.733
+Bus,941,941 - Beach Haven / Takapuna Via Glenfield And Smales Farm Stn,941-203,false,Severe,Deploy standby bus or supervisor review,92,4,31.823,54.017
+Unknown / unmatched route,S060A-203,S060A-203,S060A-203,true,Low,No operational action required,91,1,1.979,4.817
+Unknown / unmatched route,S082A-202,S082A-202,S082A-202,true,Low,No operational action required,91,1,-1.041,3.7
+Unknown / unmatched route,S045B-221,S045B-221,S045B-221,true,High,Adjust service headway,90,1,-20.491,-15.15
+Unknown / unmatched route,S519-202,S519-202,S519-202,true,Low,No operational action required,90,1,-1.239,3.917
+Unknown / unmatched route,S460-202,S460-202,S460-202,true,Medium,Monitor route conditions,90,1,-9.374,-5.8
+Unknown / unmatched route,S513-202,S513-202,S513-202,true,Medium,Monitor route conditions,89,2,5.607,11.517
+Unknown / unmatched route,S041A-203,S041A-203,S041A-203,true,Low,No operational action required,89,1,-1.723,4.067
+Unknown / unmatched route,S515-202,S515-202,S515-202,true,Medium,Monitor route conditions,89,3,4.017,11.067
+Unknown / unmatched route,S028-202,S028-202,S028-202,true,Medium,Monitor route conditions,89,4,7.617,14.417
+Bus,68,68 - New Lynn / Onehunga Station,68-202,false,Severe,Deploy standby bus or supervisor review,89,12,31.761,78.3
+Unknown / unmatched route,S544-202,S544-202,S544-202,true,Medium,Monitor route conditions,89,3,-7.167,5.533
+Unknown / unmatched route,S030-203,S030-203,S030-203,true,Medium,Monitor route conditions,88,1,6.459,14.533
+Bus,75,75 - Glen Innes / Wynyard Quarter Via Remuera Rd,75-202,false,Severe,Deploy standby bus or supervisor review,88,12,50.791,89.167
+Unknown / unmatched route,S020J-203,S020J-203,S020J-203,true,Medium,Monitor route conditions,87,1,-5.208,9.4
+Unknown / unmatched route,S466-202,S466-202,S466-202,true,Medium,Monitor route conditions,87,1,7.288,13.45
+Bus,RBE,RBE - Manukau / Britomart Eastern Rail Bus (New),RBE-402,false,High,Adjust service headway,87,13,17.964,23.317
+Bus,871,871 - Constellation Station / Takapuna Via Forrest Hill Rd,871-202,false,High,Adjust service headway,87,13,3.045,22.767
+Unknown / unmatched route,S415-205,S415-205,S415-205,true,Medium,Monitor route conditions,87,3,-7.796,11.717
+Unknown / unmatched route,S003D-203,S003D-203,S003D-203,true,Medium,Monitor route conditions,87,1,7.931,14.617
+Ferry,BIRK,BIRK - Birkenhead / Downtown Via Northcote Point,BIRK-240,false,Low,No operational action required,86,1,-0.265,0.0
+Bus,97B,97B - Beach Haven / Britomart (Lower Albert St),97B-203,false,Severe,Deploy standby bus or supervisor review,86,10,33.592,77.75
+Bus,72M,"72M - Botany and Howick / Panmure via Millhouse Dr, Meadowland Dr",72M-205,false,High,Adjust service headway,86,9,17.985,21.933
+Unknown / unmatched route,S045B-221,S045B-221,S045B-221,true,Medium,Monitor route conditions,86,1,-9.812,-5.05
+Unknown / unmatched route,S005-218,S005-218,S005-218,true,Medium,Monitor route conditions,85,2,8.137,14.317
+Unknown / unmatched route,S428-221,S428-221,S428-221,true,Medium,Monitor route conditions,85,2,3.689,11.95
+Unknown / unmatched route,S089D-217,S089D-217,S089D-217,true,Medium,Monitor route conditions,85,1,-6.471,-5.25
+Bus,985,985 - Orewa / Hibiscus Coast Station Via Millwater,985-221,false,High,Adjust service headway,84,11,17.731,24.383
+Unknown / unmatched route,S084B-203,S084B-203,S084B-203,true,Low,No operational action required,84,2,-0.049,4.267
+Bus,25B,25B - Blockhouse Bay / City Centre Via Dominion Rd,25B-202,false,High,Adjust service headway,83,16,9.596,24.867
+Bus,366,366 - Manurewa Interchange / Manukau Bus Station Via The Gardens,366-203,false,Severe,Deploy standby bus or supervisor review,83,10,41.076,81.783
+Unknown / unmatched route,S067A-202,S067A-202,S067A-202,true,Low,No operational action required,83,1,-3.643,4.067
+Bus,861,861 - Long Bay / Constellation Station Via Bush Rd,861-203,false,High,Adjust service headway,83,14,17.714,22.95
+Unknown / unmatched route,S030-203,S030-203,S030-203,true,Low,No operational action required,83,1,1.93,4.967
+Unknown / unmatched route,S460-202,S460-202,S460-202,true,Low,No operational action required,83,1,-1.518,3.633
+Bus,64,64 - St Lukes / Newmarket Via Mt Eden,64-202,false,High,Adjust service headway,82,14,15.88,21.233
+Bus,172,172 - Glen Eden / New Lynn via Titirangi,172-203,false,High,Adjust service headway,82,11,18.214,24.433
+Unknown / unmatched route,S050-221,S050-221,S050-221,true,Medium,Monitor route conditions,82,1,-6.855,-5.367
+Unknown / unmatched route,S046D-221,S046D-221,S046D-221,true,Low,No operational action required,81,1,1.35,4.583
+Unknown / unmatched route,S220-217,S220-217,S220-217,true,Medium,Monitor route conditions,80,1,-12.213,-6.783
+Unknown / unmatched route,S469-203,S469-203,S469-203,true,High,Adjust service headway,80,2,19.603,24.683
+Bus,939,939 - University of Auckland / Windy Ridge Via Customs St,939-203,false,High,Adjust service headway,80,5,-8.958,24.483
+Unknown / unmatched route,S076A-203,S076A-203,S076A-203,true,High,Adjust service headway,80,3,-20.81,-17.6
+Unknown / unmatched route,S080A-203,S080A-203,S080A-203,true,Medium,Monitor route conditions,80,1,7.851,11.967
+Unknown / unmatched route,S005B-203,S005B-203,S005B-203,true,Medium,Monitor route conditions,80,3,-3.054,5.867
+Unknown / unmatched route,S015-203,S015-203,S015-203,true,Low,No operational action required,79,1,-2.41,3.133
+Unknown / unmatched route,S076B-218,S076B-218,S076B-218,true,Medium,Monitor route conditions,79,1,5.981,11.083
+Unknown / unmatched route,S041A-203,S041A-203,S041A-203,true,Medium,Monitor route conditions,79,1,-8.371,-5.167
+Bus,364,364 - Papakura Station / Manurewa Station via Takaanini,364-203,false,Severe,Deploy standby bus or supervisor review,79,9,31.104,61.5
+Unknown / unmatched route,S052-202,S052-202,S052-202,true,Medium,Monitor route conditions,78,1,8.242,13.75
+Unknown / unmatched route,S405-203,S405-203,S405-203,true,Medium,Monitor route conditions,78,2,4.538,13.7
+Bus,147,147 - Waitakere Township / Henderson,147-203,false,Severe,Deploy standby bus or supervisor review,78,11,36.981,81.167
+Unknown / unmatched route,S514-202,S514-202,S514-202,true,Medium,Monitor route conditions,78,3,1.849,11.6
+Bus,376,376 - Papakura Shops / Auranga Dr Via Drury,376-203,false,Severe,Deploy standby bus or supervisor review,77,14,-5.91,61.683
+Unknown / unmatched route,S047D-221,S047D-221,S047D-221,true,Low,No operational action required,77,1,-1.212,4.317
+Bus,996,996 - Algies Bay / Warkworth Via Snells Beach,996-203,false,Medium,Monitor route conditions,77,7,7.767,12.633
+Bus,27H,27H - Britomart / Waikowhai Via Mt Eden Rd And Hillsborough Rd,27H-202,false,Severe,Deploy standby bus or supervisor review,77,9,38.434,87.333
+Bus,313,313 - Mangere / Manukau Bus Station Via Papatoetoe,313-203,false,High,Adjust service headway,77,14,16.12,20.883
+Unknown / unmatched route,S427-221,S427-221,S427-221,true,Medium,Monitor route conditions,77,2,2.385,11.633
+Unknown / unmatched route,S002-218,S002-218,S002-218,true,Medium,Monitor route conditions,76,2,5.962,11.767
+Bus,923,923 - Akoranga Station / City (Mayoral Dr) Via Hillcrest,923-202,false,High,Adjust service headway,75,14,0.986,24.917
+Unknown / unmatched route,S426-221,S426-221,S426-221,true,Medium,Monitor route conditions,75,2,7.456,11.817
+Unknown / unmatched route,S018A-203,S018A-203,S018A-203,true,Medium,Monitor route conditions,75,1,-11.293,-5.55
+Bus,734,734 - Botany / Half Moon Bay Via Highland Park,734-221,false,High,Adjust service headway,75,8,18.88,23.4
+Unknown / unmatched route,S042-203,S042-203,S042-203,true,High,Adjust service headway,75,1,-17.245,-15.033
+Unknown / unmatched route,S467-202,S467-202,S467-202,true,Medium,Monitor route conditions,75,1,-6.919,6.5
+Unknown / unmatched route,S449-202,S449-202,S449-202,true,Low,No operational action required,75,1,2.319,4.833
+Unknown / unmatched route,S080A-203,S080A-203,S080A-203,true,Low,No operational action required,74,1,2.855,4.883
+Bus,364,364 - Papakura Station / Manurewa Station via Takaanini,364-203,false,High,Adjust service headway,74,17,18.068,24.767
+Bus,755,755 - Benson Rd / Britomart Via Portland Rd,755-202,false,High,Adjust service headway,74,10,15.11,24.967
+Unknown / unmatched route,S061J-203,S061J-203,S061J-203,true,Medium,Monitor route conditions,74,1,8.807,14.167
+Bus,112,112 - Hob Pt Wharf / Northwest Via W Harbour,112-203,false,High,Adjust service headway,74,8,18.495,25.0
+Unknown / unmatched route,S031A-203,S031A-203,S031A-203,true,Medium,Monitor route conditions,74,1,2.777,13.517
+Unknown / unmatched route,S084C-203,S084C-203,S084C-203,true,Medium,Monitor route conditions,74,1,-3.412,9.05
+Bus,712,712 - Bucklands Beach / Panmure,712-221,false,Severe,Deploy standby bus or supervisor review,73,8,33.021,61.383
+Bus,20,20 - St Lukes / Wynyard Quarter Via Kingsland,20-202,false,High,Adjust service headway,73,16,14.863,23.817
+Unknown / unmatched route,S542-202,S542-202,S542-202,true,Medium,Monitor route conditions,73,4,-2.079,14.85
+Unknown / unmatched route,S001E-203,S001E-203,S001E-203,true,Medium,Monitor route conditions,73,1,-5.131,11.567
+Unknown / unmatched route,S075B-203,S075B-203,S075B-203,true,High,Adjust service headway,73,3,-14.125,16.8
+Unknown / unmatched route,S018A-203,S018A-203,S018A-203,true,High,Adjust service headway,73,1,-17.324,-15.267
+Bus,984,984 - Orewa / Hibiscus Coast Station Via Maygrove,984-221,false,High,Adjust service headway,73,5,20.592,24.217
+Train / Rail,HUIA,HUIA - Hamilton / The Strand Auckland Via Pukekohe,HUIA-404,false,Medium,Monitor route conditions,72,6,8.156,14.55
+Bus,781,781 - Mission Bay / Museum Via Orakei,781-202,false,High,Adjust service headway,72,13,14.936,24.833
+Bus,906,906 - Constellation / Smales Farm Via Windy Ridge And Archers Rd,906-203,false,High,Adjust service headway,72,6,19.911,24.233
+Unknown / unmatched route,S009B-203,S009B-203,S009B-203,true,Low,No operational action required,72,1,-0.59,5.0
+Bus,933 - 933A,933 - Beach Haven Wharf / University of Auckland Via Customs St,933A-202,false,Low,No operational action required,72,1,-0.124,3.733
+Bus,931,931 - Chatswood / University of Auckland Via Customs St,931-203,false,High,Adjust service headway,72,11,4.297,24.917
+Unknown / unmatched route,S031C-203,S031C-203,S031C-203,true,Low,No operational action required,72,1,-2.414,2.75
+Ferry,GULF,GULF - Gulf Harbour / Downtown,GULF-209,false,Medium,Monitor route conditions,72,4,12.75,15.0
+Unknown / unmatched route,S068-203,S068-203,S068-203,true,Medium,Monitor route conditions,71,1,-3.471,11.083
+Bus,983,983 - Gulf Harbour / Hibiscus Coast Station Via Vipond Rd,983-221,false,Severe,Deploy standby bus or supervisor review,71,6,25.373,31.367
+Unknown / unmatched route,S015E-203,S015E-203,S015E-203,true,Medium,Monitor route conditions,71,1,6.054,9.483
+Unknown / unmatched route,S055-203,S055-203,S055-203,true,Medium,Monitor route conditions,71,1,7.685,13.783
+Unknown / unmatched route,S007-218,S007-218,S007-218,true,Medium,Monitor route conditions,71,2,-6.818,5.383
+Unknown / unmatched route,S464-203,S464-203,S464-203,true,Medium,Monitor route conditions,71,1,8.714,14.4
+Bus,24B,24B - New Lynn And Blockhouse Bay / City Centre Via Sandringham R,24B-202,false,Severe,Deploy standby bus or supervisor review,71,8,49.459,82.817
+Bus,94,94 - Beach Haven / Takapuna via Highbury And Northcote Shops,94-203,false,Severe,Deploy standby bus or supervisor review,70,8,32.098,64.383
+Unknown / unmatched route,S089-202,S089-202,S089-202,true,Medium,Monitor route conditions,70,1,-6.512,7.483
+Bus,111,111 - Royal Heights Loop,111-203,false,High,Adjust service headway,70,9,7.232,23.383
+Bus,125,125 - Helensville / Westgate Via Kumeu,125-202,false,Severe,Deploy standby bus or supervisor review,70,8,41.561,81.15
+Bus,24R,24R - New Lynn / City Centre Via Sandingham Rd,24R-202,false,High,Adjust service headway,70,15,11.26,23.867
+Unknown / unmatched route,S401-205,S401-205,S401-205,true,Medium,Monitor route conditions,70,2,-2.62,11.433
+Unknown / unmatched route,S057-202,S057-202,S057-202,true,Medium,Monitor route conditions,69,1,7.385,12.233
+Unknown / unmatched route,S031C-203,S031C-203,S031C-203,true,Medium,Monitor route conditions,69,1,-8.339,-5.033
+Unknown / unmatched route,S462-203,S462-203,S462-203,true,Medium,Monitor route conditions,69,2,7.356,14.4
+Bus,105,105 - Westmere / Britomart Via Richmond Rd,105-202,false,High,Adjust service headway,69,10,13.922,23.55
+Bus,502,502 - Rocky Bay / Matiatia Wharf,502-217,false,High,Adjust service headway,68,15,17.087,23.867
+Unknown / unmatched route,S046-202,S046-202,S046-202,true,Medium,Monitor route conditions,68,1,-1.957,8.3
+Unknown / unmatched route,S020-203,S020-203,S020-203,true,High,Adjust service headway,68,1,-16.104,-15.033
+Bus,171,171 - Laingholm / New Lynn,171-203,false,High,Adjust service headway,68,10,1.583,24.933
+Unknown / unmatched route,S014A-218,S014A-218,S014A-218,true,Medium,Monitor route conditions,68,2,7.031,9.533
+Bus,362,362 - Manukau Bus Station / Weymouth Via Great South Rd,362-203,false,Severe,Deploy standby bus or supervisor review,68,12,18.236,40.683
+Unknown / unmatched route,S477-203,S477-203,S477-203,true,Medium,Monitor route conditions,67,2,4.293,13.583
+Unknown / unmatched route,S505-202,S505-202,S505-202,true,Medium,Monitor route conditions,67,2,7.723,12.417
+Unknown / unmatched route,S015B-203,S015B-203,S015B-203,true,Medium,Monitor route conditions,67,1,7.259,10.833
+Unknown / unmatched route,S014D-203,S014D-203,S014D-203,true,Medium,Monitor route conditions,67,1,7.423,12.167
+Unknown / unmatched route,S084-202,S084-202,S084-202,true,Medium,Monitor route conditions,67,1,6.003,9.767
+Unknown / unmatched route,S461-203,S461-203,S461-203,true,High,Adjust service headway,66,2,19.823,24.133
+Bus,66,66 - Pt Chevalier Beach / Sylvia Park Via Mt Albert Rd,66-203,false,Severe,Deploy standby bus or supervisor review,66,7,42.976,95.467
+Unknown / unmatched route,S011-203,S011-203,S011-203,true,Low,No operational action required,66,1,-1.737,2.983
+Bus,95B,95B - Bayview / Britomart (Lower Albert St),95B-203,false,Severe,Deploy standby bus or supervisor review,65,7,30.547,37.05
+Unknown / unmatched route,S031-203,S031-203,S031-203,true,Low,No operational action required,65,1,-0.978,4.7
+Unknown / unmatched route,S411-202,S411-202,S411-202,true,Medium,Monitor route conditions,65,2,-2.456,9.483
+Unknown / unmatched route,S020I-203,S020I-203,S020I-203,true,Medium,Monitor route conditions,64,1,6.344,13.467
+Bus,126,126 - Albany / Westgate Via Riverhead,126-203,false,Severe,Deploy standby bus or supervisor review,64,7,59.049,111.767
+Unknown / unmatched route,S008C-203,S008C-203,S008C-203,true,Medium,Monitor route conditions,64,1,7.99,14.017
+Bus,924,924 - Hillcrest / City (Mayoral Dr),924-202,false,High,Adjust service headway,64,14,-14.49,18.367
+Unknown / unmatched route,S443-205,S443-205,S443-205,true,Medium,Monitor route conditions,64,2,-5.056,8.017
+Ferry,TIRI,TIRI - Gulf Harbour / Tiritiri Matangi Island,TIRI-240,false,Low,No operational action required,64,1,0.0,0.0
+Bus,209,209 - City Centre / Titirangi via New North Rd and Green Bay,209-203,false,High,Adjust service headway,63,8,-1.536,17.933
+Bus,751,751 - Panmure / Newmarket Via Marua Rd And Remuera Rd,751-202,false,High,Adjust service headway,63,4,19.57,22.833
+Unknown / unmatched route,S002D-203,S002D-203,S002D-203,true,Medium,Monitor route conditions,62,1,-3.577,7.633
+Unknown / unmatched route,S051B-202,S051B-202,S051B-202,true,Medium,Monitor route conditions,62,1,-4.107,13.3
+Bus,379,379 - Clarks Beach / Papakura,379-203,false,High,Adjust service headway,62,15,19.327,24.983
+Bus,72C,"72C - Botany And Howick / Panmure Via Chapel Rd, Cook St, And Pak",72C-205,false,High,Adjust service headway,62,12,17.691,23.033
+Bus,76,76 - Britomart / Glen Innes Via Orakei,76-202,false,Severe,Deploy standby bus or supervisor review,62,10,37.297,57.35
+Unknown / unmatched route,S421-221,S421-221,S421-221,true,Medium,Monitor route conditions,62,2,6.896,8.7
+Unknown / unmatched route,S033A-203,S033A-203,S033A-203,true,High,Adjust service headway,62,2,-18.977,-16.15
+Bus,856,856 - Albany Station / Browns Bay,856-203,false,Severe,Deploy standby bus or supervisor review,62,5,27.194,38.933
+Bus,933 - 933A,933 - Beach Haven Wharf / University of Auckland Via Customs St,933A-202,false,Medium,Monitor route conditions,61,1,-8.111,9.717
+Unknown / unmatched route,S400-205,S400-205,S400-205,true,Medium,Monitor route conditions,61,2,-7.444,9.1
+Bus,747,747 - Panmure / Glen Innes Via Stonefields,747-221,false,High,Adjust service headway,60,10,19.852,23.833
+Unknown / unmatched route,S402-202,S402-202,S402-202,true,Medium,Monitor route conditions,60,2,-2.679,11.233
+Unknown / unmatched route,S033A-203,S033A-203,S033A-203,true,Medium,Monitor route conditions,60,2,-12.553,-5.083
+Unknown / unmatched route,S455-203,S455-203,S455-203,true,Medium,Monitor route conditions,60,1,9.067,14.067
+Bus,351,351 - Botany / Otahuhu Station Via Highbrook,351-205,false,Severe,Deploy standby bus or supervisor review,60,7,47.184,80.583
+Unknown / unmatched route,S020-203,S020-203,S020-203,true,Low,No operational action required,60,1,0.38,4.483
+Unknown / unmatched route,S075B-203,S075B-203,S075B-203,true,Low,No operational action required,60,3,1.992,4.55
+Bus,733,733 - Botany / The Parade Via Highland Park,733-221,false,High,Adjust service headway,59,3,18.079,24.383
+Unknown / unmatched route,S512-202,S512-202,S512-202,true,Medium,Monitor route conditions,59,1,-3.744,10.85
+Unknown / unmatched route,S501-202,S501-202,S501-202,true,Medium,Monitor route conditions,58,2,-6.988,-5.15
+Bus,378,378 - Papakura Shops / Karaka Harbourside Loop And Karaka Lakes,378-203,false,Severe,Deploy standby bus or supervisor review,58,9,-10.821,50.717
+Bus,774,774 - West Tamaki Rd / Britomart Via Long Dr And Tamaki Dr,774-202,false,High,Adjust service headway,58,5,16.503,23.033
+Unknown / unmatched route,S073C-202,S073C-202,S073C-202,true,Medium,Monitor route conditions,58,1,-7.087,5.317
+Unknown / unmatched route,S069-203,S069-203,S069-203,true,Low,No operational action required,58,1,0.501,4.767
+Unknown / unmatched route,S465-203,S465-203,S465-203,true,Low,No operational action required,58,1,2.794,4.5
+Bus,67B,67B - New Lynn / Onehunga Only,67B-202,false,Severe,Deploy standby bus or supervisor review,57,1,26.866,29.683
+Unknown / unmatched route,S020A-218,S020A-218,S020A-218,true,Medium,Monitor route conditions,57,2,-0.518,7.633
+Bus,501,501 - Kennedy Point / Matiatia Wharf,501-217,false,High,Adjust service headway,57,4,18.061,24.85
+Unknown / unmatched route,S414-202,S414-202,S414-202,true,Medium,Monitor route conditions,57,2,2.656,13.817
+Unknown / unmatched route,S415-205,S415-205,S415-205,true,High,Adjust service headway,57,1,-19.725,-15.85
+Unknown / unmatched route,S053A-203,S053A-203,S053A-203,true,Medium,Monitor route conditions,56,2,-6.832,6.933
+Unknown / unmatched route,S001F-203,S001F-203,S001F-203,true,Medium,Monitor route conditions,56,1,8.108,12.367
+Bus,67A,67A - New Lynn / Otahuhu Via Onehunga,67A-202,false,Severe,Deploy standby bus or supervisor review,56,8,38.452,78.9
+Unknown / unmatched route,S045B-221,S045B-221,S045B-221,true,Low,No operational action required,56,1,-0.49,4.733
+Train / Rail,HUIA,HUIA - Hamilton / The Strand Auckland Via Pukekohe,HUIA-404,false,Severe,Deploy standby bus or supervisor review,56,3,74.137,119.95
+Unknown / unmatched route,S050A-221,S050A-221,S050A-221,true,Medium,Monitor route conditions,56,1,-6.507,-5.317
+Unknown / unmatched route,S022A-218,S022A-218,S022A-218,true,Medium,Monitor route conditions,56,2,-5.875,6.567
+Bus,72X,72X - Botany And Howick / Britomart Express Via Panmure And Motor,72X-205,false,Severe,Deploy standby bus or supervisor review,55,8,23.773,50.167
+Bus,352,352 - Manukau Bus Station / Panmure Via Flat Bush,352-205,false,Severe,Deploy standby bus or supervisor review,55,6,28.616,38.417
+Unknown / unmatched route,S456-203,S456-203,S456-203,true,Medium,Monitor route conditions,55,4,6.674,11.0
+Bus,154,154 - New Lynn / Henderson via Glen Eden,154-203,false,High,Adjust service headway,55,11,17.953,23.683
+Unknown / unmatched route,S457-203,S457-203,S457-203,true,Low,No operational action required,55,1,-0.44,4.783
+Bus,12,12 - Henderson / Constellation Station,12-207,false,Severe,Deploy standby bus or supervisor review,55,10,28.005,71.55
+Unknown / unmatched route,S012A-203,S012A-203,S012A-203,true,Medium,Monitor route conditions,55,2,-5.309,8.183
+Bus,97R,97R - Beach Haven / Britomart (Lower Albert St),97R-203,false,Severe,Deploy standby bus or supervisor review,55,5,33.031,60.5
+Bus,928,928 - Northcote Point / Smales Farm Stn Via North Shore Hospital,928-203,false,High,Adjust service headway,54,8,18.633,22.4
+Unknown / unmatched route,S023B-203,S023B-203,S023B-203,true,Low,No operational action required,54,1,-1.458,3.75
+Unknown / unmatched route,S024B-218,S024B-218,S024B-218,true,Medium,Monitor route conditions,54,1,7.907,14.067
+Unknown / unmatched route,S084B-203,S084B-203,S084B-203,true,Medium,Monitor route conditions,54,2,8.3,12.95
+Unknown / unmatched route,S014I-203,S014I-203,S014I-203,true,Medium,Monitor route conditions,54,1,7.254,9.15
+Unknown / unmatched route,S076-203,S076-203,S076-203,true,Medium,Monitor route conditions,53,1,6.873,11.183
+Unknown / unmatched route,S033A-203,S033A-203,S033A-203,true,Low,No operational action required,53,2,-2.057,0.183
+Unknown / unmatched route,S028B-207,S028B-207,S028B-207,true,Low,No operational action required,53,2,-0.549,4.283
+Bus,363,363 - Manurewa Interchange / Wattle Downs Loop,363-203,false,High,Adjust service headway,53,6,17.126,19.533
+Bus,82,82 - Milford / Mayoral Dr Via Takapuna,82-202,false,Severe,Deploy standby bus or supervisor review,53,6,48.392,72.667
+Unknown / unmatched route,S061A-203,S061A-203,S061A-203,true,Low,No operational action required,52,1,3.311,4.767
+Unknown / unmatched route,S442-205,S442-205,S442-205,true,Medium,Monitor route conditions,52,2,4.059,10.567
+Unknown / unmatched route,S014-202,S014-202,S014-202,true,Medium,Monitor route conditions,52,1,2.425,12.367
+Bus,995,995 - Warkworth / Hibiscus Coast Station,995-203,false,High,Adjust service headway,51,9,18.396,24.5
+Unknown / unmatched route,S008A-203,S008A-203,S008A-203,true,High,Adjust service headway,51,1,-17.814,-15.317
+Unknown / unmatched route,S012-218,S012-218,S012-218,true,Medium,Monitor route conditions,51,2,5.434,7.033
+Bus,74,74 - Onehunga / Glen Innes Via Panmure,74-221,false,Severe,Deploy standby bus or supervisor review,50,10,31.144,40.033
+Bus,154,154 - New Lynn / Henderson via Glen Eden,154-203,false,Severe,Deploy standby bus or supervisor review,50,8,41.266,86.45
+Bus,901,901 - Smales Farm / Constellation Station Via Wairau Rd,901-203,false,High,Adjust service headway,50,9,18.676,22.8
+Ferry,RAK,RAK - Bayswater / Rakino Island Via Downtown,RAK-211,false,Low,No operational action required,50,2,0.0,0.0
+Unknown / unmatched route,S540-202,S540-202,S540-202,true,Medium,Monitor route conditions,50,2,-13.948,-9.033
+Bus,372,372 - Papakura Shops / Keri Hill Loop,372-203,false,High,Adjust service headway,50,6,-0.844,17.917
+Bus,RBS,RBS - Britomart / Pukekohe Southern Rail Bus,RBS-402,false,Severe,Deploy standby bus or supervisor review,49,8,28.672,35.667
+Ferry,HOBS,HOBS - Beach Haven / Downtown Via Hobsonville Point,HOBS-209,false,Medium,Monitor route conditions,49,6,9.562,15.0
+Bus,72C,"72C - Botany And Howick / Panmure Via Chapel Rd, Cook St, And Pak",72C-205,false,Severe,Deploy standby bus or supervisor review,49,6,26.969,94.167
+Unknown / unmatched route,S074-203,S074-203,S074-203,true,High,Adjust service headway,49,1,-17.528,-15.967
+Bus,314,314 - Ormiston / Middlemore Station Via Otara,314-203,false,Severe,Deploy standby bus or supervisor review,48,9,31.799,79.583
+Unknown / unmatched route,S080-202,S080-202,S080-202,true,Medium,Monitor route conditions,48,1,7.362,13.733
+Bus,801,801 - Bayswater Wharf / Akoranga Station Via Takapuna,801-202,false,High,Adjust service headway,48,8,18.881,22.917
+Unknown / unmatched route,S445-205,S445-205,S445-205,true,Medium,Monitor route conditions,47,1,4.741,9.583
+Unknown / unmatched route,S003C-203,S003C-203,S003C-203,true,Medium,Monitor route conditions,47,1,8.184,11.033
+Unknown / unmatched route,S031G-207,S031G-207,S031G-207,true,High,Adjust service headway,46,1,-15.676,-15.233
+Unknown / unmatched route,S009A-218,S009A-218,S009A-218,true,Medium,Monitor route conditions,46,2,6.219,9.017
+Unknown / unmatched route,S022-202,S022-202,S022-202,true,Medium,Monitor route conditions,46,1,6.718,10.55
+Unknown / unmatched route,S082A-202,S082A-202,S082A-202,true,Medium,Monitor route conditions,46,1,7.971,13.3
+Bus,931,931 - Chatswood / University of Auckland Via Customs St,931-203,false,Severe,Deploy standby bus or supervisor review,45,5,35.05,43.95
+Unknown / unmatched route,S424-221,S424-221,S424-221,true,Medium,Monitor route conditions,45,2,7.321,11.217
+Unknown / unmatched route,S074D-203,S074D-203,S074D-203,true,Low,No operational action required,45,3,-3.011,2.05
+Unknown / unmatched route,S410-205,S410-205,S410-205,true,High,Adjust service headway,44,1,19.563,22.183
+Unknown / unmatched route,S047C-221,S047C-221,S047C-221,true,Medium,Monitor route conditions,44,1,-2.314,13.017
+Unknown / unmatched route,S061G-203,S061G-203,S061G-203,true,Medium,Monitor route conditions,44,1,6.954,9.667
+Bus,373,373 - Red Hill / Papakura Shops,373-203,false,High,Adjust service headway,44,4,19.893,23.35
+Bus,326,326 - Mangere Town Centre / Middlemore via Earlsworth Rd (C),326-203,false,High,Adjust service headway,44,7,-2.891,22.3
+Bus,20,20 - St Lukes / Wynyard Quarter Via Kingsland,20-202,false,Severe,Deploy standby bus or supervisor review,44,4,38.542,73.1
+Unknown / unmatched route,S457-203,S457-203,S457-203,true,High,Adjust service headway,43,1,-17.472,-15.283
+Unknown / unmatched route,S053-203,S053-203,S053-203,true,Severe,Deploy standby bus or supervisor review,43,1,-26.156,-25.017
+Unknown / unmatched route,S028F-203,S028F-203,S028F-203,true,Medium,Monitor route conditions,43,1,7.07,9.433
+Unknown / unmatched route,S094-217,S094-217,S094-217,true,Medium,Monitor route conditions,43,2,4.65,9.833
+Unknown / unmatched route,S510-202,S510-202,S510-202,true,High,Adjust service headway,43,2,-17.976,-15.333
+Unknown / unmatched route,S433-221,S433-221,S433-221,true,Medium,Monitor route conditions,42,1,1.481,13.217
+Unknown / unmatched route,S012G-203,S012G-203,S012G-203,true,Medium,Monitor route conditions,42,1,-0.583,14.217
+Bus,802,802 - Bayswater / City (Mayoral Dr),802-202,false,High,Adjust service headway,42,4,19.739,23.167
+Bus,999,999 - Warkworth Loop,999-203,false,Severe,Deploy standby bus or supervisor review,42,4,40.494,60.783
+Bus,27W,27W - Britomart / Waikowhai Via Mt Eden Rd,27W-202,false,Severe,Deploy standby bus or supervisor review,42,6,41.846,67.217
+Bus,143,143 - Ranui / Henderson via Sturges Rd,143-203,false,High,Adjust service headway,42,8,16.933,24.467
+Bus,363,363 - Manurewa Interchange / Wattle Downs Loop,363-203,false,Severe,Deploy standby bus or supervisor review,42,5,8.848,62.167
+Bus,982,982 - Gulf Harbour / Hibiscus Coast Station,982-221,false,Severe,Deploy standby bus or supervisor review,42,6,35.317,61.033
+Bus,981,981 - Waiwera / Hibiscus Coast Station,981-221,false,Severe,Deploy standby bus or supervisor review,42,5,31.446,59.183
+Bus,917,917 - Birkenhead Wharf / Albany Station Via Glenfield Rd,917-203,false,Severe,Deploy standby bus or supervisor review,41,7,39.108,70.883
+Unknown / unmatched route,S009C-203,S009C-203,S009C-203,true,Medium,Monitor route conditions,41,1,6.417,8.517
+Bus,323,323 - Otahuhu Station / Panmure Via Panama Rd,323-221,false,High,Adjust service headway,40,6,16.012,19.1
+Bus,83,83 - Massey University / Takapuna Via Browns Bay,83-203,false,Severe,Deploy standby bus or supervisor review,40,5,33.455,48.35
+Unknown / unmatched route,S449-202,S449-202,S449-202,true,Medium,Monitor route conditions,40,1,-8.158,9.75
+Bus,502,502 - Rocky Bay / Matiatia Wharf,502-217,false,Severe,Deploy standby bus or supervisor review,40,5,39.773,102.35
+Bus,RBE,RBE - Manukau / Britomart Eastern Rail Bus (New),RBE-402,false,Severe,Deploy standby bus or supervisor review,40,5,40.711,60.25
+Bus,379,379 - Clarks Beach / Papakura,379-203,false,Severe,Deploy standby bus or supervisor review,39,5,52.104,81.767
+Unknown / unmatched route,S026-203,S026-203,S026-203,true,Medium,Monitor route conditions,39,1,2.958,12.283
+Unknown / unmatched route,S059B-203,S059B-203,S059B-203,true,Medium,Monitor route conditions,39,1,7.497,14.25
+Bus,149,149 - Ranui / New Lynn Via Rosebank,149-203,false,Severe,Deploy standby bus or supervisor review,39,3,32.103,38.317
+Bus,22R,22R - Rosebank Rd / City Centre Via New North Rd,22R-202,false,Severe,Deploy standby bus or supervisor review,38,4,75.541,84.467
+Unknown / unmatched route,S459-203,S459-203,S459-203,true,High,Adjust service headway,38,3,19.087,24.317
+Unknown / unmatched route,S027-202,S027-202,S027-202,true,Medium,Monitor route conditions,38,2,-1.095,12.167
+Unknown / unmatched route,S463-203,S463-203,S463-203,true,High,Adjust service headway,38,2,16.5,17.933
+Bus,843,843 - Akoranga Station / Constellation Station Via Takapuna,843-202,false,Severe,Deploy standby bus or supervisor review,37,4,56.706,85.167
+Bus,152,152 - Henderson / New Lynn via Sunnyvale and Glen Eden,152-203,false,High,Adjust service headway,37,4,21.465,24.567
+Bus,843,843 - Akoranga Station / Constellation Station Via Takapuna,843-202,false,High,Adjust service headway,37,11,17.421,22.333
+Bus,939,939 - University of Auckland / Windy Ridge Via Customs St,939-203,false,Severe,Deploy standby bus or supervisor review,36,4,42.517,80.083
+Unknown / unmatched route,S037-203,S037-203,S037-203,true,Low,No operational action required,36,1,-2.375,0.633
+Bus,RBN,RBN - Westfield Newmarket / Britomart Rail Bus,RBN-402,false,Medium,Monitor route conditions,36,5,5.644,8.4
+Unknown / unmatched route,S481-202,S481-202,S481-202,true,Medium,Monitor route conditions,36,1,8.932,12.883
+Unknown / unmatched route,S096-217,S096-217,S096-217,true,High,Adjust service headway,36,1,-15.832,-15.167
+Unknown / unmatched route,S023-202,S023-202,S023-202,true,Medium,Monitor route conditions,36,1,8.189,10.833
+Bus,373,373 - Red Hill / Papakura Shops,373-203,false,Severe,Deploy standby bus or supervisor review,36,5,30.119,53.283
+Unknown / unmatched route,S073A-202,S073A-202,S073A-202,true,Medium,Monitor route conditions,35,1,7.614,14.233
+Bus,123,123 - Huapai Triangle / Westgate Via Kumeu,123-202,false,High,Adjust service headway,35,5,17.51,23.283
+Bus,377,377 - Papakura Interchange / Park Estate Loop,377-203,false,Severe,Deploy standby bus or supervisor review,35,6,14.509,59.65
+Unknown / unmatched route,S548-202,S548-202,S548-202,true,Medium,Monitor route conditions,35,1,-5.721,-5.117
+Bus,24R,24R - New Lynn / City Centre Via Sandingham Rd,24R-202,false,Severe,Deploy standby bus or supervisor review,35,7,53.38,72.55
+Unknown / unmatched route,S439-221,S439-221,S439-221,true,Medium,Monitor route conditions,35,1,-3.672,7.85
+Unknown / unmatched route,S015A-203,S015A-203,S015A-203,true,Low,No operational action required,35,1,-2.518,2.45
+Unknown / unmatched route,S550-202,S550-202,S550-202,true,Medium,Monitor route conditions,34,1,-6.42,-5.583
+Bus,313,313 - Mangere / Manukau Bus Station Via Papatoetoe,313-203,false,Severe,Deploy standby bus or supervisor review,34,5,22.2,68.983
+Unknown / unmatched route,S033-203,S033-203,S033-203,true,Medium,Monitor route conditions,34,1,3.117,13.717
+Bus,31,31 - Mangere Town Centre / Botany Town Centre Via Otara,31-203,false,Severe,Deploy standby bus or supervisor review,34,9,23.827,58.633
+Bus,WX1,WX1 - City Centre / Northwest Via Motorway,WX1-207,false,Severe,Deploy standby bus or supervisor review,34,7,32.632,39.283
+Unknown / unmatched route,S004F-203,S004F-203,S004F-203,true,Medium,Monitor route conditions,34,1,6.251,7.717
+Bus,805,805 - Devonport Wharf / Belmont Shops Via Ngataringa Rd,805-202,false,High,Adjust service headway,33,4,17.452,24.417
+Unknown / unmatched route,S019-218,S019-218,S019-218,true,Medium,Monitor route conditions,32,1,6.383,9.433
+Unknown / unmatched route,S050B-203,S050B-203,S050B-203,true,High,Adjust service headway,32,5,-3.604,23.733
+Unknown / unmatched route,S030-203,S030-203,S030-203,true,High,Adjust service headway,32,1,23.707,24.417
+Unknown / unmatched route,S016-202,S016-202,S016-202,true,Medium,Monitor route conditions,32,1,1.793,7.417
+Unknown / unmatched route,S012D-203,S012D-203,S012D-203,true,Medium,Monitor route conditions,32,1,1.404,9.55
+Unknown / unmatched route,S022C-203,S022C-203,S022C-203,true,Medium,Monitor route conditions,32,2,-1.303,11.617
+Unknown / unmatched route,S058A-203,S058A-203,S058A-203,true,Medium,Monitor route conditions,32,1,1.25,7.75
+Bus,152,152 - Henderson / New Lynn via Sunnyvale and Glen Eden,152-203,false,Severe,Deploy standby bus or supervisor review,32,5,41.58,57.967
+Bus,906,906 - Constellation / Smales Farm Via Windy Ridge And Archers Rd,906-203,false,Severe,Deploy standby bus or supervisor review,32,4,30.01,60.7
+Unknown / unmatched route,S046B-203,S046B-203,S046B-203,true,High,Adjust service headway,32,1,17.549,24.9
+Unknown / unmatched route,S437-221,S437-221,S437-221,true,Medium,Monitor route conditions,32,1,-0.704,13.433
+Unknown / unmatched route,S046D-221,S046D-221,S046D-221,true,High,Adjust service headway,31,1,20.442,24.267
+Unknown / unmatched route,S028B-207,S028B-207,S028B-207,true,High,Adjust service headway,31,1,-16.145,-15.017
+Bus,396,396 - Waiuku / Pukekohe Interchange Via Kitchener Rd And Patumaho,396-203,false,High,Adjust service headway,30,11,17.319,21.583
+Bus,861,861 - Long Bay / Constellation Station Via Bush Rd,861-203,false,Severe,Deploy standby bus or supervisor review,30,3,30.127,78.65
+Bus,RBO,RBO - Newmarket / Onehunga Onehunga Rail Bus,RBO-402,false,Severe,Deploy standby bus or supervisor review,30,5,29.253,32.967
+Unknown / unmatched route,S059-203,S059-203,S059-203,true,Medium,Monitor route conditions,30,1,6.441,8.267
+Unknown / unmatched route,S044A-221,S044A-221,S044A-221,true,Medium,Monitor route conditions,30,1,-1.798,10.25
+Bus,782,782 - Sylvia Park / Mission Bay Via Ellerslie And Meadowbank,782-221,false,High,Adjust service headway,30,7,-1.529,23.35
+Unknown / unmatched route,S469-203,S469-203,S469-203,true,Severe,Deploy standby bus or supervisor review,30,1,37.766,56.467
+Bus,871,871 - Constellation Station / Takapuna Via Forrest Hill Rd,871-202,false,Severe,Deploy standby bus or supervisor review,29,5,25.006,33.317
+Unknown / unmatched route,S012B-203,S012B-203,S012B-203,true,Medium,Monitor route conditions,29,1,-2.08,7.367
+Unknown / unmatched route,S461-203,S461-203,S461-203,true,Severe,Deploy standby bus or supervisor review,29,3,35.652,45.733
+Bus,866,866 - Albany Stn / Newmarket Via Ponsonby And Auckland Hospital,866-203,false,Severe,Deploy standby bus or supervisor review,29,6,21.48,29.867
+Bus,805,805 - Devonport Wharf / Belmont Shops Via Ngataringa Rd,805-202,false,Severe,Deploy standby bus or supervisor review,29,3,28.613,30.433
+Bus,739,739 - Maraetai And Beachlands / Botany Via Whitford And Ormiston,739-221,false,Severe,Deploy standby bus or supervisor review,29,2,53.386,102.867
+Bus,298,298 - Onehunga / Sylvia Park Via Ellerslie,298-221,false,Severe,Deploy standby bus or supervisor review,28,2,36.784,41.133
+Bus,191,191 - Lynfield / New Lynn Via Blockhouse Bay And Avondale,191-203,false,Severe,Deploy standby bus or supervisor review,28,3,61.107,75.933
+Bus,162,162 - Henderson / New Lynn via Glendene,162-202,false,Severe,Deploy standby bus or supervisor review,28,4,51.332,68.033
+Bus,25B,25B - Blockhouse Bay / City Centre Via Dominion Rd,25B-202,false,Severe,Deploy standby bus or supervisor review,28,5,44.558,73.717
+Unknown / unmatched route,S530-202,S530-202,S530-202,true,Medium,Monitor route conditions,28,1,5.794,6.833
+Unknown / unmatched route,S435-221,S435-221,S435-221,true,Medium,Monitor route conditions,28,2,-2.532,5.45
+Unknown / unmatched route,S519-202,S519-202,S519-202,true,Medium,Monitor route conditions,28,1,-6.008,-5.383
+Bus,11W,11W - Northwest / City Centre Via Waimumu Rd,11W-207,false,Severe,Deploy standby bus or supervisor review,28,5,24.658,61.55
+Unknown / unmatched route,S019A-218,S019A-218,S019A-218,true,Medium,Monitor route conditions,28,2,5.999,7.683
+Unknown / unmatched route,S541-202,S541-202,S541-202,true,Medium,Monitor route conditions,28,1,7.935,12.15
+Bus,111,111 - Royal Heights Loop,111-203,false,Severe,Deploy standby bus or supervisor review,28,3,43.261,51.517
+Unknown / unmatched route,S013A-218,S013A-218,S013A-218,true,Medium,Monitor route conditions,27,2,-4.764,6.483
+Bus,50B,50B - Onetangi (Fourth Ave) / Matiatia Wharf,50B-217,false,Severe,Deploy standby bus or supervisor review,27,4,58.975,119.8
+Unknown / unmatched route,S053E-202,S053E-202,S053E-202,true,Medium,Monitor route conditions,27,1,3.967,11.267
+Unknown / unmatched route,S065-202,S065-202,S065-202,true,Medium,Monitor route conditions,27,1,3.34,10.767
+Unknown / unmatched route,S042C-202,S042C-202,S042C-202,true,Medium,Monitor route conditions,27,1,3.993,12.567
+Bus,122,122 - Huapai North / Westgate Via Kumeu,122-202,false,High,Adjust service headway,27,5,17.798,19.117
+Unknown / unmatched route,S042B-202,S042B-202,S042B-202,true,Medium,Monitor route conditions,27,1,-5.718,-5.35
+Unknown / unmatched route,S051-202,S051-202,S051-202,true,Medium,Monitor route conditions,27,1,6.429,7.4
+Unknown / unmatched route,S066-202,S066-202,S066-202,true,Medium,Monitor route conditions,27,1,4.14,14.367
+Unknown / unmatched route,S011A-218,S011A-218,S011A-218,true,Medium,Monitor route conditions,27,3,5.865,6.75
+Bus,RBO,RBO - Newmarket / Onehunga Onehunga Rail Bus,RBO-402,false,High,Adjust service headway,26,3,18.586,23.55
+Bus,311,311 - Otahuhu Station / Otahuhu Station via Mangere Bridge,311-203,false,Severe,Deploy standby bus or supervisor review,26,8,34.263,60.65
+Unknown / unmatched route,S077B-203,S077B-203,S077B-203,true,Medium,Monitor route conditions,26,1,6.591,8.983
+Unknown / unmatched route,S041-203,S041-203,S041-203,true,Medium,Monitor route conditions,26,1,1.439,12.467
+Bus,884,884 - Constellation Station / NHIE Loop Anticlockwise,884-203,false,High,Adjust service headway,25,4,18.428,21.267
+Bus,27T,27T - Britomart / Three Kings Via Mt Eden Rd,27T-202,false,High,Adjust service headway,25,2,-15.571,-15.283
+Unknown / unmatched route,S416-205,S416-205,S416-205,true,High,Adjust service headway,25,2,17.583,19.717
+Bus,735,735 - Botany / Half Moon Bay Via Cockle Bay And Howick,735-221,false,High,Adjust service headway,25,6,17.15,19.283
+Bus,143,143 - Ranui / Henderson via Sturges Rd,143-203,false,Severe,Deploy standby bus or supervisor review,25,3,40.51,56.4
+Bus,95C,95C - Constellation Station / Britomart (Albert St) Via Glenfield,95C-203,false,Severe,Deploy standby bus or supervisor review,25,4,16.271,45.25
+Bus,806,806 - Devonport Wharf / Stanley Pt Loop,806-202,false,High,Adjust service headway,25,3,17.117,18.617
+Unknown / unmatched route,S056-203,S056-203,S056-203,true,Medium,Monitor route conditions,25,1,7.128,14.25
+Unknown / unmatched route,S404-203,S404-203,S404-203,true,High,Adjust service headway,25,2,8.456,22.15
+Unknown / unmatched route,S017A-202,S017A-202,S017A-202,true,Medium,Monitor route conditions,25,1,10.669,13.917
+Unknown / unmatched route,S014H-203,S014H-203,S014H-203,true,Medium,Monitor route conditions,24,1,-5.472,8.433
+Bus,22N,22N - New Lynn / City Centre Via New North Rd,22N-202,false,Severe,Deploy standby bus or supervisor review,24,4,69.965,84.55
+Unknown / unmatched route,S072-202,S072-202,S072-202,true,Medium,Monitor route conditions,24,1,-7.519,-5.017
+Unknown / unmatched route,S061A-203,S061A-203,S061A-203,true,High,Adjust service headway,24,1,16.898,20.433
+Unknown / unmatched route,S050B-203,S050B-203,S050B-203,true,Severe,Deploy standby bus or supervisor review,24,2,31.648,35.75
+Unknown / unmatched route,S017B-218,S017B-218,S017B-218,true,Medium,Monitor route conditions,24,1,-5.192,6.033
+Unknown / unmatched route,S002F-203,S002F-203,S002F-203,true,Medium,Monitor route conditions,24,1,4.207,5.917
+Unknown / unmatched route,S032-203,S032-203,S032-203,true,Medium,Monitor route conditions,23,1,6.03,6.767
+Bus,995,995 - Warkworth / Hibiscus Coast Station,995-203,false,Severe,Deploy standby bus or supervisor review,23,3,30.497,66.25
+Unknown / unmatched route,S060-203,S060-203,S060-203,true,High,Adjust service headway,23,2,-16.07,-15.05
+Bus,842,842 - Crown Hill / Smales Farm Station Via East Coast Rd,842-202,false,High,Adjust service headway,22,1,17.261,18.65
+Bus,878,878 - Browns Bay / Constellation Station Via and East Coast Rd,878-203,false,High,Adjust service headway,22,4,18.936,22.8
+Unknown / unmatched route,S038-203,S038-203,S038-203,true,Medium,Monitor route conditions,22,1,6.384,9.517
+Unknown / unmatched route,S511-202,S511-202,S511-202,true,Medium,Monitor route conditions,22,2,6.837,7.9
+Unknown / unmatched route,S052A-202,S052A-202,S052A-202,true,Medium,Monitor route conditions,22,1,-2.587,6.417
+Unknown / unmatched route,S521-202,S521-202,S521-202,true,High,Adjust service headway,22,2,16.78,19.017
+Bus,783,783 - Eastern Bays Circuit Anticlockwise / Eastern Bays Circuit Clockwise,783-221,false,Severe,Deploy standby bus or supervisor review,22,2,29.57,33.617
+Unknown / unmatched route,S429-221,S429-221,S429-221,true,Low,No operational action required,21,1,3.21,4.717
+Unknown / unmatched route,S044-203,S044-203,S044-203,true,Medium,Monitor route conditions,21,1,9.207,12.65
+Bus,878,878 - Browns Bay / Constellation Station Via and East Coast Rd,878-203,false,Severe,Deploy standby bus or supervisor review,21,3,44.858,60.717
+Bus,393,393 - Pukekohe South Loop,393-203,false,Severe,Deploy standby bus or supervisor review,21,3,24.932,46.683
+Unknown / unmatched route,S092-217,S092-217,S092-217,true,Medium,Monitor route conditions,21,1,6.757,8.433
+Unknown / unmatched route,S408-202,S408-202,S408-202,true,High,Adjust service headway,21,1,17.659,18.767
+Bus,801,801 - Bayswater Wharf / Akoranga Station Via Takapuna,801-202,false,Severe,Deploy standby bus or supervisor review,21,2,34.252,46.133
+Bus,782,782 - Sylvia Park / Mission Bay Via Ellerslie And Meadowbank,782-221,false,Severe,Deploy standby bus or supervisor review,20,4,52.912,65.183
+Bus,984,984 - Orewa / Hibiscus Coast Station Via Maygrove,984-221,false,Severe,Deploy standby bus or supervisor review,20,2,39.216,60.85
+Bus,923,923 - Akoranga Station / City (Mayoral Dr) Via Hillcrest,923-202,false,Severe,Deploy standby bus or supervisor review,20,5,32.31,43.3
+Bus,11T,11T - Northwest / City Centre Via Triangle Rd,11T-207,false,Severe,Deploy standby bus or supervisor review,20,2,51.387,62.65
+Unknown / unmatched route,S402-202,S402-202,S402-202,true,High,Adjust service headway,20,1,18.399,22.183
+Bus,902,902 - Kyle Road / Constellation Station,902-203,false,High,Adjust service headway,20,3,19.593,20.933
+Unknown / unmatched route,S079-203,S079-203,S079-203,true,Medium,Monitor route conditions,20,1,-0.453,9.367
+Unknown / unmatched route,S026D-218,S026D-218,S026D-218,true,High,Adjust service headway,20,3,21.13,24.7
+Unknown / unmatched route,S087-202,S087-202,S087-202,true,High,Adjust service headway,20,1,21.976,23.583
+Bus,747,747 - Panmure / Glen Innes Via Stonefields,747-221,false,Severe,Deploy standby bus or supervisor review,20,3,48.071,66.75
+Bus,323,323 - Otahuhu Station / Panmure Via Panama Rd,323-221,false,Severe,Deploy standby bus or supervisor review,19,3,48.742,94.783
+Unknown / unmatched route,S006-218,S006-218,S006-218,true,High,Adjust service headway,19,1,16.412,17.717
+Unknown / unmatched route,S523-202,S523-202,S523-202,true,High,Adjust service headway,19,2,-17.714,15.65
+Unknown / unmatched route,S053-203,S053-203,S053-203,true,Medium,Monitor route conditions,19,1,-10.257,-5.333
+Bus,114,114 - Hob Pt Wharf / Northwest Via Whenuapai,114-203,false,Severe,Deploy standby bus or supervisor review,19,3,32.678,53.717
+Bus,933,933 - Beach Haven Wharf / University of Auckland Via Customs St,933-203,false,Severe,Deploy standby bus or supervisor review,19,4,29.705,40.45
+Bus,733,733 - Botany / The Parade Via Highland Park,733-221,false,Severe,Deploy standby bus or supervisor review,19,3,33.289,40.333
+Unknown / unmatched route,S442-205,S442-205,S442-205,true,High,Adjust service headway,19,1,20.129,21.85
+Unknown / unmatched route,S465-203,S465-203,S465-203,true,High,Adjust service headway,19,1,17.04,17.85
+Bus,744,744 - Panmure / St Heliers Via Glen Innes,744-221,false,High,Adjust service headway,18,4,17.315,17.967
+Bus,986,986 - Hibiscus Coast Station / Albany Station Via Dairy Flat,986-221,false,High,Adjust service headway,18,3,15.786,18.167
+Bus,186,186 - South Lynn Loop,186-203,false,High,Adjust service headway,18,4,17.492,21.9
+Bus,172,172 - Glen Eden / New Lynn via Titirangi,172-203,false,Severe,Deploy standby bus or supervisor review,18,3,45.176,57.85
+Bus,393,393 - Pukekohe South Loop,393-203,false,High,Adjust service headway,18,3,18.044,19.917
+Unknown / unmatched route,S006B-203,S006B-203,S006B-203,true,High,Adjust service headway,18,2,-14.351,17.583
+Train / Rail,HUIA,HUIA - Hamilton / The Strand Auckland Via Pukekohe,HUIA-404,false,High,Adjust service headway,18,3,21.761,22.383
+Unknown / unmatched route,S001E-203,S001E-203,S001E-203,true,High,Adjust service headway,18,1,21.368,24.467
+Unknown / unmatched route,S082A-202,S082A-202,S082A-202,true,Severe,Deploy standby bus or supervisor review,18,1,37.364,47.117
+Unknown / unmatched route,S406-203,S406-203,S406-203,true,High,Adjust service headway,18,1,2.384,22.133
+Unknown / unmatched route,S031-203,S031-203,S031-203,true,High,Adjust service headway,18,1,-17.079,-15.867
+Unknown / unmatched route,S038-203,S038-203,S038-203,true,High,Adjust service headway,18,1,20.581,23.683
+Unknown / unmatched route,S531-202,S531-202,S531-202,true,Medium,Monitor route conditions,17,1,8.291,10.15
+Unknown / unmatched route,S061J-203,S061J-203,S061J-203,true,High,Adjust service headway,17,1,16.046,16.367
+Unknown / unmatched route,S047B-221,S047B-221,S047B-221,true,High,Adjust service headway,17,1,18.368,22.883
+Bus,735,735 - Botany / Half Moon Bay Via Cockle Bay And Howick,735-221,false,Severe,Deploy standby bus or supervisor review,17,1,91.789,119.75
+Unknown / unmatched route,S034-202,S034-202,S034-202,true,Medium,Monitor route conditions,17,1,6.331,7.883
+Unknown / unmatched route,S046D-221,S046D-221,S046D-221,true,Severe,Deploy standby bus or supervisor review,16,1,30.172,36.517
+Unknown / unmatched route,S417-202,S417-202,S417-202,true,High,Adjust service headway,16,2,24.217,24.683
+Bus,999,999 - Warkworth Loop,999-203,false,High,Adjust service headway,16,1,23.458,24.5
+Unknown / unmatched route,S456-203,S456-203,S456-203,true,Severe,Deploy standby bus or supervisor review,16,2,30.301,31.05
+Bus,395,395 - Waiuku / Papakura Interchange,395-203,false,High,Adjust service headway,16,3,15.509,16.6
+Bus,998,998 - Wellsford / Warkworth,998-203,false,High,Adjust service headway,16,4,18.42,22.9
+Unknown / unmatched route,S090-217,S090-217,S090-217,true,Medium,Monitor route conditions,16,1,5.918,9.217
+Unknown / unmatched route,S036A-203,S036A-203,S036A-203,true,Medium,Monitor route conditions,16,1,6.166,7.0
+Unknown / unmatched route,S054A-202,S054A-202,S054A-202,true,Medium,Monitor route conditions,16,1,-7.518,-5.183
+Unknown / unmatched route,S017-202,S017-202,S017-202,true,High,Adjust service headway,16,1,16.804,17.217
+Bus,711,711 - Howick / Panmure Via Cascades Road,711-221,false,Severe,Deploy standby bus or supervisor review,15,4,26.291,28.567
+Unknown / unmatched route,S042-203,S042-203,S042-203,true,Severe,Deploy standby bus or supervisor review,15,1,-26.997,-26.95
+Unknown / unmatched route,S028E-207,S028E-207,S028E-207,true,High,Adjust service headway,15,2,-11.366,21.767
+Unknown / unmatched route,S403-203,S403-203,S403-203,true,High,Adjust service headway,15,3,-16.452,-16.15
+Unknown / unmatched route,S088-217,S088-217,S088-217,true,Medium,Monitor route conditions,15,1,5.231,5.917
+Unknown / unmatched route,S046X-221,S046X-221,S046X-221,true,Medium,Monitor route conditions,15,1,0.957,10.067
+Bus,72M,"72M - Botany and Howick / Panmure via Millhouse Dr, Meadowland Dr",72M-205,false,Severe,Deploy standby bus or supervisor review,15,2,54.084,76.983
+Unknown / unmatched route,327-203,327-203,327-203,false,Severe,Deploy standby bus or supervisor review,15,2,41.217,58.017
+Unknown / unmatched route,S007F-203,S007F-203,S007F-203,true,High,Adjust service headway,15,1,17.274,17.883
+Unknown / unmatched route,S014A-218,S014A-218,S014A-218,true,High,Adjust service headway,15,2,21.009,24.75
+Bus,321,321 - Middlemore Station / Britomart Via Greenlane Hospital,321-202,false,Severe,Deploy standby bus or supervisor review,15,2,-7.727,25.45
+Bus,395,395 - Waiuku / Papakura Interchange,395-203,false,Severe,Deploy standby bus or supervisor review,15,2,33.907,52.267
+Bus,377,377 - Papakura Interchange / Park Estate Loop,377-203,false,High,Adjust service headway,15,4,0.583,21.15
+Unknown / unmatched route,S089D-217,S089D-217,S089D-217,true,Severe,Deploy standby bus or supervisor review,14,1,49.181,56.133
+Unknown / unmatched route,S041-203,S041-203,S041-203,true,High,Adjust service headway,14,1,16.619,19.9
+Bus,112,112 - Hob Pt Wharf / Northwest Via W Harbour,112-203,false,Severe,Deploy standby bus or supervisor review,14,3,43.204,65.667
+Bus,186,186 - South Lynn Loop,186-203,false,Severe,Deploy standby bus or supervisor review,14,2,43.769,58.367
+Unknown / unmatched route,S005C-203,S005C-203,S005C-203,true,Medium,Monitor route conditions,14,1,8.67,11.2
+Unknown / unmatched route,S062A-203,S062A-203,S062A-203,true,Medium,Monitor route conditions,14,1,-5.471,5.483
+Unknown / unmatched route,S010A-203,S010A-203,S010A-203,true,Medium,Monitor route conditions,14,1,6.285,6.967
+Unknown / unmatched route,327-203,327-203,327-203,false,High,Adjust service headway,14,2,24.061,24.867
+Bus,755,755 - Benson Rd / Britomart Via Portland Rd,755-202,false,Severe,Deploy standby bus or supervisor review,14,2,29.979,36.417
+Unknown / unmatched route,S058A-203,S058A-203,S058A-203,true,High,Adjust service headway,14,1,18.015,20.25
+Unknown / unmatched route,S072D-203,S072D-203,S072D-203,true,Severe,Deploy standby bus or supervisor review,14,1,28.495,29.017
+Unknown / unmatched route,S046B-203,S046B-203,S046B-203,true,Severe,Deploy standby bus or supervisor review,14,1,28.637,29.95
+Unknown / unmatched route,S039-218,S039-218,S039-218,true,Medium,Monitor route conditions,14,1,6.45,7.667
+Bus,774,774 - West Tamaki Rd / Britomart Via Long Dr And Tamaki Dr,774-202,false,Severe,Deploy standby bus or supervisor review,14,1,26.07,28.85
+Unknown / unmatched route,S006C-203,S006C-203,S006C-203,true,Severe,Deploy standby bus or supervisor review,13,1,44.415,47.583
+Unknown / unmatched route,S061-203,S061-203,S061-203,true,Severe,Deploy standby bus or supervisor review,13,2,-27.278,-25.95
+Unknown / unmatched route,S056E-203,S056E-203,S056E-203,true,High,Adjust service headway,13,2,-21.644,-15.4
+Bus,392,392 - Pukekohe Station,392-203,false,High,Adjust service headway,13,2,15.785,16.45
+Bus,116,116 - West Hills Loop,116-203,false,Severe,Deploy standby bus or supervisor review,13,2,51.263,59.717
+Bus,30,30 - Onehunga / City Centre Via Manukau Rd,30-202,false,Severe,Deploy standby bus or supervisor review,13,2,29.996,30.167
+Unknown / unmatched route,S058-203,S058-203,S058-203,true,Medium,Monitor route conditions,13,2,-5.455,-5.317
+Unknown / unmatched route,S073H-203,S073H-203,S073H-203,true,Medium,Monitor route conditions,12,1,5.508,7.533
+Unknown / unmatched route,S412-202,S412-202,S412-202,true,High,Adjust service headway,12,1,16.583,16.583
+Unknown / unmatched route,S084-202,S084-202,S084-202,true,High,Adjust service headway,12,1,15.183,15.183
+Unknown / unmatched route,S425-221,S425-221,S425-221,true,Severe,Deploy standby bus or supervisor review,12,1,91.317,91.317
+Unknown / unmatched route,S076A-203,S076A-203,S076A-203,true,Severe,Deploy standby bus or supervisor review,12,1,31.857,32.533
+Bus,372,372 - Papakura Shops / Keri Hill Loop,372-203,false,Severe,Deploy standby bus or supervisor review,12,3,-51.476,-39.917
+Unknown / unmatched route,S405-203,S405-203,S405-203,true,High,Adjust service headway,12,1,17.176,21.583
+Unknown / unmatched route,S097-217,S097-217,S097-217,true,Medium,Monitor route conditions,12,1,5.829,5.833
+Unknown / unmatched route,S462-203,S462-203,S462-203,true,Severe,Deploy standby bus or supervisor review,12,1,32.9,32.9
+Unknown / unmatched route,S017A-202,S017A-202,S017A-202,true,High,Adjust service headway,12,1,21.308,22.233
+Unknown / unmatched route,S545-202,S545-202,S545-202,true,Severe,Deploy standby bus or supervisor review,11,1,29.067,29.067
+Unknown / unmatched route,S012-218,S012-218,S012-218,true,Severe,Deploy standby bus or supervisor review,11,1,25.083,25.083
+Unknown / unmatched route,S036-203,S036-203,S036-203,true,High,Adjust service headway,11,1,17.183,17.183
+Unknown / unmatched route,S454-203,S454-203,S454-203,true,High,Adjust service headway,11,1,-15.65,-15.65
+Bus,885,885 - Constellation Station / NHIE Loop Clockwise,885-203,false,High,Adjust service headway,11,3,4.348,17.467
+Unknown / unmatched route,S035-203,S035-203,S035-203,true,Severe,Deploy standby bus or supervisor review,11,1,-48.55,-48.55
+Bus,775,775 - Glendowie / Britomart Via Tamaki Dr,775-202,false,Severe,Deploy standby bus or supervisor review,11,1,33.974,38.35
+Bus,18,18 - City Centre / New Lynn Via Great North Rd,18-202,false,Severe,Deploy standby bus or supervisor review,11,2,45.526,59.933
+Unknown / unmatched route,S404-203,S404-203,S404-203,true,Severe,Deploy standby bus or supervisor review,11,2,26.586,29.417
+Bus,326,326 - Mangere Town Centre / Middlemore via Earlsworth Rd (C),326-203,false,Severe,Deploy standby bus or supervisor review,11,3,48.903,64.483
+Unknown / unmatched route,S029G-207,S029G-207,S029G-207,true,High,Adjust service headway,11,1,19.136,19.333
+Unknown / unmatched route,S053B-202,S053B-202,S053B-202,true,Medium,Monitor route conditions,11,1,6.959,11.7
+Ferry,RANG,RANG - Rangitoto Island / Downtown Pier 14,RANG-209,false,Medium,Monitor route conditions,11,2,8.636,15.0
+Unknown / unmatched route,S028A-218,S028A-218,S028A-218,true,Medium,Monitor route conditions,10,1,7.917,8.517
+Unknown / unmatched route,S022-202,S022-202,S022-202,true,High,Adjust service headway,10,1,19.608,21.683
+Unknown / unmatched route,S029E-203,S029E-203,S029E-203,true,Medium,Monitor route conditions,10,1,-6.067,-6.067
+Unknown / unmatched route,S087-202,S087-202,S087-202,true,Severe,Deploy standby bus or supervisor review,10,1,28.508,30.883
+Unknown / unmatched route,S068-203,S068-203,S068-203,true,Severe,Deploy standby bus or supervisor review,10,1,26.967,26.967
+Ferry,GULF,GULF - Gulf Harbour / Downtown,GULF-209,false,High,Adjust service headway,10,2,20.0,20.0
+Unknown / unmatched route,S081-202,S081-202,S081-202,true,High,Adjust service headway,10,1,24.167,24.167
+Unknown / unmatched route,S013D-203,S013D-203,S013D-203,true,Severe,Deploy standby bus or supervisor review,10,1,32.062,37.85
+Unknown / unmatched route,S014-202,S014-202,S014-202,true,Severe,Deploy standby bus or supervisor review,10,1,26.038,28.85
+Unknown / unmatched route,S522G-221,S522G-221,S522G-221,true,High,Adjust service headway,10,1,-17.21,-16.45
+Unknown / unmatched route,S002A-203,S002A-203,S002A-203,true,Medium,Monitor route conditions,10,1,-5.183,-5.183
+Bus,807,807 - Devonport Wharf / Cheltenham Loop,807-202,false,Severe,Deploy standby bus or supervisor review,10,2,34.398,61.383
+Unknown / unmatched route,S014-202,S014-202,S014-202,true,High,Adjust service headway,10,1,16.832,23.817
+Unknown / unmatched route,S006A-203,S006A-203,S006A-203,true,High,Adjust service headway,10,1,20.402,20.667
+Unknown / unmatched route,S001-203,S001-203,S001-203,true,High,Adjust service headway,10,1,-15.9,-15.9
+Bus,738,738 - Maraetai / Pine Harbour via Beachlands,738-221,false,Severe,Deploy standby bus or supervisor review,10,1,53.397,59.85
+Unknown / unmatched route,S514-202,S514-202,S514-202,true,High,Adjust service headway,9,1,18.222,18.533
+Bus,64,64 - St Lukes / Newmarket Via Mt Eden,64-202,false,Severe,Deploy standby bus or supervisor review,9,1,51.787,58.15
+Unknown / unmatched route,S007-218,S007-218,S007-218,true,High,Adjust service headway,9,1,-19.778,-15.317
+Unknown / unmatched route,S006C-203,S006C-203,S006C-203,true,High,Adjust service headway,9,2,-12.724,15.35
+Unknown / unmatched route,S051B-202,S051B-202,S051B-202,true,High,Adjust service headway,9,1,-16.8,-16.8
+Unknown / unmatched route,S005B-203,S005B-203,S005B-203,true,High,Adjust service headway,9,1,21.969,22.433
+Unknown / unmatched route,S013A-218,S013A-218,S013A-218,true,Severe,Deploy standby bus or supervisor review,9,1,27.269,29.733
+Unknown / unmatched route,S543-202,S543-202,S543-202,true,Medium,Monitor route conditions,9,1,4.413,5.667
+Unknown / unmatched route,S429-221,S429-221,S429-221,true,Severe,Deploy standby bus or supervisor review,9,1,26.7,26.7
+Unknown / unmatched route,S463-203,S463-203,S463-203,true,Severe,Deploy standby bus or supervisor review,9,1,31.326,31.717
+Unknown / unmatched route,S007A-203,S007A-203,S007A-203,true,Medium,Monitor route conditions,9,1,10.076,10.6
+Bus,394,394 - Pukekohe Interchange / Paerata Rise Loop,394-203,false,High,Adjust service headway,9,1,23.674,23.983
+Unknown / unmatched route,S048-203,S048-203,S048-203,true,High,Adjust service headway,9,1,-16.133,-16.133
+Unknown / unmatched route,S423-221,S423-221,S423-221,true,High,Adjust service headway,9,1,20.056,20.883
+Unknown / unmatched route,S458-203,S458-203,S458-203,true,High,Adjust service headway,9,1,20.32,22.433
+Unknown / unmatched route,S466-202,S466-202,S466-202,true,High,Adjust service headway,9,1,24.183,24.183
+Unknown / unmatched route,S424-221,S424-221,S424-221,true,High,Adjust service headway,9,1,23.461,24.8
+Bus,116,116 - West Hills Loop,116-203,false,High,Adjust service headway,8,1,-19.05,-19.05
+Unknown / unmatched route,S023-202,S023-202,S023-202,true,High,Adjust service headway,8,1,19.167,19.167
+Unknown / unmatched route,S017F-203,S017F-203,S017F-203,true,High,Adjust service headway,8,1,-15.683,-15.683
+Unknown / unmatched route,S021-218,S021-218,S021-218,true,Medium,Monitor route conditions,8,1,5.965,6.3
+Unknown / unmatched route,S061-203,S061-203,S061-203,true,High,Adjust service headway,8,2,-3.298,18.067
+Unknown / unmatched route,S522N-202,S522N-202,S522N-202,true,High,Adjust service headway,8,1,16.24,17.75
+Unknown / unmatched route,S081A-202,S081A-202,S081A-202,true,Severe,Deploy standby bus or supervisor review,8,1,44.1,44.1
+Unknown / unmatched route,S541-202,S541-202,S541-202,true,High,Adjust service headway,8,1,17.694,17.767
+Unknown / unmatched route,S426-221,S426-221,S426-221,true,High,Adjust service headway,8,1,15.567,15.567
+Unknown / unmatched route,S066-202,S066-202,S066-202,true,High,Adjust service headway,8,1,16.383,16.383
+Bus,170,170 - Titirangi South / New Lynn,170-203,false,High,Adjust service headway,8,2,20.202,23.017
+Unknown / unmatched route,S075-203,S075-203,S075-203,true,Severe,Deploy standby bus or supervisor review,8,1,28.65,28.65
+Unknown / unmatched route,S456-203,S456-203,S456-203,true,High,Adjust service headway,8,1,15.567,15.567
+Unknown / unmatched route,S001N-203,S001N-203,S001N-203,true,Medium,Monitor route conditions,8,1,5.133,5.133
+Bus,739,739 - Maraetai And Beachlands / Botany Via Whitford And Ormiston,739-221,false,High,Adjust service headway,8,2,16.992,21.367
+Unknown / unmatched route,S033A-203,S033A-203,S033A-203,true,Severe,Deploy standby bus or supervisor review,8,1,-28.167,-28.167
+Bus,883,883 - Schnapper Rock / Constellation Station,883-203,false,Severe,Deploy standby bus or supervisor review,8,1,95.833,95.833
+Unknown / unmatched route,S047C-221,S047C-221,S047C-221,true,High,Adjust service headway,8,1,16.383,16.383
+Unknown / unmatched route,S053-203,S053-203,S053-203,true,Low,No operational action required,8,1,-1.85,0.15
+Bus,148,148 - Ranui / Lincoln Rd,148-203,false,Severe,Deploy standby bus or supervisor review,8,1,63.071,63.317
+Bus,105,105 - Westmere / Britomart Via Richmond Rd,105-202,false,Severe,Deploy standby bus or supervisor review,8,1,60.933,61.1
+Bus,50A,50A - Onetangi (Seventh Ave) / Matiatia Wharf,50A-217,false,Severe,Deploy standby bus or supervisor review,7,2,59.312,61.65
+Unknown / unmatched route,S033D-203,S033D-203,S033D-203,true,Medium,Monitor route conditions,7,1,5.221,5.55
+Bus,884,884 - Constellation Station / NHIE Loop Anticlockwise,884-203,false,Severe,Deploy standby bus or supervisor review,7,2,28.014,37.0
+Unknown / unmatched route,S074D-203,S074D-203,S074D-203,true,High,Adjust service headway,7,1,-2.424,16.933
+Unknown / unmatched route,S813-202,S813-202,S813-202,true,High,Adjust service headway,7,1,21.031,21.1
+Bus,50B,50B - Onetangi (Fourth Ave) / Matiatia Wharf,50B-217,false,High,Adjust service headway,7,1,15.867,15.867
+Unknown / unmatched route,S455-203,S455-203,S455-203,true,High,Adjust service headway,7,1,15.833,15.833
+Bus,391,391 - Pukekohe Northeast Loop / Pukekohe Northeast loop,391-203,false,High,Adjust service headway,7,1,19.883,20.05
+Unknown / unmatched route,S043-218,S043-218,S043-218,true,High,Adjust service headway,7,1,-15.017,-15.017
+Unknown / unmatched route,S063-203,S063-203,S063-203,true,Medium,Monitor route conditions,7,1,11.664,12.85
+Unknown / unmatched route,S013-203,S013-203,S013-203,true,High,Adjust service headway,7,1,-21.545,-17.117
+Unknown / unmatched route,S540-202,S540-202,S540-202,true,Low,No operational action required,7,2,-0.512,1.6
+Bus,744,744 - Panmure / St Heliers Via Glen Innes,744-221,false,Severe,Deploy standby bus or supervisor review,7,1,61.15,61.15
+Unknown / unmatched route,S418-202,S418-202,S418-202,true,High,Adjust service headway,7,1,15.667,15.667
+Bus,889,889 - Albany Station / Constellation Station Via Hugh Green Dr,889-203,false,High,Adjust service headway,7,2,22.581,23.05
+Bus,926,926 - Glenfield / Akoranga Station Via Hillcrest West,926-203,false,Severe,Deploy standby bus or supervisor review,7,1,31.519,32.6
+Unknown / unmatched route,S520-202,S520-202,S520-202,true,High,Adjust service headway,7,1,19.645,21.45
+Bus,907,907 - Campbells Bay / Constellation Station Via Sunnynook Station,907-203,false,Severe,Deploy standby bus or supervisor review,7,1,31.61,32.217
+Unknown / unmatched route,S056-203,S056-203,S056-203,true,High,Adjust service headway,6,1,15.361,16.333
+Unknown / unmatched route,S047A-221,S047A-221,S047A-221,true,High,Adjust service headway,6,1,-24.2,-23.533
+Unknown / unmatched route,S028A-218,S028A-218,S028A-218,true,High,Adjust service headway,6,1,17.083,17.083
+Unknown / unmatched route,S095-217,S095-217,S095-217,true,Medium,Monitor route conditions,6,1,3.1,5.3
+Bus,888,888 - Albany Heights Loop,888-203,false,High,Adjust service headway,6,1,17.383,17.383
+Bus,50A,50A - Onetangi (Seventh Ave) / Matiatia Wharf,50A-217,false,High,Adjust service headway,6,3,4.386,19.633
+Bus,989,989 - Hibiscus Coast Station / Milldale Loop,989-218,false,High,Adjust service headway,6,1,19.55,19.55
+Unknown / unmatched route,S005-218,S005-218,S005-218,true,High,Adjust service headway,6,1,19.05,19.05
+Unknown / unmatched route,S047A-221,S047A-221,S047A-221,true,Severe,Deploy standby bus or supervisor review,6,1,-25.267,-25.15
+Unknown / unmatched route,S400-205,S400-205,S400-205,true,High,Adjust service headway,6,1,16.467,16.467
+Unknown / unmatched route,S018A-203,S018A-203,S018A-203,true,Low,No operational action required,6,1,-0.986,0.317
+Bus,106,106 - Freemans Bay Loop,106-202,false,High,Adjust service headway,5,3,-16.533,-15.583
+Bus,998,998 - Wellsford / Warkworth,998-203,false,Severe,Deploy standby bus or supervisor review,5,2,27.28,28.783
+Ferry,MTID,MTID - Downtown Pier 13 / Waiheke Pier 3,MTID-241,false,Medium,Monitor route conditions,5,1,5.133,5.133
+Unknown / unmatched route,S047B-221,S047B-221,S047B-221,true,Severe,Deploy standby bus or supervisor review,5,1,31.88,35.2
+Bus,252,252 - Lynfield / Civic Centre Via Dominion Rd,252-202,false,Severe,Deploy standby bus or supervisor review,5,1,73.95,73.95
+Bus,CTY,CTY - Wynyard Quarter / Karangahape Rd via Queen St,CTY-202,false,Severe,Deploy standby bus or supervisor review,5,4,10.417,54.783
+Bus,751,751 - Panmure / Newmarket Via Marua Rd And Remuera Rd,751-202,false,Severe,Deploy standby bus or supervisor review,5,1,40.65,40.65
+Unknown / unmatched route,S007A-203,S007A-203,S007A-203,true,High,Adjust service headway,5,1,18.04,19.583
+Unknown / unmatched route,S438-218,S438-218,S438-218,true,Medium,Monitor route conditions,4,1,5.8,6.067
+Unknown / unmatched route,S064-203,S064-203,S064-203,true,Severe,Deploy standby bus or supervisor review,4,1,29.733,30.367
+Bus,162,162 - Henderson / New Lynn via Glendene,162-202,false,High,Adjust service headway,4,2,17.771,24.133
+Unknown / unmatched route,S073B-203,S073B-203,S073B-203,true,High,Adjust service headway,4,1,-16.792,-16.117
+Bus,988,988 - The Plaza / Gulf Harbour Ferry Via Army Bay,988-221,false,High,Adjust service headway,4,1,15.763,16.4
+Unknown / unmatched route,S026D-218,S026D-218,S026D-218,true,Severe,Deploy standby bus or supervisor review,4,1,27.446,28.583
+Unknown / unmatched route,S403-203,S403-203,S403-203,true,Severe,Deploy standby bus or supervisor review,3,1,-40.05,-40.05
+Bus,901,901 - Smales Farm / Constellation Station Via Wairau Rd,901-203,false,Severe,Deploy standby bus or supervisor review,3,1,-58.683,-58.683
+Bus,106,106 - Freemans Bay Loop,106-202,false,Severe,Deploy standby bus or supervisor review,3,1,-25.867,-25.867
+Unknown / unmatched route,S046G-221,S046G-221,S046G-221,true,High,Adjust service headway,3,2,15.317,15.783
+Bus,845,845 - Milford / Takapuna Via North Shore Hospital,845-203,false,High,Adjust service headway,3,2,15.311,15.45
+Unknown / unmatched route,S069-203,S069-203,S069-203,true,High,Adjust service headway,3,1,19.294,21.4
+Bus,997,997 - Warkworth / Omaha Via Matakana And Pt Wells,997-203,false,High,Adjust service headway,3,2,19.278,20.683
+Unknown / unmatched route,S462-203,S462-203,S462-203,true,High,Adjust service headway,3,2,19.778,20.767
+Unknown / unmatched route,S081A-202,S081A-202,S081A-202,true,High,Adjust service headway,3,1,18.117,18.117
+Unknown / unmatched route,S027H-203,S027H-203,S027H-203,true,High,Adjust service headway,2,1,15.375,15.6
+Unknown / unmatched route,S045B-221,S045B-221,S045B-221,true,Severe,Deploy standby bus or supervisor review,2,1,-26.142,-25.217
+Unknown / unmatched route,S012-218,S012-218,S012-218,true,High,Adjust service headway,2,1,23.558,23.617
+Unknown / unmatched route,S007A-203,S007A-203,S007A-203,true,Severe,Deploy standby bus or supervisor review,2,1,27.133,27.133
+Unknown / unmatched route,S440-205,S440-205,S440-205,true,High,Adjust service headway,2,1,16.525,18.033
+Unknown / unmatched route,S049-203,S049-203,S049-203,true,High,Adjust service headway,2,1,15.742,16.117
+Unknown / unmatched route,S044A-221,S044A-221,S044A-221,true,Severe,Deploy standby bus or supervisor review,2,1,44.983,44.983
+Unknown / unmatched route,S429-221,S429-221,S429-221,true,High,Adjust service headway,2,1,21.825,22.55
+Unknown / unmatched route,S516-202,S516-202,S516-202,true,High,Adjust service headway,2,1,20.508,21.4
+Unknown / unmatched route,S433-221,S433-221,S433-221,true,High,Adjust service headway,1,1,16.583,16.583
+Unknown / unmatched route,S081-202,S081-202,S081-202,true,Severe,Deploy standby bus or supervisor review,1,1,27.7,27.7
+Unknown / unmatched route,S545-202,S545-202,S545-202,true,High,Adjust service headway,1,1,18.133,18.133
+Unknown / unmatched route,S025E-218,S025E-218,S025E-218,true,High,Adjust service headway,1,1,19.733,19.733
+Bus,396,396 - Waiuku / Pukekohe Interchange Via Kitchener Rd And Patumaho,396-203,false,Severe,Deploy standby bus or supervisor review,1,1,31.6,31.6
+Unknown / unmatched route,S441-205,S441-205,S441-205,true,Medium,Monitor route conditions,1,1,5.467,5.467
+Unknown / unmatched route,S464-203,S464-203,S464-203,true,High,Adjust service headway,1,1,16.133,16.133
+Bus,170,170 - Titirangi South / New Lynn,170-203,false,Severe,Deploy standby bus or supervisor review,1,1,51.867,51.867
+Unknown / unmatched route,S084B-203,S084B-203,S084B-203,true,High,Adjust service headway,1,1,15.367,15.367
+Bus,394,394 - Pukekohe Interchange / Paerata Rise Loop,394-203,false,Severe,Deploy standby bus or supervisor review,1,1,25.233,25.233
+Bus,907,907 - Campbells Bay / Constellation Station Via Sunnynook Station,907-203,false,High,Adjust service headway,1,1,17.917,17.917
+Unknown / unmatched route,S028-202,S028-202,S028-202,true,High,Adjust service headway,1,1,15.183,15.183
+Unknown / unmatched route,S073-202,S073-202,S073-202,true,High,Adjust service headway,1,1,15.133,15.133
+Unknown / unmatched route,S075-203,S075-203,S075-203,true,High,Adjust service headway,1,1,15.25,15.25
+Unknown / unmatched route,S406-203,S406-203,S406-203,true,Severe,Deploy standby bus or supervisor review,1,1,26.35,26.35
+Bus,738,738 - Maraetai / Pine Harbour via Beachlands,738-221,false,High,Adjust service headway,1,1,18.567,18.567
+Bus,926,926 - Glenfield / Akoranga Station Via Hillcrest West,926-203,false,High,Adjust service headway,1,1,17.117,17.117
+Unknown / unmatched route,S052-202,S052-202,S052-202,true,High,Adjust service headway,1,1,15.583,15.583
+Unknown / unmatched route,S080-202,S080-202,S080-202,true,High,Adjust service headway,1,1,16.033,16.033
+Unknown / unmatched route,S025A-203,S025A-203,S025A-203,true,Severe,Deploy standby bus or supervisor review,1,1,41.367,41.367
+Unknown / unmatched route,S031A-203,S031A-203,S031A-203,true,High,Adjust service headway,1,1,15.083,15.083
+Unknown / unmatched route,S072D-203,S072D-203,S072D-203,true,High,Adjust service headway,1,1,24.017,24.017
+Unknown / unmatched route,S013A-218,S013A-218,S013A-218,true,High,Adjust service headway,1,1,20.25,20.25
+Bus,802,802 - Bayswater / City (Mayoral Dr),802-202,false,Severe,Deploy standby bus or supervisor review,1,1,25.433,25.433
+Unknown / unmatched route,S437-221,S437-221,S437-221,true,High,Adjust service headway,1,1,15.717,15.717
+Unknown / unmatched route,S024B-218,S024B-218,S024B-218,true,High,Adjust service headway,1,1,17.867,17.867
+Ferry,MTIA,MTIA - Waiheke Island 1 / Downtown Pier 11,MTIA-209,false,Severe,Deploy standby bus or supervisor review,1,1,30.0,30.0
+Unknown / unmatched route,S003D-203,S003D-203,S003D-203,true,High,Adjust service headway,1,1,16.0,16.0
