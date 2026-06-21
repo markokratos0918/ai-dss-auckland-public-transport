@@ -3,12 +3,15 @@
 Architecture position:
 
 ```text
-GTFS + Weather -> AI-DSS Modeling / SHAP
+GTFS Static + GTFS-Realtime + Open-Meteo
+-> Data Storage / Parquet / DuckDB
+-> Notebook 09 GTFS + Weather Validation
+-> AI-DSS Modeling / SHAP
 ```
 
 ## Purpose
 
-This layer prepares the transport and weather dataset used by the rest of the capstone workflow. It integrates Auckland Transport GTFS Static, Auckland Transport GTFS-Realtime, and Open-Meteo weather variables.
+This layer prepares the transport and weather dataset used by the rest of the capstone workflow. It integrates Auckland Transport GTFS Static, Auckland Transport GTFS-Realtime, and Open-Meteo weather variables, then stores large processed outputs in Parquet with DuckDB as the local query layer.
 
 ## Public Data Sources
 
@@ -61,10 +64,19 @@ Generate the cleaned local Parquet dataset and storage summaries:
 python src/prepare_realtime_storage.py
 ```
 
-Expected local output:
+Expected local Parquet outputs:
 
 ```text
-data/processed/gtfs_realtime_cleaned.parquet
+data/processed/parquet/gtfs_realtime_cleaned.parquet
+data/processed/parquet/gtfs_realtime_model_baseline.parquet
+data/processed/parquet/decision_engine_model_baseline.parquet
+data/processed/parquet/decision_engine_all_file.parquet
+```
+
+Expected local DuckDB output:
+
+```text
+data/processed/duckdb/gtfs_realtime.duckdb
 ```
 
 Expected small summary outputs:
@@ -83,15 +95,18 @@ Notebook 09 is the real Auckland validation source:
 notebooks/09_validation_and_evaluation_realtimegtfs.ipynb
 ```
 
-It validates the GTFS-Realtime pipeline, merges GTFS Static route metadata, aligns Open-Meteo weather, creates delay-risk categories, and exports dashboard-ready decision outputs when the export switch is enabled.
+It validates the GTFS-Realtime pipeline, merges GTFS Static route metadata, aligns Open-Meteo weather, creates observed/reference delay-risk categories, and exports dataset-specific decision outputs when the export switch is enabled.
 
-Expected local row-level output:
+Expected local row-level outputs:
 
 ```text
-data/processed/decision_engine_output.csv
+data/processed/outputs/model_baseline/decision_engine_output.csv
+data/processed/outputs/all_file/decision_engine_output.csv
+data/processed/parquet/decision_engine_model_baseline.parquet
+data/processed/parquet/decision_engine_all_file.parquet
 ```
 
-This file is large and must stay local.
+These files are large and must stay local.
 
 Expected small summary outputs:
 
@@ -104,5 +119,8 @@ data/processed/summaries/gtfs_realtime_top_delayed_routes.csv
 ## Notes
 
 - Raw GTFS-Realtime files are archival/local evidence.
-- The cleaned Parquet file is generated locally.
+- The cleaned Parquet files are generated locally.
+- The model-baseline dataset uses 23 likely complete days.
+- All collected files can support descriptive/dashboard coverage, but partial or interrupted days should not be treated as the primary modelling baseline without clear limitation wording.
+- Observed/reference risk is used for validation, training reference, comparison, and traceability.
 - For detailed storage rules, see `docs/data_storage_manifest.md`.

@@ -1,7 +1,9 @@
 import streamlit as st
+import pydeck as pdk
 
 from components.operator_layout import page_header
 from services.drilldown_data import route_focus, route_options, route_prediction_examples
+from services.route_map_data import route_shape_path
 
 
 service_type, include_special, analysis_day, analysis_hour = page_header("route_corridor_focus")
@@ -28,6 +30,39 @@ else:
         c4.metric("AI Probability", f"{row['avg_ai_probability_pct']:.1f}%")
         st.write(f"**Recommended Action:** {row['recommended_action']}")
         st.write(f"**Corridor:** {row['corridor_name']}")
+
+        st.subheader("Scheduled Route Map")
+        route_path = route_shape_path(selected)
+        if route_path.empty:
+            st.info("Scheduled GTFS route shape is unavailable for this selected route.")
+        else:
+            map_row = route_path.iloc[0]
+            layer = pdk.Layer(
+                "PathLayer",
+                route_path,
+                get_path="path",
+                get_color=[77, 183, 233],
+                width_scale=18,
+                width_min_pixels=4,
+                pickable=True,
+            )
+            view_state = pdk.ViewState(
+                latitude=float(map_row["latitude"]),
+                longitude=float(map_row["longitude"]),
+                zoom=10,
+                pitch=0,
+            )
+            st.pydeck_chart(
+                pdk.Deck(
+                    layers=[layer],
+                    initial_view_state=view_state,
+                    tooltip={"text": "Route {route_id}\nGTFS shape {shape_id}"},
+                    map_style=None,
+                ),
+                use_container_width=True,
+                height=360,
+            )
+            st.caption("Scheduled route alignment from GTFS Static. This is a visual route reference, not live vehicle tracking.")
 
     st.subheader("Route Prediction Examples")
     if examples.empty:

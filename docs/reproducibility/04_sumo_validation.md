@@ -12,6 +12,16 @@ SUMO is used as a selected scenario validation layer. It helps compare baseline,
 
 It is not a full Auckland-wide transport network simulation.
 
+Current final scenario:
+
+| Field | Value |
+| --- | --- |
+| Route | `128-202` |
+| Service type | Bus |
+| Corridor | `128 - Hibiscus Coast Station / Helensville` |
+| Evidence period | 2026-05-09 to 2026-06-04 |
+| Result | Intervention showed 45.6% lower average SUMO time-loss compared with disruption |
+
 ## Current Small Outputs
 
 ```text
@@ -37,4 +47,5 @@ Use the SUMO outputs to explain:
 
 - SUMO is scenario validation only.
 - Results should not be presented as proof of real-world deployment success.
+- The SUMO scenario has different trip counts across scenarios, so it is not a controlled identical-volume experiment.
 - The dashboard can display saved SUMO outputs without requiring live SUMO execution.
