@@ -15,7 +15,6 @@ Stop:
     CTRL + C
 """
 
-import os
 import time
 import json
 from pathlib import Path
@@ -24,6 +23,7 @@ from datetime import datetime, timezone
 import requests
 import pandas as pd
 from dotenv import load_dotenv
+import os
 
 
 # -----------------------------
@@ -34,7 +34,12 @@ PROJECT_ROOT = Path(__file__).resolve().parent
 RAW_DIR = PROJECT_ROOT / "data" / "raw" / "gtfs_realtime"
 RAW_DIR.mkdir(parents=True, exist_ok=True)
 
-OUTPUT_CSV = RAW_DIR / "gtfs_realtime_log.csv"
+# Legacy single-file log retained for compatibility with earlier notebooks.
+# New collection writes to daily files to avoid Excel row limits and file locks.
+LEGACY_OUTPUT_CSV = RAW_DIR / "gtfs_realtime_log.csv"
+
+DAILY_DIR = RAW_DIR / "daily"
+DAILY_DIR.mkdir(parents=True, exist_ok=True)
 
 
 # -----------------------------
@@ -88,6 +93,8 @@ def extract_records(data: dict) -> pd.DataFrame:
         trip_update = entity.get("trip_update", {})
         trip = trip_update.get("trip", {})
 
+        delay_seconds = trip_update.get("delay")
+
         records.append({
             "collection_time_utc": collection_time_utc,
             "entity_id": entity.get("id"),
@@ -97,13 +104,14 @@ def extract_records(data: dict) -> pd.DataFrame:
             "start_time": trip.get("start_time"),
             "start_date": trip.get("start_date"),
             "timestamp": trip_update.get("timestamp"),
-            "delay_seconds": trip_update.get("delay"),
+            "delay_seconds": delay_seconds,
             "is_deleted": entity.get("is_deleted")
         })
 
     df = pd.DataFrame(records)
 
     if not df.empty:
+        df["delay_seconds"] = pd.to_numeric(df["delay_seconds"], errors="coerce")
         df["delay_minutes"] = df["delay_seconds"] / 60
 
     return df
@@ -114,24 +122,35 @@ def extract_records(data: dict) -> pd.DataFrame:
 # -----------------------------
 def append_to_csv(df: pd.DataFrame) -> None:
     """
-    Append dataframe to CSV.
-    Header is written only when the file does not yet exist.
+    Append dataframe to a date-partitioned CSV.
+    Header is written only when the daily file does not yet exist.
     """
     if df.empty:
         print("No records extracted. Nothing appended.")
         return
 
-    write_header = not OUTPUT_CSV.exists()
-
-    df.to_csv(
-        OUTPUT_CSV,
-        mode="a",
-        header=write_header,
-        index=False,
-        encoding="utf-8"
+    collection_dt = pd.to_datetime(
+        df["collection_time_utc"].iloc[0],
+        errors="coerce",
+        utc=True
     )
 
-    print(f"Appended {len(df)} records to: {OUTPUT_CSV}")
+    if pd.isna(collection_dt):
+        collection_date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    else:
+        collection_date = collection_dt.strftime("%Y-%m-%d")
+
+    output_csv = DAILY_DIR / f"gtfs_realtime_{collection_date}.csv"
+    file_exists = output_csv.exists()
+
+    df.to_csv(
+        output_csv,
+        mode="a",
+        header=not file_exists,
+        index=False
+    )
+
+    print(f"Appended {len(df)} records to: {output_csv}")
 
 
 # -----------------------------
@@ -141,6 +160,7 @@ def save_raw_json(data: dict) -> None:
     """
     Save raw JSON snapshot for audit/debugging.
     JSON files are timestamped.
+    Disabled by default to avoid large raw file accumulation.
     """
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     json_path = RAW_DIR / f"tripupdates_{timestamp}.json"
@@ -168,7 +188,8 @@ def main(interval_seconds: int = 600, save_json: bool = False) -> None:
     print("Starting GTFS Realtime collection.")
     print("Press CTRL+C to stop.")
     print(f"Collection interval: {interval_seconds} seconds")
-    print(f"Output CSV: {OUTPUT_CSV}")
+    print(f"Daily output folder: {DAILY_DIR}")
+    print(f"Legacy single CSV retained at: {LEGACY_OUTPUT_CSV}")
 
     while True:
         try:
@@ -186,7 +207,12 @@ def main(interval_seconds: int = 600, save_json: bool = False) -> None:
 
             if not df.empty:
                 print("Sample columns:", list(df.columns))
-                print("Delay range (minutes):", df["delay_minutes"].min(), "to", df["delay_minutes"].max())
+                print(
+                    "Delay range (minutes):",
+                    df["delay_minutes"].min(),
+                    "to",
+                    df["delay_minutes"].max()
+                )
 
             append_to_csv(df)
 
