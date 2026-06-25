@@ -4,12 +4,7 @@ from html import escape
 
 import streamlit as st
 
-RISK_COLORS = {
-    "Low": "#2e7d32",
-    "Medium": "#f9a825",
-    "High": "#ef6c00",
-    "Severe": "#c62828",
-}
+from theme.colors import RISK_COLORS
 
 
 def delay_risk_card(chart, risk_percentages: dict[str, str], high_severe_pct: str) -> None:

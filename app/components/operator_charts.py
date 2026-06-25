@@ -3,13 +3,8 @@ from __future__ import annotations
 import altair as alt
 import pandas as pd
 
-
-RISK_COLORS = {
-    "Low": "#2e7d32",
-    "Medium": "#f9a825",
-    "High": "#ef6c00",
-    "Severe": "#c62828",
-}
+from theme.colors import RISK_COLORS
+from utils.formatters import format_count
 
 
 def risk_donut(df: pd.DataFrame, inner_radius: int = 46, outer_radius: int = 78, height: int = 215) -> alt.Chart:
@@ -77,7 +72,7 @@ def action_lollipop(df: pd.DataFrame, height: int = 285) -> alt.Chart:
     chart_df = df.groupby("recommended_action", as_index=False)["records"].sum()
     chart_df = chart_df.sort_values("records", ascending=False)
     chart_df["action_label"] = chart_df["recommended_action"].replace(label_map)
-    chart_df["count_label"] = chart_df["records"].map(lambda value: f"{int(value):,}")
+    chart_df["count_label"] = chart_df["records"].apply(format_count)
     sort_order = chart_df["action_label"].tolist()
     max_records = chart_df["records"].max() if not chart_df.empty else 0
     domain_max = max_records * 1.18 if max_records else 1
@@ -129,6 +124,30 @@ def action_lollipop(df: pd.DataFrame, height: int = 285) -> alt.Chart:
         text="count_label:N",
     )
     return (rule + point + text).properties(height=height)
+
+
+def actionable_signal_dumbbell(df: pd.DataFrame) -> alt.Chart:
+    chart_df = df.copy()
+    chart_df["x_jitter"] = ((chart_df.groupby("Signal").cumcount() % 15) - 7) * 0.028
+    chart_df["x_plot"] = chart_df["x_pos"] + chart_df["x_jitter"]
+    x = alt.X(
+        "x_plot:Q",
+        title=None,
+        scale=alt.Scale(domain=[0.65, 2.35]),
+        axis=alt.Axis(values=[1, 2], labelExpr="datum.value == 1 ? 'Observed Evidence' : 'AI Predicted Risk'"),
+    )
+    y = alt.Y("Records:Q", axis=alt.Axis(format="~s", tickCount=3), title=None)
+    trend = alt.Chart(chart_df).transform_regression("x_plot", "Records").mark_line(
+        color="#f8fafc", strokeWidth=3
+    ).encode(x=x, y=y)
+    points = alt.Chart(chart_df).mark_point(filled=True, size=120, opacity=0.9).encode(
+        x=x,
+        y=y,
+        shape=alt.Shape("Signal:N", scale=alt.Scale(domain=["Observed Evidence", "AI Predicted Risk"], range=["circle", "triangle-up"]), legend=None),
+        color=alt.Color("Signal:N", scale=alt.Scale(domain=["Observed Evidence", "AI Predicted Risk"], range=["#1687f8", "#a855f7"]), legend=None),
+        tooltip=["route_id:N", "corridor_name:N", "Signal:N", "Records:Q"],
+    )
+    return (points + trend).properties(height=260).configure_view(stroke=None)
 
 
 def shap_bar(df: pd.DataFrame) -> alt.Chart:

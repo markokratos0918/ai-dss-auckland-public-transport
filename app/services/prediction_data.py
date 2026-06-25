@@ -138,7 +138,7 @@ def balanced_prediction_examples(service_type: str, include_special: bool, day: 
             SELECT
                 CAST(collection_date AS VARCHAR) AS collection_date,
                 route_id,
-                COALESCE(NULLIF(route_corridor_name, ''), NULLIF(route_display_name, ''), route_id) AS corridor_name,
+                REGEXP_REPLACE(COALESCE(NULLIF(route_corridor_name, ''), NULLIF(route_display_name, ''), route_id), '^[A-Z0-9]+ - ', '') AS corridor_name,
                 ROUND(TRY_CAST(delay_minutes AS DOUBLE), 3) AS observed_delay,
                 ROUND(TRY_CAST(predicted_delay_minutes AS DOUBLE), 3) AS predicted_delay,
                 ROUND(TRY_CAST(predicted_actionable_probability AS DOUBLE), 3) AS ai_probability,
@@ -182,6 +182,9 @@ def route_prediction_examples(
     day: str,
     hour: str,
 ) -> pd.DataFrame:
+    from services.operator_constants import ALL_DAYS
+    date_filter = "AND collection_date = (SELECT MAX(collection_date) FROM base)" if day == ALL_DAYS else ""
+    safe_route = route_id.replace("'", "''")
     query = f"""
         WITH base AS (
             SELECT *
@@ -191,14 +194,16 @@ def route_prediction_examples(
         SELECT
             CAST(collection_date AS VARCHAR) AS collection_date,
             route_id,
-            COALESCE(NULLIF(route_corridor_name, ''), NULLIF(route_display_name, ''), route_id) AS corridor_name,
+            COALESCE(NULLIF(service_type, ''), 'School/Special or unmatched services') AS service_type,
+            REGEXP_REPLACE(COALESCE(NULLIF(route_corridor_name, ''), NULLIF(route_display_name, ''), route_id), '^[A-Z0-9]+ - ', '') AS corridor_name,
             ROUND(TRY_CAST(delay_minutes AS DOUBLE), 3) AS observed_delay,
             ROUND(TRY_CAST(predicted_delay_minutes AS DOUBLE), 3) AS predicted_delay,
             ROUND(TRY_CAST(predicted_actionable_probability AS DOUBLE), 3) AS ai_probability,
             COALESCE(NULLIF(ai_delay_risk, ''), 'Unknown') AS ai_delay_risk,
             COALESCE(NULLIF(ai_recommended_action, ''), 'Unavailable') AS ai_recommended_action
         FROM base
-        WHERE route_id = '{route_id.replace("'", "''")}'
+        WHERE route_id = '{safe_route}'
+        {date_filter}
         ORDER BY ai_probability DESC NULLS LAST
         LIMIT {int(limit)}
     """

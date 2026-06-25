@@ -48,7 +48,6 @@ pages = [
     st.Page("pages/06_Decision_Engine.py", title="Decision Engine", url_path="decision-engine"),
     st.Page("pages/07_SUMO_Validation.py", title="SUMO Validation", url_path="sumo-validation"),
     st.Page("pages/08_Route_Corridor_Focus.py", title="Route / Corridor Focus", url_path="route-corridor-focus"),
-    st.Page("pages/09_Final_Insights.py", title="Final Insights", url_path="final-insights"),
 ]
 
 navigation = st.navigation(pages)

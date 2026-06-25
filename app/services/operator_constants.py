@@ -16,7 +16,7 @@ DATA_SOURCES = {
     "prediction_sample": SUMMARY_DIR / "ai_prediction_sample.csv",
     "sumo_scenarios": PROCESSED_DIR / "sumo_scenarios.csv",
     "sumo_validation": PROCESSED_DIR / "sumo_validation_results.csv",
-    "intervention_logic": PROCESSED_DIR / "intervention_logic.csv",
+    "intervention_logic": PROCESSED_DIR / "outputs" / "model_baseline" / "intervention_logic.csv",
 }
 
 SPECIAL_SERVICE_LABEL = "School/Special Services"

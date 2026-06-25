@@ -1,8 +1,9 @@
 import streamlit as st
 
-from components.operator_charts import sumo_delay_chart
+from components.drilldown_visuals import sumo_colored_chart
 from components.operator_layout import page_header
 from components.operator_sections import sumo_disclaimer
+from components.route_maps import scheduled_route_map
 from services.support_data import sumo_summary
 
 
@@ -24,6 +25,11 @@ else:
     c2.metric("Route Name", details["route_name"])
     c3.metric("Scenario Date", details["scenario_date"])
     c4.metric("Estimated Improvement", details["improvement"])
-    st.altair_chart(sumo_delay_chart(sumo), use_container_width=True)
+
+    st.subheader("Scheduled Scenario Route")
+    scheduled_route_map(details["route_id"], height=300, zoom=10.0)
+    st.caption("GTFS scheduled route shape for reference.")
+
+    st.altair_chart(sumo_colored_chart(sumo), use_container_width=True)
     st.dataframe(sumo, use_container_width=True, hide_index=True)
     sumo_disclaimer()

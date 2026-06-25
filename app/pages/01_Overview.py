@@ -1,7 +1,8 @@
 import streamlit as st
 
 from components.operator_cards import network_card_row
-from components.operator_charts import action_lollipop, risk_donut, shap_bar, sumo_delay_chart
+from components.operator_charts import action_lollipop, risk_donut, shap_bar
+from components.drilldown_visuals import sumo_colored_chart
 from components.operator_layout import page_header
 from components.operator_tables import delayed_routes_table
 from components.overview_panels import (
@@ -22,8 +23,10 @@ from services.operator_data import (
     top_non_special_routes,
 )
 from services.support_data import sumo_summary, top_features
+from theme import load_dashboard_styles
 
 
+load_dashboard_styles()
 service_type, include_special, analysis_day, analysis_hour = page_header("overview")
 
 network = network_kpis(service_type, include_special, analysis_day, analysis_hour)
@@ -80,7 +83,8 @@ else:
                 c1.metric("Route", details["route_id"])
                 c2.metric("Scenario Date", details["scenario_date"])
                 c3.metric("Estimated Impact", details["improvement"])
-                st.altair_chart(sumo_delay_chart(sumo), use_container_width=True)
+                st.altair_chart(sumo_colored_chart(sumo), use_container_width=True)
+                st.html('<p style="color:#f59e0b; font-size:0.875rem;">⚠ SUMO results represent scenario-estimated impacts and do not guarantee operational outcomes</p>')
 
     with lower_right:
         features = top_features(5)
