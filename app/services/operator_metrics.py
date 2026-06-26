@@ -1,11 +1,23 @@
 from __future__ import annotations
 
 import pandas as pd
+import streamlit as st
+from urllib.error import URLError
+from urllib.request import urlopen
 
 from services.operator_constants import ALL_DAYS, ALL_HOURS
 from services.operator_io import from_primary, short_action
 from services.operator_risk import decision_summary
 from services.operator_routes import top_non_special_routes
+
+
+@st.cache_data(ttl=60)
+def dashboard_status() -> str:
+    try:
+        urlopen("https://www.google.com/generate_204", timeout=1.5).close()
+        return "Active"
+    except (OSError, URLError):
+        return "Offline"
 
 
 def network_kpis(
@@ -14,44 +26,47 @@ def network_kpis(
     analysis_day: str = ALL_DAYS,
     analysis_hour: str = ALL_HOURS,
 ) -> dict[str, str]:
+    status = dashboard_status()
     query = """
         WITH base AS (
             SELECT route_id, TRY_CAST(delay_minutes AS DOUBLE) AS delay_minutes,
-                COALESCE(NULLIF(delay_risk, ''), 'Unknown') AS delay_risk
+                COALESCE(TRY_CAST(predicted_actionable_delay_risk AS INTEGER), 0) AS actionable_risk,
+                COALESCE(NULLIF(ai_recommended_action, ''), 'Unavailable') AS recommended_action
             FROM {source}
             {where}
         ),
-        route_ranked AS (
-            SELECT route_id, AVG(delay_minutes) AS avg_delay_minutes,
-                SUM(CASE WHEN delay_risk IN ('High', 'Severe') THEN 1 ELSE 0 END) AS high_severe_cases
+        recommendation_ranked AS (
+            SELECT recommended_action, COUNT(*) AS records
             FROM base
-            GROUP BY route_id
-            ORDER BY avg_delay_minutes DESC, high_severe_cases DESC
+            GROUP BY recommended_action
+            ORDER BY records DESC
             LIMIT 1
         )
-        SELECT COUNT(*) AS total_records, AVG(delay_minutes) AS avg_observed_delay_minutes,
-            SUM(CASE WHEN delay_risk IN ('High', 'Severe') THEN 1 ELSE 0 END) AS observed_high_severe_cases,
-            (SELECT route_id FROM route_ranked) AS top_observed_route
+        SELECT COUNT(*) AS total_records, AVG(delay_minutes) AS avg_delay_minutes,
+            SUM(actionable_risk) AS actionable_records,
+            (SELECT recommended_action FROM recommendation_ranked) AS most_common_recommendation
         FROM base
     """
     df = from_primary(query, service_type, include_special, analysis_day, analysis_hour)
     if df.empty:
         return {
             "Total Observations": "Unavailable",
-            "Avg Predicted Delay": "Unavailable",
-            "Observed High/Severe Cases": "Unavailable",
-            "Top Observed Delayed Route": "Unavailable",
+            "Average Delay": "Unavailable",
+            "Actionable Risk": "Unavailable",
+            "Most Common Recommendation": "Unavailable",
+            "Dashboard Status": status,
         }
     row = df.iloc[0]
     total = 0 if pd.isna(row.get("total_records")) else int(row.get("total_records"))
-    high_severe = 0 if pd.isna(row.get("observed_high_severe_cases")) else int(row.get("observed_high_severe_cases"))
-    share = high_severe / total * 100 if total else 0
-    avg_delay = row.get("avg_observed_delay_minutes")
+    actionable = 0 if pd.isna(row.get("actionable_records")) else int(row.get("actionable_records"))
+    share = actionable / total * 100 if total else 0
+    avg_delay = row.get("avg_delay_minutes")
     return {
         "Total Observations": f"{total:,}",
-        "Avg Predicted Delay": "Unavailable" if pd.isna(avg_delay) else f"{float(avg_delay):.2f} min",
-        "Observed High/Severe Cases": f"{high_severe:,} ({share:.2f}%)",
-        "Top Observed Delayed Route": str(row.get("top_observed_route") or "Unavailable"),
+        "Average Delay": "Unavailable" if pd.isna(avg_delay) else f"{float(avg_delay):.2f} min",
+        "Actionable Risk": f"{actionable:,} ({share:.2f}%)",
+        "Most Common Recommendation": short_action(str(row.get("most_common_recommendation") or "Unavailable")),
+        "Dashboard Status": status,
     }
 
 

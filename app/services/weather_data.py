@@ -13,7 +13,6 @@ WEATHER_FEATURES = [
     "wind_speed_10m",
 ]
 
-
 def weather_integration_summary(service_type: str, include_special: bool, day: str, hour: str) -> dict[str, str]:
     fields_sql = " AND ".join(f"{field} IS NOT NULL" for field in WEATHER_FEATURES)
     query = f"""
@@ -149,7 +148,7 @@ def weather_route_examples(
         SELECT
             route_id,
             COALESCE(NULLIF(service_type, ''), 'School/Special or unmatched services') AS service_type,
-            COALESCE(NULLIF(route_corridor_name, ''), NULLIF(route_display_name, ''), route_id) AS corridor_name,
+            REGEXP_REPLACE(COALESCE(NULLIF(route_corridor_name, ''), NULLIF(route_display_name, ''), route_id), '^[A-Z0-9]+ - ', '') AS corridor_name,
             COUNT(*) AS weather_context_records,
             ROUND(AVG(TRY_CAST(delay_minutes AS DOUBLE)), 2) AS avg_observed_delay,
             ROUND(AVG(TRY_CAST(predicted_delay_minutes AS DOUBLE)), 2) AS avg_predicted_delay,

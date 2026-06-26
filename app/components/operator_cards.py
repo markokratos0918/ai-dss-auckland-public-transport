@@ -22,7 +22,7 @@ def network_card_row(kpis: dict[str, str]) -> None:
         "Total Observations": ICONS["observations"],
         "Average Delay": ICONS["timer"],
         "Actionable Risk": ICONS["risk"],
-        "Most Common Recommendation": ICONS["check"],
+        "Top Recommendation": ICONS["check"],
         "Dashboard Status": ICONS["status"],
     }
     cards = []

@@ -102,7 +102,7 @@ def top_observed_routes(
             SELECT
                 route_id,
                 COALESCE(NULLIF(service_type, ''), 'Unknown / unmatched route') AS service_type,
-                COALESCE(NULLIF(route_corridor_name, ''), NULLIF(route_display_name, ''), route_id) AS corridor_name,
+                REGEXP_REPLACE(COALESCE(NULLIF(route_corridor_name, ''), NULLIF(route_display_name, ''), route_id), '^[A-Z0-9]+ - ', '') AS corridor_name,
                 COALESCE(NULLIF(route_display_name, ''), route_short_name, route_id) AS route_name,
                 COUNT(*) AS records,
                 ROUND(AVG(TRY_CAST(delay_minutes AS DOUBLE)), 3) AS avg_observed_delay,

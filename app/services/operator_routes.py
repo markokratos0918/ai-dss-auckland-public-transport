@@ -20,7 +20,7 @@ def top_non_special_routes(
                 ELSE COALESCE(NULLIF(service_type, ''), '{SPECIAL_SERVICE_LABEL}')
             END AS service_type,
             COALESCE(NULLIF(route_display_name, ''), route_short_name, route_id) AS route_display_name,
-            COALESCE(NULLIF(route_corridor_name, ''), NULLIF(route_display_name, ''), route_id) AS route_corridor_name,
+            REGEXP_REPLACE(COALESCE(NULLIF(route_corridor_name, ''), NULLIF(route_display_name, ''), route_id), '^[A-Z0-9]+ - ', '') AS route_corridor_name,
             route_id,
             COALESCE(CAST(is_special_route AS BOOLEAN), starts_with(upper(route_id), 'S')) AS is_special_route,
             COUNT(*) AS records,

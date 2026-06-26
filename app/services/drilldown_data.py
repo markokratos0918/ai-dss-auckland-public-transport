@@ -9,12 +9,14 @@ from services.observed_data import (
 )
 from services.prediction_data import (
     actionable_risk_comparison,
-    ai_prediction_examples,
     ai_prediction_summary,
-    balanced_prediction_examples,
     reliability_timing_mix,
-    route_prediction_examples,
     risk_category_cards,
+)
+from services.prediction_examples_data import (
+    ai_prediction_examples,
+    balanced_prediction_examples,
+    route_prediction_examples,
 )
 from services.route_focus_data import route_focus, route_options
 

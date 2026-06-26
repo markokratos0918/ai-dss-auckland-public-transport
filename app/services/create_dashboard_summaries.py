@@ -11,7 +11,6 @@ DECISION_INPUTS = [
 ]
 FEATURE_INPUT = SUMMARY_DIR / "ai_feature_importance.csv"
 
-
 def require_duckdb():
     try:
         import duckdb
@@ -22,7 +21,6 @@ def require_duckdb():
         ) from exc
     return duckdb
 
-
 def choose_decision_input() -> Path:
     for path in DECISION_INPUTS:
         if path.exists():
@@ -30,16 +28,13 @@ def choose_decision_input() -> Path:
     expected = "\n".join(str(path) for path in DECISION_INPUTS)
     raise SystemExit(f"No Decision Engine input found. Expected one of:\n{expected}")
 
-
 def sql_path(path: Path) -> str:
     return str(path).replace("\\", "/").replace("'", "''")
-
 
 def write_csv(con, query: str, output: Path) -> int:
     output.parent.mkdir(parents=True, exist_ok=True)
     con.execute(f"COPY ({query}) TO '{sql_path(output)}' (HEADER, DELIMITER ',')")
     return con.execute(f"SELECT COUNT(*) FROM read_csv_auto('{sql_path(output)}')").fetchone()[0]
-
 
 def create_route_delay_risk_summary(con, source: Path) -> int:
     query = f"""
@@ -75,7 +70,6 @@ def create_route_delay_risk_summary(con, source: Path) -> int:
     """
     return write_csv(con, query, SUMMARY_DIR / "route_delay_risk_summary.csv")
 
-
 def create_service_type_delay_summary(con, source: Path) -> int:
     query = f"""
         WITH base AS (
@@ -102,7 +96,6 @@ def create_service_type_delay_summary(con, source: Path) -> int:
         ORDER BY service_type, records DESC
     """
     return write_csv(con, query, SUMMARY_DIR / "service_type_delay_summary.csv")
-
 
 def create_weather_delay_risk_summary(con, source: Path) -> int:
     query = f"""
@@ -151,7 +144,6 @@ def create_weather_delay_risk_summary(con, source: Path) -> int:
     """
     return write_csv(con, query, SUMMARY_DIR / "weather_delay_risk_summary.csv")
 
-
 def create_ai_feature_lookup(con) -> int:
     if not FEATURE_INPUT.exists():
         raise SystemExit(f"Missing feature importance input: {FEATURE_INPUT}")
@@ -181,23 +173,19 @@ def create_ai_feature_lookup(con) -> int:
     """
     return write_csv(con, query, SUMMARY_DIR / "ai_feature_explanation_lookup.csv")
 
-
 def main() -> None:
     duckdb = require_duckdb()
     source = choose_decision_input()
     con = duckdb.connect()
-
     print("M5.1 dashboard summary generation")
     print(f"Decision input: {source}")
     print(f"Feature input: {FEATURE_INPUT}")
-
     outputs = {
         "route_delay_risk_summary.csv": create_route_delay_risk_summary(con, source),
         "service_type_delay_summary.csv": create_service_type_delay_summary(con, source),
         "weather_delay_risk_summary.csv": create_weather_delay_risk_summary(con, source),
         "ai_feature_explanation_lookup.csv": create_ai_feature_lookup(con),
     }
-
     print("\nOutputs created:")
     for name, rows in outputs.items():
         print(f"- {SUMMARY_DIR / name} ({rows:,} rows)")
