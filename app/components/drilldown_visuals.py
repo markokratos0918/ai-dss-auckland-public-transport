@@ -67,13 +67,13 @@ def sumo_colored_chart(df: pd.DataFrame) -> alt.Chart:
         .mark_bar(cornerRadiusTopLeft=4, cornerRadiusTopRight=4)
         .encode(
             x=alt.X("scenario_name:N", title=None, axis=alt.Axis(labelAngle=0, labelLimit=200)),
-            y=alt.Y("avg_delay_min:Q", title=None),
+            y=alt.Y("avg_delay_min:Q", title="Simulated avg delay (min - scenario indicator)"),
             color=alt.Color(
                 "scenario_name:N",
                 scale=alt.Scale(domain=list(SUMO_COLORS), range=list(SUMO_COLORS.values())),
                 legend=None,
             ),
-            tooltip=["scenario_name:N", "avg_delay_min:Q", "service_reliability:N"],
+            tooltip=["scenario_name:N", "avg_delay_min:Q", "max_delay_min:Q", "congestion_index:Q", "service_reliability:N"],
         )
         .properties(height=280)
     )
@@ -96,6 +96,61 @@ def route_weather_cards(row: pd.Series) -> None:
             """,
             unsafe_allow_html=True,
         )
+
+
+def diverging_reliability_chart(df: pd.DataFrame, height: int = 260) -> alt.Chart:
+    """Diverging bar centred on 'Near on-time': Early extends left, Late right.
+
+    Display-only view of reliability_timing_mix (timing_band, records, share_pct).
+    """
+    order = ["Early-running", "Near on-time", "Late-running"]
+    colors = {"Early-running": "#4db7e9", "Near on-time": "#8fa3b8", "Late-running": "#f4a259"}
+    chart_df = df.copy()
+    chart_df["share_pct"] = pd.to_numeric(chart_df["share_pct"], errors="coerce").fillna(0.0)
+
+    def _extent(row: pd.Series) -> pd.Series:
+        share = float(row["share_pct"])
+        band = str(row["timing_band"])
+        if band == "Early-running":
+            return pd.Series({"start": -share, "end": 0.0})
+        if band == "Late-running":
+            return pd.Series({"start": 0.0, "end": share})
+        return pd.Series({"start": -share / 2, "end": share / 2})
+
+    chart_df[["start", "end"]] = chart_df.apply(_extent, axis=1)
+    chart_df["mid"] = (chart_df["start"] + chart_df["end"]) / 2
+    chart_df["label"] = chart_df["share_pct"].map(lambda value: f"{value:.0f}%")
+    max_ext = max(chart_df["end"].max(), -chart_df["start"].min(), 1.0) * 1.15
+    domain = [-max_ext, max_ext]
+
+    base = alt.Chart(chart_df).encode(
+        y=alt.Y("timing_band:N", sort=order, title=None, axis=alt.Axis(labelLimit=160)),
+    )
+    bars = base.mark_bar(height=26).encode(
+        x=alt.X(
+            "start:Q",
+            title="← Early-running   ·   Late-running →",
+            scale=alt.Scale(domain=domain),
+            axis=alt.Axis(labelExpr="abs(datum.value) + '%'", tickCount=5),
+        ),
+        x2="end:Q",
+        color=alt.Color(
+            "timing_band:N",
+            scale=alt.Scale(domain=order, range=[colors[band] for band in order]),
+            legend=None,
+        ),
+        tooltip=["timing_band:N", "records:Q", "share_pct:Q"],
+    )
+    centre = (
+        alt.Chart(pd.DataFrame({"x": [0]}))
+        .mark_rule(color="#5d7da0", strokeDash=[3, 3])
+        .encode(x="x:Q")
+    )
+    text = base.mark_text(color="#06121f", fontWeight="bold", fontSize=11).encode(
+        x=alt.X("mid:Q", scale=alt.Scale(domain=domain)),
+        text="label:N",
+    )
+    return (bars + centre + text).properties(height=height).configure_view(stroke=None)
 
 
 def decision_rule_cards(logic: pd.DataFrame) -> None:

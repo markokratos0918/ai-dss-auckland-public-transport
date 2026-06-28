@@ -126,28 +126,40 @@ def action_lollipop(df: pd.DataFrame, height: int = 285) -> alt.Chart:
     return (rule + point + text).properties(height=height)
 
 
-def actionable_signal_dumbbell(df: pd.DataFrame) -> alt.Chart:
+def actionable_observed_vs_predicted(df: pd.DataFrame) -> alt.Chart:
+    """Per-route observed vs AI-predicted actionable counts with a y=x reference."""
     chart_df = df.copy()
-    chart_df["x_jitter"] = ((chart_df.groupby("Signal").cumcount() % 15) - 7) * 0.028
-    chart_df["x_plot"] = chart_df["x_pos"] + chart_df["x_jitter"]
-    x = alt.X(
-        "x_plot:Q",
-        title=None,
-        scale=alt.Scale(domain=[0.65, 2.35]),
-        axis=alt.Axis(values=[1, 2], labelExpr="datum.value == 1 ? 'Observed Evidence' : 'AI Predicted Risk'"),
+    max_v = max(
+        float(chart_df["observed_records"].max() or 0),
+        float(chart_df["ai_records"].max() or 0),
+        1.0,
+    ) * 1.08
+    diagonal = (
+        alt.Chart(pd.DataFrame({"v": [0, max_v]}))
+        .mark_line(color="#94a3b8", strokeDash=[5, 4])
+        .encode(x=alt.X("v:Q", title=None), y=alt.Y("v:Q", title=None))
     )
-    y = alt.Y("Records:Q", axis=alt.Axis(format="~s", tickCount=3), title=None)
-    trend = alt.Chart(chart_df).transform_regression("x_plot", "Records").mark_line(
-        color="#f8fafc", strokeWidth=3
-    ).encode(x=x, y=y)
-    points = alt.Chart(chart_df).mark_point(filled=True, size=120, opacity=0.9).encode(
-        x=x,
-        y=y,
-        shape=alt.Shape("Signal:N", scale=alt.Scale(domain=["Observed Evidence", "AI Predicted Risk"], range=["circle", "triangle-up"]), legend=None),
-        color=alt.Color("Signal:N", scale=alt.Scale(domain=["Observed Evidence", "AI Predicted Risk"], range=["#1687f8", "#a855f7"]), legend=None),
-        tooltip=["route_id:N", "corridor_name:N", "Signal:N", "Records:Q"],
+    points = alt.Chart(chart_df).mark_circle(size=90, opacity=0.75, color="#a855f7").encode(
+        x=alt.X(
+            "observed_records:Q",
+            title="Observed actionable records",
+            scale=alt.Scale(domain=[0, max_v]),
+            axis=alt.Axis(format="~s"),
+        ),
+        y=alt.Y(
+            "ai_records:Q",
+            title="AI-predicted actionable records",
+            scale=alt.Scale(domain=[0, max_v]),
+            axis=alt.Axis(format="~s"),
+        ),
+        tooltip=[
+            alt.Tooltip("route_id:N", title="Route"),
+            alt.Tooltip("corridor_name:N", title="Corridor"),
+            alt.Tooltip("observed_records:Q", title="Observed", format=","),
+            alt.Tooltip("ai_records:Q", title="AI predicted", format=","),
+        ],
     )
-    return (points + trend).properties(height=260).configure_view(stroke=None)
+    return (diagonal + points).properties(height=260).configure_view(stroke=None)
 
 
 def shap_bar(df: pd.DataFrame) -> alt.Chart:

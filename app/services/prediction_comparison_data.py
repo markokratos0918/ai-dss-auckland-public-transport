@@ -10,7 +10,7 @@ def route_actionable_signal_scatter(
     include_special: bool,
     day: str,
     hour: str,
-    limit: int = 45,
+    limit: int = 60,
 ) -> pd.DataFrame:
     query = f"""
         WITH route_counts AS (
@@ -29,13 +29,7 @@ def route_actionable_signal_scatter(
         ORDER BY GREATEST(observed_records, ai_records) DESC, route_id
         LIMIT {int(limit)}
     """
-    wide = from_primary(query, service_type, include_special, day, hour)
-    if wide.empty:
-        return pd.DataFrame(columns=["route_id", "corridor_name", "Signal", "Records", "x_pos"])
-    observed = wide[["route_id", "corridor_name", "observed_records"]].rename(columns={"observed_records": "Records"})
-    observed["Signal"] = "Observed Evidence"
-    observed["x_pos"] = 1
-    ai = wide[["route_id", "corridor_name", "ai_records"]].rename(columns={"ai_records": "Records"})
-    ai["Signal"] = "AI Predicted Risk"
-    ai["x_pos"] = 2
-    return pd.concat([observed, ai], ignore_index=True)
+    df = from_primary(query, service_type, include_special, day, hour)
+    if df.empty:
+        return pd.DataFrame(columns=["route_id", "corridor_name", "observed_records", "ai_records"])
+    return df

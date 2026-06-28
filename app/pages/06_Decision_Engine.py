@@ -5,6 +5,7 @@ import streamlit as st
 
 from components.operator_charts import action_lollipop
 from components.operator_layout import page_header
+from components.page_summary import set_summary
 from services.drilldown_data import intervention_logic
 from services.operator_data import decision_summary, operator_action_summary
 
@@ -94,18 +95,15 @@ def render_decision_flow() -> None:
         <div class="decision-flow">
             <div class="flow-step ai">AI Prediction</div>
             <div class="flow-arrow">→</div>
-            <div class="flow-step risk">Risk Category</div>
+            <div class="flow-step risk">Probability Band</div>
             <div class="flow-arrow">→</div>
-            <div class="flow-step rule">Decision Rule</div>
+            <div class="flow-step rule">Band Rule</div>
             <div class="flow-arrow">→</div>
             <div class="flow-step action">Operator Action</div>
         </div>
         """,
         unsafe_allow_html=True,
     )
-
-
-
 
 
 def render_decision_summary(
@@ -116,12 +114,15 @@ def render_decision_summary(
 ) -> None:
     decision = decision_summary(service_type, include_special, analysis_day, analysis_hour)
     summary = operator_action_summary(service_type, include_special, analysis_day, analysis_hour)
+    set_summary("Decision Engine", [
+        f"Most common action: {summary['common']}",
+        f"AI Severe count: {summary['severe']}",
+        f"High + Severe share: {summary['risk_pct']}",
+    ])
 
     if decision.empty:
         st.warning("Decision Engine summary is unavailable for the current filter.")
         return
-
-    
 
     c1, c2, c3 = st.columns(3)
     c1.metric("Most Common AI Action", summary["common"])
@@ -132,13 +133,31 @@ def render_decision_summary(
     st.dataframe(decision, use_container_width=True, hide_index=True)
 
 
+AI_BAND_RULES = pd.DataFrame(
+    [
+        {"AI Risk Band": "Low", "Probability of actionable delay": "< 50%",
+         "Recommended Action": "No operational action required",
+         "Meaning": "Unlikely to need attention."},
+        {"AI Risk Band": "Medium", "Probability of actionable delay": "50% - 70%",
+         "Recommended Action": "Monitor route conditions",
+         "Meaning": "Watch for emerging disruption."},
+        {"AI Risk Band": "High", "Probability of actionable delay": "70% - 85%",
+         "Recommended Action": "Adjust service headway",
+         "Meaning": "Likely actionable; consider spacing or dispatch."},
+        {"AI Risk Band": "Severe", "Probability of actionable delay": ">= 85%",
+         "Recommended Action": "Deploy standby bus or supervisor review",
+         "Meaning": "High chance of disruption; active review."},
+    ]
+)
+
+
 def render_logic_table(logic: pd.DataFrame) -> None:
     st.subheader("How Risk Becomes Action")
     st.markdown(
         """
         <div class="decision-note">
-            The AI model assigns a delay-risk category. The Decision Engine applies
-            transparent rules to convert that risk into an operator action.
+            The AI model outputs a probability that a trip is an actionable case. The Decision
+            Engine maps that probability band to a fixed operator action.
         </div>
         """,
         unsafe_allow_html=True,
@@ -146,27 +165,37 @@ def render_logic_table(logic: pd.DataFrame) -> None:
 
     render_decision_flow()
 
-    with st.expander("View Decision Rule Table", expanded=True):
-        if logic.empty:
-            st.warning("Decision rule table is unavailable.")
-            return
-
-        display_logic = logic.rename(
-            columns={
-                "delay_risk": "Delay Risk",
-                "delay_minutes_rule": "Rule",
-                "recommended_action": "Recommended Action",
-                "operational_meaning": "Operator Meaning",
-            }
+    with st.expander("AI decision rule (probability band -> action)", expanded=True):
+        st.dataframe(AI_BAND_RULES, use_container_width=True, hide_index=True)
+        st.caption(
+            "AI risk is a probability band (chance a trip is actionable), not minutes late. "
+            "This band-to-action mapping is exactly what the engine applies at runtime."
         )
-        st.dataframe(display_logic, use_container_width=True, hide_index=True)
+
+    with st.expander("Observed-delay reference (separate minute-based scale)", expanded=False):
+        if logic.empty:
+            st.warning("Observed-delay reference is unavailable.")
+        else:
+            display_logic = logic.rename(
+                columns={
+                    "delay_risk": "Band label",
+                    "delay_minutes_rule": "Observed delay rule",
+                    "recommended_action": "Reference action",
+                    "operational_meaning": "Meaning",
+                }
+            )
+            st.dataframe(display_logic, use_container_width=True, hide_index=True)
+        st.caption(
+            "This minute-based scale describes observed delay magnitude. It reuses the same "
+            "Low/Medium/High/Severe words but is NOT how the AI assigns its probability band."
+        )
 
 
 service_type, include_special, analysis_day, analysis_hour = page_header("decision_engine")
 inject_decision_engine_css()
 
 st.subheader("Decision Engine")
-st.info("The Decision Engine translates AI risk categories into recommended operator actions.")
+st.info("The Decision Engine maps the AI probability band of each trip to a recommended operator action.")
 
 render_decision_summary(service_type, include_special, analysis_day, analysis_hour)
 

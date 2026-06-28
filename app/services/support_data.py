@@ -8,7 +8,7 @@ from services.operator_data import load_dataset, numeric
 
 
 SHAP_LABELS = {
-    "route_id_infrequent_sklearn": "Other low-frequency routes",
+    "route_id_infrequent_sklearn": "Low-frequency routes (grouped)",
     "route_id_326-203": "Route 326-203",
     "route_id_NX1-203": "Route NX1-203",
     "route_id_738-221": "Route 738-221",
@@ -45,11 +45,25 @@ def sumo_summary() -> tuple[pd.DataFrame, dict[str, str]]:
     }
 
 
-def top_features(limit: int = 10) -> pd.DataFrame:
+def _shap_importance() -> pd.DataFrame:
     df = numeric(load_dataset("feature_importance"), ["importance"])
     if df.empty:
         return df
-    features = df.sort_values("importance", ascending=False).head(limit).copy()
-    if "feature" in features.columns:
-        features["feature"] = features["feature"].replace(SHAP_LABELS)
-    return features
+    if "explainability_type" in df.columns:
+        df = df[df["explainability_type"] == "mean_abs_shap"]
+    df = df.sort_values("importance", ascending=False).copy()
+    if "feature" in df.columns:
+        df["feature"] = df["feature"].replace(SHAP_LABELS)
+    return df
+
+
+def top_features(limit: int = 10) -> pd.DataFrame:
+    return _shap_importance().head(limit)
+
+
+def shap_feature_set() -> pd.DataFrame:
+    return _shap_importance()
+
+
+def shap_beeswarm() -> pd.DataFrame:
+    return numeric(load_dataset("shap_beeswarm"), ["shap_value", "value_norm", "mean_abs"])

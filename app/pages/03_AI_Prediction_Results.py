@@ -1,9 +1,10 @@
-import altair as alt
 import streamlit as st
 from html import escape
 
-from components.operator_charts import actionable_signal_dumbbell
+from components.drilldown_visuals import diverging_reliability_chart
+from components.operator_charts import actionable_observed_vs_predicted
 from components.operator_layout import page_header
+from components.page_summary import set_summary
 from theme.colors import CARD_COLORS
 from services.drilldown_data import (
     ai_prediction_summary,
@@ -61,6 +62,11 @@ st.info(
 )
 
 summary = ai_prediction_summary(service_type, include_special, analysis_day, analysis_hour)
+set_summary("AI Prediction Results", [
+    f"Predicted actionable: {summary.get('Predicted Actionable','-')} vs observed {summary.get('Observed Actionable','-')}",
+    f"Avg AI probability: {summary.get('Avg Probability','-')}",
+    "Recall-favouring: ~76% recall, ~33% precision",
+])
 for col, (label, value) in zip(st.columns(len(summary)), summary.items()):
     with col:
         metric_card(label, value)
@@ -72,24 +78,22 @@ with left.container(border=True):
     if comparison.empty:
         st.warning("Actionable risk comparison is unavailable for the current filter.")
     else:
-        st.altair_chart(actionable_signal_dumbbell(comparison), use_container_width=True)
-        st.caption("The AI layer produces its own risk signal rather than only copying observed labels.")
+        st.altair_chart(actionable_observed_vs_predicted(comparison), use_container_width=True)
+        st.caption(
+            "Each dot is a route: observed actionable trips (x) vs AI-flagged (y). Dots above the "
+            "dashed line are routes the AI flags more often than observed — its recall-favouring "
+            "over-flagging (more real cases caught, but more false alarms)."
+        )
 
 with right.container(border=True):
     st.subheader("Early vs Late Reliability")
     timing = reliability_timing_mix(service_type, include_special, analysis_day, analysis_hour)
-    chart = (
-        alt.Chart(timing)
-        .mark_bar(color="#4db7e9")
-        .encode(
-            x=alt.X("records:Q", title=None, axis=alt.Axis(format="~s")),
-            y=alt.Y("timing_band:N", title=None, sort=["Early-running", "Near on-time", "Late-running"]),
-            tooltip=["timing_band:N", "records:Q", "share_pct:Q"],
-        )
-        .properties(height=260)
+    st.altair_chart(diverging_reliability_chart(timing), use_container_width=True)
+    st.caption(
+        "Diverging from the centre: early-running (left) vs late-running (right), with near "
+        "on-time straddling the centre. Early-running can still reduce reliability because "
+        "passengers may miss services."
     )
-    st.altair_chart(chart, use_container_width=True)
-    st.caption("Early-running can still reduce reliability because passengers may miss services.")
 
 st.subheader("Risk Categories and Recommended Actions")
 risk_cards = risk_category_cards(service_type, include_special, analysis_day, analysis_hour)
@@ -104,6 +108,12 @@ for column, risk in zip(st.columns(4), ["Low", "Medium", "High", "Severe"]):
         metric_card(risk, f"{records:,}", f"{share:.2f}% | {action}")
 
 st.subheader("Model Evidence Summary")
+st.info(
+    "How to read these: the AI is tuned to catch problems, not to be precise. It correctly catches "
+    "about 76% of genuinely actionable trips (recall) but only ~33% of its flags are correct "
+    "(precision) — the rest are false alarms. A do-nothing baseline scores 77% accuracy yet catches "
+    "0% of real cases (recall 0%), which is why accuracy alone is misleading here."
+)
 evidence = model_evidence_summary()
 for col, (label, value) in zip(st.columns(4), evidence.items()):
     with col:
@@ -114,12 +124,21 @@ if not metrics.empty:
     for col, (label, value) in zip(st.columns(4), extra_model_evidence(metrics).items()):
         with col:
             metric_card(label, value)
+    st.caption(
+        "ARIMA Hourly RMSE measures hourly-average delay (a different target), so it is not directly "
+        "comparable to the row-level XGBoost RMSE above."
+    )
 if not metrics.empty:
     with st.expander("Detailed model evidence"):
         st.dataframe(metrics, use_container_width=True, hide_index=True)
 
 examples = balanced_prediction_examples(service_type, include_special, analysis_day, analysis_hour)
 st.subheader("Prediction Example Mix")
+st.caption(
+    "A balanced illustrative sample (one row per risk × timing combination), not the real "
+    "frequency mix. Probabilities look rounded because the sample picks band-representative trips; "
+    "the full model produces thousands of distinct probability values."
+)
 if examples.empty:
     st.warning("AI prediction examples are unavailable for the current filter.")
 else:

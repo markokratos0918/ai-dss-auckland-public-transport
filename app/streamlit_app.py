@@ -41,14 +41,19 @@ st.html(
 
 pages = [
     st.Page("pages/01_Overview.py", title="Overview", url_path="overview"),
-    st.Page("pages/02_Delay_Risk_Monitor.py", title="Delay Risk Monitor", url_path="delay-risk-monitor"),
+    st.Page("pages/02_Delay_Risk_Monitor.py", title="Observed Delay Monitor", url_path="delay-risk-monitor"),
     st.Page("pages/03_AI_Prediction_Results.py", title="AI Prediction Results", url_path="ai-prediction-results"),
-    st.Page("pages/04_Weather_Impact.py", title="Weather Impact", url_path="weather-impact"),
+    st.Page("pages/04_Weather_Impact.py", title="Weather Context", url_path="weather-impact"),
     st.Page("pages/05_SHAP_Explainability.py", title="SHAP Explainability", url_path="shap-explainability"),
     st.Page("pages/06_Decision_Engine.py", title="Decision Engine", url_path="decision-engine"),
     st.Page("pages/07_SUMO_Validation.py", title="SUMO Validation", url_path="sumo-validation"),
     st.Page("pages/08_Route_Corridor_Focus.py", title="Route / Corridor Focus", url_path="route-corridor-focus"),
 ]
 
+from components.page_summary import render_summary
+
 navigation = st.navigation(pages)
+summary_slot = st.sidebar.empty()
 navigation.run()
+with summary_slot.container():
+    render_summary()

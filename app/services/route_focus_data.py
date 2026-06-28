@@ -34,3 +34,30 @@ def route_focus(route_id: str, service_type: str, include_special: bool, day: st
         GROUP BY ALL
     """
     return from_primary(query, service_type, include_special, day, hour)
+
+
+def route_timing_mix(route_id, service_type, include_special, day, hour):
+    safe = route_id.replace("'", "''")
+    query = f"""
+        WITH base AS (SELECT * FROM {{source}} {{where}})
+        SELECT CASE WHEN TRY_CAST(delay_minutes AS DOUBLE) < -1 THEN 'Early-running'
+                    WHEN TRY_CAST(delay_minutes AS DOUBLE) > 1 THEN 'Late-running'
+                    ELSE 'Near on-time' END AS timing_band,
+               COUNT(*) AS records,
+               ROUND(100.0 * COUNT(*) / SUM(COUNT(*)) OVER (), 2) AS share_pct
+        FROM base WHERE route_id = '{safe}' GROUP BY 1
+    """
+    return from_primary(query, service_type, include_special, day, hour)
+
+
+def route_action_mix(route_id, service_type, include_special, day, hour):
+    safe = route_id.replace("'", "''")
+    query = f"""
+        WITH base AS (SELECT * FROM {{source}} {{where}})
+        SELECT COALESCE(NULLIF(ai_recommended_action, ''), 'Unavailable') AS recommended_action,
+               COALESCE(NULLIF(ai_delay_risk, ''), 'Unknown') AS ai_delay_risk,
+               COUNT(*) AS records,
+               ROUND(100.0 * COUNT(*) / SUM(COUNT(*)) OVER (), 2) AS share_pct
+        FROM base WHERE route_id = '{safe}' GROUP BY 1, 2 ORDER BY records DESC
+    """
+    return from_primary(query, service_type, include_special, day, hour)

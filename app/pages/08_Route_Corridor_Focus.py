@@ -1,10 +1,22 @@
 import streamlit as st
 
-from components.drilldown_visuals import route_weather_cards
+from components.drilldown_visuals import diverging_reliability_chart, route_weather_cards
 from components.operator_layout import page_header
+from components.page_summary import set_summary
 from components.route_maps import scheduled_route_map
-from services.drilldown_data import route_focus, route_prediction_examples
-from services.drilldown_enhancements import format_route_label, route_options_by_risk
+from theme import load_dashboard_styles
+from services.drilldown_data import (
+    route_action_mix,
+    route_focus,
+    route_prediction_examples,
+    route_timing_mix,
+)
+from services.drilldown_enhancements import (
+    PREDICTION_BAND_LEGEND,
+    format_prediction_examples,
+    format_route_label,
+    route_options_by_risk,
+)
 
 
 SUMMARY_COLORS = {
@@ -25,6 +37,7 @@ def _metric_tile(label: str, value: str, color: str) -> str:
 
 
 service_type, include_special, analysis_day, analysis_hour = page_header("route_corridor_focus")
+load_dashboard_styles()
 
 st.subheader("Route / Corridor Focus")
 st.info("This drill-down connects observed delay evidence, AI-predicted risk, and the recommended action for one route.")
@@ -58,8 +71,35 @@ else:
             with col:
                 st.html(_metric_tile(label, value, SUMMARY_COLORS[label]))
 
-        st.write(f"**Recommended Action:** {row['recommended_action']}")
         st.write(f"**Corridor:** {row['corridor_name']}")
+
+        mix_left, mix_right = st.columns(2)
+        with mix_left:
+            st.caption("Reliability mix (observed timing)")
+            timing = route_timing_mix(selected, service_type, include_special, analysis_day, analysis_hour)
+            if timing.empty:
+                st.warning("Timing mix unavailable.")
+            else:
+                st.altair_chart(diverging_reliability_chart(timing, height=200), use_container_width=True)
+        with mix_right:
+            st.caption("AI action mix (share of records)")
+            action_mix = route_action_mix(selected, service_type, include_special, analysis_day, analysis_hour)
+            if action_mix.empty:
+                st.warning("Action mix unavailable.")
+            else:
+                disp = action_mix.rename(
+                    columns={"recommended_action": "AI Action", "ai_delay_risk": "Risk", "share_pct": "Share %"}
+                )
+                st.dataframe(disp[["AI Action", "Risk", "Share %"]], use_container_width=True, hide_index=True)
+
+        early = timing.loc[timing['timing_band'] == 'Early-running', 'share_pct'].sum() if not timing.empty else 0
+        late = timing.loc[timing['timing_band'] == 'Late-running', 'share_pct'].sum() if not timing.empty else 0
+        top_action = action_mix.iloc[0]['recommended_action'] if not action_mix.empty else 'n/a'
+        set_summary("Route / Corridor Focus", [
+            f"Route {selected}: {early:.0f}% early, {late:.0f}% late",
+            f"Top AI action: {top_action}",
+            f"Avg observed delay: {row['avg_observed_delay']:.2f} min",
+        ])
         route_weather_cards(row)
 
         st.subheader("Scheduled Route Map")
@@ -70,4 +110,11 @@ else:
     if examples.empty:
         st.warning("No prediction examples are available for the selected route and filter.")
     else:
-        st.dataframe(examples, use_container_width=True, hide_index=True, height=460)
+        with st.expander("How to read AI risk vs observed delay", expanded=False):
+            st.markdown(PREDICTION_BAND_LEGEND)
+        st.dataframe(
+            format_prediction_examples(examples),
+            use_container_width=True,
+            hide_index=True,
+            height=460,
+        )

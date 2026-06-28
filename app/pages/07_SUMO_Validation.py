@@ -2,6 +2,7 @@ import streamlit as st
 
 from components.drilldown_visuals import sumo_colored_chart
 from components.operator_layout import page_header
+from components.page_summary import set_summary
 from components.operator_sections import sumo_disclaimer
 from components.route_maps import scheduled_route_map
 from services.support_data import sumo_summary
@@ -24,12 +25,31 @@ else:
     c1.metric("Scenario Route", details["route_id"])
     c2.metric("Route Name", details["route_name"])
     c3.metric("Scenario Date", details["scenario_date"])
-    c4.metric("Estimated Improvement", details["improvement"])
+    c4.metric("Scenario Time-Loss Reduction", details["improvement"])
+    set_summary("SUMO Validation", [
+        f"Scenario route: {details['route_id']}",
+        f"Time-loss reduction: {details['improvement']}",
+        "Scenario estimate, not real-world proof",
+    ])
 
     st.subheader("Scheduled Scenario Route")
     scheduled_route_map(details["route_id"], height=300, zoom=10.0)
     st.caption("GTFS scheduled route shape for reference.")
 
     st.altair_chart(sumo_colored_chart(sumo), use_container_width=True)
-    st.dataframe(sumo, use_container_width=True, hide_index=True)
+    st.caption(
+        "Bars are simulated average delay per scenario - sub-minute SUMO indicators, not real-world "
+        "delay minutes. Completed trips differ by scenario (Baseline 78, Disruption 238, "
+        "Intervention 123), so this is a scenario-level comparison, not a like-for-like experiment. "
+        "The time-loss reduction is relative between the Disruption and Intervention scenarios."
+    )
+
+    ref_cols = [c for c in ["scenario_name", "congestion_index", "queue_impact", "service_reliability"] if c in sumo.columns]
+    st.dataframe(sumo[ref_cols], use_container_width=True, hide_index=True)
+
+    if "validation_interpretation" in sumo.columns:
+        with st.expander("Scenario interpretation notes"):
+            for _, r in sumo.iterrows():
+                st.markdown(f"**{r['scenario_name']}** - {r['validation_interpretation']}")
+
     sumo_disclaimer()

@@ -24,6 +24,7 @@ from services.operator_data import (
 )
 from services.support_data import sumo_summary, top_features
 from theme import load_dashboard_styles
+from components.page_summary import set_summary
 
 
 load_dashboard_styles()
@@ -34,6 +35,11 @@ attention = attention_summary(service_type, include_special, analysis_day, analy
 decision = decision_summary(service_type, include_special, analysis_day, analysis_hour)
 summary = operator_action_summary(service_type, include_special, analysis_day, analysis_hour)
 sumo, details = sumo_summary()
+set_summary("Overview", [
+    f"Most common AI action: {summary['common']}",
+    f"High + Severe risk share: {summary['risk_pct']}",
+    f"SUMO scenario impact: {details['improvement']}",
+])
 
 network_card_row(network)
 render_decision_story(network, attention, summary, service_type, include_special, analysis_day, analysis_hour)

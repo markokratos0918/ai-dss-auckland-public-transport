@@ -12,6 +12,7 @@ DATA_SOURCES = {
     "ai_decision_summary": SUMMARY_DIR / "ai_decision_recommendation_summary.csv",
     "ai_route_actions": SUMMARY_DIR / "ai_decision_route_recommendation_counts.csv",
     "feature_importance": SUMMARY_DIR / "ai_feature_importance.csv",
+    "shap_beeswarm": SUMMARY_DIR / "ai_shap_beeswarm_sample.csv",
     "model_metrics": SUMMARY_DIR / "ai_model_metrics.csv",
     "prediction_sample": SUMMARY_DIR / "ai_prediction_sample.csv",
     "sumo_scenarios": PROCESSED_DIR / "sumo_scenarios.csv",

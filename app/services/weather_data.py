@@ -50,24 +50,6 @@ def weather_integration_summary(service_type: str, include_special: bool, day: s
     }
 
 
-def rain_comparison(service_type: str, include_special: bool, day: str, hour: str) -> pd.DataFrame:
-    query = """
-        SELECT
-            CASE WHEN COALESCE(TRY_CAST(rain AS DOUBLE), 0) > 0 THEN 'Rain detected' ELSE 'No rain detected' END AS weather_condition,
-            COUNT(*) AS records,
-            ROUND(AVG(TRY_CAST(delay_minutes AS DOUBLE)), 3) AS avg_observed_delay,
-            ROUND(AVG(TRY_CAST(predicted_delay_minutes AS DOUBLE)), 3) AS avg_predicted_delay,
-            ROUND(AVG(TRY_CAST(predicted_actionable_probability AS DOUBLE)) * 100, 2) AS avg_ai_probability_pct,
-            ROUND(AVG(TRY_CAST(wind_speed_10m AS DOUBLE)), 2) AS avg_wind_speed,
-            ROUND(AVG(TRY_CAST(precipitation AS DOUBLE)), 2) AS avg_precipitation
-        FROM {source}
-        {where}
-        GROUP BY weather_condition
-        ORDER BY records DESC
-    """
-    return from_primary(query, service_type, include_special, day, hour)
-
-
 def rain_severity_breakdown(service_type: str, include_special: bool, day: str, hour: str) -> pd.DataFrame:
     query = """
         SELECT
@@ -141,7 +123,10 @@ def weather_route_examples(
 ) -> pd.DataFrame:
     query = f"""
         WITH base AS (
-            SELECT *
+            SELECT *,
+                CASE WHEN COALESCE(TRY_CAST(rain AS DOUBLE), 0) > 0
+                          OR COALESCE(TRY_CAST(wind_speed_10m AS DOUBLE), 0) >= 30
+                     THEN 1 ELSE 0 END AS is_weather_exposed
             FROM {{source}}
             {{where}}
         )
@@ -149,18 +134,22 @@ def weather_route_examples(
             route_id,
             COALESCE(NULLIF(service_type, ''), 'School/Special or unmatched services') AS service_type,
             REGEXP_REPLACE(COALESCE(NULLIF(route_corridor_name, ''), NULLIF(route_display_name, ''), route_id), '^[A-Z0-9]+ - ', '') AS corridor_name,
-            COUNT(*) AS weather_context_records,
-            ROUND(AVG(TRY_CAST(delay_minutes AS DOUBLE)), 2) AS avg_observed_delay,
-            ROUND(AVG(TRY_CAST(predicted_delay_minutes AS DOUBLE)), 2) AS avg_predicted_delay,
-            ROUND(AVG(TRY_CAST(predicted_actionable_probability AS DOUBLE)) * 100, 2) AS avg_ai_probability_pct,
-            ROUND(MAX(TRY_CAST(rain AS DOUBLE)), 2) AS max_rain,
-            ROUND(MAX(TRY_CAST(wind_speed_10m AS DOUBLE)), 2) AS max_wind_speed,
-            COALESCE(mode(ai_recommended_action), 'Unavailable') AS common_ai_action
+            COUNT(*) FILTER (WHERE is_weather_exposed = 1) AS weather_context_records,
+            ROUND(AVG(TRY_CAST(delay_minutes AS DOUBLE)) FILTER (WHERE is_weather_exposed = 1), 2) AS avg_observed_delay,
+            ROUND(AVG(TRY_CAST(delay_minutes AS DOUBLE)) FILTER (WHERE is_weather_exposed = 0), 2) AS avg_dry_delay,
+            ROUND(
+                AVG(TRY_CAST(delay_minutes AS DOUBLE)) FILTER (WHERE is_weather_exposed = 1)
+                - AVG(TRY_CAST(delay_minutes AS DOUBLE)) FILTER (WHERE is_weather_exposed = 0), 2
+            ) AS weather_delay_delta,
+            ROUND(AVG(TRY_CAST(predicted_delay_minutes AS DOUBLE)) FILTER (WHERE is_weather_exposed = 1), 2) AS avg_predicted_delay,
+            ROUND(AVG(TRY_CAST(predicted_actionable_probability AS DOUBLE)) FILTER (WHERE is_weather_exposed = 1) * 100, 2) AS avg_ai_probability_pct,
+            ROUND(MAX(TRY_CAST(rain AS DOUBLE)) FILTER (WHERE is_weather_exposed = 1), 2) AS max_rain,
+            ROUND(MAX(TRY_CAST(wind_speed_10m AS DOUBLE)) FILTER (WHERE is_weather_exposed = 1), 2) AS max_wind_speed,
+            COALESCE(mode(ai_recommended_action) FILTER (WHERE is_weather_exposed = 1), 'Unavailable') AS common_ai_action
         FROM base
-        WHERE COALESCE(TRY_CAST(rain AS DOUBLE), 0) > 0 OR COALESCE(TRY_CAST(wind_speed_10m AS DOUBLE), 0) >= 30
         GROUP BY ALL
-        HAVING COUNT(*) >= 50
-        ORDER BY avg_observed_delay DESC, weather_context_records DESC
+        HAVING COUNT(*) FILTER (WHERE is_weather_exposed = 1) >= 50
+        ORDER BY weather_delay_delta DESC, weather_context_records DESC
         LIMIT {int(limit)}
     """
     return from_primary(query, service_type, include_special, day, hour)

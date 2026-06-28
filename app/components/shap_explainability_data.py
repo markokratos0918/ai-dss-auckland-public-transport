@@ -12,7 +12,7 @@ def classify_feature(feature: str) -> str:
         return "Service"
     if "hour" in feature_l or "weekday" in feature_l or "day" in feature_l or "month" in feature_l:
         return "Time"
-    if any(term in feature_l for term in ["rain", "wind", "temperature", "humidity", "weather"]):
+    if any(term in feature_l for term in ["rain", "wind", "temperature", "humidity", "weather", "precip"]):
         return "Weather"
     if "direction" in feature_l:
         return "Direction"
@@ -51,3 +51,19 @@ def prepare_features(features: pd.DataFrame) -> pd.DataFrame:
     df["importance_label"] = df["importance"].map(lambda value: f"{value:.3f}")
 
     return df.sort_values("importance", ascending=False)
+
+
+def group_by_category(features: pd.DataFrame) -> pd.DataFrame:
+    if features.empty:
+        return pd.DataFrame(columns=["category", "importance", "feature_count", "share_pct"])
+    df = features.copy()
+    if "category" not in df.columns:
+        df["category"] = df["feature"].apply(classify_feature)
+    df["importance"] = pd.to_numeric(df["importance"], errors="coerce").fillna(0)
+    grouped = df.groupby("category", as_index=False).agg(
+        importance=("importance", "sum"),
+        feature_count=("importance", "size"),
+    )
+    total = grouped["importance"].sum()
+    grouped["share_pct"] = (grouped["importance"] / total * 100).round(1) if total else 0.0
+    return grouped.sort_values("importance", ascending=False)
