@@ -1,5 +1,7 @@
 # Layer 3: Decision Engine
 
+Last reviewed: 2026-06-26
+
 Architecture position:
 
 ```text

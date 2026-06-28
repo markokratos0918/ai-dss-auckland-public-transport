@@ -1,5 +1,7 @@
 # Layer 1: GTFS + Weather Data Preparation
 
+Last reviewed: 2026-06-26
+
 Architecture position:
 
 ```text
@@ -108,12 +110,15 @@ data/processed/parquet/decision_engine_all_file.parquet
 
 These files are large and must stay local.
 
-Expected small summary outputs:
+Expected small summary outputs (written under the dataset-specific output folders):
 
 ```text
-data/processed/summaries/gtfs_realtime_daily_summary.csv
-data/processed/summaries/gtfs_realtime_route_daily_summary.csv
-data/processed/summaries/gtfs_realtime_top_delayed_routes.csv
+data/processed/outputs/model_baseline/summaries/gtfs_realtime_daily_summary.csv
+data/processed/outputs/model_baseline/summaries/gtfs_realtime_route_daily_summary.csv
+data/processed/outputs/model_baseline/summaries/gtfs_realtime_top_delayed_routes.csv
+data/processed/outputs/all_file/summaries/gtfs_realtime_daily_summary.csv
+data/processed/outputs/all_file/summaries/gtfs_realtime_route_daily_summary.csv
+data/processed/outputs/all_file/summaries/gtfs_realtime_top_delayed_routes.csv
 ```
 
 ## Notes

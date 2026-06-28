@@ -1,5 +1,7 @@
 # Layer 2: AI-DSS Modeling / SHAP
 
+Last reviewed: 2026-06-26
+
 Architecture position:
 
 ```text

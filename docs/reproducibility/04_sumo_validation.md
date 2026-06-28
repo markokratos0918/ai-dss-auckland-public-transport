@@ -1,5 +1,7 @@
 # Layer 4: SUMO Scenario Validation
 
+Last reviewed: 2026-06-26
+
 Architecture position:
 
 ```text
