@@ -62,11 +62,7 @@ st.info(
 )
 
 summary = ai_prediction_summary(service_type, include_special, analysis_day, analysis_hour)
-set_summary("AI Prediction Results", [
-    f"Predicted actionable: {summary.get('Predicted Actionable','-')} vs observed {summary.get('Observed Actionable','-')}",
-    f"Avg AI probability: {summary.get('Avg Probability','-')}",
-    "Recall-favouring: ~76% recall, ~33% precision",
-])
+set_summary("AI Prediction Results", 'The AI model extends observed operational data by identifying services with elevated schedule-reliability risk before intervention is required. It is intentionally optimized for higher recall so that more potentially disruptive services are detected, supporting proactive monitoring and operational decision-making.')
 for col, (label, value) in zip(st.columns(len(summary)), summary.items()):
     with col:
         metric_card(label, value)

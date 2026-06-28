@@ -35,11 +35,18 @@ attention = attention_summary(service_type, include_special, analysis_day, analy
 decision = decision_summary(service_type, include_special, analysis_day, analysis_hour)
 summary = operator_action_summary(service_type, include_special, analysis_day, analysis_hour)
 sumo, details = sumo_summary()
-set_summary("Overview", [
-    f"Most common AI action: {summary['common']}",
-    f"High + Severe risk share: {summary['risk_pct']}",
-    f"SUMO scenario impact: {details['improvement']}",
-])
+_top = top_non_special_routes(1, service_type, include_special, analysis_day, analysis_hour)
+_top_route = ""
+if not _top.empty:
+    _r0 = _top.iloc[0]
+    _top_route = str(_r0.get("route_corridor_name") or _r0.get("route_id") or "").strip()
+set_summary(
+    "Overview",
+    "The network is operating with generally stable service reliability. "
+    f"Most AI recommendations advise '{summary['common']}' rather than immediate intervention, "
+    f"while only {summary['risk_pct']} of services fall into the High or Severe risk categories."
+    + (f" The highest predicted operational priority for review is {_top_route}." if _top_route else ""),
+)
 
 network_card_row(network)
 render_decision_story(network, attention, summary, service_type, include_special, analysis_day, analysis_hour)

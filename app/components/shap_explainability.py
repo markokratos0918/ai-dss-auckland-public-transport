@@ -152,13 +152,7 @@ def render_shap_page(features: pd.DataFrame, beeswarm: pd.DataFrame | None = Non
 
     prepared = prepare_features(features)
     category_df = group_by_category(prepared)
-    if not category_df.empty:
-        _top = category_df.iloc[0]
-        set_summary("SHAP Explainability", [
-            f"Top driver type: {_top['category']} (~{_top['share_pct']:.0f}% of importance)",
-            "Spread across hundreds of route features",
-            "Weather contributes only a small share",
-        ])
+    set_summary("SHAP Explainability", 'Route characteristics contribute most to AI decisions (~86%), while weather and temporal variables refine predictions. SHAP explains how features influence risk estimates, providing transparent evidence of model behaviour rather than proof of operational causation.')
     individual = prepared[
         ~prepared["display_feature"].str.contains("low-frequency|grouped", case=False, na=False)
     ]

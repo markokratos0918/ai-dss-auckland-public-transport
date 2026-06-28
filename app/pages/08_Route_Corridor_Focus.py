@@ -92,14 +92,7 @@ else:
                 )
                 st.dataframe(disp[["AI Action", "Risk", "Share %"]], use_container_width=True, hide_index=True)
 
-        early = timing.loc[timing['timing_band'] == 'Early-running', 'share_pct'].sum() if not timing.empty else 0
-        late = timing.loc[timing['timing_band'] == 'Late-running', 'share_pct'].sum() if not timing.empty else 0
-        top_action = action_mix.iloc[0]['recommended_action'] if not action_mix.empty else 'n/a'
-        set_summary("Route / Corridor Focus", [
-            f"Route {selected}: {early:.0f}% early, {late:.0f}% late",
-            f"Top AI action: {top_action}",
-            f"Avg observed delay: {row['avg_observed_delay']:.2f} min",
-        ])
+        set_summary("Route / Corridor Focus", 'A corridor-level case study combines observed operations, AI predictions, weather context, and decision recommendations to demonstrate how the proposed decision-support framework is applied to an individual public transport route.')
         route_weather_cards(row)
 
         st.subheader("Scheduled Route Map")

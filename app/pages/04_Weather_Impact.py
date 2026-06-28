@@ -33,11 +33,7 @@ st.caption("Weather conditions matched to GTFS-Realtime records for operational 
 summary = weather_integration_summary(service_type, include_special, analysis_day, analysis_hour)
 context = weather_context_summary()
 severity = rain_severity_breakdown(service_type, include_special, analysis_day, analysis_hour)
-set_summary("Weather Context", [
-    f"Weather match: {summary.get('Match Rate','-')} over {summary.get('Days','-')} days",
-    "Little measured effect on delay across rain bands",
-    "Retained as context, not a proven driver",
-])
+set_summary("Weather Context", 'Weather records were successfully matched to every GTFS-Realtime observation across 23 days. Rainfall and wind provide useful operational context, but their measured effect on observed delay remains small, supporting their role as complementary AI features rather than primary delay drivers.')
 route_examples = weather_route_examples(
     service_type,
     include_special,

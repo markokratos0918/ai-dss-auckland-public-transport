@@ -34,9 +34,11 @@ __pycache__/
 # ============================================
 
 Assessment_1/
+Assessment_2/
 archive/
 presentation/
 source_papers/
+.codex/
 *.lnk
 
 
@@ -60,6 +62,7 @@ data/processed/*.duckdb
 data/processed/parquet/*.parquet
 data/processed/duckdb/*.duckdb
 data/processed/decision_engine_output.csv
+data/processed/outputs/**/decision_engine_output.csv
 
 
 # ============================================
@@ -95,6 +98,9 @@ data/raw/gtfs_static/shapes.txt
 data/raw/gtfs_static/gtfs.zip
 data/raw/gtfs_static/*.zip
 
+# Kaggle prototype modeling dataset (keep local, separate from the real Auckland pipeline)
+data/raw/modeling/public_transport_delays.csv
+
 # Anaconda local projects
 notebooks/data/
 
@@ -119,3 +125,12 @@ docs/internal/
 
 data/processed/summaries.zip
 docs/streamlit_dashboard_overview_handoff_to_general_project_controller.txt
+docs/handoff_*.md
+docs/_TEMP_*.md
+docs/OI-1_prediction_granularity_plain_explanation.md
+app_operator_backup_20260617_151106/
+app_operator/pages/01_Overview_backup_*.py
+app_baseline_backup_*/
+
+# Fallback/reference dashboard kept local only (active dashboard is app/)
+app_operator/

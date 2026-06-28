@@ -114,11 +114,7 @@ def render_decision_summary(
 ) -> None:
     decision = decision_summary(service_type, include_special, analysis_day, analysis_hour)
     summary = operator_action_summary(service_type, include_special, analysis_day, analysis_hour)
-    set_summary("Decision Engine", [
-        f"Most common action: {summary['common']}",
-        f"AI Severe count: {summary['severe']}",
-        f"High + Severe share: {summary['risk_pct']}",
-    ])
+    set_summary("Decision Engine", 'AI risk probabilities are translated into four operational response levels. Most trips require either no action or routine monitoring, while only a small fraction progress to service adjustments or supervisor intervention.')
 
     if decision.empty:
         st.warning("Decision Engine summary is unavailable for the current filter.")

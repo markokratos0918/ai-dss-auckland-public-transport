@@ -143,11 +143,7 @@ else:
         c4.metric("Observed High/Severe", f"{int(daily['high_severe_cases'].sum()):,}")
     else:
         c4.metric("Max Observed Delay", f"{daily['max_observed_delay'].max():.2f} min")
-    set_summary("Observed Delay Monitor", [
-        f"{int(daily['records'].sum()):,} observations over {daily['collection_date'].nunique()} days",
-        f"Avg observed delay: {daily['avg_observed_delay'].mean():.2f} min",
-        f"Source: {source_mode}",
-    ])
+    set_summary("Observed Delay Monitor", 'Observed GTFS-Realtime records indicate that overall services operated close to schedule throughout the monitoring period. Although average delay remained low, several isolated disruption events produced high maximum delays. These observed patterns establish the operational baseline used by the subsequent AI prediction and decision-support modules.')
     left_chart, right_chart = st.columns(2)
     with left_chart:
         st.caption("Max Observed Delay (min)")
